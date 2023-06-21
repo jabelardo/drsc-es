@@ -9,7 +9,9 @@ El Sistema Cypher (CYPHER SYSTEM) y su logotipo son marcas registradas de Monte 
 EE.UU. y otros países. Todos los personajes y nombres de personajes de Monte Cook Games, así como sus
 aspectos distintivos, son marcas registradas de Monte Cook Games, LLC.
 
-## Objetivos del ES-CSRD
 
-Al traducir este  Documento de Referencia del Sistema Cypher en Español (ES-CSRD) a partir del material fuente, tenía los siguientes objetivos:
+[DOCUMENTO DE REFERENCIA DEL SISTEMA CYPHER.odt](https://github.com/jabelardo/es-csrd/blob/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.odt)
+
+[DOCUMENTO DE REFERENCIA DEL SISTEMA CYPHER.pdf](https://github.com/jabelardo/es-csrd/blob/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.pdf)
+
 
