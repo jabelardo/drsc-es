@@ -1,0 +1,21 @@
+{
+    "name": "Documento de Referencia del Sistema Cypher en Español",
+    "short_name": "ES-CSRD",
+    "start_url": "ES-CSRD.html",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "icon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#b5202d",
+    "background_color": "#b5202d",
+    "display": "standalone"
+  }
