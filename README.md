@@ -5,6 +5,7 @@ Este documento es una versión en hipertexto traducido al español de la edició
 Este producto es una producción independiente y no está afiliado a Monte Cook Games, LLC. Se publica
 bajo la Licencia Abierta del Sistema Cypher (Cypher System Open License), que se encuentra en
 http://csol.montecookgames.com.
+
 El Sistema Cypher (CYPHER SYSTEM) y su logotipo son marcas registradas de Monte Cook Games, LLC en
 EE.UU. y otros países. Todos los personajes y nombres de personajes de Monte Cook Games, así como sus
 aspectos distintivos, son marcas registradas de Monte Cook Games, LLC.
