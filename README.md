@@ -13,8 +13,8 @@ aspectos distintivos, son marcas registradas de Monte Cook Games, LLC.
 [Página web monolítica del documento de referencia del Sistema Cypher](https://jabelardo.github.io/es-csrd/ES-CSRD.html)
 
 
-[PDF del documento de referencia del Sistema Cypher](https://github.com/jabelardo/es-csrd/blob/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.pdf)
+[PDF del documento de referencia del Sistema Cypher](https://github.com/jabelardo/es-csrd/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.pdf)
 
-[ODT de LibreOffice Writer del documento de referencia del Sistema Cypher](https://github.com/jabelardo/es-csrd/blob/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.odt)
+[ODT de LibreOffice Writer del documento de referencia del Sistema Cypher](https://github.com/jabelardo/es-csrd/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.odt)
 
 [Proyecto en Github](https://github.com/jabelardo/es-csrd)
