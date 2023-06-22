@@ -1,34 +1,20 @@
 /* Body: Open Sans */
 /* Headers: Teko substitutes for Refridgerator Deluxe. */
 /* Chapter Identifiers: Orbitron substitutes for Bank Gothic */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,i,bi|Teko:300,400,500,600,700,i,bi|Orbitron:400,500,600,700,800,900,i,bi);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,i,bi|Teko:300,400,500,600,700,i,bi|Orbitron:400,500,600,700,800,900,i,bi);	
 /* scroll offset for fixed navbar */
-
-html {
-    /*
-    color: #1a1a1a;
-    background-color: #fdfdfd;
-    */
-    scroll-padding-top: 5rem;
+html { scroll-padding-top: 5rem; }
+.es-csrd-navbar { 
+	background-color: #1c1f21 !important;
 }
-
-body {
-    /*
-    margin: 0 auto;
-    max-width: 36em;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    */
-    font-family: 'Open Sans', sans-serif;
-    hyphens: auto;
-    overflow-wrap: break-word;
-    text-rendering: optimizeLegibility;
-    font-kerning: normal;
+/* navbar link click color override */
+nav ul.navbar-nav li.nav-item ul li a.dropdown-item:active {
+  	background-color: #238d94 !important;
 }
-
+/* override font */
+body { 
+	font-family: 'Open Sans', sans-serif;
+}
 /* override link and body coloration */
 a { color: #7be7ee; }
 a:hover { color: #a7faff; }
@@ -36,7 +22,6 @@ a:hover { color: #a7faff; }
 .bg-es-csrd-content {
 	background-color: #17191a;
 }
-
 /* main content window */
 a.es-csrd-header-anchor {
 	color: #2d3034;
@@ -542,4 +527,3 @@ ul.es-csrd-technologies-fantastic li, .es-csrd-legend ul.es-csrd-legend-list li.
 	.es-csrd-roll-diagram { 
 	max-width: 35rem;
 }
-
