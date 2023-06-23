@@ -2,18 +2,17 @@
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>Documento de Referencia del Sistema Cypher en Español</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="css/es-csrd.css">
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
   <meta name="theme-color" content="#b6c5ce">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -24902,7 +24901,6 @@
     <p>Los ataques no son la única forma de infligir daño a un personaje. Experiencias como caer desde una gran altura,
       quemarse en un incendio y pasar un tiempo en un clima severo también causan daño. Aunque ninguna lista de peligros
       potenciales podría ser exhaustiva, la tabla de Daños por otros peligros incluye ejemplos comunes. </p>
-    <h6 id="daños-por-otros-peligros-1"><span id="anchor-1557"></span>Daños por otros peligros</h6>
     <table class="table table-dark table-striped table-sm">
       <thead>
         <tr>
@@ -25050,114 +25048,118 @@
     <h5 id="los-efectos-de-recibir-daño"><span id="anchor-1558"></span>Los efectos de recibir daño</h5>
     <p>Cuando un PNJ llega a 0 de salud, está muerto o (si el atacante lo desea) incapacitado, es decir, inconsciente o
       golpeado hasta la sumisión.</p>
-    <p>Como se ha mencionado anteriormente, el daño de la mayoría de las fuentes se aplica a la Reserva de Vigor del
+    <p class="es-csrd-indent">Como se ha mencionado anteriormente, el daño de la mayoría de las fuentes se aplica a la Reserva de Vigor del
       personaje. De lo contrario, el daño de las atributos siempre reduce la Reserva de atributo a la que afecta.</p>
-    <p>Si el daño reduce la Reserva de atributo de un personaje a 0, cualquier otro daño a esa atributo (incluyendo el
+    <p class="es-csrd-indent">Si el daño reduce la Reserva de atributo de un personaje a 0, cualquier otro daño a esa atributo (incluyendo el
       exceso de daño del ataque que redujo la atributo a 0) se aplica a otra Reserva de atributo.</p>
-    <p>El daño se aplica a las Reservas en este orden:</p>
-    <ol type="1">
+    <p class="es-csrd-indent">El daño se aplica a las Reservas en este orden:</p>
+    <ol>
       <li>
-        <p>Vigor (a menos que la Reserva sea 0)</p>
+        Vigor (a menos que la Reserva sea 0)
       </li>
       <li>
-        <p>Velocidad (a menos que la Reserva sea 0)</p>
+        Velocidad (a menos que la Reserva sea 0)
       </li>
       <li>
-        <p>Intelecto</p>
+        Intelecto
       </li>
     </ol>
-    <p>Aunque el daño se aplique a otra Reserva de atributo, sigue contando como su tipo original a efectos de Armadura
+    <p class="es-csrd-indent">Aunque el daño se aplique a otra Reserva de atributo, sigue contando como su tipo original a efectos de Armadura
       y capacidades especiales que afectan al daño. Por ejemplo, si un personaje con 2 de Armadura se reduce a 0 de
       Vigor y luego es golpeado por la garra de una criatura por 3 puntos de daño, todavía cuenta como Daño de Vigor,
       por lo que su Armadura reduce el daño a 1 punto, que luego se aplica a su Reserva de Velocidad. En otras palabras,
       aunque reciba el daño a su Reserva de Velocidad, no ignora la Armadura como lo haría normalmente el Daño de
       Velocidad.</p>
-    <p>Además de recibir daño a su Reserva de Vigor, Reserva de Velocidad o Reserva de Intelecto, los PJs también tienen
+    <p class="es-csrd-indent">Además de recibir daño a su Reserva de Vigor, Reserva de Velocidad o Reserva de Intelecto, los PJs también tienen
       un <em><strong>Registro de Daño</strong></em>. El Registro de Daño tiene cuatro estados (del mejor al peor):
       ileso, lesionado, incapacitado y muerto. Cuando una de las Reservas de atributo de un PJ llega a 0, se mueve un
       grado hacia abajo en el Registro de Daño. Por lo tanto, si está ileso, se convierte en lesionado. Si ya está
       lesionado, se convierte en incapacitado. Si ya está incapacitado, pasa a estar muerto.</p>
-    <p>Algunos efectos pueden hacer que un PJ descienda inmediatamente uno o más grados en el Registro de Daño. Estos
+    <p class="es-csrd-indent">Algunos efectos pueden hacer que un PJ descienda inmediatamente uno o más grados en el Registro de Daño. Estos
       incluyen venenos raros, ataques de disrupción celular y traumas masivos (como caídas desde grandes alturas, ser
       atropellado por un vehículo a gran velocidad, etc., según determine el DJ).</p>
-    <p>Algunos ataques, como la mordedura venenosa de una serpiente o el <a href="#Fascinar"><em>Fascinar</em></a> de un
+    <p class="es-csrd-indent">Algunos ataques, como la mordedura venenosa de una serpiente o el <a href="#Fascinar"><em>Fascinar</em></a> de un
       orador, tienen efectos distintos del daño a una Reserva de atributo o del descenso d el Registro de Daño del PJ.
       Estos ataques pueden causar inconsciencia, parálisis, etc.</p>
-    <p>(Cuando los PNJs (que sólo tienen salud) sufren daño de Velocidad o Intelecto, normalmente se trata igual que el
+      <div class="es-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+    <p>Cuando los PNJs (que sólo tienen salud) sufren daño de Velocidad o Intelecto, normalmente se trata igual que el
       daño de Vigor. Sin embargo, el DJ o el jugador tienen la opción de sugerir un efecto alternativo apropiado: el PNJ
-      sufre una penalización, se mueve más lentamente, queda aturdido, etc.).</p>
+      sufre una penalización, se mueve más lentamente, queda aturdido, etc.</p>
+      </div>
     <h5 id="registro-de-daño"><span id="Registro de Daño"></span>Registro de Daño</h5>
     <p>Como se ha señalado anteriormente, el Registro de Daños tiene cuatro estados: ileso, lesionado, incapacitado y
       muerto.</p>
-    <p><strong>Ileso:</strong> es el estado normal de un personaje: las tres Reservas de atributo están a 1 o más, y el
+    <p class="es-csrd-indent"><strong>Ileso:</strong> es el estado normal de un personaje: las tres Reservas de atributo están a 1 o más, y el
       PJ no tiene penalizaciones por condiciones dañinas. Cuando un PJ ileso recibe suficiente daño como para reducir
       uno de sus Reservas de atributo a 0, se convierte en un personaje lesionado. Ten en cuenta que un personaje cuyas
       Reservas de atributo son mucho más bajas de lo normal puede seguir estando ileso.</p>
-    <p><strong>Lesionado:</strong> es el estado mas leve de heridas de un personaje. Cuando un personaje lesionado
+    <p class="es-csrd-indent"><strong>Lesionado:</strong> es el estado mas leve de heridas de un personaje. Cuando un personaje lesionado
       aplica Esfuerzo, le cuesta 1 punto extra por cada nivel aplicado. Por ejemplo, aplicar un nivel de Esfuerzo le
       cuesta 4 puntos en lugar de 3, y aplicar dos niveles de Esfuerzo le cuesta 7 puntos en lugar de 5.</p>
-    <p>Un personaje lesionado ignora los resultados de los efectos menores y mayores en sus tiradas, y no inflige tanto
+    <p class="es-csrd-indent">Un personaje lesionado ignora los resultados de los efectos menores y mayores en sus tiradas, y no inflige tanto
       daño adicional en combate con una tirada especial. En combate, una tirada de 17 o superior sólo inflige 1 punto de
       daño adicional. Cuando un PJ lesionado recibe suficiente daño como para reducir uno de sus Reservas de atributo a
       0, queda incapacitado.</p>
-    <p><strong>Incapacitado:</strong> es el estado de lesión crítica de un personaje. Un personaje incapacitado no puede
+    <p class="es-csrd-indent"><strong>Incapacitado:</strong> es el estado de lesión crítica de un personaje. Un personaje incapacitado no puede
       realizar ninguna otra acción que no sea moverse (probablemente arrastrándose) a una distancia inmediata. Si la
       Reserva de Velocidad de un personaje incapacitado es 0, no puede moverse en absoluto. Cuando un PJ incapacitado
       recibe suficiente daño como para reducir una Reserva de atributo a 0, está muerto.</p>
-    <p><strong>Muerte:</strong> es muerte.</p>
-    <p>(La Registro de Daño te permite saber lo lejos que estás de la muerte. Si estás ileso, estás a tres grados de la
+    <p class="es-csrd-indent"><strong>Muerte:</strong> es muerte.</p>
+    <div class="es-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+    <p>La Registro de Daño te permite saber lo lejos que estás de la muerte. Si estás ileso, estás a tres grados de la
       muerte. Si estás lesionado, estás a dos grados de la muerte. Si estás incapacitado, estás a un solo grado de la
-      puerta de la muerte).</p>
+      puerta de la muerte.</p>
+    </div>
     <h5 id="recuperar-puntos-de-una-reserva"><span id="Recuperar puntos de una Reserva"></span>Recuperar puntos de una
       Reserva</h5>
     <p>Después de perder o gastar puntos de una Reserva, se recuperan esos puntos descansando. No se puede aumentar una
       Reserva más allá de su nivel máximo descansando, sólo volver a su nivel normal. Cualquier punto extra ganado queda
       sin efecto. La cantidad de puntos que recuperas en un descanso, y el tiempo que dura cada descanso, depende de
       cuántas veces hayas descansado ese día.</p>
-    <p>Cuando descanses, haz una <em><strong>Tirada de Recuperación</strong></em>. Para ello, tira un d6 y añade tu
+    <p class="es-csrd-indent">Cuando descanses, haz una <em><strong>Tirada de Recuperación</strong></em>. Para ello, tira un d6 y añade tu
       rango. Recuperas esa cantidad de puntos, y puedes dividirlos entre tus Reservas de atributo como quieras. Por
       ejemplo, si tu Tirada de Recuperación es 4 y has perdido 4 puntos de Vigor y 2 puntos de Velocidad, puedes
       recuperar 4 puntos de Vigor, o 2 puntos de Vigor y 2 puntos de Velocidad, o cualquier otra combinación que sume 4
       puntos.</p>
-    <p>La primera vez que descansas cada día, sólo tardas unos segundos en recuperar el aliento. Si descansas de esta
+    <p class="es-csrd-indent">La primera vez que descansas cada día, sólo tardas unos segundos en recuperar el aliento. Si descansas de esta
       manera en medio de un encuentro, te lleva una acción en tu turno.</p>
-    <p>La segunda vez que descanses cada día, deberás descansar diez minutos para hacer una Tirada de Recuperación. La
+    <p class="es-csrd-indent">La segunda vez que descanses cada día, deberás descansar diez minutos para hacer una Tirada de Recuperación. La
       tercera vez que descanses cada día, deberás hacerlo durante una hora para hacer una Tirada de Recuperación. La
       cuarta vez deberás descansar durante diez horas para hacer una Tirada de Recuperación (normalmente, esto ocurre
       cuando paras por el día para comer y dormir).</p>
-    <p>Después de tanto descanso se supone que es un nuevo día, así que la próxima vez que descanses sólo tardarás unos
+    <p class="es-csrd-indent">Después de tanto descanso se supone que es un nuevo día, así que la próxima vez que descanses sólo tardarás unos
       segundos. El siguiente descanso dura diez minutos, luego una hora, y así sucesivamente.</p>
-    <p>Si no has descansado todavía ese día y recibes mucho daño en un combate, podrías descansar unos segundos
+    <p class="es-csrd-indent">Si no has descansado todavía ese día y recibes mucho daño en un combate, podrías descansar unos segundos
       (recuperando 1d6 puntos + 1 punto por rango) y luego descansar inmediatamente durante diez minutos (recuperando
       otros 1d6 puntos + 1 punto por rango). Así, en un día completo sin hacer nada más que descansar, podrías recuperar
       4d6 puntos + 4 puntos por rango.</p>
-    <p>Cada personaje elige cuándo hacer las Tiradas de Recuperación. Si un grupo de cinco PJs descansa durante diez
+    <p class="es-csrd-indent">Cada personaje elige cuándo hacer las Tiradas de Recuperación. Si un grupo de cinco PJs descansa durante diez
       minutos porque dos de ellos quieren hacer Tiradas de Recuperación, los demás no tienen que hacer tiradas en ese
       momento. </p>
-    <p>Más tarde en el día, esos tres pueden decidir descansar durante diez minutos y hacer Tiradas de Recuperación.
+    <p class="es-csrd-indent">Más tarde en el día, esos tres pueden decidir descansar durante diez minutos y hacer Tiradas de Recuperación.
     </p>
     <table class="table table-dark table-striped table-sm">
       <thead>
+        <tr>
+          <th scope="col">Tirada de Recuperación</th>
+          <th scope="col">Tiempo de descanso necesario</th>
+        </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Tirada de Recuperación</td>
-          <td>Tiempo de descanso necesario</td>
-        </tr>
-        <tr>
-          <td>Primera Tirada de Recuperación</td>
+          <td scope="row" class="fw-normal">Primera Tirada de Recuperación</td>
           <td>Una acción</td>
         </tr>
         <tr>
-          <td>Segunda Tirada de Recuperación</td>
+          <td scope="row" class="fw-normal">Segunda Tirada de Recuperación</td>
           <td>Diez minutos</td>
         </tr>
         <tr>
-          <td>Tercera Tirada de Recuperación</td>
+          <td scope="row" class="fw-normal">Tercera Tirada de Recuperación</td>
           <td>Una hora</td>
         </tr>
         <tr>
-          <td>Cuarta Tirada de Recuperación</td>
+          <td scope="row" class="fw-normal">Cuarta Tirada de Recuperación</td>
           <td>Diez horas</td>
         </tr>
       </tbody>
@@ -25165,7 +25167,7 @@
     <h5 id="restaurar-el-registro-de-daño"><span id="anchor-1561"></span>Restaurar el Registro de Daño</h5>
     <p>El uso de puntos de una Tirada de Recuperación para aumentar una Reserva de atributo de 0 a 1 o más también hace
       que el personaje suba automáticamente un grado en el Registro de Daño.</p>
-    <p>Si todos las Reservas de atributo de un PJ están por encima de 0 y el personaje ha recibido un daño especial que
+    <p class="es-csrd-indent">Si todos las Reservas de atributo de un PJ están por encima de 0 y el personaje ha recibido un daño especial que
       le ha hecho descender en el Registro de Daño, puede utilizar una Tirada de Recuperación para subir un grado en el
       Registro de Daño en lugar de recuperar Puntos de Reserva. Por ejemplo, un personaje que está incapacitado por un
       impacto de un dispositivo biotecnológico de disrupción celular puede descansar y subir a lesionado en lugar de
@@ -25174,26 +25176,26 @@
     <p>En el transcurso del juego, los personajes se enfrentan a todo tipo de amenazas y peligros que pueden
       perjudicarles de diversas maneras, sólo algunos de las cuales pueden ser fácilmente representados por puntos de
       daño.</p>
-    <p><strong>Desorientado y aturdido:</strong> Los personajes pueden quedar desorientados cuando se les golpea con
+    <p class="es-csrd-indent"><strong>Desorientado y aturdido:</strong> Los personajes pueden quedar desorientados cuando se les golpea con
       fuerza en la cabeza, se les expone a sonidos extremadamente fuertes o les afecta un ataque mental. Cuando esto
       ocurre, durante la duración del efecto de desorientación (normalmente una ronda), todas las tareas del personaje
       se ven obstaculizadas. Ataques similares pero más severos pueden aturdir a los personajes. Los personajes
       aturdidos pierden su turno (pero pueden seguir defendiéndose de los ataques normalmente).</p>
-    <p><strong>Veneno y enfermedad:</strong> Cuando los personajes se encuentran con veneno -ya sea el veneno de una
+    <p class="es-csrd-indent"><strong>Veneno y enfermedad:</strong> Cuando los personajes se encuentran con veneno -ya sea el veneno de una
       serpiente, veneno para ratas deslizado en un burrito, cianuro disuelto en vino o una sobredosis de paracetamol-
       hacen una tirada de Defensa por Vigor para resistirlo. El fracaso en resistir puede dar lugar a puntos de daño, a
       un descenso en el Registro de Daño, o a un efecto específico como parálisis, inconsciencia, incapacidad, o algo
       más extraño. Por ejemplo, algunos venenos afectan al cerebro, imposibilitando la pronunciación de ciertas
       palabras, la realización de ciertas acciones, la resistencia a ciertos efectos o la recuperación de puntos de una
       Reserva de atributo.</p>
-    <p>Las enfermedades funcionan como los venenos, pero su efecto se produce cada día, por lo que la víctima debe hacer
+    <p class="es-csrd-indent">Las enfermedades funcionan como los venenos, pero su efecto se produce cada día, por lo que la víctima debe hacer
       una tirada de Defensa por Vigor cada día o sufrir los efectos. Los efectos de las enfermedades son tan variados
       como los de los venenos: puntos de daño, descenso en el Registro de Daño, incapacidad, etc. Muchas enfermedades
       infligen daños que no pueden ser restaurados por medios convencionales.</p>
-    <p><strong>Parálisis:</strong> Los efectos de parálisis hacen que el personaje caiga al suelo, sin poder moverse. A
+    <p class="es-csrd-indent"><strong>Parálisis:</strong> Los efectos de parálisis hacen que el personaje caiga al suelo, sin poder moverse. A
       menos que se especifique lo contrario, el personaje puede seguir realizando acciones que no requieran movimiento
       físico.</p>
-    <p><strong>Otros efectos:</strong> Otros efectos especiales pueden dejar al personaje ciego o sordo, incapaz de
+    <p class="es-csrd-indent"><strong>Otros efectos:</strong> Otros efectos especiales pueden dejar al personaje ciego o sordo, incapaz de
       mantenerse en pie sin caerse o incapaz de respirar. Otros efectos más extraños pueden anular la gravedad del
       personaje (o multiplicarla por cien), transportarlo a otro lugar, desfasarlo, mutar su forma física, implantarle
       recuerdos o sentidos falsos, alterar la forma en que su cerebro procesa la información o inflamar sus nervios para
@@ -25204,14 +25206,14 @@
       reaccionar como los personajes, pero las criaturas no humanas pueden reaccionar de forma muy diferente. Por
       ejemplo, es poco probable que un poco de veneno dañe a un dragón gigantesco, y no afectará en absoluto a un
       androide o a un demonio.</p>
-    <p>Si un PNJ es susceptible a un ataque que haría descender a un personaje en el Registro de Daño, usar ese ataque
+    <p class="es-csrd-indent">Si un PNJ es susceptible a un ataque que haría descender a un personaje en el Registro de Daño, usar ese ataque
       sobre el PNJ normalmente lo deja inconsciente o muerto. Alternativamente, el DJ podría aplicar la condición de
       incapacitado al PNJ, con el mismo efecto que tendría en un PJ.</p>
-    <h4 id="seleccionar-modificadores-al-ataque-y-situaciones-especiales"><span
+    <h5 id="seleccionar-modificadores-al-ataque-y-situaciones-especiales"><span
           id="Modificadores al ataque y situaciones especiales"></span>Modificadores al ataque y situaciones
       especiales<a class="es-csrd-header-anchor" href="#seleccionar--modificadores-al-ataque-y-situaciones-especiales"
           title="Permalink" aria-hidden="true"></a>
-    </h4>
+    </h5>
     <p>En situaciones de combate, pueden entrar en juego muchos modificadores. Aunque el DJ es libre de evaluar los
       modificadores que considere apropiados para la situación (ese es su papel en el juego), las siguientes sugerencias
       y directrices pueden ayudarlo. A menudo el modificador se aplica como un grado en la dificultad. Así, si una
@@ -25219,124 +25221,130 @@
       aumenta un grado, y si un PNJ ataca a un PJ, la dificultad de la tirada de defensa disminuye un grado. Esto se
       debe a que los jugadores hacen todas las tiradas, tanto si atacan como si defienden, los PNJ nunca hacen tiradas
       de ataque o defensa.</p>
-    <p>En caso de duda, si parece que debería ser más difícil atacar en una situación, obstaculiza las tiradas de
+    <p class="es-csrd-indent">En caso de duda, si parece que debería ser más difícil atacar en una situación, obstaculiza las tiradas de
       ataque. Si parece que los ataques deberían obtener un recurso o ser más fáciles de alguna manera, obstaculiza las
       tiradas de defensa.</p>
-    <p>(Los rangos precisos no son importantes en el Sistema Cypher. Los rangos ampliamente definidos como "inmediato",
+      <div class="es-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+    <p>Los rangos precisos no son importantes en el Sistema Cypher. Los rangos ampliamente definidos como "inmediato",
       "corto", "largo" y "muy largo" permiten al DJ tomar rápidamente una decisión y mantener las cosas en movimiento.
       Básicamente, la idea es<strong>:</strong> tu objetivo está justo ahí, tu objetivo está cerca, tu objetivo está
-      bastante lejos, o tu objetivo está extremadamente lejos).</p>
-    <h5 id="cobertura"><span id="Cobertura"></span>Cobertura</h5>
+      bastante lejos, o tu objetivo está extremadamente lejos.</p>
+      </div>
+    <h6 id="cobertura"><span id="Cobertura"></span>Cobertura</h6>
     <p>Si un personaje se encuentra <em><strong>cubierto</strong></em>, de manera que una parte importante de su cuerpo
       esté detrás de algo resistente, los ataques contra el personaje se ven obstaculizados.</p>
-    <p>Si un personaje se encuentra <em><strong>completamente </strong><strong>cubierto</strong></em> (todo su cuerpo
+    <p class="es-csrd-indent">Si un personaje se encuentra <em><strong>completamente </strong><strong>cubierto</strong></em> (todo su cuerpo
       está detrás de algo resistente), no puede ser atacado a menos que el ataque pueda atravesar la cobertura. Por
       ejemplo, si un personaje se esconde detrás de una fina pantalla de madera y su oponente dispara a la pantalla con
       un rifle que puede atravesar la madera, el personaje puede ser atacado. Sin embargo, como el atacante no puede ver
       claramente al personaje, esto sigue contando como cobertura (los ataques contra el personaje se ven
       obstaculizados).</p>
-    <h5 id="posición"><span id="Posición"></span>Posición</h5>
+    <h6 id="posición"><span id="Posición"></span>Posición</h6>
     <p>A veces, la posición de un personaje le da un recurso o una desventaja.</p>
-    <p><strong>Objetivo prono:</strong> En el combate melé, un objetivo prono es más fácil de golpear (los ataques
+    <p class="es-csrd-indent"><strong>Objetivo prono:</strong> En el combate melé, un objetivo prono es más fácil de golpear (los ataques
       contra él se alivian). En el combate a distancia, es más difícil golpear a un objetivo que se encuentra prono (los
       ataques contra él se ven obstaculizados).</p>
-    <p><strong>Posición elevada:</strong> Tanto en el combate a distancia como en el melé, los ataques de un oponente
+    <p class="es-csrd-indent"><strong>Posición elevada:</strong> Tanto en el combate a distancia como en el melé, los ataques de un oponente
       que se encuentre en una posición más alta se ven aliviados.</p>
-    <h5 id="sorpresa"><span id="Sorpresa"></span>Sorpresa</h5>
+    <h6 id="sorpresa"><span id="Sorpresa"></span>Sorpresa</h6>
     <p>Cuando un objetivo no es consciente de un ataque entrante, el atacante se beneficia. Un francotirador a distancia
       en una posición oculta, un asaltante invisible o la primera salva en una emboscada exitosa son aliviados en dos
       grados. Sin embargo, para que el atacante obtenga esta beneficio, el defensor realmente no debe tener idea de que
       el ataque se aproxima.</p>
-    <p>Si el defensor no está seguro de la ubicación del atacante, pero sigue en guardia, los ataques se reducen en solo
+    <p class="es-csrd-indent">Si el defensor no está seguro de la ubicación del atacante, pero sigue en guardia, los ataques se reducen en solo
       un grado.</p>
-    <h5 id="alcance"><span id="Alcance"></span>Alcance</h5>
+    <h6 id="alcance"><span id="Alcance"></span>Alcance</h6>
     <p>En melé, puedes atacar a un enemigo que esté adyacente a ti (junto a ti) o a tu alcance (alcance inmediato). Si
       entras en combate melé con uno o más enemigos, normalmente puedes atacar a la mayoría o a todos los combatientes,
       lo que significa que están junto a ti, a tu alcance, o a tu alcance si te mueves ligeramente o tienes un arma
       larga que amplía tu alcance.</p>
-    <p>La mayoría de los ataques a distancia sólo tienen dos alcances: corto y largo alcance (unos pocos tienen un
+    <p class="es-csrd-indent">La mayoría de los ataques a distancia sólo tienen dos alcances: corto y largo alcance (unos pocos tienen un
       alcance muy largo). El corto alcance suele ser inferior a 15 m [50 pies]. El largo alcance suele ser de 15 m [50
       pies] a 30 m [100 pies]. El alcance muy largo suele ser de 30 m [100 pies] a 150 m [500 pies]. Una precisión mayor
       no es importante en el Sistema Cypher. Si algo tiene un alcance superior al muy largo, el alcance exacto suele
       estar especificado, como en el caso de un objeto que puede disparar un rayo a 300 m [1000 pies] o
       teletransportarte hasta 1,6 km [1 milla] de distancia.</p>
-    <p>Así, el juego tiene cuatro medidas de distancia: inmediata, corta, larga y muy larga. Estas medidas se aplican
+    <p class="es-csrd-indent">Así, el juego tiene cuatro medidas de distancia: inmediata, corta, larga y muy larga. Estas medidas se aplican
       también al movimiento. Algunos casos especiales -el alcance a quemarropa y el alcance extremo- modifican la
       posibilidad de que un ataque tenga éxito.</p>
-    <p><strong>Alcance a quemarropa:</strong> Si un personaje utiliza un arma a distancia contra un objetivo que sen
+    <p class="es-csrd-indent"><strong>Alcance a quemarropa:</strong> Si un personaje utiliza un arma a distancia contra un objetivo que sen
       encuentra en alcance inmediato, el ataque se alivia.</p>
-    <p><strong>Alcance extremo:</strong> Los objetivos que se encuentran justo en el límite del alcance de un arma están
+    <p class="es-csrd-indent"><strong>Alcance extremo:</strong> Los objetivos que se encuentran justo en el límite del alcance de un arma están
       en el alcance extremo. Los ataques contra estos objetivos se ven obstaculizados.</p>
-    <p>(El DJ podría permitir a un personaje con un arma a distancia atacar más allá del alcance extremo, pero el ataque
+      <div class="es-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+    <p>El DJ podría permitir a un personaje con un arma a distancia atacar más allá del alcance extremo, pero el ataque
       se vería obstaculizado en dos grados por cada categoría de alcance más allá del límite normal. Los ataques con
-      límites duros, como el radio de explosión de una bomba, no pueden ser modificados).</p>
-    <p>(En ciertas situaciones, como un PJ en lo alto de un edificio mirando a través de un campo abierto, el DJ debería
+      límites duros, como el radio de explosión de una bomba, no pueden ser modificados.</p>
+      </div>
+      <div class="es-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+    <p>En ciertas situaciones, como un PJ en lo alto de un edificio mirando a través de un campo abierto, el DJ debería
       permitir que los ataques a distancia superen su alcance máximo. Por ejemplo, en condiciones perfectas, un buen
       arquero puede acertar a un objetivo grande con un arco y una flecha a 150 m [500 pies], mucho más lejos que el
-      largo alcance típico de un arco).</p>
-    <h5 id="iluminación"><span id="Iluminación"></span>Iluminación</h5>
+      largo alcance típico de un arco.</p>
+      </div>
+    <h6 id="iluminación"><span id="Iluminación"></span>Iluminación</h6>
     <p>Lo que los personajes pueden ver (y lo bien que pueden ver) es un factor muy importante en el combate.</p>
-    <p><strong>Luz tenue:</strong> La luz tenue es aproximadamente la cantidad de luz en una noche de luna llena
+    <p class="es-csrd-indent"><strong>Luz tenue:</strong> La luz tenue es aproximadamente la cantidad de luz en una noche de luna llena
       brillante o la iluminación proporcionada por una antorcha, linterna o lámpara de escritorio. La luz tenue permite
       ver a corta distancia. Los objetivos en poca luz son más difíciles de alcanzar. Los ataques contra tales objetivos
       se ven obstaculizados. Los atacantes competentes en visión con poca luz anulan este modificador.</p>
-    <p><strong>Luz muy tenue:</strong> La luz muy tenue es aproximadamente la cantidad de luz en una noche estrellada
+    <p class="es-csrd-indent"><strong>Luz muy tenue:</strong> La luz muy tenue es aproximadamente la cantidad de luz en una noche estrellada
       sin luna visible, o el resplandor proporcionado por una vela o un panel de control iluminado. La luz muy tenue
       permite ver claramente sólo dentro del rango inmediato y percibir formas vagas a corta distancia. Los objetivos en
       luz muy tenue son más difíciles de alcanzar. Los ataques contra objetivos en alcance inmediato se ven
       obstaculizados, y los ataques contra objetivos en alcance corto se ven obstaculizados en dos grados. Los atacantes
       competentes en visión con poca luz modifican estas dificultades en un grado a su favor. Los atacantes
       especialistas en visión con poca luz modifican estas dificultades en dos grados a su favor.</p>
-    <p><strong>Oscuridad:</strong> La oscuridad es un área sin ninguna iluminación, como una noche sin luna con nubes o
+    <p class="es-csrd-indent"><strong>Oscuridad:</strong> La oscuridad es un área sin ninguna iluminación, como una noche sin luna con nubes o
       una habitación sin luces. Los objetivos en completa oscuridad son casi imposibles de alcanzar. Si un atacante
       puede utilizar otros sentidos (como el oído) para hacerse una idea de dónde puede estar el oponente, los ataques
       contra tales objetivos se ven obstaculizados por cuatro grados. De lo contrario, los ataques en la oscuridad total
       fallan sin necesidad de una tirada, a menos que el jugador gaste 1 PX para "hacer un tiro de suerte" o el DJ
       utilice una intromisión del DJ. Los atacantes competentes en visión con poca luz alivian la tarea. Los atacantes
       especialistas en visión con poca luz alivian la tarea en dos grados.</p>
-    <h5 id="visibilidad"><span id="Visibilidad"></span>Visibilidad</h5>
+    <h6 id="visibilidad"><span id="Visibilidad"></span>Visibilidad</h6>
     <p>Al igual que la iluminación, los factores que oscurecen la visión afectan al combate.</p>
-    <p><strong>Niebla:</strong> Un objetivo en la niebla es similar a uno con poca luz. Los ataques a distancia contra
+    <p class="es-csrd-indent"><strong>Niebla:</strong> Un objetivo en la niebla es similar a uno con poca luz. Los ataques a distancia contra
       estos objetivos se ven obstaculizados. La niebla especialmente densa hace que los ataques a distancia sean casi
       imposibles (se trata como la oscuridad), e incluso los ataques melé se ven obstaculizados.</p>
-    <p><strong>Objetivo oculto:</strong> Un objetivo situado en un follaje denso, tras un biombo o arrastrándose entre
+    <p class="es-csrd-indent"><strong>Objetivo oculto:</strong> Un objetivo situado en un follaje denso, tras un biombo o arrastrándose entre
       los escombros de una ruina es difícil de alcanzar porque es difícil de ver. Los ataques a distancia contra tales
       objetivos se ven obstaculizados.</p>
-    <p><strong>Objetivo invisible:</strong> Si un atacante puede usar otros sentidos (como el oído) para tener idea de
+    <p class="es-csrd-indent"><strong>Objetivo invisible:</strong> Si un atacante puede usar otros sentidos (como el oído) para tener idea de
       dónde puede estar el oponente, los ataques contra dichos objetivos se ven obstaculizados en cuatro grados. De lo
       contrario, los ataques contra una criatura invisible fallan sin necesidad de una tirada, a menos que el jugador
       gaste 1 PX para "hacer un tiro de suerte" o el DJ haga una intromisión.</p>
-    <h5 id="agua"><span id="Agua"></span>Agua</h5>
+    <h6 id="agua"><span id="Agua"></span>Agua</h6>
     <p>Estar en aguas poco profundas puede dificultar el movimiento, pero no afecta al combate. Estar en aguas profundas
       puede dificultar las cosas, y estar completamente bajo el agua puede parecer tan diferente como estar en otro
       mundo.</p>
-    <p><strong>Aguas profundas:</strong> Estar en el agua hasta el pecho (o su equivalente) obstaculiza tus ataques. Las
+    <p class="es-csrd-indent"><strong>Aguas profundas:</strong> Estar en el agua hasta el pecho (o su equivalente) obstaculiza tus ataques. Las
       criaturas acuáticas ignoran este modificador.</p>
-    <p><strong>Combate melé bajo el agua:</strong> Para las criaturas no acuáticas, estar sumergido bajo el agua
+    <p class="es-csrd-indent"><strong>Combate melé bajo el agua:</strong> Para las criaturas no acuáticas, estar sumergido bajo el agua
       dificulta mucho el ataque. Los ataques con armas punzante se ven obstaculizados, y los ataques melé con armas
       cortantes o contundentes se ven obstaculizados en dos grados. Las criaturas acuáticas ignoran estas
       penalizaciones.</p>
-    <p><strong>Combate a distancia bajo el agua:</strong> Al igual que con el combate melé, las criaturas no acuáticas
+    <p class="es-csrd-indent"><strong>Combate a distancia bajo el agua:</strong> Al igual que con el combate melé, las criaturas no acuáticas
       tienen problemas para luchar bajo el agua. Algunos ataques a distancia son imposibles bajo el agua: no puedes
       lanzar objetos, disparar un arco o una ballesta o utilizar una cerbatana. Muchas armas de fuego tampoco funcionan
       bajo el agua. Los ataques con armas que sí funcionan bajo el agua se ven obstaculizados. El alcance bajo el agua
       se reduce en una categoría; las armas de muy largo alcance sólo funcionan a largo alcance, las de largo alcance
       sólo a corto alcance y las de corto alcance sólo a alcance inmediato.</p>
-    <h5 id="objetivos-en-movimiento"><span id="Objetivos en movimiento"></span>Objetivos en movimiento</h5>
+    <h6 id="objetivos-en-movimiento"><span id="Objetivos en movimiento"></span>Objetivos en movimiento</h6>
     <p>Los objetivos en movimiento son más difíciles de atinar, y los atacantes en movimiento también lo tienen difícil.
     </p>
-    <p><strong>El objetivo se mueve:</strong> Los atacantes que intentan golpear a un enemigo que se mueve muy rápido se
+    <p class="es-csrd-indent"><strong>El objetivo se mueve:</strong> Los atacantes que intentan golpear a un enemigo que se mueve muy rápido se
       ven obstaculizados. (Un enemigo que se mueve muy rápido es aquel que no hace más que correr, que está montado en
       una criatura en movimiento, que va en un vehículo o en un medio de transporte en movimiento, etc.).</p>
-    <p><strong>El atacante se mueve:</strong> Un atacante que intente realizar un ataque mientras se mueve por sus
+    <p class="es-csrd-indent"><strong>El atacante se mueve:</strong> Un atacante que intente realizar un ataque mientras se mueve por sus
       propios medios (caminando, corriendo, nadando, etc.) no sufre penalizaciones. Los ataques desde una montura o un
       vehículo en movimiento se ven obstaculizados; un atacante competente en montar o conducir ignora esta
       penalización.</p>
-    <p><strong>El atacante está fuera de equilibrio:</strong> Estar fuera de equilibrio, como cuando se está en un barco
+    <p class="es-csrd-indent"><strong>El atacante está fuera de equilibrio:</strong> Estar fuera de equilibrio, como cuando se está en un barco
       en movimiento o una plataforma que vibra, dificulta el ataque. Tales ataques se ven obstaculizados. Los personajes
       competentes en equilibrio o navegación ignoran las penalizaciones por estar en un barco.</p>
-    <h4 id="situación-especial-combate-entre-pnjs"><span id="anchor-1573"></span><strong>Situación especial:</strong>
-      Combate entre PNJs </h4>
+    <h5 id="situación-especial-combate-entre-pnjs"><span id="anchor-1573"></span>Situación especial: 
+      Combate entre PNJs </h5>
     <p>Cuando un PNJ aliado de los PJs ataca a otro PNJ, el DJ puede designar a un jugador para que haga la tirada y la
       maneje como si fuera un PJ atacando. A menudo, la elección es obvia. Por ejemplo, un personaje que tiene un animal
       de ataque entrenado debería tirar cuando su mascota ataca a los enemigos. Si un PNJ aliado que acompaña al grupo
@@ -25344,25 +25352,25 @@
       es perfectamente adecuado (y más fácil) hacer que el PNJ aliado utilice las reglas de <a
           href="#Acciones cooperativas">Acciones cooperativas</a> para ayudar a un PJ en lugar de hacer ataques
       directos, o comparar los niveles de los dos PNJs (el más alto gana).</p>
-    <h4 id="situación-especial-combate-entre-pjs"><span id="anchor-1574"></span><strong>Situación especial:</strong>
-      Combate entre PJs </h4>
+    <h5 id="situación-especial-combate-entre-pjs"><span id="anchor-1574"></span>Situación especial: 
+      Combate entre PJs </h5>
     <p>Cuando un PJ ataca a otro PJ, el personaje atacante hace una tirada de ataque, y el otro personaje hace una
       tirada de defensa, añadiendo los modificadores apropiados. Si el PJ atacante tiene una habilidad, capacidad,
       recurso u otro efecto que aliviaría el ataque si se hiciera contra un PNJ, el personaje añade 3 a la tirada por
       cada grado de reducción (+3 por un grado, +6 por dos grados, y así sucesivamente). Si el resultado final del
       atacante es mayor, el ataque impacta. Si el resultado del defensor es mayor, el ataque falla. El daño se resuelve
       normalmente. El DJ media todos los efectos especiales.</p>
-    <h4 id="situación-especial-ataques-de-área"><span id="anchor-1575"></span><strong>Situación especial:</strong>
-      Ataques de área</h4>
+    <h5 id="situación-especial-ataques-de-área"><span id="anchor-1575"></span>Situación especial: 
+      Ataques de área</h5>
     <p>A veces, un ataque o efecto afecta a un área en lugar de a un solo objetivo. Por ejemplo, una granada o un
       derrumbe pueden dañar o afectar potencialmente a todas las personas de la zona.</p>
-    <p>En un ataque de área, todos los PJs en el área hacen tiradas de defensa apropiadas contra el ataque para
+    <p class="es-csrd-indent">En un ataque de área, todos los PJs en el área hacen tiradas de defensa apropiadas contra el ataque para
       determinar su efecto sobre ellos. Si hay algún PNJ en el área, el atacante hace una única tirada de ataque contra
       todos ellos (una sola tirada, no una tirada por PNJ) y la compara con el número objetivo de cada PNJ. Si la tirada
       es igual o mayor que el número objetivo de un PNJ en particular, el ataque golpea a ese PNJ.</p>
-    <p>Algunos ataques de área siempre infligen al menos una cantidad mínima de daño, incluso si los ataques fallan o si
+    <p class="es-csrd-indent">Algunos ataques de área siempre infligen al menos una cantidad mínima de daño, incluso si los ataques fallan o si
       un PJ hace una tirada de defensa exitosa.</p>
-    <p>Por ejemplo, considera un personaje que usa <a href="#Destrozar"><em>Destrozar</em></a> para atacar a seis
+    <p class="es-csrd-indent">Por ejemplo, considera un personaje que usa <a href="#Destrozar"><em>Destrozar</em></a> para atacar a seis
       cultistas (nivel 2; número objetivo 6) y a su líder (nivel 4; número objetivo 12). El PJ aplica Esfuerzo para
       aumentar el daño y saca un 11 en la tirada de ataque. Esto golpea a los seis cultistas, pero no al líder, por lo
       que la habilidad hace 3 puntos de daño a cada uno de los cultistas. La descripción de <a
@@ -25371,102 +25379,102 @@
       En cuanto a lo que ocurre en la historia, los cultistas son sorprendidos por la repentina detonación de uno de sus
       cuchillos, pero el líder se agacha y queda protegido de la explosión. A pesar de los rápidos movimientos del
       líder, la explosión es tan intensa que algunos trozos de metal los cortan.</p>
-    <h4 id="situación-especial-atacar-objetos"><span id="anchor-1576"></span><strong>Situación especial:</strong> Atacar
-      objetos </h4>
+    <h5 id="situación-especial-atacar-objetos"><span id="anchor-1576"></span>Situación especial:  Atacar
+      objetos </h5>
     <p>Atacar un objeto rara vez es cuestión de golpearlo. Claro que puedes golpear la pared de un granero, pero ¿puedes
       dañarla? Atacar objetos inanimados con un arma melé es una acción de Vigor. Los objetos tienen niveles y, por
       tanto, números objetivo. Los objetos tienen un Registro de Daño de Objeto que funciona como el Registro de Daño de
       los PJs.</p>
-    <p><strong>Intacto</strong>: Es el estado por defecto de un objeto. </p>
-    <p><strong>Daño menor:</strong> Es un estado ligeramente dañado. Un objeto con daño menor reduce su nivel en 1. </p>
-    <p><strong>Daño mayor:</strong> Es un estado de daño crítico. Un objeto con daños importantes está roto y ya no
+    <p class="es-csrd-indent"><strong>Intacto</strong>: Es el estado por defecto de un objeto. </p>
+    <p class="es-csrd-indent"><strong>Daño menor:</strong> Es un estado ligeramente dañado. Un objeto con daño menor reduce su nivel en 1. </p>
+    <p class="es-csrd-indent"><strong>Daño mayor:</strong> Es un estado de daño crítico. Un objeto con daños importantes está roto y ya no
       funciona. </p>
-    <p><strong>Destruido:</strong> Es destruido. El objeto está arruinado, ya no funciona y no se puede reparar. </p>
-    <p>Si la acción de Vigor para dañar un objeto es un éxito, el objeto desciende un grado en el Registro de Daño de
+    <p class="es-csrd-indent"><strong>Destruido:</strong> Es destruido. El objeto está arruinado, ya no funciona y no se puede reparar. </p>
+    <p class="es-csrd-indent">Si la acción de Vigor para dañar un objeto es un éxito, el objeto desciende un grado en el Registro de Daño de
       Objeto. Si la tirada de Vigor supera la dificultad en 2 niveles, el objeto desciende dos grados en el Registro de
       Daño de Objeto. Si la tirada de Vigor supera la dificultad en 4 niveles, el objeto se mueve tres grados hacia
       abajo en el Registro de Daño de Objeto. Los objetos con daños menores o mayores pueden ser reparados, moviéndolos
       uno o más grados hacia arriba en el Registro de Daño de Objeto.</p>
-    <p>Los objetos frágiles o quebradizos, como el papel o el cristal, disminuyen el nivel efectivo del objeto a efectos
+    <p class="es-csrd-indent">Los objetos frágiles o quebradizos, como el papel o el cristal, disminuyen el nivel efectivo del objeto a efectos
       de determinar si está dañado. Los objetos duros, como los de madera o piedra, suman 1 al nivel efectivo. Los
       objetos muy duros, como los de metal, añaden 2. (El DJ puede dictaminar que algunos materiales exóticos añadan 3.)
     </p>
-    <p> La herramienta o arma utilizada para atacar el objeto debe ser al menos tan dura como el propio objeto. Además,
+    <p class="es-csrd-indent"> La herramienta o arma utilizada para atacar el objeto debe ser al menos tan dura como el propio objeto. Además,
       si la cantidad de daño que el ataque podría infligir -no modificada por una tirada especial- no es igual o
       superior al nivel efectivo del objeto, el ataque no puede dañar el objeto sea cual sea la tirada.</p>
-    <h3 id="acción-activar-una-capacidad-especial"><span id="anchor-1577"></span>Acción: Activar una
-      capacidad especial </h3>
+    <h4 id="acción-activar-una-capacidad-especial"><span id="anchor-1577"></span>Acción: Activar una
+      capacidad especial </h4>
     <p>Las capacidades especiales son otorgadas por Rasgos, Tipos y Aspectos, o proporcionadas por Cyphers u otros
       dispositivos. Si una capacidad especial afecta a otro personaje en contra de su voluntad, se resuelve como un
       ataque. Esto es cierto incluso si la habilidad normalmente no se considera un ataque. Por ejemplo, si un personaje
       tiene un toque sanador, y su amigo no quiere ser curado por alguna razón, un intento de curar a su amigo no
       dispuesto se maneja como un ataque.</p>
-    <p>Muchas capacidades especiales no afectan a otro personaje en contra de su voluntad. Por ejemplo, un PJ puede
+    <p class="es-csrd-indent">Muchas capacidades especiales no afectan a otro personaje en contra de su voluntad. Por ejemplo, un PJ puede
       utilizar <a href="#Flotar"><em>Flotar</em></a> sobre sí mismo para flotar en el aire. Un personaje con un
       dispositivo de reorganización de la materia puede convertir una pared de piedra en cristal. Un personaje que
       active un Cypher de cambio de fase podría atravesar una pared. Ninguno de ellos requiere una tirada de ataque
       (aunque cuando se convierte una pared de piedra en cristal, el personaje debe hacer una tirada para afectar con
       éxito a la pared).</p>
-    <p>Si el PJ gasta puntos en aplicar Esfuerzo en el intento, podría querer tirar de todas formas para ver si consigue
+    <p class="es-csrd-indent">Si el PJ gasta puntos en aplicar Esfuerzo en el intento, podría querer tirar de todas formas para ver si consigue
       un efecto mayor, lo que reduciría el coste de su acción.</p>
-    <h3 id="acción-mover"><span id="anchor-1578"></span>Acción: Mover</h3>
+    <h4 id="acción-mover"><span id="anchor-1578"></span>Acción: Mover</h4>
     <p>Como parte de otra acción, un personaje puede ajustar su posición: retroceder unos metros mientras usa una
       habilidad, deslizarse en combate para enfrentarse a un oponente diferente y ayudar a un amigo, cruzar una puerta
       que acaba de abrir, etc. Esto se considera una distancia inmediata, y un personaje puede moverse una distancia
       inmediata como parte de otra acción.</p>
-    <p>En una situación de combate, si un personaje está en una gran melé, normalmente se considera que está al lado de
+    <p class="es-csrd-indent">En una situación de combate, si un personaje está en una gran melé, normalmente se considera que está al lado de
       la mayoría de los demás combatientes, a menos que el DJ dictamine que está más lejos porque la melé es
       especialmente grande o la situación así lo dicta.</p>
-    <p>Si no está en combate melé pero sigue estando cerca, se considera que está a una distancia corta, normalmente
+    <p class="es-csrd-indent">Si no está en combate melé pero sigue estando cerca, se considera que está a una distancia corta, normalmente
       menos de 15 m [50 pies]. Si está más lejos que eso pero todavía está involucrados en el combate, se considera que
       está a una larga distancia, normalmente de 15 a 30 m [50 a 100 pies], o posiblemente incluso a una distancia muy
       larga, normalmente de 30 a 150 m [100 a 500 pies].</p>
-    <p>En una ronda, como acción, un personaje puede hacer un movimiento corto. En este caso, no hacen nada más que
+    <p class="es-csrd-indent">En una ronda, como acción, un personaje puede hacer un movimiento corto. En este caso, no hacen nada más que
       moverse hasta unos 15 m [50 pies]. Algunos terrenos o situaciones cambiarán la distancia a la que un personaje
       puede moverse, pero generalmente, hacer un movimiento corto se considera una acción de dificultad 0. No se
       necesita ninguna tirada; simplemente llegan a donde van como su acción.</p>
-    <p>Un personaje puede intentar hacer un movimiento largo -hasta 30 m [100 pies] o más- en una ronda. Esta es una
+    <p class="es-csrd-indent">Un personaje puede intentar hacer un movimiento largo -hasta 30 m [100 pies] o más- en una ronda. Esta es una
       tarea de Velocidad con una dificultad de 4. Como con cualquier acción, puede usar habilidades, recursos o Esfuerzo
       para aliviar la tarea. El terreno, los obstáculos u otras circunstancias pueden obstaculizar la tarea. Una tirada
       exitosa significa que el personaje se ha movido la distancia con seguridad. Un fallo significa que en algún
       momento del movimiento se detiene o tropieza (el DJ determina dónde ocurre esto).</p>
-    <p>Un personaje también puede intentar hacer un movimiento corto y realizar otra acción física (relativamente
+    <p class="es-csrd-indent">Un personaje también puede intentar hacer un movimiento corto y realizar otra acción física (relativamente
       sencilla), como hacer un ataque. Al igual que el intento de realizar un movimiento largo, se trata de una tarea de
       Velocidad con una dificultad de 4, y el fracaso significa que el personaje se detiene en algún momento, resbalando
       o tropezando o quedando retenido de alguna otra manera.</p>
-    <h4 id="movimiento-prolongado"><span id="Movimiento prolongado"></span>Movimiento prolongado</h4>
+    <h5 id="movimiento-prolongado"><span id="Movimiento prolongado"></span>Movimiento prolongado</h5>
     <p>Cuando se habla de movimiento en términos de viaje y no de acciones ronda a ronda, los personajes típicos pueden
       viajar por carretera unos 32 km [20 millas] al día, a una media de 5 km [3 millas] por hora, incluyendo algunas
       paradas. Cuando viajan a campo traviesa, pueden desplazarse unos 19 km [12 millas] al día, a una media de 3 km [2
       millas] por hora, de nuevo con algunas paradas. Los personajes montados, como los que van a caballo, pueden
       recorrer el doble de distancia. Otros medios de transporte (automóviles, aviones, aerodeslizadores, veleros, etc.)
       tienen sus propias velocidades de movimiento prolongado.</p>
-    <h4 id="seleccionar--modificadores-de-movimiento"><span id="anchor-1580"></span>Modificadores de movimiento<a
+    <h5 id="seleccionar--modificadores-de-movimiento"><span id="anchor-1580"></span>Modificadores de movimiento<a
           class="es-csrd-header-anchor" href="#seleccionar--modificadores-de-movimiento" title="Permalink"
-          aria-hidden="true"></a></h4>
+          aria-hidden="true"></a></h5>
     <p>Los distintos entornos afectan al movimiento de manera diferente.</p>
-    <p><strong>Terreno irregular:</strong> Una superficie que se considera terreno irregular está cubierta de piedras
+    <p class="es-csrd-indent"><strong>Terreno irregular:</strong> Una superficie que se considera terreno irregular está cubierta de piedras
       sueltas u otro material, es accidentada o poco firme, inestable, o una superficie que requiere moverse a través de
       un espacio estrecho, como un pasillo estrecho o una delgada saliente. Las escaleras también se consideran terreno
       irregular. El terreno irregular no ralentiza el movimiento normal ronda a ronda, pero obstaculiza las tiradas de
       movimiento. El terreno irregular reduce a la mitad la velocidad de movimiento prolongado.</p>
-    <p><strong>Terreno difícil:</strong> El terreno difícil es un área llena de obstáculos desafiantes: agua hasta la
+    <p class="es-csrd-indent"><strong>Terreno difícil:</strong> El terreno difícil es un área llena de obstáculos desafiantes: agua hasta la
       altura de la cintura, una pendiente muy empinada, una saliente especialmente estrecha, hielo resbaladizo, 30 cm [1
       pie] o más de nieve, un espacio tan pequeño que uno debe arrastrarse a través de él, etc. El terreno difícil
       obstaculiza las tiradas de movimiento y reduce a la mitad el movimiento ronda a ronda. Esto significa que un
       movimiento corto es de unos 8 m [25 pies], y un movimiento largo es de unos 15 m [50 pies]. El terreno difícil
       reduce el movimiento prolongado a un tercio de su velocidad normal.</p>
-    <p><strong>Agua:</strong> Aguas profundas, en las que un personaje está sumergido en su mayor parte o por completo,
+    <p class="es-csrd-indent"><strong>Agua:</strong> Aguas profundas, en las que un personaje está sumergido en su mayor parte o por completo,
       obstaculizan las tiradas de movimiento y reducen el movimiento ronda a ronda y a largo plazo a una cuarta parte de
       su velocidad normal. Es decir que un movimiento corto es de unos 4 m [12 pies], y un movimiento largo es de unos
       7,5 m [25 pies]. Los personajes competentes en natación reducen su movimiento a la mitad sólo si están en aguas
       profundas.</p>
-    <p><strong>Gravedad baja:</strong> El movimiento en baja gravedad es más fácil pero no mucho más rápido. Todas las
+    <p class="es-csrd-indent"><strong>Gravedad baja:</strong> El movimiento en baja gravedad es más fácil pero no mucho más rápido. Todas las
       tiradas de movimiento son aliviadas. </p>
-    <p><strong>Alta gravedad:</strong> En un entorno de alta gravedad, trata a todos los personajes en movimiento como
+    <p class="es-csrd-indent"><strong>Alta gravedad:</strong> En un entorno de alta gravedad, trata a todos los personajes en movimiento como
       si estuvieran en un terreno difícil. Los personajes competentes en maniobrar en alta gravedad anulan esta
       penalización. La alta gravedad reduce el movimiento prolongado a un tercio de su velocidad normal.</p>
-    <p><strong>Gravedad cero:</strong> En un entorno sin gravedad, los personajes no pueden moverse normalmente. En su
+    <p class="es-csrd-indent"><strong>Gravedad cero:</strong> En un entorno sin gravedad, los personajes no pueden moverse normalmente. En su
       lugar, deben impulsarse desde una superficie y tener éxito en una tirada de Vigor para moverse con una dificultad
       igual a la distancia recorrida en metros [un cuarto de la distancia recorrida en pies]. Sin una superficie desde
       la que impulsarse, el personaje no puede moverse. A menos que el movimiento del personaje lo lleve a un objeto
@@ -25476,30 +25484,33 @@
       <p><strong>Nota:</strong> Las fórmulas no son equivalentes exactos entre ambos sistemas de unidades si no
         aproximaciones, Cypher no es simulacionista.</p>
     </div>
-    <h4 id="situación-especial-persecución"><span id="anchor-1581"></span><strong>Situación especial:</strong>
-      Persecución</h4>
+    <h5 id="situación-especial-persecución"><span id="anchor-1581"></span>Situación especial: 
+      Persecución</h5>
     <p>Cuando un PJ persigue a un PNJ o viceversa, el jugador debe intentar una acción de Velocidad, con una dificultad
       basada en el nivel del PNJ. Si el PJ tiene éxito en la tirada, alcanza al PNJ (si es el perseguidor), o se escapa
       (si es el perseguido). En términos de la historia, esta mecánica de una sola tirada puede ser el resultado de una
       larga persecución durante muchas rondas.</p>
-    <p>Alternativamente, si el DJ quiere jugar una larga persecución, el personaje puede hacer muchas tiradas (quizás
+    <p class="es-csrd-indent">Alternativamente, si el DJ quiere jugar una larga persecución, el personaje puede hacer muchas tiradas (quizás
       una por nivel del PNJ) para terminar la persecución con éxito. Por cada fracaso, el PJ debe obtener otro éxito, y
       si alguna vez tiene más fracasos que éxitos, el PJ no consigue atrapar al PNJ (si es el perseguidor) o es atrapado
       (si es el perseguido). Al igual que con el combate, se anima al DJ a describir los resultados de estas tiradas de
       forma interesante. Un éxito puede significar que el PJ ha doblado una esquina y ha ganado algo de distancia. Un
       fallo puede significar que una cesta de fruta se vuelca delante de él, ralentizándolo. Las persecuciones de
       vehículos se manejan de manera similar.</p>
-    <h3 id="acción-esperar"><span id="anchor-1582"></span>Acción: Esperar</h3>
+    <h4 id="acción-esperar"><span id="anchor-1582"></span>Acción: Esperar</h4>
     <p>Puedes esperar para reaccionar a la acción de otro personaje.</p>
-    <p>Tú decides qué acción va a desencadenar tu acción, y si la acción desencadenante ocurre, puedes realizar tu
+    <p class="es-csrd-indent">Tú decides qué acción va a desencadenar tu acción, y si la acción desencadenante ocurre, puedes realizar tu
       acción primero (a menos que ir primero no tenga sentido, como atacar a un enemigo antes de que esté a la vista).
       Por ejemplo, si un orco te amenaza con una alabarda, en tu turno puedes decidir esperar, diciendo "Si me apuñala,
       voy a acuchillarlo con mi espada". En el turno del orco, éste apuñala, así que haces tu ataque con la espada antes
       de que eso ocurra.</p>
-    <p>Esperar también es una buena forma de enfrentarse a un tirador que se levanta de detrás de una cobertura, dispara
+    <p class="es-csrd-indent">Esperar también es una buena forma de enfrentarse a un tirador que se levanta de detrás de una cobertura, dispara
       y se oculta de nuevo. Podrías decir "espero a verlo salir de detrás de la cobertura y entonces le disparo".</p>
-    <p>(Esperar también es una herramienta útil para las acciones de cooperación (véase más adelante)).</p>
-    <h3 id="acción-defender"><span id="anchor-1583"></span>Acción: Defender</h3>
+      
+	<div class="es-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+    <p>Esperar también es una herramienta útil para las acciones de cooperación (véase más adelante).</p>
+  </div>
+    <h4 id="acción-defender"><span id="anchor-1583"></span>Acción: Defender</h4>
     <p>Defenderse es una acción especial que sólo los PJs pueden hacer, y sólo en respuesta a ser atacados. En otras
       palabras, un PNJ utiliza su acción para atacar, lo que obliga a un PJ a hacer una tirada de defensa. Esto se
       maneja como cualquier otro tipo de acción, con las circunstancias, la habilidad, los recursos y el Esfuerzo que
@@ -25507,111 +25518,115 @@
       del PJ. Nunca es una acción que el jugador decida realizar; siempre es una reacción a un ataque. Un PJ puede tomar
       una acción de defensa cuando es atacado (en el turno del PNJ atacante) y aún así tomar otra acción en su propio
       turno.</p>
-    <p>El tipo de tirada de defensa depende del tipo de ataque. Si un enemigo ataca a un personaje con un hacha, éste
+    <p class="es-csrd-indent">El tipo de tirada de defensa depende del tipo de ataque. Si un enemigo ataca a un personaje con un hacha, éste
       puede utilizar la acción de Velocidad para esquivar o bloquearlo con lo que tiene en la mano. Si es golpeado por
       un dardo envenenado, puede usar una acción de Vigor para resistir sus efectos. Si un gusano psíquico intenta
       controlar su mente, puede usar Intelecto para rechazar la intromisión.</p>
-    <p>A veces un ataque provoca dos acciones de defensa. Por ejemplo, un reptil venenoso intenta morder a un PJ. Éste
+    <p class="es-csrd-indent">A veces un ataque provoca dos acciones de defensa. Por ejemplo, un reptil venenoso intenta morder a un PJ. Éste
       intenta esquivar el mordisco con una acción de Velocidad. Si fallan, reciben el daño de la mordedura, y también
       debe intentar una acción de Vigor para resistir los efectos del veneno.</p>
-    <p>Si un personaje no sabe que va a recibir un ataque, normalmente puede hacer una tirada de defensa, pero no puede
+    <p class="es-csrd-indent">Si un personaje no sabe que va a recibir un ataque, normalmente puede hacer una tirada de defensa, pero no puede
       añadir modificadores (incluyendo el modificador de un escudo), y no puede usar ninguna habilidad o Esfuerzo para
       aliviar la tarea. Si las circunstancias lo justifican, como por ejemplo si el atacante está justo al lado del
       personaje, el DJ puede dictaminar que el ataque por sorpresa simplemente impacta.</p>
-    <p>Un personaje siempre puede optar por renunciar a una acción de defensa, en cuyo caso el ataque impacta
+    <p class="es-csrd-indent">Un personaje siempre puede optar por renunciar a una acción de defensa, en cuyo caso el ataque impacta
       automáticamente.</p>
-    <p>Algunas capacidades (como la capacidad especial <a href="#Contramedidas">Contramedidas</a>) pueden permitirte
+    <p class="es-csrd-indent">Algunas capacidades (como la capacidad especial <a href="#Contramedidas">Contramedidas</a>) pueden permitirte
       hacer algo especial como acción de defensa.</p>
-    <h3 id="acción-hacer-otra-cosa"><span id="anchor-1584"></span>Acción: Hacer otra cosa</h3>
+    <h4 id="acción-hacer-otra-cosa"><span id="anchor-1584"></span>Acción: Hacer otra cosa</h4>
     <p>Los jugadores pueden intentar cualquier cosa que se les ocurra, aunque eso no significa que todo sea posible. El
       DJ establece la dificultad, ese es su papel principal en el juego. Aun así, guiados por los límites de la lógica,
       los jugadores y los DJs encontrarán todo tipo de acciones y opciones que no están cubiertas por una regla. Eso es
       bueno.</p>
-    <p>Los jugadores no deben sentirse limitados por la mecánica del juego al realizar acciones. No se requieren
+    <p class="es-csrd-indent">Los jugadores no deben sentirse limitados por la mecánica del juego al realizar acciones. No se requieren
       habilidades para intentar una acción. Alguien que nunca ha forzado una cerradura puede intentarlo. El DJ puede
       obstaculizar la tarea, pero el personaje puede seguir intentando la acción.</p>
-    <p>Así, los jugadores y los DJ pueden volver al principio de este capítulo y ver la expresión más básica de las
+    <p class="es-csrd-indent">Así, los jugadores y los DJ pueden volver al principio de este capítulo y ver la expresión más básica de las
       reglas. Un jugador quiere realizar una acción. El DJ decide, en una escala de 1 a 10, lo difícil que es esa tarea
       y qué atributo utiliza. El jugador determina si tiene algo que pueda modificar la dificultad y considera si debe
       aplicar Esfuerzo. Una vez tomada la decisión final, tira para ver si su personaje tiene éxito. Es tan fácil como
       eso.</p>
-    <p>Como orientación, a continuación se indican algunas acciones comunes que puede realizar un jugador.</p>
-    <p>(Se anima a los jugadores a que tengan sus propias ideas sobre lo que hacen sus personajes en lugar de mirar una
+    <p class="es-csrd-indent">Como orientación, a continuación se indican algunas acciones comunes que puede realizar un jugador.</p>
+    <div class="es-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+    <p>Se anima a los jugadores a que tengan sus propias ideas sobre lo que hacen sus personajes en lugar de mirar una
       lista de posibles acciones. Por eso hay una acción de "hacer otra cosa". Los PJs no son piezas en un tablero de
-      juego, son personas en una historia. Y como personas reales, pueden intentar cualquier cosa que se les ocurra. (El
+      juego, son personas en una historia. Y como personas reales, pueden intentar cualquier cosa que se les ocurra. El
       sistema de dificultad de las tareas proporciona a los DJs las herramientas que necesitan para adjudicar cualquier
-      cosa que se les ocurra a los jugadores).</p>
-    <h4 id="escalar"><span id="Escalar"></span>Escalar</h4>
+      cosa que se les ocurra a los jugadores.</p>
+    </div>
+    <h5 id="escalar"><span id="Escalar"></span>Escalar</h5>
     <p>Cuando un personaje escala, el DJ establece una dificultad basada en la superficie que está escalando. Escalar es
       como moverse a través de un terreno difícil: la tirada de movimiento se ve obstaculizada y el movimiento es a
       mitad de velocidad. Circunstancias inusuales, como escalar mientras se está bajo fuego, suponen penalizaciones de
       grado adicionales. </p>
-    <h5 id="dificultad-de-la-escalada"><span id="Dificultad de la escalada"></span>Dificultad de la escalada</h5>
+    <h6 id="dificultad-de-la-escalada"><span id="Dificultad de la escalada"></span>Dificultad de la escalada</h6>
     <table class="table table-dark table-striped table-sm">
       <thead>
+        <tr>
+          <th scope="col" class="text-center">Dificultad</th>
+          <th scope="col">Superficie</th>
+        </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Dificultad</td>
-          <td>Superficie</td>
-        </tr>
-        <tr>
-          <td>2</td>
+          <td  scope="row" class="fw-normal text-center">2</td>
           <td>Superficie con muchos asideros</td>
         </tr>
         <tr>
-          <td>3</td>
+          <td  scope="row" class="fw-normal text-center">3</td>
           <td>Muro de piedra o superficie similar (algunos asideros)</td>
         </tr>
         <tr>
-          <td>4</td>
+          <td  scope="row" class="fw-normal text-center">4</td>
           <td>Superficie desmoronada o resbaladiza</td>
         </tr>
         <tr>
-          <td>5</td>
+          <td  scope="row" class="fw-normal text-center">5</td>
           <td>Pared de piedra lisa o superficie similar</td>
         </tr>
         <tr>
-          <td>6</td>
+          <td  scope="row" class="fw-normal text-center">6</td>
           <td>Pared metálica o superficie similar</td>
         </tr>
         <tr>
-          <td>8</td>
+          <td  scope="row" class="fw-normal text-center">8</td>
           <td>Superficie lisa y horizontal (el escalador está boca abajo)</td>
         </tr>
         <tr>
-          <td>10</td>
+          <td  scope="row" class="fw-normal text-center">10</td>
           <td>Pared de cristal o superficie similar</td>
         </tr>
       </tbody>
     </table>
-    <h4 id="acciones-cooperativas"><span id="Acciones cooperativas"></span>Acciones cooperativas</h4>
+    <h5 id="acciones-cooperativas"><span id="Acciones cooperativas"></span>Acciones cooperativas</h5>
     <p>Hay muchas maneras en la que varios PJs puedan trabajar juntos. Sin embargo, ninguna puede ser utilizada al mismo
       tiempo por los mismos personajes.</p>
-    <p><span id="Ayudar"></span><strong>Ayudar:</strong> Si utilizas tu acción para ayudar a otro en una tarea, alivias
+    <p class="es-csrd-indent"><span id="Ayudar"></span><strong>Ayudar:</strong> Si utilizas tu acción para ayudar a otro en una tarea, alivias
       la tarea. Si tienes incapacidad en la tarea, tu ayuda no tiene efecto. Si eres competente o especialista, la tarea
       se alivia en dos grados. La ayuda se considera un recurso, y alguien que recibe ayuda normalmente no puede ganar
       más de dos recursos en una sola tarea si esa ayuda es proporcionada por otro personaje.</p>
-    <p>Por ejemplo, si Scott intenta subir una pendiente pronunciada y Sarah (que es competente en escalada) pasa su
+    <p class="es-csrd-indent">Por ejemplo, si Scott intenta subir una pendiente pronunciada y Sarah (que es competente en escalada) pasa su
       turno ayudándole, la tarea de Scott se ve aliviada en dos grados.</p>
-    <p>A veces puedes ayudar realizando una tarea que complemente lo que otra persona está intentando. Si tu acción
+    <p class="es-csrd-indent">A veces puedes ayudar realizando una tarea que complemente lo que otra persona está intentando. Si tu acción
       complementaria tiene éxito, alivias la tarea de la otra persona. Por ejemplo, si Scott intenta persuadir al
       capitán de un barco para que le deje subir a bordo, Sarah podría intentar complementar las palabras de Scott con
       una mentira halagadora sobre el capitán (una acción de engaño), una muestra de conocimiento sobre la región a la
       que se dirige el barco (una acción de geografía) o una amenaza directa al capitán (una acción de intimidación). Si
       la tirada de Sarah es un éxito, la tarea de persuasión de Scott se ve aliviada.</p>
-    <p><span id="Distraer"></span><strong>Distraer:</strong> Cuando un personaje utiliza su turno para distraer a un
+    <p class="es-csrd-indent"><span id="Distraer"></span><strong>Distraer:</strong> Cuando un personaje utiliza su turno para distraer a un
       enemigo, sus ataques se ven obstaculizados durante una ronda. Si varios personajes distraen a un enemigo, el
       efecto no es mayor que el de un solo personaje: el enemigo se distrae o no. Una distracción puede consistir en
       gritar un desafío, hacer un disparo de advertencia o una actividad similar que no dañe al enemigo.</p>
-    <p><span id="Atraer el ataque"></span><strong>Atraer el ataque:</strong> Cuando un PNJ ataca a un personaje, otro PJ
+    <p class="es-csrd-indent"><span id="Atraer el ataque"></span><strong>Atraer el ataque:</strong> Cuando un PNJ ataca a un personaje, otro PJ
       puede presentarse de forma prominente, gritar burlas y moverse para intentar que el enemigo le ataque a él en su
       lugar. En la mayoría de los casos, esta acción tiene éxito sin necesidad de una tirada: el adversario ataca al PJ
       que llama la atención en lugar de a sus compañeros. En otros casos, como con enemigos inteligentes o decididos, el
       personaje que intenta atraer el ataque debe tener éxito en una acción de Intelecto para lograrlo. Si esa acción de
       Intelecto tiene éxito, el enemigo ataca a dicho personaje, cuyas defensas se ven obstaculizadas por dos grados.
       Dos personajes que intenten atraer un ataque al mismo tiempo se anulan mutuamente.</p>
-    <p>(Dos personajes que intenten atraer un ataque al mismo tiempo se anulan mutuamente).</p>
+      <div class="es-csrd-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+    <p>Dos personajes que intenten atraer un ataque al mismo tiempo se anulan mutuamente.</p>
+      </div>
     <p><span id="Tomar el ataque"></span><strong>Tomar el ataque:</strong> Un personaje puede usar su acción para
       lanzarse frente a un ataque exitoso de un enemigo para salvar a un camarada cercano. El ataque tiene éxito
       automáticamente contra el personaje que se sacrifica, e inflige 1 punto de daño adicional. Un personaje no puede
