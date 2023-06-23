@@ -527,3 +527,10 @@ ul.es-csrd-technologies-fantastic li, .es-csrd-legend ul.es-csrd-legend-list li.
 .es-csrd-roll-diagram { 
 	max-width: 35rem;
 }
+
+.icon {
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: -.125em;
+	fill: #FFFFFF;
+}
