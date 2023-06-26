@@ -47,14 +47,11 @@ h5 a.es-csrd-header-anchor {
 h6 a.es-csrd-header-anchor {
 	margin-top: 0.6rem;
 }
-h7 a.es-csrd-header-anchor {
-	margin-top: 0.6rem;
-}
 /* anchor link positioning for alternate header styles */
-h4.es-csrd-header-small a.es-csrd-header-anchor, h5.es-csrd-header-small a.es-csrd-header-anchor, h6.es-csrd-header-small a.es-csrd-header-anchor, h7.es-csrd-header-small a.es-csrd-header-anchor {
+h4.es-csrd-header-small a.es-csrd-header-anchor, h5.es-csrd-header-small a.es-csrd-header-anchor, h6.es-csrd-header-small a.es-csrd-header-anchor {
 	margin-top: 0.4rem;
 }
-h4.es-csrd-header-smaller a.es-csrd-header-anchor, h5.es-csrd-header-smaller a.es-csrd-header-anchor, h6.es-csrd-header-smaller a.es-csrd-header-anchor, h7.es-csrd-header-smaller a.es-csrd-header-anchor {
+h4.es-csrd-header-smaller a.es-csrd-header-anchor, h5.es-csrd-header-smaller a.es-csrd-header-anchor, h6.es-csrd-header-smaller a.es-csrd-header-anchor {
 	margin-top: 0.25rem;
 }
 h5.es-csrd-tabbed-item a.es-csrd-header-anchor, h5.es-csrd-tabbed-item-sub a.es-csrd-header-anchor {
@@ -72,21 +69,18 @@ h5.es-csrd-header-small-icon a.es-csrd-header-anchor {
 h6.es-csrd-tabbed-item a.es-csrd-header-anchor, h6.es-csrd-tabbed-item-sub a.es-csrd-header-anchor {
 	margin-left: -1.75rem;
 }
-h7.es-csrd-tabbed-item a.es-csrd-header-anchor, h7.es-csrd-tabbed-item-sub a.es-csrd-header-anchor {
-	margin-left: -1.75rem;
-}
 
-h7.es-csrd-tabbed-item-sub {
+h6.es-csrd-tabbed-item-sub.very-small {
 	display: block;
 	margin-bottom: 1rem;
 }
 
 /* anchor link iconography */
-h4:hover a.es-csrd-header-anchor, h5:hover a.es-csrd-header-anchor, h6:hover a.es-csrd-header-anchor, h7:hover a.es-csrd-header-anchor {
+h4:hover a.es-csrd-header-anchor, h5:hover a.es-csrd-header-anchor, h6:hover a.es-csrd-header-anchor {
 	color: #238d94;
 	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%23238d94%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
-h4:hover a.es-csrd-header-anchor:hover, h5:hover a.es-csrd-header-anchor:hover, h6:hover a.es-csrd-header-anchor:hover, h7:hover a.es-csrd-header-anchor:hover {
+h4:hover a.es-csrd-header-anchor:hover, h5:hover a.es-csrd-header-anchor:hover, h6:hover a.es-csrd-header-anchor:hover {
 	color: #7be7ee;
 	text-decoration: none;
 	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 400 400' style='enable-background:new 0 0 400 400%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3B%7D.st1%7Bfill:%237be7ee%3B%7D%3C/style%3E%3Crect x='-0.4' y='-0.9' class='st0' width='399.7' height='399.7'/%3E%3Cg transform='matrix( 1  0  0  1  0 0) '%3E%3Cg%3E%3Cg id='Layer1_0_FILL'%3E%3Cpath class='st1' d='M234.4 166.4l-25.8 25.7l14.2 14.2c3.9 3.9 5.8 8.6 5.8 14.1v0c0 5.5-1.9 10.2-5.8 14.1l-73.3 73.3c-3.9 3.9-8.6 5.8-14.1 5.8v0.1c-5.5 0-10.1-2-14-5.9l-28.4-28.5c-3.9-3.9-5.9-8.5-5.9-13.9v-0.1c0-5.5 2-10.1 5.9-14l27.8-27.8c3.3-3.5 5-7.7 5-12.6c0-5-1.8-9.3-5.3-12.8c-3.5-3.5-7.8-5.2-12.8-5.2c-4.9 0-9.1 1.6-12.6 5l-27.8 27.8c-11 11-16.5 24.2-16.5 39.7c0 15.5 5.5 28.8 16.5 39.8l28.5 28.5c11 11 24.2 16.5 39.7 16.5c15.6 0 28.8-5.5 39.8-16.5l73.3-73.4c11-10.9 16.4-24.2 16.4-39.7s-5.5-28.8-16.4-39.8L234.4 166.4 M332.6 174.4c11-11 16.5-24.2 16.5-39.8c0-15.5-5.5-28.8-16.5-39.8l-28.4-28.4c-11-11-24.2-16.5-39.8-16.5c-15.5 0-28.7 5.5-39.7 16.5l-73.4 73.3c-11 11-16.5 24.2-16.5 39.8c0 15.5 5.5 28.8 16.5 39.8l14.2 14.2l25.6-25.7l-14.1-14.2c-3.9-3.9-5.9-8.6-5.8-14v-0.1c-0.1-5.5 1.9-10.1 5.8-14l73.3-73.3c3.9-3.9 8.6-5.8 14.1-5.8l0-0.1c5.5 0 10.2 1.9 14.1 5.8l28.4 28.4c3.9 3.9 5.8 8.6 5.8 14l0 0.1c0 5.4-2 10.1-5.8 14l-27.9 27.8c-3.3 3.5-5 7.7-5.1 12.6c0.1 5 1.9 9.3 5.5 12.9c3.6 3.5 7.8 5.3 12.8 5.3c4.9 0 9.1-1.7 12.6-5.1L332.6 174.4z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -100,7 +94,7 @@ h4:hover a.es-csrd-header-anchor:hover, h5:hover a.es-csrd-header-anchor:hover, 
 	border-right: 1rem solid;
 }
 /* header overrides */
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: Teko, sans-serif;
 	text-transform: uppercase;
 }
@@ -129,11 +123,15 @@ h3 {
 h4 { 
 	font-size: 2.8rem; 
 	font-weight: 400;
+	margin-top: .8rem;
+	margin-bottom: 0;
 }
 /* medium section within a chapter */
 h5 { 
 	font-size: 2.4rem;
 	font-weight: 400;
+	margin-top: .8rem;
+	margin-bottom: 0;
 }
 /* small header within a chapter */
 h6 { 
@@ -141,7 +139,7 @@ h6 {
 	font-weight: 400;
 }
 /* very small header within a chapter */
-h7 { 
+h6.very-small { 
 	font-size: 1.8rem;
 	font-weight: 400;
 }
@@ -516,27 +514,27 @@ ul.es-csrd-technologies-fantastic li, .es-csrd-legend ul.es-csrd-legend-list li.
 #part5, #part5 .alert, #part5 .es-csrd-sidebar, #part5 .es-csrd-legend {
 	border-color: #449;
 }
-#part0 h3, #part0 h4, #part0 h5, #part0 h6, #part0 h7, #part0 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part0 ul li a, #part0 .es-csrd-legend, #part0 .es-csrd-border-line {
+#part0 h3, #part0 h4, #part0 h5, #part0 h6, #part0 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part0 ul li a, #part0 .es-csrd-legend, #part0 .es-csrd-border-line {
 	color: #d9c;
 	border-color: #d9c;
 }
-#part1 h3, #part1 h4, #part1 h5, #part1 h6, #part1 h7, #part1 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part1 ul li a, #part1 .es-csrd-legend, #part1 .es-csrd-border-line  {
+#part1 h3, #part1 h4, #part1 h5, #part1 h6, #part1 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part1 ul li a, #part1 .es-csrd-legend, #part1 .es-csrd-border-line  {
 	color: #8ad;
 	border-color: #8ad;
 }
-#part2 h3, #part2 h4, #part2 h5, #part2 h6, #part2 h7, #part2 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part2 ul li a, #part2 .es-csrd-legend, #part2 .es-csrd-border-line  {
+#part2 h3, #part2 h4, #part2 h5, #part2 h6, #part2 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part2 ul li a, #part2 .es-csrd-legend, #part2 .es-csrd-border-line  {
 	color: #d97;
 	border-color: #d97;
 }
-#part3 h3, #part3 h4, #part3 h5, #part3 h6, #part3 h7, #part3 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part3 ul li a, #part3 .es-csrd-legend, #part3 .es-csrd-border-line  {
+#part3 h3, #part3 h4, #part3 h5, #part3 h6, #part3 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part3 ul li a, #part3 .es-csrd-legend, #part3 .es-csrd-border-line  {
 	color: #fe9;
 	border-color: #fe9;
 }
-#part4 h3, #part4 h4, #part4 h5, #part4 h6, #part4 h7, #part4 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part4 ul li a, #part4 .es-csrd-legend, #part4 .es-csrd-border-line  {
+#part4 h3, #part4 h4, #part4 h5, #part4 h6, #part4 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part4 ul li a, #part4 .es-csrd-legend, #part4 .es-csrd-border-line  {
 	color: #9c9;
 	border-color: #9c9;
 }
-#part5 h3, #part5 h4, #part5 h5, #part5 h6, #part5 h7, #part5 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part5 ul li a, #part5 .es-csrd-legend, #part5 .es-csrd-border-line  {
+#part5 h3, #part5 h4, #part5 h5, #part5 h6, #part5 .es-csrd-sidebar, ul.es-csrd-toc li.es-csrd-toc-part5 ul li a, #part5 .es-csrd-legend, #part5 .es-csrd-border-line  {
 	color: #89b;
 	border-color: #89b;
 }
