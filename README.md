@@ -1,4 +1,4 @@
-# Documento de Referencia del Sistema Cypher en Español (ES-CSRD)
+# Documento de Referencia del Sistema Cypher en Español (DRSC-ES)
 
 Este documento es una versión en hipertexto traducido al español de la edición del 18 de abril de 2023 del [Cypher System Reference Document (CSRD)](http://csol.montecookgames.com/). Está pensado para ayudar a Directores de Juego (DJs), jugadores y otros interesados en el Sistema Cypher a aprender más sobre él, crear personajes, mundos y compartir historias juntos.
 
