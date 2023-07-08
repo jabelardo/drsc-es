@@ -11,11 +11,11 @@ EE.UU. y otros países. Todos los personajes y nombres de personajes de Monte Co
 aspectos distintivos, son marcas registradas de Monte Cook Games, LLC.
 
 ### Enlaces del proyecto
-[Página web monolítica del documento de referencia del Sistema Cypher](https://jabelardo.github.io/es-csrd/ES-CSRD.html)
+[Página web monolítica del documento de referencia del Sistema Cypher](https://jabelardo.github.io/drsc-es/DRSC-ES.html)
 
 
-[PDF del documento de referencia del Sistema Cypher](https://github.com/jabelardo/es-csrd/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.pdf)
+[PDF del documento de referencia del Sistema Cypher](https://github.com/jabelardo/drsc-es/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.pdf)
 
-[ODT de LibreOffice Writer del documento de referencia del Sistema Cypher](https://github.com/jabelardo/es-csrd/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.odt)
+[ODT de LibreOffice Writer del documento de referencia del Sistema Cypher](https://github.com/jabelardo/drsc-es/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.odt)
 
-[Proyecto en Github](https://github.com/jabelardo/es-csrd)
+[Proyecto en Github](https://github.com/jabelardo/drsc-es)
