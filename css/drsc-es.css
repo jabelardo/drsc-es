@@ -562,3 +562,7 @@ ul.drsc-es-technologies-fantastic li, .drsc-es-legend ul.drsc-es-legend-list li.
 	vertical-align: -.125em;
 	fill: #FFFFFF;
 }
+
+p {
+	margin-bottom: .5em;
+}
