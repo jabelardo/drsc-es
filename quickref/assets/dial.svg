@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 620" width="620" height="620" font-family="Open Sans, Arial, sans-serif">
+<polygon points="310.0,380.0 385.0,439.9 235.0,439.9" fill="#CDE8F4" opacity="0.55"/>
+<line x1="310.0" y1="78.0" x2="435.4" y2="114.8" stroke="#175F81" stroke-width="6" stroke-linecap="round"/>
+<line x1="435.4" y1="114.8" x2="521.0" y2="213.6" stroke="#175F81" stroke-width="6" stroke-linecap="round"/>
+<line x1="521.0" y1="213.6" x2="539.6" y2="343.0" stroke="#175F81" stroke-width="6" stroke-linecap="round"/>
+<line x1="539.6" y1="343.0" x2="485.3" y2="461.9" stroke="#175F81" stroke-width="6" stroke-linecap="round"/>
+<line x1="485.3" y1="461.9" x2="375.4" y2="532.6" stroke="#175F81" stroke-width="6" stroke-linecap="round"/>
+<line x1="375.4" y1="532.6" x2="244.6" y2="532.6" stroke="#175F81" stroke-width="6" stroke-linecap="round"/>
+<line x1="244.6" y1="532.6" x2="134.7" y2="461.9" stroke="#175F81" stroke-width="6" stroke-linecap="round"/>
+<line x1="134.7" y1="461.9" x2="80.4" y2="343.0" stroke="#BF2026" stroke-width="7" stroke-linecap="round"/>
+<line x1="80.4" y1="343.0" x2="99.0" y2="213.6" stroke="#BF2026" stroke-width="7" stroke-linecap="round"/>
+<line x1="99.0" y1="213.6" x2="184.6" y2="114.8" stroke="#BF2026" stroke-width="7" stroke-linecap="round"/>
+<line x1="184.6" y1="114.8" x2="310.0" y2="78.0" stroke="#BF2026" stroke-width="7" stroke-linecap="round"/>
+<circle cx="310.0" cy="78.0" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="435.4" cy="114.8" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="521.0" cy="213.6" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="539.6" cy="343.0" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="485.3" cy="461.9" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="375.4" cy="532.6" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="244.6" cy="532.6" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="134.7" cy="461.9" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="80.4" cy="343.0" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="99.0" cy="213.6" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<circle cx="184.6" cy="114.8" r="3.2" fill="#ffffff" stroke="#175F81" stroke-width="1"/>
+<text x="310.0" y="48.0" fill="#175F81" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">0</text>
+<text x="451.6" y="89.6" fill="#175F81" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="548.3" y="201.2" fill="#175F81" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="569.3" y="347.3" fill="#175F81" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="508.0" y="481.6" fill="#175F81" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="383.8" y="561.4" fill="#175F81" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="236.2" y="561.4" fill="#175F81" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="112.0" y="481.6" fill="#BF2026" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">7</text>
+<text x="50.7" y="347.3" fill="#BF2026" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">8</text>
+<text x="71.7" y="201.2" fill="#BF2026" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">9</text>
+<text x="168.4" y="89.6" fill="#BF2026" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="central">10</text>
+<text x="310.0" y="144.0" fill="#175F81" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">0</text>
+<text x="310.0" y="178.0" fill="#175F81" font-size="14.5" font-weight="700" text-anchor="middle" dominant-baseline="central">(100%)</text>
+<text x="399.7" y="170.4" fill="#175F81" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="381.4" y="199.0" fill="#175F81" font-size="14.5" font-weight="700" text-anchor="middle" dominant-baseline="central">(90%)</text>
+<text x="461.0" y="241.0" fill="#175F81" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="430.1" y="255.2" fill="#175F81" font-size="14.5" font-weight="700" text-anchor="middle" dominant-baseline="central">(75%)</text>
+<text x="474.3" y="333.6" fill="#175F81" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">9</text>
+<text x="440.7" y="328.8" fill="#175F81" font-size="14.5" font-weight="700" text-anchor="middle" dominant-baseline="central">(60%)</text>
+<text x="435.5" y="418.7" fill="#175F81" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">12</text>
+<text x="409.8" y="396.4" fill="#175F81" font-size="14.5" font-weight="700" text-anchor="middle" dominant-baseline="central">(45%)</text>
+<text x="356.8" y="469.3" fill="#175F81" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">15</text>
+<text x="347.2" y="436.7" fill="#175F81" font-size="14.5" font-weight="700" text-anchor="middle" dominant-baseline="central">(30%)</text>
+<text x="263.2" y="469.3" fill="#175F81" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">18</text>
+<text x="272.8" y="436.7" fill="#175F81" font-size="14.5" font-weight="700" text-anchor="middle" dominant-baseline="central">(15%)</text>
+<text x="184.5" y="418.7" fill="#BF2026" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">21</text>
+<text x="145.7" y="333.6" fill="#BF2026" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">24</text>
+<text x="159.0" y="241.0" fill="#BF2026" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">27</text>
+<text x="220.3" y="170.4" fill="#BF2026" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="central">30</text>
+<polygon points="310.0,310.0 360.0,223.4 410.0,310.0" fill="#4CC1F0" stroke="#0F4A66" stroke-width="1"/>
+<polygon points="310.0,310.0 410.0,310.0 360.0,396.6" fill="#279ECC" stroke="#0F4A66" stroke-width="1"/>
+<polygon points="310.0,310.0 360.0,396.6 260.0,396.6" fill="#238AB2" stroke="#0F4A66" stroke-width="1"/>
+<polygon points="310.0,310.0 260.0,396.6 210.0,310.0" fill="#2FA9D6" stroke="#0F4A66" stroke-width="1"/>
+<polygon points="310.0,310.0 210.0,310.0 260.0,223.4" fill="#1B6F94" stroke="#0F4A66" stroke-width="1"/>
+<polygon points="310.0,310.0 260.0,223.4 360.0,223.4" fill="#175F81" stroke="#0F4A66" stroke-width="1"/>
+<polygon points="310.0,258.0 355.0,284.0 355.0,336.0 310.0,362.0 265.0,336.0 265.0,284.0" fill="#2FA9D6" opacity="0.85" stroke="#0F4A66" stroke-width="1"/>
+<text x="310.0" y="312.0" fill="#ffffff" font-size="44" font-weight="700" text-anchor="middle" dominant-baseline="central" font-family="Teko, Arial, sans-serif">20</text>
+</svg>
