@@ -14,10 +14,17 @@
   <meta name="theme-color" content="#b6c5ce" />
 </head>
 
-<body class="bg-dark">
-  <nav id="drsc-es-navbar" class="container-xxl navbar navbar-expand-md navbar-dark bg-dark sticky-top drsc-es-navbar">
+<body class="theme-light">
+  <nav id="drsc-es-navbar" class="container-xxl navbar navbar-expand-md navbar-light theme-light sticky-top drsc-es-navbar">
     <div class="container-xxl">
       <a class="navbar-brand" href="#top">DRSC-ES</a>
+      <div class="form-check form-switch ms-auto mt-2 me-2 float-end" aria-hidden="true">
+        <label class="form-check-label ms-3" for="lightSwitch">
+          <span class="drsc-es-mode-icon img-light d-block"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/><path d="M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/></svg></span>
+          <span class="drsc-es-mode-icon img-dark d-none"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/></svg></span>
+        </label>
+        <input class="form-check-input" type="checkbox" id="lightSwitch">
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,150 +32,69 @@
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="drsc-es-navbar-characters" role="button" data-bs-toggle="dropdown" aria-expanded="false">Personajes</a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="drsc-es-navbar-characters">
-              <li>
-                <a class="dropdown-item drsc-es-nav" href="#seleccionar-descriptor">Descriptores</a>
-              </li>
-              <li>
-                <a class="dropdown-item drsc-es-nav" href="#seleccionar-tipo">Tipos</a>
-              </li>
-              <li>
-                <a class="dropdown-item drsc-es-nav" href="#seleccionar-rasgo">Rasgos</a>
-              </li>
-              <li>
-                <a class="dropdown-item drsc-es-nav" href="#seleccionar-aspecto">Aspectos</a>
-              </li>
-              <li>
-                <a class="dropdown-item drsc-es-nav" href="#seleccionar-habilidad">Habilidades</a>
-              </li>
-              <li>
-                <a class="dropdown-item drsc-es-nav" href="#seleccionar-capacidad">Capacidades</a>
-              </li>
-              <li>
-                <a class="dropdown-item drsc-es-nav" href="#seleccionar-arco-de-personaje">Arcos de personaje</a>
-              </li>
-              <li>
-                <a class="dropdown-item drsc-es-nav" href="#seleccionar-avance-del-personaje">Avance del personaje</a>
-              </li>
+            <ul class="dropdown-menu dropdown-menu-light theme-light" aria-labelledby="drsc-es-navbar-characters">
+              <li><a class="dropdown-item drsc-es-nav" href="#creacion-de-personajes">Creación de personajes</a></li>
+              <li><a class="dropdown-item drsc-es-nav" href="#seleccionar-habilidad">Habilidades</a></li>
+              <li><a class="dropdown-item drsc-es-nav" href="#seleccionar-tipo">Tipos</a></li>
+              <li><a class="dropdown-item drsc-es-nav" href="#seleccionar-aspecto">Aspectos</a></li>
+              <li><a class="dropdown-item drsc-es-nav" href="#seleccionar-descriptor">Descriptores</a></li>
+              <li><a class="dropdown-item drsc-es-nav" href="#seleccionar-rasgo">Rasgos</a></li>
+              <li><a class="dropdown-item drsc-es-nav" href="#seleccionar-capacidad">Capacidades</a></li>
+              <li><a class="dropdown-item drsc-es-nav" href="#seleccionar-arco-de-personaje">Arcos de personaje</a></li>
+              <li><a class="dropdown-item drsc-es-nav" href="#seleccionar-avance-del-personaje">Avance del personaje</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="drsc-es-navbar-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Recursos</a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="drsc-es-navbar-resources">
-              <li>
-                <a class="dropdown-item" href="#seleccionar-equipo">Equipo</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-cyphers">Cyphers</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-artefactos">Artefactos</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-seguidores">Seguidores</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="drsc-es-navbar-gameplay" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reglas</a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="drsc-es-navbar-gameplay">
-              <li>
-                <a class="dropdown-item" href="#seleccionar-reglas">Reglas del juego</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-atributos-de-los-personajes">Atributos de los personajes</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-reserva-ventaja-y-esfuerzo">Reserva, ventaja y esfuerzo</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-acciones">Acciones</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-tirar-el-dado">Tirar el dado</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-combate">Combate</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-da~o">Daño</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-puntos-de-experiencia">Puntos de experiancia</a>
-              </li>
+            <ul class="dropdown-menu dropdown-menu-light theme-light" aria-labelledby="drsc-es-navbar-resources">
+              <li><a class="dropdown-item" href="#seleccionar-equipo">Equipo</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-puntos-de-experiencia">Puntos de experiencia</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-cyphers">Cyphers</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-artefactos">Artefactos</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-seguidores">Seguidores</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="drsc-es-navbar-genres" role="button" data-bs-toggle="dropdown" aria-expanded="false">Géneros</a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="drsc-es-navbar-genres">
-              <li>
-                <a class="dropdown-item" href="#seleccionar-fantasia">Fantasía</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-moderno">Moderno</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-ciencia-ficcion">Ciencia ficción</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-horror">Horror</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-romance">Romance</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-superheroes">Superhéroes</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-post-apocaliptico">Post-apocalíptico</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-cuentos-de-hadas">Cuentos de hadas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-historico">Histórico</a>
-              </li>
+            <ul class="dropdown-menu dropdown-menu-light theme-light" aria-labelledby="drsc-es-navbar-genres">
+              <li><a class="dropdown-item" href="#seleccionar-ciencia-ficcion">Ciencia ficción</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-cuentos-de-hadas">Cuentos de hadas</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-fantasia">Fantasía</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-historico">Histórico</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-horror">Horror</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-moderno">Moderno</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-post-apocaliptico">Post-apocalíptico</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-romance">Romance</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-superheroes">Superhéroes</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="drsc-es-navbar-gm-tools" role="button" data-bs-toggle="dropdown" aria-expanded="false">Herramientas de DJ</a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="drsc-es-navbar-gm-tools">
-              <li>
-                <a class="dropdown-item" href="#seleccionar-dirigir-el-sistema-cypher">Dirigir el Sistema Cypher</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-dificultad-de-tareas">Dificultad de tareas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-intromision-del-dj">Intromisión del DJ</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-criaturas">Criaturas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-pnjs">PNJs</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-otros-peligros">Daños por otros peligros</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-modificadores-al-ataque-y-situaciones-especiales">Modificadores al ataque</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-modificadores-de-movimiento">Modificadores de movimiento</a>
-              </li>
+            <a class="nav-link dropdown-toggle" href="#" id="drsc-es-navbar-rules" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reglas</a>
+            <ul class="dropdown-menu dropdown-menu-light theme-light" aria-labelledby="drsc-es-navbar-rules">
+              <li><a class="dropdown-item" href="#como-jugar-al-sistema-cypher">Cómo jugar al Sistema Cypher</a></li>
+              <li><a class="dropdown-item" href="#conceptos-clave">Conceptos clave</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-reglas">Reglas del juego</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-acciones">Acciones</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-combate">Combate</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-tirar-el-dado">Tirar el dado</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-intromision-del-dj">Intromisión del DJ</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-dirigir-el-sistema-cypher">Dirigir el Sistema Cypher</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-criaturas">Criaturas</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-pnjs">PNJs</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-cyphers">Cyphers</a></li>
+              <li><a class="dropdown-item" href="#cypher-cortos">Cypher cortos</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="drsc-es-navbar-extras" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extras</a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="drsc-es-navbar-extras">
-              <li>
-                <a class="dropdown-item" href="#seleccionar-extras-cypherpunk">Cypherpunk</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#seleccionar-extras-darksun">Dark Sun</a>
-              </li>
+            <a class="nav-link dropdown-toggle" href="#" id="drsc-es-navbar-tools" role="button" data-bs-toggle="dropdown" aria-expanded="false">Herramientas</a>
+            <ul class="dropdown-menu dropdown-menu-light theme-light" aria-labelledby="drsc-es-navbar-tools">
+              <li><a class="dropdown-item" href="https://github.com/jabelardo/drsc-es/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.pdf">PDF</a></li>
+              <li><a class="dropdown-item" href="https://github.com/jabelardo/drsc-es/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.odt">ODT</a></li>
+              <li><a class="dropdown-item" href="https://github.com/jabelardo/drsc-es">GitHub</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-extras-cypherpunk">Extras: Cypherpunk</a></li>
+              <li><a class="dropdown-item" href="#seleccionar-extras-darksun">Extras: Dark Sun</a></li>
             </ul>
+          </li>
         </ul>
       </div>
       <a href="https://github.com/jabelardo/drsc-es">
@@ -237,7 +163,7 @@
       </a>
     </div>
   </nav>
-  <div class="container-xxl rounded-3 mt-1 mb-1 print-across text-white bg-drsc-es-content">
+  <div class="container-xxl rounded-3 mt-1 mb-1 print-across" id="drsc-es-content">
     <main class="ps-3">
       <div id="part0">
         <h1 class="pt-2" id="top">Documento de Referencia del Sistema Cypher en Español </h1>
@@ -408,12 +334,12 @@
             </span>
             <ul>
               <li>
-                <a href="#dark-sun">
+                <a href="#seleccionar-extras-darksun">
                   <span class="text-uppercase">Dark Sun</span>
                 </a>
               </li>
               <li>
-                <a href="#cypherpunk">
+                <a href="#seleccionar-extras-cypherpunk">
                   <span class="text-uppercase">Cypherpunk</span>
                 </a>
               </li>
@@ -26894,7 +26820,7 @@
               <a href="#accion-defender">Defender</a>
             </li>
             <li>
-              <a href="#accion-hacer-otra-cosa">Hacer algo más</a>
+              <a href="#accion-hacer-algo-mas">Hacer algo más</a>
             </li>
           </ul>
         </div>
@@ -58608,6 +58534,7 @@
     </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="js/modeswitch.js"></script>
 </body>
 
 </html>
