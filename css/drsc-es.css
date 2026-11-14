@@ -30,8 +30,8 @@ body.theme-dark {
 /* override link and body coloration */
 a { color: #7be7ee; }
 a:hover { color: #a7faff; }
-.theme-light #drsc-es-content a { color: #2b71f4; }
-.theme-light #drsc-es-content a:hover { color: #225ac3; }
+.theme-light #drsc-es-content a { color: #1a5fd0; }
+.theme-light #drsc-es-content a:hover { color: #134a9e; }
 .theme-dark #drsc-es-content a { color: #7be7ee; }
 .theme-dark #drsc-es-content a:hover { color: #a7faff; }
 /* main content window */
@@ -399,6 +399,11 @@ ul.drsc-es-list-disc li {
 /* override bootstrap for a standard alert border size */
 .alert { 
 	border: 0.25rem solid;
+}
+/* light-theme surfaces for alerts and sidebars (quick references, notes) */
+.theme-light .alert,
+.theme-light .drsc-es-sidebar {
+	background-color: #f2f6fb !important;
 }
 /* editor's notes, sidebars, and legends */
 .drsc-es-ednote, .drsc-es-sidebar, .drsc-es-legend {
