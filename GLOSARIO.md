@@ -166,6 +166,22 @@ them when WP5 and WP6 translate these foci:
 | Strikes Like a Rattler | Ataca como una serpiente de cascabel | High Noon at Midnight |
 | Raids | Saquea | Rust and Redemption |
 
+### Ciberpunk (Neon Rain)
+
+Decided 2026-11-23 for WP4.
+
+| English | Español | Notes |
+|---|---|---|
+| SHITS (Spontaneous Hypersensitive Induced Trauma Syndrome) | CAGADA (Cuadro Agudo de Grave Alteración Disociativa Adquirida) | Keeps the crude pun: "A Doug le ha tocado una buena CAGADA". |
+| Solo / Hotshot / Broker / Tech (cyberpunk types) | Solo / As / Intermediario / Técnico | Variants of Guerrero, Explorador, Orador and Adepto. *Solo* is the genre term. |
+| chrome | cromo | Slang for cybernetic implants. |
+| cyberware | ciberimplantes | *Capacidades derivadas de ciberimplantes*. |
+| netrunning / netrunner | netrunning / netrunner | Genre loanwords, kept. |
+| jack in | conectarse | |
+| datajack | conector de datos | |
+| cyberspace | ciberespacio | |
+| Addicted / Corpo / Engram / Furious / Luddite (descriptors) | Adicto / Corpo / Engrama / Furioso / Ludita | |
+
 ### Decisiones tomadas
 
 Settled 2026-11-22, before WP3:
