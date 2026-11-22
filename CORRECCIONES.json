@@ -4631,6 +4631,18 @@
         "html": "2026-11-22",
         "odt": null
       }
+    },
+    {
+      "id": "dup-hivemind-sentences",
+      "date": "2026-11-22",
+      "entry": "Niño mente colmena [Hivemind child] (criatura)",
+      "reason": "Two repeated, mistranslated sentences ('Cuatro niños mente colmena ... nivel 4'); OG-CSRD has only 'Two ... level 4. Four ... four targets ... level 5'. Removing them also leaves the paragraph with alcance throughout.",
+      "old": "como una criatura de nivel 4. Cuatro niños mente colmena a corto alcance entre sí pueden leer o controlar las mentes de dos objetivos a la vez como una criatura de nivel 4. Cuatro niños mente colmena a corta distancia entre sí pueden leer o controlar las mentes de dos objetivos a la vez como una criatura de nivel 4. Cuatro a corto alcance entre sí",
+      "new": "como una criatura de nivel 4. Cuatro a corto alcance entre sí",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
     }
   ]
 }
