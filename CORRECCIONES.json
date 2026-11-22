@@ -4655,6 +4655,344 @@
         "html": "2026-11-22",
         "odt": "2026-11-22"
       }
+    },
+    {
+      "id": "training-01",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "una capacidad que otorga entrenamiento en un área de conocimiento",
+      "new": "una capacidad que otorga competencia en un área de conocimiento",
+      "all": true,
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-02",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "proporcionar entrenamiento en habilidades, recursos a las tareas",
+      "new": "proporcionar competencia en habilidades, recursos a las tareas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-03",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "Elige una capacidad que otorgue entrenamiento o un recurso",
+      "new": "Elige una capacidad que otorgue competencia o un recurso",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-04",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "una capacidad que proporcione entrenamiento o una recurso a una sola tarea",
+      "new": "una capacidad que proporcione competencia o un recurso a una sola tarea",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-05",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "Elige otra capacidad que otorgue entrenamiento adicional o una recurso",
+      "new": "Elige otra capacidad que otorgue competencia adicional o un recurso",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-06",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "Alternativamente, entrenamiento en ataque o defensa también sería adecuado.",
+      "new": "Alternativamente, competencia en ataque o defensa también sería adecuada.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-07",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "concederle entrenamiento adicional, recursos o Ventaja",
+      "new": "concederle competencia adicional, recursos o Ventaja",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-08",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "puede ser simplemente un entrenamiento en una habilidad relacionada",
+      "new": "puede ser simplemente la competencia en una habilidad relacionada",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-09",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "esto incluye al entrenamiento en un tipo particular de defensa",
+      "new": "esto incluye la competencia en un tipo particular de defensa",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-10",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "podría ser el entrenamiento con un arma o arte marcial particular",
+      "new": "podría ser la competencia con un arma o arte marcial particular",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-11",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "puede ofrecer entrenamiento en tareas de fabricación",
+      "new": "puede ofrecer competencia en tareas de fabricación",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-12",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "puede ofrecer entrenamiento en habilidades para reconocer",
+      "new": "puede ofrecer competencia en habilidades para reconocer",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-13",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "podría ofrecer entrenamiento en intimidación",
+      "new": "podría ofrecer competencia en intimidación",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-14",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "esto incluye el entrenamiento en un tipo de ataque concreto",
+      "new": "esto incluye la competencia en un tipo de ataque concreto",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-15",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "otorga entrenamiento de habilidades en un área de conocimiento relacionada",
+      "new": "otorga competencia en habilidades de un área de conocimiento relacionada",
+      "all": true,
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-16",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "depender del entrenamiento con armas o de sus segudores",
+      "new": "depender de la competencia con armas o de sus seguidores",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-17",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "sería apropiado el entrenamiento en una habilidad relacionada",
+      "new": "sería apropiada la competencia en una habilidad relacionada",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-18",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "en una de tus áreas de entrenamiento",
+      "new": "en una de tus áreas de competencia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-19",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "Si tu entrenamiento en una tarea de defensa es mayor",
+      "new": "Si tu competencia en una tarea de defensa es mayor",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-20",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "sustituir tu entrenamiento en esa tarea de defensa",
+      "new": "sustituir tu competencia en esa tarea de defensa",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-21",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "como el entrenamiento, el equipo, las capacidades especiales",
+      "new": "como la competencia, el equipo, las capacidades especiales",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-22",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "no puedes mejorar más tu entrenamiento en esa habilidad (puedes aliviar una tarea hasta dos grados con entrenamiento)",
+      "new": "no puedes mejorar más tu competencia en esa habilidad (puedes aliviar una tarea hasta dos grados con competencia)",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-23",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "que no cuentan como recurso o entrenamiento.",
+      "new": "que no cuentan como recurso o competencia.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-24",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "con entrenamiento en habilidades (como ser competente",
+      "new": "con competencia en habilidades (como ser competente",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-25",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "Esto otorga al portador entrenamiento en esa habilidad",
+      "new": "Esto otorga al portador competencia en esa habilidad",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-26",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "gane entrenamiento en conocimiento de tradiciones extrañas",
+      "new": "gane competencia en conocimiento de tradiciones extrañas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-27",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "y así gana entrenamiento en ese tema",
+      "new": "y así gana competencia en ese tema",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "training-28",
+      "date": "2026-11-22",
+      "entry": "competencia (training)",
+      "reason": "Game term 'training' (being trained in a skill) is competencia, matching competente (GLOSARIO, decided 2026-11-22).",
+      "old": "dos niveles de entrenamiento en tales tareas",
+      "new": "dos niveles de competencia en tales tareas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
     }
   ]
 }
