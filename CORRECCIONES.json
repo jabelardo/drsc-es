@@ -4643,6 +4643,18 @@
         "html": "2026-11-22",
         "odt": "2026-11-22"
       }
+    },
+    {
+      "id": "skill-cobbling",
+      "date": "2026-11-22",
+      "entry": "Cuentos de hadas › Habilidades",
+      "reason": "OG-CSRD lists 'Cobbling' (shoemaking); 'Empedrado' means paving.",
+      "old": "Empedrado",
+      "new": "Zapatería",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
     }
   ]
 }
