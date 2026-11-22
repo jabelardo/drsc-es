@@ -57,6 +57,8 @@ Full parity means:
   - Exception (decided 2026-11-22): leave out notes that point to *Old Gus' Daft
     Drafts* (OG's external `og-dd.html` page). Where a note also says something else,
     keep that part and drop only the Daft Drafts reference.
+  - OG-only additions are not labelled in the text (the user removed the
+    *Adición editorial de OG-CSRD.* markers on 2026-11-22).
 - **Terminology:** reuse the existing DRSC-ES glossary; keep English names in
   `[brackets]` exactly as the current document does.
 - **Editorial policy:** full parity includes OG editorial content (foreword, editor
@@ -473,8 +475,11 @@ terminology, so translating a book in one pass keeps them consistent.
       - Familiars and Covens done: *Familiares* and *Aquelarres* in Cap. 9-A, in OG's
         order (Sidekicks, WP7, will go between them). Coven rank is *círculo*. OG's
         editor's notes on Compañero bestia and the four familiar upgrades were added
-        with them. The "revive" mention in the talisman note gets its link when
-        Reviving Artifacts is done.
+        with them.
+      - Reviving Artifacts done (the IOM equipment addition): *Regla opcional: Revivir
+        artefactos* at the end of *Artefactos* in Cap. 8, with OG's editor's note, listed
+        in the Cap. 8 and Magia moderna quick references and linked from the coven
+        talisman note.
 - [x] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC (*Trocado*).
       Inserted alphabetically into Criaturas and PNJs; the *Electricity Elemental* is its
       own entry next to the other elementals, as Criaturas already does.
