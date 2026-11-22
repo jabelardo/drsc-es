@@ -54,6 +54,9 @@ Full parity means:
   clarifications. Label editor's notes *Nota del editor:*. When extracting, take
   every paragraph (including OG's indented `og-ind` ones) and the sidebars and notes that
   follow each entry.
+  - Exception (decided 2026-11-22): leave out notes that point to *Old Gus' Daft
+    Drafts* (OG's external `og-dd.html` page). Where a note also says something else,
+    keep that part and drop only the Daft Drafts reference.
 - **Terminology:** reuse the existing DRSC-ES glossary; keep English names in
   `[brackets]` exactly as the current document does.
 - **Editorial policy:** full parity includes OG editorial content (foreword, editor
