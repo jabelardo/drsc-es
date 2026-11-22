@@ -139,6 +139,9 @@ Added 2026-11-22 for WP3.
 | English | Español | Notes |
 |---|---|---|
 | coven | aquelarre | Already used in DRSC-ES. |
+| rank (in a coven) | círculo | *círculo 1* to *círculo 6*; *asciende al círculo 2*. *Rango* is already tier and *grado* is already step, and the text contrasts coven rank with tier. |
+| coven talisman | talismán de aquelarre | |
+| Benevolent Bakers / Chronographers / Foretellers | Panaderos Benévolos / Cronógrafos / Augures | Example covens. |
 | familiar | familiar | |
 | cantrip | truco | |
 | magical app | app mágica | |

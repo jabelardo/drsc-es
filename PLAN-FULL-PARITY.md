@@ -467,6 +467,11 @@ terminology, so translating a book in one pass keeps them consistent.
         entry (OG's list says 8).
 - [ ] 5 flavors (Ch6), 10 foci (Ch8), 7 descriptors, 125 abilities + cantrips (Ch9),
       Familiars and Covens (Ch11-A), equipment additions (Ch10).
+      - Familiars and Covens done: *Familiares* and *Aquelarres* in Cap. 9-A, in OG's
+        order (Sidekicks, WP7, will go between them). Coven rank is *círculo*. OG's
+        editor's notes on Compañero bestia and the four familiar upgrades were added
+        with them. The "revive" mention in the talisman note gets its link when
+        Reviving Artifacts is done.
 - [x] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC (*Trocado*).
       Inserted alphabetically into Criaturas and PNJs; the *Electricity Elemental* is its
       own entry next to the other elementals, as Criaturas already does.
