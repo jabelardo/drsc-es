@@ -4,3 +4,7 @@ ignore*
 .htmlvalidate.json
 *.txt
 *.py
+!tools/**/*.py
+.cache/
+__pycache__/
+Cypher-System-Reference-Document-*.docx
