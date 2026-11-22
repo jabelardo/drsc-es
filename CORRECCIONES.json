@@ -4993,6 +4993,54 @@
         "html": "2026-11-22",
         "odt": null
       }
+    },
+    {
+      "id": "crafting-cypers",
+      "date": "2026-11-22",
+      "entry": "Fabricación de objetos mágicos",
+      "reason": "Typo: Cypers → Cyphers.",
+      "old": "de un solo uso son Cypers, y los objetos",
+      "new": "de un solo uso son Cyphers, y los objetos",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "crafting-fabricarlo",
+      "date": "2026-11-22",
+      "entry": "Fabricación de objetos mágicos › 4. Determinar el tiempo de fabricación",
+      "reason": "Agreement: the pronoun refers to the cypher (masculine).",
+      "old": "tiene que emplear menos tiempo en fabricarla.",
+      "new": "tiene que emplear menos tiempo en fabricarlo.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "crafting-pj-crea",
+      "date": "2026-11-22",
+      "entry": "Fabricación de objetos mágicos › Fabricación de artefactos",
+      "reason": "Mistranslation: the CSRD says the PC creates the artifact (\"the PC creates the artifact\"), not the GM.",
+      "old": "después de un período de tiempo, el DJ crea el artefacto",
+      "new": "después de un período de tiempo, el PJ crea el artefacto",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "evil-priest-cypers",
+      "date": "2026-11-22",
+      "entry": "Sacerdote maligno",
+      "reason": "Typo: Cypers → Cyphers.",
+      "old": "uno o dos Cypers manifiestos",
+      "new": "uno o dos Cyphers manifiestos",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
     }
   ]
 }
