@@ -194,6 +194,11 @@ Decided 2026-11-23 for WP4.
 | glitch (cyberspace) | fallo | *fallo de avatar*, *fallo de expulsión*. |
 | log off | desconectarse | |
 | corpocurrency | corpomoneda | |
+| syndromer (person with SHITS) | enfermo de CAGADA | "Syndromer look" → *pinta de enfermo de CAGADA*. |
+| scraprats | ratas chatarreras | |
+| programmed cypher | Cypher programado | Created with the Crafting rules; counts toward the cypher limit. |
+| Forced Downtime / Wild Firing (optional rules) | Tiempo de inactividad forzoso / Disparo descontrolado | |
+| Wild Event (GM intrusion category) | Evento imprevisto | |
 
 ### Decisiones tomadas
 
