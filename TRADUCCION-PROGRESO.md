@@ -21,7 +21,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | WP0 | Setup: source version, glossary, this file, QA scripts, audit | in progress (2026-11-22, `wp0-setup`) |
 | WP1 | Reorganise existing Spanish content to the OG structure | done (2026-11-22, `wp1-fantasy-relocation`, not merged yet) |
 | WP2 | Gaps inside covered books, CSRD 2025 errata | done (2026-11-22, `wp2-gaps`, not merged yet): range/distance terminology, Heartwood, Moonbeam and Question Past Self; the CSRD 2025 has no errata to existing text; *Escudo deflector* kept |
-| WP3 | It's Only Magic (~48k) | in progress (2026-11-22, `wp3-iom`): terminology settled; abilities, cantrips, flavors and foci done; fantasy roles updated; Magia moderna chapter (Cap. 12-A), 13 creatures and 4 NPCs, Familiars and Covens, Reviving Artifacts done |
+| WP3 | It's Only Magic (~48k) | done (2026-11-22, `wp3-iom`, not merged yet): abilities, cantrips, flavors and foci; fantasy roles; Magia moderna chapter (Cap. 12-A); 13 creatures and 4 NPCs; Familiars and Covens; Reviving Artifacts; crafting additions |
 | WP4 | Neon Rain (~42k) | to do |
 | WP5 | High Noon at Midnight (~38k) | to do |
 | WP6 | Rust and Redemption (~36k) | to do |
@@ -38,15 +38,15 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | Ch3 How to Play | Cap. 1 Cómo jugar | complete | — | done |
 | Ch4 Creating Your Character | Cap. 2 Creación de personajes | complete | OG editorial 2.1k (WP7) | to do |
 | Ch5 Type | Cap. 3 Tipos | complete | OG editorial 1.5k (WP7) | to do |
-| Ch6 Flavor | Cap. 4 Aspectos | complete | IOM 0.5k, 5 flavors (WP3); OG editorial 0.5k (WP7) | to do |
+| Ch6 Flavor | Cap. 4 Aspectos | complete (5 IOM flavors added in WP3) | OG editorial 0.5k (WP7) | to do |
 | Ch7 Descriptor | Cap. 5 Descriptores | complete | OG editorial 3.0k (WP7) | to do |
-| Ch8 Focus | Cap. 6 Rasgos | complete | 31 foci: IOM 3.5k, NR 3.0k, HNAM 2.4k, RR 1.9k (WP3–6); OG editorial 3.5k (WP7) | to do |
-| Ch9 Abilities | Cap. 7 Capacidades + Listado | complete | 367 abilities: IOM 14.2k, NR 3.9k, HNAM 4.5k, RR 9.7k (WP3–6); OG editorial 5.0k, including 16 "Errata" (old) abilities (WP7) | to do |
+| Ch8 Focus | Cap. 6 Rasgos | complete (10 IOM foci added in WP3) | 21 foci: NR 3.0k, HNAM 2.4k, RR 1.9k (WP4–6); OG editorial 3.5k (WP7) | to do |
+| Ch9 Abilities | Cap. 7 Capacidades + Listado | complete (125 IOM abilities and cantrips added in WP3) | 243 abilities: NR 3.9k, HNAM 4.5k, RR 9.7k (WP4–6); OG editorial 5.0k, including 16 "Errata" (old) abilities (WP7) | to do |
 | Ch10 Equipment | Cap. 8 Equipo | complete (Reviving Artifacts added in WP3) | OG editorial 0.8k (WP7) | to do |
 | Ch11 Rules of the Game | Cap. 9 Reglas del juego | complete | NR 1.1k (WP4); OG editorial 2.6k (WP7) | to do |
 | Ch11-A Followers and Factions | Cap. 9-A Seguidores y facciones | complete (Familiars and Covens added in WP3) | OG editorial 10.2k, Sidekicks (WP7) | to do |
 | Ch12 Experience Points | Cap. 10 Puntos de experiencia | complete (4 Heartwood arcs added in WP2) | NR 0.4k (WP4); OG editorial 1.9k (WP7) | to do |
-| Ch13 Fantasy | Cap. 11 Fantasía | complete | IOM 0.1k (WP3); OG editorial 1.5k (WP7) | to do |
+| Ch13 Fantasy | Cap. 11 Fantasía | complete (IOM crafting additions merged in WP3) | OG editorial 1.5k (WP7) | to do |
 | Ch14 Modern | Cap. 12 Moderno | complete | OG editorial 0.6k (WP7) | to do |
 | Ch14-A Modern Magic | Cap. 12-A Magia moderna | complete (WP3) | — | done |
 | Ch14-B Cyberpunk | — (new chapter) | — | NR 33.5k (WP4) | to do |

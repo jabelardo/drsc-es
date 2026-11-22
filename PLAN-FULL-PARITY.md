@@ -463,15 +463,16 @@ terminology, so translating a book in one pass keeps them consistent.
       0.68 ratio. Port it with WP6.
 - Acceptance: no OG section from ES-held sources without a Spanish equivalent.
 
-### WP3 — It's Only Magic (~44k EN words)
+### WP3 — It's Only Magic (~44k EN words) — done 2026-11-22
 - [x] Ch14-A Magia moderna (character options, equipment, crafting ingredients,
       cyphers, artifacts). New Capítulo 12-A, before Ciencia ficción.
       - 67 cyphers plus EasyMagic.app and the malware cyphers note; 47 artifacts.
-      - *Criaturas y PNJs de fantasía moderna por nivel* is OG's list (not in the CSRD),
-        marked as an OG addition. *Estatua animada* is listed at level 7, as in its
-        entry (OG's list says 8).
-- [ ] 5 flavors (Ch6), 10 foci (Ch8), 7 descriptors, 125 abilities + cantrips (Ch9),
+      - *Criaturas y PNJs de fantasía moderna por nivel* is OG's list (not in the CSRD).
+        *Estatua animada* is listed at level 7, as in its entry (OG's list says 8).
+- [x] 5 flavors (Ch6), 10 foci (Ch8), 7 descriptors, 125 abilities + cantrips (Ch9),
       Familiars and Covens (Ch11-A), equipment additions (Ch10).
+      - Flavors in Cap. 4, foci in Cap. 6, descriptors in Cap. 12-A; 75 abilities in the
+        Cap. 7 lists and 50 cantrips in *Trucos*.
       - Familiars and Covens done: *Familiares* and *Aquelarres* in Cap. 9-A, in OG's
         order (Sidekicks, WP7, will go between them). Coven rank is *círculo*. OG's
         editor's notes on Compañero bestia and the four familiar upgrades were added
@@ -491,6 +492,9 @@ terminology, so translating a book in one pass keeps them consistent.
         wording. The Spanish keeps one heading per step. Three slips in the existing
         text were fixed through `CORRECCIONES.json` (`crafting-*`, plus
         `evil-priest-cypers`), pending for the ODT.
+- Checked 2026-11-22: every It's Only Magic entry OG names (125 abilities and cantrips,
+  foci, descriptors, cyphers, artifacts, creatures and NPCs) has a Spanish entry, matched
+  by its English name; the source audit shows no IOM chapter left untranslated.
 
 ### WP4 — Neon Rain (~42k EN words)
 - [ ] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
