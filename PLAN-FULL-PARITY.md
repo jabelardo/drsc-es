@@ -388,8 +388,9 @@ terminology, so translating a book in one pass keeps them consistent.
         (cobbling, registered as `skill-cobbling`)
       - also fixed: the Cap. 10 sentence listing the arcs had link texts shifted from
         *Construcción* on (e.g. "Crecimiento" → `#creacion`)
-      - not included: the Changeling NPC is from It's Only Magic (WP3); the Heartwood
-        foci that OG adds to the fantasy role suggestions are OG editorial (WP7)
+      - not included: the Changeling NPC is from It's Only Magic (WP3). The Heartwood
+        foci OG adds to the fantasy role suggestions came later, with all of OG's role
+        additions (WP3, see there)
 - [x] Diff existing rules text against CSRD 2025-08-22, 2026-11-22. **There are no
       errata to apply.** Compared the two CSRD files directly
       (`Cypher-System-Reference-Document-2023-04-18.docx` and `…-2025-08-22.docx`):
@@ -495,8 +496,12 @@ terminology, so translating a book in one pass keeps them consistent.
       categories, editor notes, "Related Sections", page citations (decide whether
       to keep OG page numbers or map to Spanish/CSRD pages).
 - [ ] Errata ability category (old 2015-Rulebook versions, 16 entries without a
-      Spanish match) and the expanded fantasy role suggestions (Cap. 11), which add
-      supplement foci and flavors.
+      Spanish match).
+- [x] Expanded fantasy role suggestions (Cap. 11), done early in WP3 (2026-11-22):
+      OG's added foci, flavors and specialisations, the Artífice o erudito and Psiónico
+      roles, and their editor's notes. When WP5 and WP6 translate High Noon at Midnight
+      and Rust and Redemption, link their foci in these roles (provisional names in
+      `GLOSARIO.md`).
 - [ ] Mark every item as an OG addition per §2.
 
 ### WP8 — Structural integration (incremental, alongside WP1–WP7)

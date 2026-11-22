@@ -144,6 +144,20 @@ Added 2026-11-22 for WP3.
 | magical app | app mágica | |
 | Charms and Figments / Cozy Magic / Divination / Modern Magic / Protection (flavors) | Encantos e ilusiones / Magia acogedora / Adivinación / Magia moderna / Protección | Flavors are *aspectos*: *aspecto de Adivinación*. |
 
+Provisional names for foci not translated yet, used in the fantasy role suggestions (Cap. 11). Use
+them when WP5 and WP6 translate these foci:
+
+| English | Español | Book |
+|---|---|---|
+| Blazes Paths | Abre caminos | High Noon at Midnight |
+| Collects Bounties | Cobra recompensas | High Noon at Midnight |
+| Gambles It All Away | Se lo juega todo | High Noon at Midnight |
+| Hits the Saloon | Frecuenta el saloon | High Noon at Midnight |
+| Rides Like the Wind | Cabalga como el viento | High Noon at Midnight |
+| Spits Fire and Lead | Escupe fuego y plomo | High Noon at Midnight |
+| Strikes Like a Rattler | Ataca como una serpiente de cascabel | High Noon at Midnight |
+| Raids | Saquea | Rust and Redemption |
+
 ### Decisiones tomadas
 
 Settled 2026-11-22, before WP3:
@@ -162,7 +176,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | Kind | Entries |
 |---|---:|
 | [Capacidades](#capacidades) | 1233 |
-| [Rasgos](#rasgos) | 111 |
+| [Rasgos](#rasgos) | 121 |
 | [Descriptores](#descriptores) | 74 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 345 |
@@ -171,7 +185,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [PNJs](#pnjs) | 72 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 7 |
-| **Total** | **2095** |
+| **Total** | **2105** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -1437,8 +1451,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Builds Robots | Construye robots |
 | Calculates the Incalculable | Calcula lo incalculable |
 | Channels Divine Blessings | Canaliza bendiciones divinas |
+| Codes Magic Apps | Programa apps mágicas |
 | Commands Mental Powers | Comanda poderes mentales |
 | Conducts Weird Science | Realiza ciencia extraña |
+| Conjures Bullets | Conjura balas |
 | Consorts With the Dead | Convive con los muertos |
 | Controls Beasts | Controla las bestias |
 | Controls Gravity | Controla la gravedad |
@@ -1470,14 +1486,18 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Helps Their Friends | Ayuda a sus amigos |
 | Howls at the Moon | Aúlla a la luna |
 | Hunts | Caza |
+| Hunts Witches | Caza brujas |
 | Ignores Physical Distance | Ignora las distancias físicas |
 | Infiltrates | Se infiltra |
+| Inks Spells on Skin | Tatúa hechizos en la piel |
 | Interprets the Law | Interpreta la ley |
+| Is A Car Wizard | Es un mago del volante |
 | Is Idolized by Millions | Es idolatrado por millones |
 | Is Licensed to Carry | Tiene licencia de porte |
 | Is Wanted by the Law | Es buscado por la ley |
 | Keeps a Magic Ally | Tiene un aliado mágico |
 | Leads | Lidera |
+| Learned From the Classics | Aprendió de los clásicos |
 | Learns Quickly | Aprende rápidamente |
 | Lived Among the Fey | Vivió entre las hadas |
 | Lives in the Wilderness | Vive en la naturaleza |
@@ -1498,6 +1518,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Performs Feats of Strength | Realiza proezas de fuerza |
 | Pilots Starcraft | Pilota naves estelares |
 | Plays Too Many Games | Juega demasiados juegos |
+| Practices Moon Magic | Practica la magia lunar |
 | Rages | Entra en frenesí |
 | Rides the Lightning | Cabalga el relámpago |
 | Runs Away | Huye |
@@ -1517,13 +1538,16 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Solves Mysteries | Resuelve misterios |
 | Speaks for the Land | Habla por la tierra |
 | Stands Like a Bastion | Se yergue como un bastión |
+| Steers the Coven | Dirige el aquelarre |
 | Stretches | Se estira |
 | Takes Animal Shape | Adopta forma animal |
 | Talks to Machines | Habla con las máquinas |
 | Throws With Deadly Accuracy | Lanza con una precisión mortal |
 | Thunders | Truena |
 | Touches the Sky | Toca el cielo |
+| Transmits Energy | Transmite energía |
 | Travels Through Time | Viaja a través del tiempo |
+| Turns Decay to Growth | Convierte la putrefacción en crecimiento |
 | Uses Wild Magic | Usa magia salvaje |
 | Walks the Wild Woods | Camina por bosques salvajes |
 | Was Foretold | Fue predicho |
