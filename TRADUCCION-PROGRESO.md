@@ -27,7 +27,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | WP6 | Rust and Redemption (~36k) | to do |
 | WP7 | OG editorial content (~68k) | to do |
 | WP8 | Structural integration (renumbering, duplicate ids) | to do |
-| WP9 | QA and release, ODT/PDF | to do |
+| WP9 | QA and release, ODT/PDF | in progress (2026-11-22, `wp2-gaps`): `CORRECCIONES.json` applied to the ODT (386 fixes), PDF regenerated |
 
 ## Chapters
 

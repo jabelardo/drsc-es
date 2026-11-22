@@ -382,8 +382,8 @@ terminology, so translating a book in one pass keeps them consistent.
       - 19 phrases that used *rango* (tier) for range
       Each was checked against the English of the same entry or paragraph, or reviewed
       by hand. The same pass removed two repeated, mistranslated sentences in *Niño mente
-      colmena*. All are registered in `CORRECCIONES.json`; applied to a copy of the ODT,
-      they give the same terminology as the HTML.
+      colmena*. All are registered in `CORRECCIONES.json` and were applied to the ODT on
+      2026-11-22 (WP9).
 - Every text correction that also applies to the ODT goes into `CORRECCIONES.json`, and
   is applied to the HTML with `tools/fixes/apply_fixes.py --target html --record`.
 - [ ] Resolve the two entries not found in OG and the Mutant descriptor source (§3.4–3.6).
@@ -447,6 +447,13 @@ terminology, so translating a book in one pass keeps them consistent.
       - Then regenerate the PDF, exported untagged.
       - Keep "Hyphenate last word" enabled in the ODT; disabling it crashes LibreOffice
         26.8 (tdf#173973).
+      - [x] 2026-11-22 (branch `wp2-gaps`): the 386 corrections registered so far
+            applied; PDF regenerated with LibreOffice 26.8.3.1 (544 pages, untagged, same
+            links and bookmarks as before). Repeat for corrections added later.
+      - The first ODT run showed that the applier could empty a link, or keep an ODT
+        space element, when a correction crossed markup. The applier now aligns
+        changes word by word and checks the result. The one link affected in the HTML
+        (*Arremetida* in Cap. 1 › *Alcance y velocidad*) was restored.
 - [ ] Bump the version line and the `?v=` cache-bust params for CSS/JS.
 - Acceptance: all QA checks green; parity checklist signed off.
 
