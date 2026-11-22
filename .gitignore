@@ -7,3 +7,4 @@ ignore*
 !tools/**/*.py
 .cache/
 __pycache__/
+Cypher-System-Reference-Document-*.docx
