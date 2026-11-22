@@ -103,12 +103,12 @@ What is actually missing falls into three groups:
 | Cap. 22 Cyphers › Cyphers de fantasía | Fantasy cyphers | Ch13 › Fantasy Cyphers | Done |
 | Cap. 23 Dirigir › Artefactos › Artefactos de fantasía (~6.9k) | Fantasy artifacts | Ch13 › Fantasy Artifacts | Done |
 | Cap. 20 Criaturas › Otras criaturas y PNJs para un juego de fantasía | Fantasy creature/NPC list | Ch13 › Basic Creatures and NPCs for a Fantasy Game | Done. *Criaturas y PNJs de fantasía por nivel* stays in Criaturas, because OG keeps its by-level list in Ch22 |
-| Cap. 9 Reglas › Seguidores | Followers | Ch11-A Followers and Factions | To do |
-| Cap. 13 Ciencia ficción › Intromisiones del DJ para naves espaciales | Spacecraft GM intrusions | Ch11 › Action: Do Something Else | To do |
-| Cap. 13 Ciencia ficción › contemporary vehicles (cars, boats, submarines, early spacecraft) and modern items | Modern equipment | Ch14 Modern › Modern Vehicles / Additional Modern Equipment | To do |
+| Cap. 9 Reglas › Seguidores | Followers | Ch11-A Followers and Factions | Done (new Capítulo 9-A *Seguidores y facciones*) |
+| Cap. 13 Ciencia ficción › GM-intrusion tables for wheeled, hovering/flying, sea and space vehicles | Vehicle GM intrusions | Ch11 › Action: Do Something Else › Riding or Piloting | Done (all four tables, under *Montar o pilotar*) |
+| Cap. 13 Ciencia ficción › every category's "Contemporáneo" group (equipment, weapons, vehicles) and the pioneer-era spacecraft | Contemporary equipment and vehicles | Ch14 Modern › Additional Modern Equipment / Modern Vehicles | Done (11 equipment groups and a new *Vehículos modernos* section) |
 | Cap. 13 Ciencia ficción › Criaturas y PNJs básicos (~12.2k) | SF creature and NPC stat blocks | Ch22 Creatures / Ch23 NPCs (genre chapter keeps the "Basic Creatures and NPCs" list) | Done (by-level table stays in Cap. 13) |
 | Cap. 16 Horror › Criaturas y PNJs de horror por nivel y género (~5.4k), PNJs | Horror stat blocks | Ch22 / Ch23 | Done (by-level table stays in Cap. 16) |
-| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | Done (inline beings, archetype lists and PNJs intro stay in Cap. 15; three duplicate pairs still to merge, §3.6) |
+| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | Done (inline beings, archetype lists and PNJs intro stay in Cap. 15; Hada and Bruja pairs still to merge, §3.6) |
 | Cap. 20 Criaturas › Supervillanos (~2.7k) and NPC entries filed as creatures | Supervillains, NPCs | Ch23 NPCs (Ch18 keeps the Supervillains overview) | Done (Supervillanos moved whole, after Otros PNJs) |
 
 Everything else in DRSC-ES sits in the OG chapter it maps to. Fairy-tale cyphers and
@@ -192,30 +192,36 @@ Gaps inside books DRSC-ES already covers:
   - *Posesión*: **done in WP1.** The Cap. 16 section is kept, with the module's opening
     sentence and consent paragraph merged in, as in OG. The module's `posesion` id
     remains as an alias.
-  - *Locura*: a stub in the horror encyclopedia plus *Regla opcional: Locura*; OG has a
-    single Madness section. Still to do.
+  - *Locura*: **done in WP1.** The encyclopedia entry now holds the full optional-rule
+    text, as OG's single Madness section; the one-paragraph summary and the separate
+    *Regla opcional: Locura* section are gone, and its id remains as an alias.
 - Heading bug: *Jotunn (gigante nórdico)* was an h4 in Cap. 20, so every creature after
   it was nested under it. **Fixed in WP1:** Jotunn is now one NPC entry in Cap. 21 (h5),
   with its fire and frost variants as h6 sub-entries, as in OG.
-- Found during WP1, not fixed yet:
-  - Cap. 11 now shows two consecutive *Artefactos de fantasía* headings: the section (h4)
-    and the former Dirigir list (h5). Rename the h5, e.g. *Listado de artefactos de
-    fantasía*.
-  - *Más hechos* in the spellcasting rule is a typo for *Más hechizos*.
+- Found and fixed during WP1:
+  - The second *Artefactos de fantasía* heading in Cap. 11 is now *Listado de artefactos
+    de fantasía*.
+  - *Más hechos* → *Más hechizos*; *Cuéntos* / *hádas* → *Cuentos* / *hadas*.
+  - Moving entries changed which element four duplicated ids resolved to (`bruja`,
+    `hada`, `satiro`, `espectro`). The shadowed alias spans were dropped so each id has
+    its pre-WP1 target again, and the fantasy/horror by-level tables now link to the
+    core/Godforsaken entries they list.
+  - The Munición group reused Ocio's id `contemporaneo-6`; it now uses the unused
+    `contemporaneo-7`.
+  - Criaturas and PNJs sort ignoring a leading El/La/Los/Las (decided 2026-11-22).
+  - Duplicate ids are down from 134 to 128.
+- Decided: keep both *Sátiro* entries (Godforsaken and We Are All Mad Here), each
+  identified by origin; the fairy-tale one is labelled *(Cuentos de hadas)*.
+- Still open:
+  - *Hada* / *Hada (Cuentos de hadas)* and *Bruja* / *Bruja (Cuentos de hadas)* sit next
+    to each other in Criaturas/PNJs. They are the same creature at the same level but
+    written differently (different description, environment and abilities); OG merges
+    each pair into one listing. Decide whether to merge them or keep both.
   - `#control-mental` is the id of both the Control mental ability and the Horror
     section, so links meant for the section (e.g. in Posesión) open the ability.
     Resolve with the duplicate-id clean-up in WP8.
-  - Three entries exist twice, once from the core/Godforsaken and once from We Are All
-    Mad Here. The two versions now sit next to each other in Criaturas/PNJs:
-    - *Hada* / *Hada (Cuentos de hadas)*: OG combines them into one Faerie listing.
-    - *Bruja* / *Bruja (Cuentos de hadas)*: OG combines them into one Witch listing;
-      the named witches are already nested under the fairy-tale version.
-    - *Sátiro* (twice): OG keeps only the Godforsaken version. The WAAMH version
-      differs (health 18 instead of 15, different environment and interaction), so
-      decide before removing it.
-  - Heading typos: *Cuéntos* and *hádas* in the fairy-tale *Bruja* and *Hada* titles.
-  - *El Viento del Oeste* sorts under E in Criaturas; OG sorts *The West Wind* under W.
-    Decide whether to ignore leading articles when sorting.
+  - `#botas-de-saltar` is used by three different items; the fairy-tale table link
+    opens the fantasy artifact. Resolve in WP8.
 
 ---
 
@@ -256,7 +262,7 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Add the source-attribution audit (OG `og-cite` per section + ES bracket-name
       matching) so §3 can be re-run after each work package.
 
-### WP1 — Reorganise existing Spanish content (no new translation, ~4–8 days) — in progress
+### WP1 — Reorganise existing Spanish content (no new translation, ~4–8 days) — relocations done; two duplicate pairs open
 - [x] Fantasy: Cap. 11 now follows OG Ch13 order.
       - Moved in: the magic module, fantasy type options, medieval equipment, fantasy
         cyphers, fantasy artifacts and the other fantasy creatures list.
@@ -278,23 +284,41 @@ terminology, so translating a book in one pass keeps them consistent.
         and the PNJs introduction, as OG Ch20 does.
       - The emptied *Encantadores del mundo* and *Brujas del mundo* headings remain as
         alias anchors.
-- [ ] Move Seguidores to the new Seguidores y facciones chapter, spacecraft GM
-      intrusions to Reglas, contemporary vehicles/items to Moderno.
-- [x] Consolidate Posesión and fix the Jotunn heading level.
-- [ ] Consolidate Locura; fix the small issues found during WP1 (§3.6).
+- [x] Seguidores: new Capítulo 9-A *Seguidores y facciones* (OG Ch11-A) around the
+      existing section, with its quick reference and TOC entry. The number is
+      provisional until the WP8 renumbering.
+- [x] The four vehicle GM-intrusion tables moved from Cap. 13 to Cap. 9 › *Montar o
+      pilotar* (OG keeps all four in Rules, not only the spacecraft one).
+- [x] Contemporary equipment and vehicles moved to Cap. 12 Moderno.
+      - Each Sci-Fi category's "Contemporáneo" group moved, with its marker turned into
+        the group heading. That gives 11 equipment groups and a new *Vehículos modernos*
+        section with 5 vehicle groups plus the pioneer-era spacecraft.
+      - Cap. 12 now follows OG order.
+- [x] Consolidate Posesión and Locura; fix the Jotunn heading level.
+- [x] Fix the small issues found during WP1 (§3.6), including the duplicate-id targets
+      that the moves had changed.
+- [x] Sort Criaturas and PNJs ignoring a leading El/La/Los/Las; keep both Sátiro
+      entries, labelled by origin.
+- [ ] Decide and apply the Hada and Bruja merges (§3.6).
 - [x] Keep every moved section's id. Ids whose heading was dissolved remain as alias
       anchors:
       - `modulo-de-reglas-magicas` on *Artes marciales místicas*
       - `posesion` on the Horror *Posesión*
+      - `regla-opcional-locura` on the encyclopedia *Locura*
       - `pnjs-1`, `creatures-2-list` and `npcs-1-list` in Cap. 16
       - `creatures-4-list` in Cap. 13
-- [ ] Update TOC, navbar, quick-reference boxes and cross-links after each move.
-      Done for every move so far. The TOC and navbar only link to chapters, so they
-      have not needed changes yet.
-- Verification run after each step: identical id set before and after, 0 broken
-  internal links, duplicate-id count unchanged (134), balanced tags, word diff limited
-  to quick-reference entries and merged text, headless Chrome render of the moved
-  sections. The ODT and PDF are not updated (WP9).
+      - `encantadores-del-mundo`, `brujas-del-mundo` and the emptied fairy-tale list
+        wrappers in Cap. 15
+- [x] Update TOC, navbar, quick-reference boxes and cross-links after each move. The
+      TOC gained the 9-A chapter; the navbar only links to chapters and needed no
+      change.
+- Verification run after each step:
+  - same id set before and after, except intended aliases and new headings
+  - 0 broken internal links; duplicate ids never increased (134 → 128 overall)
+  - no duplicate id switched to a different target
+  - balanced tags; word diff limited to headings, quick references and merged text
+  - headless Chrome render of the moved sections
+  The ODT and PDF are not updated (WP9).
 - Acceptance: every DRSC-ES section sits under its OG chapter; no content lost
   (word-count and id diff against the pre-move baseline); anchor QA clean.
 
@@ -457,11 +481,8 @@ place.
 
 ## 12. Immediate next actions
 
-1. Finish WP1:
-   - Seguidores, spacecraft GM intrusions and contemporary vehicles.
-   - Merge the three duplicate pairs (Hada, Bruja, Sátiro; §3.6).
-   - Locura and the small §3.6 fixes.
-   - Then merge `wp1-fantasy-relocation`.
+1. Finish WP1: decide the Hada and Bruja merges (§3.6), then merge
+   `wp1-fantasy-relocation`.
 2. Create `GLOSARIO.md` and `TRADUCCION-PROGRESO.md`.
 3. Add the QA scripts and the source-attribution audit to the repo (read-only checks):
    id-set diff, link resolution, word diff and tag balance, as used in WP1.
