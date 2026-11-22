@@ -181,6 +181,12 @@ Decided 2026-11-23 for WP4.
 | datajack | conector de datos | |
 | cyberspace | ciberespacio | |
 | Addicted / Corpo / Engram / Furious / Luddite (descriptors) | Adicto / Corpo / Engrama / Furioso / Ludita | |
+| cyberware-derived ability (⚡) | capacidad derivada de ciberimplantes (⚡) | The ⚡ marker is kept in the foci tier lists. |
+| fixer | conseguidor | |
+| chopper (cyber surgeon) | cirujano clandestino | |
+| brainslide | diapositiva cerebral | |
+| FuBo (full-body cybernetic) | FuBo | Kept, glossed as *cuerpo completo cibernético*. |
+| Packs Chromed Heat (focus) | Lleva hierro cromado | *Hierro*: slang for a gun. |
 
 ### Decisiones tomadas
 
@@ -200,8 +206,8 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | Kind | Entries |
 |---|---:|
 | [Capacidades](#capacidades) | 1285 |
-| [Rasgos](#rasgos) | 121 |
-| [Descriptores](#descriptores) | 81 |
+| [Rasgos](#rasgos) | 130 |
+| [Descriptores](#descriptores) | 86 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 413 |
 | [Artefactos](#artefactos) | 142 |
@@ -209,7 +215,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [PNJs](#pnjs) | 76 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 7 |
-| **Total** | **2294** |
+| **Total** | **2308** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -1544,11 +1550,13 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Descends From Nobility | Desciende de la nobleza |
 | Doesn’t Do Much | No hace mucho |
 | Drives Like a Maniac | Conduce como un maníaco |
+| Embeds Stealthtech | Integra tecnología sigilosa |
 | Emerged From the Obelisk | Surgido del obelisco |
 | Employs Magnetism | Emplea magnetismo |
 | Entertains | Entretiene |
 | Exists in Two Places at Once | Existe en dos lugares a la vez |
 | Exists Partially Out of Phase | Existe parcialmente fuera de fase |
+| Explores Cyberspace | Explora el ciberespacio |
 | Explores Dark Places | Explora lugares sombríos |
 | Feigns No Fear | Finge no tener miedo |
 | Fights Dirty | Pelea sucio |
@@ -1558,7 +1566,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fuses Flesh and Steel | Fusiona carne y acero |
 | Fuses Mind and Machine | Fusiona mente y máquina |
 | Grows to Towering Heights | Crece hasta alturas imponentes |
+| Hacks the Network | Hackea la red |
+| Has a Custom Drone | Tiene un dron personalizado |
 | Has a Thousand Faces | Tiene mil caras |
+| Has Eyes Everywhere | Tiene ojos en todas partes |
 | Helps Their Friends | Ayuda a sus amigos |
 | Howls at the Moon | Aúlla a la luna |
 | Hunts | Caza |
@@ -1568,10 +1579,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Inks Spells on Skin | Tatúa hechizos en la piel |
 | Interprets the Law | Interpreta la ley |
 | Is A Car Wizard | Es un mago del volante |
+| Is a Walking Tank | Es un tanque andante |
 | Is Idolized by Millions | Es idolatrado por millones |
 | Is Licensed to Carry | Tiene licencia de porte |
 | Is Wanted by the Law | Es buscado por la ley |
 | Keeps a Magic Ally | Tiene un aliado mágico |
+| Knows Everything | Lo sabe todo |
 | Leads | Lidera |
 | Learned From the Classics | Aprendió de los clásicos |
 | Learns Quickly | Aprende rápidamente |
@@ -1591,6 +1604,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Needs No Weapon | No necesita armas |
 | Never Says Die | Nunca dice morir |
 | Operates Undercover | Opera de forma encubierta |
+| Packs Chromed Heat | Lleva hierro cromado |
 | Performs Feats of Strength | Realiza proezas de fuerza |
 | Pilots Starcraft | Pilota naves estelares |
 | Plays Too Many Games | Juega demasiados juegos |
@@ -1627,6 +1641,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Uses Wild Magic | Usa magia salvaje |
 | Walks the Wild Woods | Camina por bosques salvajes |
 | Was Foretold | Fue predicho |
+| Weaponizes Chrome | Convierte el cromo en arma |
 | Wears a Sheen of Ice | Viste una capa de hielo |
 | Wears Power Armor | Viste una armadura de poder |
 | Weilds an Enchanted Weapon | Blande un arma encantada |
@@ -1642,6 +1657,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
+| Addicted | Adicto |
 | Amazing | Asombroso |
 | Appealing | Atractivo |
 | Artificially Intelligent | Artificialmente inteligente |
@@ -1656,6 +1672,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Chimera | Quimera |
 | Clever | Astuto |
 | Clumsy | Torpe |
+| Corpo | Corpo |
 | Craven | Cobarde |
 | Creative | Creativo |
 | Cruel | Cruel |
@@ -1666,11 +1683,13 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Dwarf | Enano |
 | Elf | Elfo |
 | Empathic | Empático |
+| Engram | Engrama |
 | Exiled | Exiliado |
 | Fast | Rápido |
 | Foolish | Tonto |
 | Fragmented | Fragmentado |
 | Frumious | Frumioso |
+| Furious | Furioso |
 | Ghost | Fantasma |
 | Gnome | Gnomo |
 | Graceful | Grácil |
@@ -1694,6 +1713,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Lizardfolk | Reptiliano |
 | Lost | Perdido |
 | Lucky | Afortunado |
+| Luddite | Ludita |
 | Mad | Desequilibrado |
 | Mechanical | Mecánico |
 | Mighty | Poderoso |

@@ -505,6 +505,16 @@ terminology, so translating a book in one pass keeps them consistent.
       hacking, netrunning, rules, cyphers, GM intrusions).
 - [ ] 9 foci, 5 descriptors, 49 abilities, Ch11 optional rules, Splitting XP (Ch12),
       Romance addition (Ch17).
+      - 52 abilities done (OG counts Camera Sight and Drone Upgrade, which a first
+        extraction missed). Machine Bond and Robot Builder have *(ciberpunk)* versions;
+        Limited Camouflage has *(Técnico)* and *(sigilo)*.
+      - 9 foci done (Cap. 6, with the ⚡ cyberware marker and GM intrusions as sidebars).
+        New Capítulo 12-B *Ciberpunk* (nav, TOC, genres intro) with the 5 descriptors and
+        *Rasgos de ciberpunk* (table, *Cambiar de rasgo*, additional foci, *Adaptar rasgos al
+        ciberpunk*). OG's sidebar pointing to *Switching Character Options* is left out until
+        that OG editorial section is translated (WP7).
+      - Links to Cyberpunk sections not translated yet are plain text, recorded for a
+        linking pass at the end of WP4.
 
 ### WP5 — High Noon at Midnight (~38k EN words)
 - [ ] Ch21-A Oeste extraño (character options, currency, equipment, poker/hands of
