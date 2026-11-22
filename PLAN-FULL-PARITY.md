@@ -65,7 +65,8 @@ Full parity means:
   notes, page citations, "Related Sections", Index, FAQ, What's in the Book,
   Character Sentence Generator, PDFs/Player's Guide links). Where OG makes an
   editorial ruling that differs from the official CSRD, preserve the official rules
-  wording and mark the OG addition as such (a Spanish equivalent of the OG badge).
+  wording. OG's editor's notes keep the *Nota del editor:* label; OG-only sections are
+  not labelled (decided 2026-11-22).
 
 ---
 
@@ -533,7 +534,11 @@ terminology, so translating a book in one pass keeps them consistent.
       roles, and their editor's notes. When WP5 and WP6 translate High Noon at Midnight
       and Rust and Redemption, link their foci in these roles (provisional names in
       `GLOSARIO.md`).
-- [ ] Mark every item as an OG addition per §2.
+- [x] Optional Rule: Exceeding Cypher Limits (Ch24), done early in WP3 (2026-11-22):
+      *Regla opcional: Superar el límite de Cyphers* in Cap. 22 under *Límites de
+      Cyphers*, with the *Volatilidad de los Cyphers* table and OG's note pointing to
+      Magia moderna; the Magia moderna note now links back to it.
+- OG additions are not labelled in the text (§2); editor's notes keep *Nota del editor:*.
 
 ### WP8 — Structural integration (incremental, alongside WP1–WP7)
 - [ ] Renumber/reorder to the target structure in §4.
@@ -657,7 +662,7 @@ place.
 
 | Risk | Mitigation |
 |---|---|
-| OG editorial rulings diverge from official CSRD | Keep official rules wording; mark OG additions explicitly |
+| OG editorial rulings diverge from official CSRD | Keep official rules wording; OG's notes keep the *Nota del editor:* label |
 | Terminology drift across hundreds of entries | `GLOSARIO.md` + review gate per milestone |
 | Duplicate/broken ids while adding hundreds of entries | Automated id/anchor checks each WP; fix pre-existing dupes |
 | Losing ES-only or existing content during reorganisation | Move blocks intact; diff ids and word counts against the pre-move baseline |
