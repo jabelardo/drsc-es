@@ -180,12 +180,12 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Descriptores](#descriptores) | 81 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 413 |
-| [Artefactos](#artefactos) | 97 |
+| [Artefactos](#artefactos) | 142 |
 | [Criaturas](#criaturas) | 122 |
 | [PNJs](#pnjs) | 72 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 7 |
-| **Total** | **2180** |
+| **Total** | **2225** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -2079,24 +2079,40 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
+| Accessories Sold Separately | Accesorios que se venden por separado |
 | Adamantine Rope | Cuerda adamantina |
 | Alchemist Bag | Bolsa alquimista |
 | Alpha Beam Projector | Proyector de rayos alfa |
 | Amber Casement | Recuadro ámbar |
 | Angelic Ward | Ángel guardián |
 | Armored Cloth | Ropa blindada |
+| Ask Me Anything | Pregúntame lo que quieras |
+| Atheneum of the Mind Card | Carné del Ateneo de la Mente |
+| Attempted Murder | Intento de asesinato |
 | Autodoc | Autodoc |
+| Battery of the Vanquished | Batería de los vencidos |
 | Belt of Strength | Cinturón de fuerza |
+| Blade of the Roses | Hoja de las rosas |
 | Book of All Spells | Libro de todos los hechizos |
 | Book of Inversion | Libro de inversión |
+| Book of the Baker | Libro del panadero |
 | Bounding Boots | Botas de saltar |
+| Breakaway Bag | Bolsa de parches |
+| Busy Box | Caja de actividades |
 | Carbonizer | Carbonizador |
 | Cat’s Eye Spectacles | Gafas de ojo de gato |
+| Cats Hide Their Paws | Los gatos esconden las uñas |
 | Cloak of Balakar | Capa de Balakar |
 | Cloak of Elfkind | Capa de elfos |
 | Cloak of Finery | Capa de galas |
+| Cloud Storage | Almacenamiento en la nube |
+| Cloud Thief | Ladrón de la nube |
 | Coil of Endless Rope | Bobina de cuerda sin fin |
+| Color Cannon | Cañón de color |
+| Combat Glasses | Gafas de combate |
+| Crow Friend | Amigo cuervo |
 | Crown of Eyes | Corona de ojos |
+| Crown of the High King | Corona del Gran Rey |
 | Crown of the Mind | Corona de la mente |
 | Crystal Ball | Bola de cristal |
 | Darkest Book | Libro Más Oscuro |
@@ -2108,8 +2124,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Dimensional Modulator | Modulador dimensional |
 | Disintegration Beamer | Proyector desintegrador |
 | Doctor Dread’s Time Portal | Portal del tiempo del Doctor Dread |
+| Dragon Pen | Pluma de dragón |
 | Dragontongue Weapon | Arma Linguodracónica |
 | Dragontooth Soldiers | Soldados Dentodracónicos |
+| Eau de Blood and Monsters | Eau de sangre y monstruos |
+| Ecosensitive Fridge Magnets | Imanes de nevera ecosensibles |
 | Elfblade | Hoja elfa |
 | Empathetic Ray | Rayo Empático |
 | Enchanted Armor | Armadura encantada |
@@ -2121,44 +2140,61 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fractal Traveler | Viajero fractal |
 | Gate Ring | Anillo portal |
 | Ghostly Armor | Armadura fantasmal |
+| Gift from the Fairy Queen | Regalo de la Reina de las Hadas |
 | Gloves of Agility | Guantes de agilidad |
+| Goodest Gargoyle | La gárgola más buena |
 | Gruelmaker | Hacepotaje |
 | Guardian Idol | ídolo guardián |
 | Hand of Glory | Mano de gloria |
+| Harrowing Blade | Hoja angustiosa |
 | Helm of Water Breathing | Yelmo de respiración acuática |
+| History's Fickle Hands | Las manos caprichosas de la historia |
 | Horn of Thunder | Cuerno de trueno |
 | Instant Ladder | Escalera instantánea |
+| Keys of Close to You | Llaves de Cerca de ti |
 | Lightning Hammer | Martillo de relámpagos |
+| Living Copycat | Imitador viviente |
+| Magician's Protective Amulet | Amuleto protector del mago |
+| Malware Genie | Genio malware |
 | Mastercraft Armor | Armadura de fabricación maestra |
 | Mastercraft Weapon | Arma de fabricación maestra |
+| Meatboy | Chico de carne |
 | Metabolic Prod | Producto Metabólico |
 | Metabolism Bud | Brote metabólico |
 | Military Exoskeleton | Exoesqueleto militar |
 | Mind Imager | Visualizador mental |
 | Mindshield Helmet | Casco de escudo mental |
+| My Friend Lockness | Mi amigo Lockness |
 | Necromantic Wand | Varita nigromántica |
 | Omni Orb | Orbe Omni |
 | Pack of Storage | Mochila de almacenaje |
+| Pearls of Your Grandmother, the Witch | Las perlas de tu abuela, la bruja |
 | Poisoner’s Touch | Toque del envenenador |
+| Poor Magician's Lunchbox | Fiambrera del mago pobre |
 | Probability Regulator | Regulador de probabilidad |
 | Protection Amulet | Amuleto de protección |
 | Psychic Crystal | Cristal Psíquico |
+| Rainbow Suspenders | Tirantes arcoíris |
 | Repair Sphere | Esfera reparadora |
 | Ring of Dragon’s Flight | Anillo del vuelo del dragón |
 | Ring of Fall Flourishing | Anillo de caída venturosa |
 | Ring of Invisibility | Anillo de invisibilidad |
+| Ring of Reflected Bullets | Anillo de balas reflejadas |
 | Ring OF Wishes | Anillo de deseos |
 | Rocket Fist | Puño cohete |
 | Rocket-Propelled Grenade | Granada propulsada por cohete |
+| Scarf of Love and Death | Bufanda de amor y muerte |
 | Serum X | Suero X |
 | Shadow Box | Caja de sombras |
 | Shield of Two Skies | Escudo de dos cielos |
 | Skill Ring | Anillo de habilidad |
 | Smooth-Stepping Boots | Botas de pisar suave |
+| Song of the Siren | Canto de la sirena |
 | Soul-Stealing Knife | Cuchillo roba almas |
 | Soulflaying Weapon | Arma desgarradora de almas |
 | Sovereign Key | Llave soberana |
 | Space Ring | Anillo Espacial |
+| Speed Readers | Gafas de lectura rápida |
 | Spehre 23 | Esfera 23 |
 | Spellbook of Elemental Summoning | Libro de hechizos de invocación elemental |
 | Spellbook of the Amber Mage | Libro de hechizos del mago del ámbar |
@@ -2168,14 +2204,23 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Stellarex Crystal | Cristal Stellarex |
 | Steorraform | Steorraform |
 | Storm Shack | Choza de tormenta |
+| Tattoo of the Tiger | Tatuaje del tigre |
+| Tattoo of Tomorrow's Edge | Tatuaje del filo del mañana |
+| Tattoo of True Shot | Tatuaje del tiro certero |
 | Terahertz Scanner | Escáner de terahercios |
+| Time is a Circle | El tiempo es un círculo |
 | Trap Runestone | Trampa de piedra rúnica |
 | Tunneling Gauntlets | Guanteletes tuneladores |
+| Umbrella of No-Touch | Paraguas de no tocar |
+| Vanity of the Vanities | Tocador de las vanidades |
 | Vorpal Sword | Espada vorpal |
 | Wand of Firebolts | Varita de rayos flamígeros |
 | Wand of Spider’s Webbing | Varita de telaraña |
 | Whisperer in the Ether | Susurrador en el éter |
 | Witch’s Broom | Escoba de bruja |
+| Witch Wand | Varita de bruja |
+| Wonder Onesie | Pijama enterizo maravilla |
+| Your Mama's Biker Jacket | La chupa de motera de tu madre |
 
 ### Criaturas
 
