@@ -483,8 +483,14 @@ terminology, so translating a book in one pass keeps them consistent.
 - [x] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC (*Trocado*).
       Inserted alphabetically into Criaturas and PNJs; the *Electricity Elemental* is its
       own entry next to the other elementals, as Criaturas already does.
-- [ ] Merged into core sections by OG: Crafting Cyphers (Godforsaken + IOM, page 90),
+- [x] Merged into core sections by OG: Crafting Cyphers (Godforsaken + IOM, page 90),
       the Masters Spells note about Inks Spells on Skin.
+      - *Fabricación de objetos mágicos* (Cap. 11) now follows OG's merge: the
+        *Habilidades de fabricación mágica* box, "materiales o ingredientes" in step 2,
+        the IOM sentences and the Vanya examples in steps 3–5, and step 5 in the IOM
+        wording. The Spanish keeps one heading per step. Three slips in the existing
+        text were fixed through `CORRECCIONES.json` (`crafting-*`, plus
+        `evil-priest-cypers`), pending for the ODT.
 
 ### WP4 — Neon Rain (~42k EN words)
 - [ ] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
