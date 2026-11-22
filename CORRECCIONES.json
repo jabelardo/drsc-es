@@ -1,0 +1,104 @@
+{
+  "description": "Text corrections to DRSC-ES that also apply to the ODT/PDF edition. Each fix is an exact replacement of visible text (old -> new); apply pending fixes with tools/fixes/apply_fixes.py. 'applied' records when each format got the fix (null = pending). Reorganisation (WP1 moves) is not listed here: the ODT keeps its own structure.",
+  "fixes": [
+    {
+      "id": "range-relocate",
+      "date": "2026-11-22",
+      "entry": "Reubicar [Relocate] (capacidad)",
+      "reason": "OG-CSRD: 'a new position within long range'; the Spanish had immediate range.",
+      "old": "nueva posición dentro del alcance inmediato que puedas ver",
+      "new": "nueva posición a largo alcance que puedas ver",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "range-resonant-quake",
+      "date": "2026-11-22",
+      "entry": "Terremoto resonante [Resonant Quake] (capacidad)",
+      "reason": "OG-CSRD: 'epicenter you can select within a very long distance'; 'muy' was missing.",
+      "old": "cuyo epicentro puedes seleccionar a una larga distancia",
+      "new": "cuyo epicentro puedes seleccionar a muy larga distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "range-posthuman",
+      "date": "2026-11-22",
+      "entry": "Posthumano [Posthuman] (PNJ)",
+      "reason": "OG-CSRD: 'attack foes up to a very long distance away'; 'muy' was missing.",
+      "old": "atacar selectivamente a sus enemigos a larga distancia",
+      "new": "atacar selectivamente a sus enemigos a muy larga distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "range-vampire-garlic",
+      "date": "2026-11-22",
+      "entry": "Vampiro [Vampire] (criatura)",
+      "reason": "OG-CSRD: 'garlic within immediate distance'; the Spanish had short distance.",
+      "old": "Cantidades significativas de ajo a corta distancia",
+      "new": "Cantidades significativas de ajo a una distancia inmediata",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "range-mighty-wizard",
+      "date": "2026-11-22",
+      "entry": "Mago poderoso [Wizard, Mighty] (PNJ)",
+      "reason": "OG-CSRD: 'all creatures the wizard selects within short range of the target'; the Spanish had immediate range.",
+      "old": "que el mago seleccione dentro del alcance inmediato del objetivo",
+      "new": "que el mago seleccione a corto alcance del objetivo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": null
+      }
+    },
+    {
+      "id": "typo-mas-hechizos",
+      "date": "2026-11-22",
+      "entry": "Regla opcional: Lanzamiento de hechizos",
+      "reason": "Typo in the heading 'More Spells'.",
+      "old": "Más hechos",
+      "new": "Más hechizos",
+      "all": true,
+      "applied": {
+        "html": "2026-11-22 (4c829b8)",
+        "odt": null
+      }
+    },
+    {
+      "id": "typo-cuentos-bruja",
+      "date": "2026-11-22",
+      "entry": "Bruja (Cuentos de hadas) [Witch (Fairy Tale)]",
+      "reason": "Typo in the heading.",
+      "old": "Cuéntos de hadas",
+      "new": "Cuentos de hadas",
+      "all": true,
+      "applied": {
+        "html": "2026-11-22 (cbd28a7)",
+        "odt": null
+      }
+    },
+    {
+      "id": "typo-hadas-hada",
+      "date": "2026-11-22",
+      "entry": "Hada (Cuentos de hadas) [Faerie (Fairy Tale)]",
+      "reason": "Typo in the heading.",
+      "old": "Cuentos de hádas",
+      "new": "Cuentos de hadas",
+      "all": true,
+      "applied": {
+        "html": "2026-11-22 (cbd28a7)",
+        "odt": null
+      }
+    }
+  ]
+}
