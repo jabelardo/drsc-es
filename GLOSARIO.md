@@ -177,7 +177,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 |---|---:|
 | [Capacidades](#capacidades) | 1233 |
 | [Rasgos](#rasgos) | 121 |
-| [Descriptores](#descriptores) | 74 |
+| [Descriptores](#descriptores) | 81 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 345 |
 | [Artefactos](#artefactos) | 97 |
@@ -185,7 +185,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [PNJs](#pnjs) | 72 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 7 |
-| **Total** | **2105** |
+| **Total** | **2112** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -1577,6 +1577,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Changeling | Trocado |
 | Chaotic | Caótico |
 | Charming | Encantador |
+| Chimera | Quimera |
 | Clever | Astuto |
 | Clumsy | Torpe |
 | Craven | Cobarde |
@@ -1584,6 +1585,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Cruel | Cruel |
 | Dishonorable | Deshonroso |
 | Doomed | Maldito |
+| Dragon | Dragón |
 | Dragonfolk | Draconiano |
 | Dwarf | Enano |
 | Elf | Elfo |
@@ -1593,6 +1595,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Foolish | Tonto |
 | Fragmented | Fragmentado |
 | Frumious | Frumioso |
+| Ghost | Fantasma |
 | Gnome | Gnomo |
 | Graceful | Grácil |
 | Guarded | Cauto |
@@ -1603,6 +1606,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Helborn | Inferniano |
 | Hideous | Repulsivo |
 | Honorable | Honorable |
+| Hunter | Cazador |
 | Impulsive | Impulsivo |
 | Incredible | Increíble |
 | Inquisitive | Inquisitivo |
@@ -1621,6 +1625,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Mysterious | Misterioso |
 | Mystical | Místico |
 | Naive | Ingenuo |
+| Nix | Nix |
 | Perceptive | Perceptivo |
 | Quintar | Quintar |
 | Resilient | Resiliente |
@@ -1634,9 +1639,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Strong | Fuerte |
 | Strong-Willed | Decidido |
 | Swift | Veloz |
+| Sylph | Sílfide |
 | Tongue-Tied | Callado |
 | Tough | Duro |
 | Uncanny | Insólito |
+| Unmagical | Amágico |
 | Vicious | Despiadado |
 | Virtuous | Virtuoso |
 | Weird | Extraño |
