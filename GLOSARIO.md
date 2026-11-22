@@ -214,8 +214,8 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Criaturas](#criaturas) | 135 |
 | [PNJs](#pnjs) | 76 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
-| [Otros](#otros) | 14 |
-| **Total** | **2315** |
+| [Otros](#otros) | 16 |
+| **Total** | **2317** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -2578,12 +2578,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
+| Blue Spirit | Espíritu azul |
 | Broker | Intermediario |
 | Catspaw | Catspaw |
 | Communicator Implant | Implante comunicador |
 | Finding Prying Eyes | Encontrar miradas indiscretas |
 | Frozen Timepiece | Reloj congelado |
 | Hotshot | As |
+| Moon Rocks | Rocas lunares |
 | Power Device | Potenciar dispositivo |
 | Safesuit, space | Traje de seguridad, espacio |
 | Screen Control | Control de pantalla |
