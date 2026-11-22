@@ -459,11 +459,17 @@ terminology, so translating a book in one pass keeps them consistent.
 - Acceptance: no OG section from ES-held sources without a Spanish equivalent.
 
 ### WP3 — It's Only Magic (~44k EN words)
-- [ ] Ch14-A Magia moderna (character options, equipment, crafting ingredients,
-      cyphers, artifacts).
+- [x] Ch14-A Magia moderna (character options, equipment, crafting ingredients,
+      cyphers, artifacts). New Capítulo 12-A, before Ciencia ficción.
+      - 67 cyphers plus EasyMagic.app and the malware cyphers note; 47 artifacts.
+      - *Criaturas y PNJs de fantasía moderna por nivel* is OG's list (not in the CSRD),
+        marked as an OG addition. *Estatua animada* is listed at level 7, as in its
+        entry (OG's list says 8).
 - [ ] 5 flavors (Ch6), 10 foci (Ch8), 7 descriptors, 125 abilities + cantrips (Ch9),
       Familiars and Covens (Ch11-A), equipment additions (Ch10).
-- [ ] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC.
+- [x] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC (*Trocado*).
+      Inserted alphabetically into Criaturas and PNJs; the *Electricity Elemental* is its
+      own entry next to the other elementals, as Criaturas already does.
 - [ ] Merged into core sections by OG: Crafting Cyphers (Godforsaken + IOM, page 90),
       the Masters Spells note about Inks Spells on Skin.
 

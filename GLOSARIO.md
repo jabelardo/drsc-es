@@ -143,6 +143,11 @@ Added 2026-11-22 for WP3.
 | cantrip | truco | |
 | magical app | app mágica | |
 | Charms and Figments / Cozy Magic / Divination / Modern Magic / Protection (flavors) | Encantos e ilusiones / Magia acogedora / Adivinación / Magia moderna / Protección | Flavors are *aspectos*: *aspecto de Adivinación*. |
+| Changeling (NPC) | Trocado | Same as the Heartwood descriptor; it is the same idea (a fey child left among humans). |
+| Hell Mary | Hell Mary | Proper name, kept in English like *Bloody Mary*. |
+| Internet D@emon | D@emonio de internet | Keeps the @. Sorts under D. |
+| fiend | infernal | *Negociador infernal* (Bargainer Fiend): the text contrasts it with *diablos* and *demonios*. |
+| thoughtform | forma de pensamiento | |
 
 Provisional names for foci not translated yet, used in the fantasy role suggestions (Cap. 11). Use
 them when WP5 and WP6 translate these foci:
@@ -181,11 +186,11 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 413 |
 | [Artefactos](#artefactos) | 142 |
-| [Criaturas](#criaturas) | 122 |
-| [PNJs](#pnjs) | 72 |
+| [Criaturas](#criaturas) | 135 |
+| [PNJs](#pnjs) | 76 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 7 |
-| **Total** | **2225** |
+| **Total** | **2242** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -2230,6 +2235,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Angiks | Angiks |
 | Artificial intelligence (AI) | Inteligencia artificial (IA) |
 | Bagheera | Bagheera |
+| Bargainer Fiend | Negociador infernal |
 | Basilisk | Basilisco |
 | Beast (with a capital B) | Bestia (con B mayúscula) |
 | Black Dog | Perro negro |
@@ -2249,6 +2255,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Demon Lord | Lord demonio |
 | Devil | Diablo |
 | Devolved | Involucionado |
+| Divinity of the City | Divinidad de la ciudad |
 | Djinni | Djinni |
 | Dragon | Dragón |
 | Drowning Fairies | Hadas ahogadoras |
@@ -2256,6 +2263,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Earth Elemental | Elemental de tierra |
 | Ecophagic Swarm | Enjambre ecófago |
 | Elder thing | Primordial |
+| Electricity Elemental | Elemental de electricidad |
 | Elemental, Air | Elemental de aire |
 | Elemental, Thorn | Elemental de espinas |
 | Elemental, Water | Elemental de agua |
@@ -2270,6 +2278,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fuath | Fuath |
 | Fundamental angel | Ángel Fundamental |
 | Fusion Hound | Sabueso de fusión |
+| Gargoyle | Gárgola |
 | Geppetto’s Children | Hijos de Geppetto |
 | Ghost | Fantasma |
 | Ghoul | Ghoul |
@@ -2282,6 +2291,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Golem | Golem |
 | Gorgon | Gorgona |
 | Harpy | Arpía |
+| Haunted Car | Automóvil embrujado |
+| Hell Mary | Hell Mary |
 | Hivemind child | Niño mente colmena |
 | Hollow Knight | Caballero hueco |
 | Hungry Haze | Bruma hambrienta |
@@ -2289,6 +2300,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Ichthysian | Ichthysian |
 | Infovore | Infovoro |
 | Inquisitor | Inquisidor |
+| Internet D@emon | D@emonio de internet |
 | Kaiju | Kaiju |
 | Kelpie | Kelpie |
 | Killer Clown | Payaso asesino |
@@ -2310,6 +2322,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Omworwar | Omworwar |
 | Photonomorph | Fotonomorfo |
 | Pixies | Pixies |
+| Pollution Goblin | Goblin de la contaminación |
 | Puppet Tree | Árbol marioneta |
 | Puss in Boots | Gato con Botas |
 | Ravage Bear | Oso de rapiña |
@@ -2328,19 +2341,23 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Sphinx | Esfinge |
 | Statue, Animate | Estatua animada |
 | Supernal | Supernal |
+| Television Thoughtform | Forma de pensamiento televisiva |
 | The West Wind | El Viento del Oeste |
 | Thundering Behemoth | Behemoth atronador |
 | Troll | Trol |
 | Tyrannosaurus Rex | Tyrannosaurus Rex |
+| Urban Brownie | Brownie urbano |
 | Vacuum Fungus | Hongo del vacío |
 | Vampire | Vampiro |
 | Vampire, Transitional | Vampiro transitorio |
 | Vat Reject | Rechazo de tina |
 | Virgilius’s Copper Dogs | Perros de cobre de Virgilius |
+| Vulture Spirit | Espíritu buitre |
 | Wardroid | Wardroid |
 | Werewolf | Hombre lobo |
 | Wharn Interceptor | Interceptor Wharn |
 | Wind Children | Niños del Viento |
+| Witchfox | Zorro brujo |
 | Worm that Walks | Gusano que camina |
 | Wraith | Espectro |
 | Wyvern | Wyvern |
@@ -2348,6 +2365,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Yithian | Yithiano |
 | Zero-Point Phantom | Fantasma de punto cero |
 | Zombie | Zombi |
+| Zorp | Zorp |
 
 ### PNJs
 
@@ -2363,12 +2381,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Cailleach | Cailleach |
 | Cambion | Cambión |
 | Cannibal | Caníbal |
+| Changeling | Trocado |
 | Child | Niño |
+| Corporate Mage | Mago corporativo |
 | Corrupt Mage | Mago corrupto |
 | Crafter | Artesano |
 | Crime Boss | Jefe del crimen |
 | Dame Gothel | Dame Gothel |
 | Death | Muerte |
+| Demon Hunter | Cazador de demonios |
 | Detective | Detective |
 | Druid | Druida |
 | Dwarf | Enano |
@@ -2397,6 +2418,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Orc | Orco |
 | Oz, The Great and Terrible | Oz, El Grande y Terrible |
 | Paladin | Paladín |
+| Pharmaceutical Sorcerer | Hechicero farmacéutico |
 | Posthuman | Posthumano |
 | Prince(ss) of Summer | Princesa/Príncipe del verano |
 | Queen | Reina |

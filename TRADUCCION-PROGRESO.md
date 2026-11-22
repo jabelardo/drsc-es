@@ -21,7 +21,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | WP0 | Setup: source version, glossary, this file, QA scripts, audit | in progress (2026-11-22, `wp0-setup`) |
 | WP1 | Reorganise existing Spanish content to the OG structure | done (2026-11-22, `wp1-fantasy-relocation`, not merged yet) |
 | WP2 | Gaps inside covered books, CSRD 2025 errata | done (2026-11-22, `wp2-gaps`, not merged yet): range/distance terminology, Heartwood, Moonbeam and Question Past Self; the CSRD 2025 has no errata to existing text; *Escudo deflector* kept |
-| WP3 | It's Only Magic (~48k) | in progress (2026-11-22, `wp3-iom`): terminology settled; abilities, cantrips, flavors and foci done; fantasy roles updated |
+| WP3 | It's Only Magic (~48k) | in progress (2026-11-22, `wp3-iom`): terminology settled; abilities, cantrips, flavors and foci done; fantasy roles updated; Magia moderna chapter (Cap. 12-A), 13 creatures and 4 NPCs done |
 | WP4 | Neon Rain (~42k) | to do |
 | WP5 | High Noon at Midnight (~38k) | to do |
 | WP6 | Rust and Redemption (~36k) | to do |
@@ -48,7 +48,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | Ch12 Experience Points | Cap. 10 Puntos de experiencia | complete (4 Heartwood arcs added in WP2) | NR 0.4k (WP4); OG editorial 1.9k (WP7) | to do |
 | Ch13 Fantasy | Cap. 11 Fantasía | complete | IOM 0.1k (WP3); OG editorial 1.5k (WP7) | to do |
 | Ch14 Modern | Cap. 12 Moderno | complete | OG editorial 0.6k (WP7) | to do |
-| Ch14-A Modern Magic | — (new chapter) | — | IOM 15.5k (WP3) | to do |
+| Ch14-A Modern Magic | Cap. 12-A Magia moderna | complete (WP3) | — | done |
 | Ch14-B Cyberpunk | — (new chapter) | — | NR 33.5k (WP4) | to do |
 | Ch15 Science Fiction | Cap. 13 Ciencia ficción | complete | OG editorial 1.2k (WP7) | to do |
 | Ch16 Horror | Cap. 16 Horror | complete | OG editorial 4.1k (WP7) | to do |
@@ -58,8 +58,8 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | Ch20 Fairy Tale | Cap. 15 Cuentos de hadas | complete | — | done |
 | Ch21 Historical | Cap. 19 Histórico | complete | — | done |
 | Ch21-A Weird West | — (new chapter) | — | HNAM 25.2k (WP5) | to do |
-| Ch22 Creatures | Cap. 20 Criaturas | complete | 39 creatures: IOM 6.5k, HNAM 4.7k, RR 5.0k (WP3, 5, 6) | to do |
-| Ch23 NPCs | Cap. 21 PNJs | complete | 11 NPCs: IOM 1.2k, HNAM 0.9k, RR 1.3k (WP3, 5, 6) | to do |
+| Ch22 Creatures | Cap. 20 Criaturas | complete (13 IOM creatures added in WP3) | 26 creatures: HNAM 4.7k, RR 5.0k (WP5, 6) | to do |
+| Ch23 NPCs | Cap. 21 PNJs | complete (4 IOM NPCs added in WP3) | 7 NPCs: HNAM 0.9k, RR 1.3k (WP5, 6) | to do |
 | Ch24 Cyphers | Cap. 22 Cyphers | complete | RR 0.1k (WP6); OG editorial 0.9k (WP7) | to do |
 | Ch25 Running the Cypher System | Cap. 23 Dirigir el Sistema Cypher | complete | HNAM 0.1k, RR 0.3k (WP5, 6); OG editorial 14.4k (WP7) | to do |
 | Cypher Shorts | Cap. 24 Cypher cortos | complete | — | done |
