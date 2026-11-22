@@ -187,6 +187,13 @@ Decided 2026-11-23 for WP4.
 | brainslide | diapositiva cerebral | |
 | FuBo (full-body cybernetic) | FuBo | Kept, glossed as *cuerpo completo cibernético*. |
 | Packs Chromed Heat (focus) | Lleva hierro cromado | *Hierro*: slang for a gun. |
+| matrix / meatspace | matriz / espacio físico | |
+| frame / node / conduit | marco / nodo / conducto | Cyberspace locations. |
+| I/O point | punto de E/S | Entrada y salida. |
+| ICE / black ICE | ICE / ICE negro | *Contramedidas electrónicas contra intrusos*. |
+| glitch (cyberspace) | fallo | *fallo de avatar*, *fallo de expulsión*. |
+| log off | desconectarse | |
+| corpocurrency | corpomoneda | |
 
 ### Decisiones tomadas
 
