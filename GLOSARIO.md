@@ -89,7 +89,7 @@ choice looks wrong, raise it before using an alternative.
 | inexpensive / moderately priced / expensive | barato / de precio moderado / caro | Price categories. |
 | very expensive / exorbitant / priceless | muy caro / exorbitante / invaluable | |
 | contemporary / advanced / fantastic | contemporáneo / avanzado / fantástico | Technology levels. |
-| Editor's Notes (OG-CSRD) | **Nota del editor de OG-CSRD:** | In a sidebar box. OG-CSRD's own sidebars are translated as ordinary sidebars (decided 2026-11-22: keep OG notes even when the CSRD lacks them). |
+| Editor's Notes (OG-CSRD) | **Nota del editor:** | In a sidebar box. OG-CSRD's own sidebars are translated as ordinary sidebars (decided 2026-11-22: keep OG notes even when the CSRD lacks them). |
 | Focus Note | **Nota del rasgo:** | Label of the extra paragraph some foci have. |
 
 ### Cuentos de hadas (Heartwood)

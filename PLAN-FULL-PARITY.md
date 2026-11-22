@@ -51,7 +51,7 @@ Full parity means:
   against `Cypher-System-Reference-Document-2025-08-22.docx`.
 - **Keep OG-CSRD's notes** (decided 2026-11-22). Translate OG's sidebars and editor's
   notes with the content they belong to, even when the CSRD lacks them: they add
-  clarifications. Label editor's notes *Nota del editor de OG-CSRD:*. When extracting, take
+  clarifications. Label editor's notes *Nota del editor:*. When extracting, take
   every paragraph (including OG's indented `og-ind` ones) and the sidebars and notes that
   follow each entry.
 - **Terminology:** reuse the existing DRSC-ES glossary; keep English names in
