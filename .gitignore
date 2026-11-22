@@ -4,3 +4,5 @@ ignore*
 .htmlvalidate.json
 *.txt
 *.py
+!tools/**/*.py
+.cache/
