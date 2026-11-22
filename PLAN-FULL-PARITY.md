@@ -108,7 +108,7 @@ What is actually missing falls into three groups:
 | Cap. 13 Ciencia ficción › contemporary vehicles (cars, boats, submarines, early spacecraft) and modern items | Modern equipment | Ch14 Modern › Modern Vehicles / Additional Modern Equipment | To do |
 | Cap. 13 Ciencia ficción › Criaturas y PNJs básicos (~12.2k) | SF creature and NPC stat blocks | Ch22 Creatures / Ch23 NPCs (genre chapter keeps the "Basic Creatures and NPCs" list) | Done (by-level table stays in Cap. 13) |
 | Cap. 16 Horror › Criaturas y PNJs de horror por nivel y género (~5.4k), PNJs | Horror stat blocks | Ch22 / Ch23 | Done (by-level table stays in Cap. 16) |
-| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | To do (OG merges several into combined NPC entries: Witch, Enchanter, Queen) |
+| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | Done (inline beings, archetype lists and PNJs intro stay in Cap. 15; three duplicate pairs still to merge, §3.6) |
 | Cap. 20 Criaturas › Supervillanos (~2.7k) and NPC entries filed as creatures | Supervillains, NPCs | Ch23 NPCs (Ch18 keeps the Supervillains overview) | Done (Supervillanos moved whole, after Otros PNJs) |
 
 Everything else in DRSC-ES sits in the OG chapter it maps to. Fairy-tale cyphers and
@@ -205,6 +205,17 @@ Gaps inside books DRSC-ES already covers:
   - `#control-mental` is the id of both the Control mental ability and the Horror
     section, so links meant for the section (e.g. in Posesión) open the ability.
     Resolve with the duplicate-id clean-up in WP8.
+  - Three entries exist twice, once from the core/Godforsaken and once from We Are All
+    Mad Here. The two versions now sit next to each other in Criaturas/PNJs:
+    - *Hada* / *Hada (Cuentos de hadas)*: OG combines them into one Faerie listing.
+    - *Bruja* / *Bruja (Cuentos de hadas)*: OG combines them into one Witch listing;
+      the named witches are already nested under the fairy-tale version.
+    - *Sátiro* (twice): OG keeps only the Godforsaken version. The WAAMH version
+      differs (health 18 instead of 15, different environment and interaction), so
+      decide before removing it.
+  - Heading typos: *Cuéntos* and *hádas* in the fairy-tale *Bruja* and *Hada* titles.
+  - *El Viento del Oeste* sorts under E in Criaturas; OG sorts *The West Wind* under W.
+    Decide whether to ignore leading articles when sorting.
 
 ---
 
@@ -257,9 +268,16 @@ terminology, so translating a book in one pass keeps them consistent.
         19 entries that were filed as creatures but are NPCs in OG (Goblin, Orco, Ogro,
         Trol, Bruja, Fada…).
       - The genre chapters keep their basic lists and by-level tables.
-- [ ] Fairy Tale stat blocks (*Bestias y seres*). This is a separate step, because OG
-      merges several of them into combined NPC entries (Witch, Enchanter, Queen) rather
-      than moving them as they are.
+- [x] Fairy Tale stat blocks (*Bestias y seres*) moved to Criaturas/PNJs.
+      - Criaturas now has 104 creatures; *Minotauro, el* is nested under *Minotáuro*,
+        as in OG.
+      - PNJs now has 60 NPCs, including three combined entries as in OG: *Encantador*
+        (Morgan Le Fay, Oz, Virgilius), *Reina* (Grimilda, Roja, Nieves) and *Bruja
+        (Cuentos de hadas)* (Baba Yaga and four more).
+      - Cap. 15 keeps the inline beings (Bagheera, Gato Cheshire…), the archetype lists
+        and the PNJs introduction, as OG Ch20 does.
+      - The emptied *Encantadores del mundo* and *Brujas del mundo* headings remain as
+        alias anchors.
 - [ ] Move Seguidores to the new Seguidores y facciones chapter, spacecraft GM
       intrusions to Reglas, contemporary vehicles/items to Moderno.
 - [x] Consolidate Posesión and fix the Jotunn heading level.
@@ -440,8 +458,8 @@ place.
 ## 12. Immediate next actions
 
 1. Finish WP1:
-   - Fairy Tale stat blocks.
    - Seguidores, spacecraft GM intrusions and contemporary vehicles.
+   - Merge the three duplicate pairs (Hada, Bruja, Sátiro; §3.6).
    - Locura and the small §3.6 fixes.
    - Then merge `wp1-fantasy-relocation`.
 2. Create `GLOSARIO.md` and `TRADUCCION-PROGRESO.md`.
