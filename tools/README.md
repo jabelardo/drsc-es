@@ -70,7 +70,11 @@ python3 tools/fixes/apply_fixes.py --target odt --record        # same for the O
 
 - **Matching:** visible text only, ignoring markup and collapsing whitespace, so phrases
   split across ODT `<text:span>` elements still match. Only the characters that change
-  are rewritten.
+  are rewritten. When a change crosses markup, old and new are aligned word by word, so
+  words that stay keep their links and styles.
+- **Self-check:** after applying, the visible text must equal the expected result and
+  no link may be left without text; otherwise it reports `[check failed]`, writes
+  nothing and exits 1. `--dry-run` runs the same check without writing.
 - **Order:** fixes apply in register order. Non-overlapping fixes go in one pass; a fix
   that overlaps or depends on an earlier one is applied in the next pass.
 - **Pending fixes:** a fix applies once per format; its `applied` entry records the date.

@@ -19,6 +19,7 @@ Exit status 1 if any pending fix is not found or is ambiguous.
 """
 import argparse
 import datetime
+import difflib
 import html
 import json
 import re
@@ -90,9 +91,37 @@ def escape(s):
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
+TOKEN = re.compile(r'\w+|\s+|[^\w\s]')
+TAG = re.compile(r'<[^>]*>')
+EMPTY_LINK = re.compile(r'<(a|text:a)\b[^>]*>(?:\s|<(?!/?(?:a|text:a)\b)[^>]*>)*</\1>')
+
+
+def edit_range(src, view, a, b, text):
+    """One edit replacing view[a:b] with text. If the range crosses markup, the tags
+    are kept and the new text goes where the first replaced character was. Visible
+    text between the characters (collapsed whitespace, ODT space elements) is dropped."""
+    if a == b:                              # insertion: after view[a-1], or before view[a]
+        before_next = a == 0 or view[a - 1][0] == '\n'   # at a block start
+        pos = view[a][1] if before_next and a < len(view) else view[a - 1][2]
+        return pos, pos, text
+    spans = [(view[k][1], view[k][2]) for k in range(a, b)]
+    first, last = spans[0][0], spans[-1][1]
+    if '<' not in src[first:last]:
+        return first, last, text
+    seg, pos = [text], first
+    for x, y in spans:
+        seg.extend(t for t in TAG.findall(src[pos:x])
+                   if not (ODT_SPACE.match(t) or ODT_TAB.match(t)))
+        pos = y
+    return first, last, ''.join(seg)
+
+
 def plan(src, view, flat, fix):
     """Edits (start, end, replacement) in src for every match of the fix, plus the view
-    ranges they touch. Returns (edits, view_ranges, count)."""
+    ranges they touch. Returns (edits, view_ranges, count).
+
+    When the changed text crosses markup, old and new are aligned word by word so that
+    words that stay keep their markup (links, spans) and only the changed words move."""
     old, new = fix['old'], fix['new']
     starts = [m.start() for m in re.finditer(re.escape(old), flat)]
     if not starts or (len(starts) > 1 and not fix.get('all')):
@@ -104,27 +133,35 @@ def plan(src, view, flat, fix):
     q = 0
     while q < min(len(old), len(new)) - p and old[-1 - q] == new[-1 - q]:
         q += 1
-    mid_new = escape(new[p:len(new) - q])
+    old_mid, new_mid = old[p:len(old) - q], new[p:len(new) - q]
     edits, ranges = [], []
     for s in starts:
         a, b = s + p, s + len(old) - q      # changed region in the view
         ranges.append((s, s + len(old)))
-        if a == b:                          # pure insertion after view[a-1]
-            pos = view[a - 1][2]
-            edits.append((pos, pos, mid_new))
+        if a == b or '<' not in src[view[a][1]:view[b - 1][2]]:
+            edits.append(edit_range(src, view, a, b, escape(new_mid)))
             continue
-        spans = [(view[k][1], view[k][2]) for k in range(a, b)]
-        first, last = spans[0][0], spans[-1][1]
-        if '<' not in src[first:last]:
-            edits.append((first, last, mid_new))
-        else:                               # region crosses markup: drop the chars, keep tags
-            seg, pos = [mid_new], first
-            for x, y in spans:
-                seg.append(src[pos:x])
-                pos = y
-            seg.append(src[pos:last])
-            edits.append((first, last, ''.join(seg)))
+        # region crosses markup: apply the word-level differences one by one
+        ot, nt = TOKEN.findall(old_mid), TOKEN.findall(new_mid)
+        oo = [0]
+        for t in ot:
+            oo.append(oo[-1] + len(t))
+        no = [0]
+        for t in nt:
+            no.append(no[-1] + len(t))
+        sm = difflib.SequenceMatcher(None, ot, nt, autojunk=False)
+        for op, i1, i2, j1, j2 in sm.get_opcodes():
+            if op != 'equal':
+                edits.append(edit_range(src, view, a + oo[i1], a + oo[i2],
+                                        escape(new_mid[no[j1]:no[j2]])))
     return edits, ranges, len(starts)
+
+
+def expected_text(flat, fixes):
+    """The visible text the applied fixes should produce, for the self-check."""
+    for fix in fixes:
+        flat = flat.replace(fix['old'], fix['new'], -1 if fix.get('all') else 1)
+    return flat
 
 
 def run(src, fixes, label):
@@ -134,6 +171,8 @@ def run(src, fixes, label):
     applied = []
     pending = list(fixes)
     counts = {}
+    flat0 = ''.join(ch for ch, _, _ in text_view(src))
+    empty0 = len(EMPTY_LINK.findall(src))
     while pending:
         view = text_view(src)
         flat = ''.join(ch for ch, _, _ in view)
@@ -164,6 +203,24 @@ def run(src, fixes, label):
         else:
             print(f'  [ambiguous] {fix["id"]}: {count} matches for "{fix["old"]}"')
         ok = False
+    # self-check: the visible text must be exactly the expected one, and no link may
+    # have lost all its text. On failure nothing is applied.
+    done = [f for f in fixes if f['id'] in applied]
+    want = expected_text(flat0, done)
+    got = ''.join(ch for ch, _, _ in text_view(src))
+    checked = True
+    if got != want:
+        k = next((i for i, (x, y) in enumerate(zip(got, want)) if x != y), min(len(got), len(want)))
+        print(f'  [check failed] visible text differs from the expected result near:\n'
+              f'    got:  {got[max(0, k - 60):k + 60]!r}\n    want: {want[max(0, k - 60):k + 60]!r}')
+        checked = False
+    empty = len(EMPTY_LINK.findall(src))
+    if empty > empty0:
+        print(f'  [check failed] {empty - empty0} link(s) left without text')
+        checked = False
+    if not checked:
+        print('  self-check failed: nothing written')
+        return src, [], False
     return src, applied, ok
 
 
