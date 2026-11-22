@@ -110,6 +110,7 @@ What is actually missing falls into three groups:
 | Cap. 16 Horror › Criaturas y PNJs de horror por nivel y género (~5.4k), PNJs | Horror stat blocks | Ch22 / Ch23 | Done (by-level table stays in Cap. 16) |
 | Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | Done (inline beings, archetype lists and PNJs intro stay in Cap. 15; Sátiro, Hada and Bruja keep both versions, §3.6) |
 | Cap. 20 Criaturas › Supervillanos (~2.7k) and NPC entries filed as creatures | Supervillains, NPCs | Ch23 NPCs (Ch18 keeps the Supervillains overview) | Done (Supervillanos moved whole, after Otros PNJs) |
+| Cap. 14 Superhéroes › Cyphers y artefactos › Cyphers de refuerzo de potencia | Three Claim the Sky power-boost cyphers and the d100 power-boost table | Ch24 › Power Boost Cyphers / Power Boost Cypher Table | Done (found by the final WP1 check; not in the original audit) |
 
 Everything else in DRSC-ES sits in the OG chapter it maps to. Fairy-tale cyphers and
 artifacts already live in the Fairy Tale chapter in both documents.
@@ -209,7 +210,7 @@ Gaps inside books DRSC-ES already covers:
   - The Munición group reused Ocio's id `contemporaneo-6`; it now uses the unused
     `contemporaneo-7`.
   - Criaturas and PNJs sort ignoring a leading El/La/Los/Las (decided 2026-11-22).
-  - Duplicate ids are down from 134 to 128.
+  - Duplicate ids are down from 134 to 127.
 - Decided (2026-11-22): keep both versions of *Sátiro*, *Hada* and *Bruja* rather than
   merging them as OG does for Hada and Bruja. Each pair is the same creature at the same
   level but written differently (description, environment, abilities). The core or
@@ -299,6 +300,11 @@ terminology, so translating a book in one pass keeps them consistent.
 - [x] Sort Criaturas and PNJs ignoring a leading El/La/Los/Las.
 - [x] Keep both versions of Sátiro, Hada and Bruja, the We Are All Mad Here one
       labelled *(Cuentos de hadas)* (§3.6).
+- [x] Superhero power-boost cyphers moved to Cap. 22. The final check found them:
+      - Reforzador de eficacia, de mejora and de proeza joined the power-boost list
+        (now all 11, as in OG).
+      - The d100 table became *Tabla de Cyphers de refuerzo de potencia* under *Listado
+        de Cyphers por categoría*.
 - [x] Keep every moved section's id. Ids whose heading was dissolved remain as alias
       anchors:
       - `modulo-de-reglas-magicas` on *Artes marciales místicas*
@@ -311,9 +317,20 @@ terminology, so translating a book in one pass keeps them consistent.
 - [x] Update TOC, navbar, quick-reference boxes and cross-links after each move. The
       TOC gained the 9-A chapter; the navbar only links to chapters and needed no
       change.
+- Final acceptance check against the pre-WP1 baseline (main at 2aafddb):
+  - Of 818 Spanish headings whose English name matches OG, all sit in their OG
+    chapter. The only flags are the inline fairy-tale beings *Enano* and *Trol*, which
+    share names with NPC entries.
+  - Each Spanish chapter is now 0.84–1.12 × its OG counterpart (OG words from the books
+    DRSC-ES covers). The outlier is Post-apocalíptico at 0.68: the Carroñeo
+    (scavenging) tables look shorter than OG's, a possible content gap to check in WP2,
+    not a misplaced block.
+  - 395,479 → 395,073 words; every removed word is accounted for (duplicate Posesión,
+    Locura summary, the superhero power-boost intro, renamed headings, obsolete
+    quick-reference entries).
 - Verification run after each step:
   - same id set before and after, except intended aliases and new headings
-  - 0 broken internal links; duplicate ids never increased (134 → 128 overall)
+  - 0 broken internal links; duplicate ids never increased (134 → 127 overall)
   - no duplicate id switched to a different target
   - balanced tags; word diff limited to headings, quick references and merged text
   - headless Chrome render of the moved sections
@@ -327,6 +344,9 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Diff existing rules text against CSRD 2025-08-22 and apply errata (start from
       OG's "Errata" ability category).
 - [ ] Resolve the two entries not found in OG and the Mutant descriptor source (§3.4–3.6).
+- [ ] Compare Cap. 18 Post-apocalíptico › Carroñeo with OG Ch19 Scavenging (Food, Water,
+      and Shelter; Useful Stuff; Useful Stuff (Basic); Junk). The Spanish chapter is
+      0.68 × its OG counterpart, the only outlier after WP1.
 - Acceptance: no OG section from ES-held sources without a Spanish equivalent.
 
 ### WP3 — It's Only Magic (~44k EN words)
