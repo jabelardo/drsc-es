@@ -20,7 +20,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 |---|---|---|
 | WP0 | Setup: source version, glossary, this file, QA scripts, audit | in progress (2026-11-22, `wp0-setup`) |
 | WP1 | Reorganise existing Spanish content to the OG structure | done (2026-11-22, `wp1-fantasy-relocation`, not merged yet) |
-| WP2 | Gaps inside covered books, CSRD 2025 errata | in progress (2026-11-22, `wp2-gaps`): range/distance terminology normalised (including five range-band errors) |
+| WP2 | Gaps inside covered books, CSRD 2025 errata | done (2026-11-22, `wp2-gaps`, not merged yet): range/distance terminology, Heartwood, Moonbeam and Question Past Self; the CSRD 2025 has no errata to existing text; *Escudo deflector* kept |
 | WP3 | It's Only Magic (~44k) | to do |
 | WP4 | Neon Rain (~42k) | to do |
 | WP5 | High Noon at Midnight (~38k) | to do |
@@ -40,12 +40,12 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | Ch5 Type | Cap. 3 Tipos | complete | OG editorial 1.5k (WP7) | to do |
 | Ch6 Flavor | Cap. 4 Aspectos | complete | IOM 0.5k, 5 flavors (WP3); OG editorial 0.5k (WP7) | to do |
 | Ch7 Descriptor | Cap. 5 Descriptores | complete | OG editorial 3.0k (WP7) | to do |
-| Ch8 Focus | Cap. 6 Rasgos | 6 Heartwood foci missing (WP2) | 31 foci: IOM 3.5k, NR 3.0k, HNAM 2.4k, RR 1.9k (WP3–6); OG editorial 3.5k (WP7) | to do |
-| Ch9 Abilities | Cap. 7 Capacidades + Listado | Moonbeam and Question Past Self missing; 16 errata abilities (WP2) | 367 abilities: IOM 14.2k, NR 3.9k, HNAM 4.5k, RR 9.7k (WP3–6); OG editorial 5.0k (WP7) | to do |
+| Ch8 Focus | Cap. 6 Rasgos | complete | 31 foci: IOM 3.5k, NR 3.0k, HNAM 2.4k, RR 1.9k (WP3–6); OG editorial 3.5k (WP7) | to do |
+| Ch9 Abilities | Cap. 7 Capacidades + Listado | complete | 367 abilities: IOM 14.2k, NR 3.9k, HNAM 4.5k, RR 9.7k (WP3–6); OG editorial 5.0k, including 16 "Errata" (old) abilities (WP7) | to do |
 | Ch10 Equipment | Cap. 8 Equipo | complete | IOM 0.2k (WP3); OG editorial 0.8k (WP7) | to do |
 | Ch11 Rules of the Game | Cap. 9 Reglas del juego | complete | NR 1.1k (WP4); OG editorial 2.6k (WP7) | to do |
 | Ch11-A Followers and Factions | Cap. 9-A Seguidores y facciones | complete | IOM 2.2k, Familiars and Covens (WP3); OG editorial 10.2k, Sidekicks (WP7) | to do |
-| Ch12 Experience Points | Cap. 10 Puntos de experiencia | complete | NR 0.4k (WP4); OG editorial 1.9k (WP7) | to do |
+| Ch12 Experience Points | Cap. 10 Puntos de experiencia | complete (4 Heartwood arcs added in WP2) | NR 0.4k (WP4); OG editorial 1.9k (WP7) | to do |
 | Ch13 Fantasy | Cap. 11 Fantasía | complete | IOM 0.1k (WP3); OG editorial 1.5k (WP7) | to do |
 | Ch14 Modern | Cap. 12 Moderno | complete | OG editorial 0.6k (WP7) | to do |
 | Ch14-A Modern Magic | — (new chapter) | — | IOM 15.5k (WP3) | to do |
@@ -54,8 +54,8 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | Ch16 Horror | Cap. 16 Horror | complete | OG editorial 4.1k (WP7) | to do |
 | Ch17 Romance | Cap. 17 Romance | complete | NR 0.1k (WP4) | to do |
 | Ch18 Superheroes | Cap. 14 Superhéroes | complete | OG editorial 1.7k (WP7) | to do |
-| Ch19 Post-Apocalyptic | Cap. 18 Post-apocalíptico | check Carroñeo against OG Scavenging; chapter is 0.68 × OG (WP2) | RR 17.3k (WP6) | to do |
-| Ch20 Fairy Tale | Cap. 15 Cuentos de hadas | 6 Heartwood descriptors missing (WP2) | — | to do |
+| Ch19 Post-Apocalyptic | Cap. 18 Post-apocalíptico | complete (the 0.68 ratio is R&R text OG merged into Scavenging) | RR 17.3k, including the revised Scavenging and the Mutant descriptor (WP6) | to do |
+| Ch20 Fairy Tale | Cap. 15 Cuentos de hadas | complete | — | done |
 | Ch21 Historical | Cap. 19 Histórico | complete | — | done |
 | Ch21-A Weird West | — (new chapter) | — | HNAM 25.2k (WP5) | to do |
 | Ch22 Creatures | Cap. 20 Criaturas | complete | 39 creatures: IOM 6.5k, HNAM 4.7k, RR 5.0k (WP3, 5, 6) | to do |

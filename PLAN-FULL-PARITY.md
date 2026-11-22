@@ -45,6 +45,10 @@ Full parity means:
   (2019/2024), and the supplement PDFs (Godforsaken, The Stars Are Fire, We Are All
   Mad Here, Claim the Sky, Stay Alive!, Cypher Shorts, It's Only Magic, Neon Rain,
   High Noon at Midnight, Rust and Redemption, Cypher System Bestiary).
+- **Rules wording comes from the CSRD file, not OG** (learned in WP2). OG-CSRD
+  sometimes edits CSRD text without marking it (e.g. *Secret and True Names*, the
+  Giant Spider). Take structure from OG, but check every paragraph you translate
+  against `Cypher-System-Reference-Document-2025-08-22.docx`.
 - **Terminology:** reuse the existing DRSC-ES glossary; keep English names in
   `[brackets]` exactly as the current document does.
 - **Editorial policy:** full parity includes OG editorial content (foreword, editor
@@ -165,15 +169,18 @@ Gaps inside books DRSC-ES already covers:
   - 6 foci: Befriends the Black Dog, Curses the World, Feigns No Fear, Lived Among
     the Fey, Made a Deal With Death, Sheds Their Skin.
 - **CSRD 2025 text revisions.** Rules text that changed between the CSRD of
-  2023-04-18 and 2025-08-22 (Rulebook 2024 errata). A structural audit cannot detect
-  changed wording, but the WP0 audit found missing abilities:
+  2023-04-18 and 2025-08-22. The WP0 audit found missing abilities:
   - 16 abilities OG cites as *Errata*: Chop, Crush, Daring Escape, Extra Edge, Font of
     Inspiration, Mighty Blow, Opening Gambit, Practiced With Light (and Medium) Weapons,
     Riposte, Seize Opportunity, Shooting Gallery, Skills, Slayer, Specialization,
-    Surprise Strike.
-  - 2 core-book abilities not in DRSC-ES: Moonbeam and Question Past Self.
-- **Mutant descriptor** (post-apocalyptic). OG gives no citation; it sits among the
-  Rust and Redemption descriptors. Verify its source.
+    Surprise Strike. *Resolved in WP2:* these are old 2015-Rulebook versions that OG
+    keeps for compatibility, so they are OG editorial (WP7), not CSRD gaps.
+  - 2 abilities not in DRSC-ES: Moonbeam and Question Past Self. *Added in WP2;* they
+    turned out to be It's Only Magic abilities that OG cites with bare page numbers.
+  - A direct diff of the 2023 and 2025 CSRD files shows no changed wording in existing
+    text: the 2025 CSRD only adds material; see WP2.
+- **Mutant descriptor** (post-apocalyptic). *Resolved in WP2:* OG cites it as Rust and
+  Redemption, page 116 (WP6).
 
 ### 3.5 Revised entry-level gaps
 
@@ -192,9 +199,14 @@ Gaps inside books DRSC-ES already covers:
 
 - ES-only, to keep: Extras (Cypherpunk / Dark Sun PDFs, `contrib/`) and *Notas de la
   traducción*.
-- Not found in OG under any name; check against CSRD 2025 before keeping or removing:
-  - *Estabilizador mental [Mind Stabilizer]* (cypher, Cap. 22)
-  - *Escudo deflector [Deflecting Shield]* (fantasy artifact, Cap. 23)
+- Checked in WP2:
+  - *Estabilizador mental [Mind Stabilizer]* (cypher, Cap. 22) is in OG, misspelled
+    "Mind Stablizer" (Rulebook, page 393). Keep.
+  - *Escudo deflector [Deflecting Shield]* (fantasy artifact, Cap. 23): OG says the
+    deflecting shield (Godforsaken, page 150) is not included in the CSRD, and lists
+    the Truth Binoculars (*Prismáticos de la verdad*, already in DRSC-ES) in its place
+    in the Minor Fantasy Artifacts table. Both CSRD files list it by name only, with no
+    description. **Decided 2026-11-22: keep** the entry and the table row as they are.
 - Duplicates to consolidate:
   - *Posesión*: **done in WP1.** The Cap. 16 section is kept, with the module's opening
     sentence and consent paragraph merged in, as in OG. The module's `posesion` id
@@ -358,12 +370,50 @@ terminology, so translating a book in one pass keeps them consistent.
   (word-count and id diff against the pre-move baseline); anchor QA clean.
 
 ### WP2 — Gaps inside books already covered (~3k EN words + errata)
-- [ ] Translate the 6 Heartwood descriptors and 6 Heartwood foci (We Are All Mad Here)
-      and replace the name-only lists.
-- [ ] Diff existing rules text against CSRD 2025-08-22 and apply errata (start from
-      OG's "Errata" ability category).
-- [ ] Translate the 18 missing abilities found by the WP0 audit: 16 errata abilities,
-      plus Moonbeam and Question Past Self (§3.4).
+- [x] Heartwood (We Are All Mad Here), 2026-11-22, `wp2-gaps`:
+      - the 6 descriptors as full entries in Cap. 15 (*Atormentado, Embrujado,
+        Fragmentado, Frumioso, Perdido, Trocado*); the name-only list now links to them
+      - the 6 foci in Cap. 6 (*Finge no tener miedo, Hizo un trato con la Muerte,
+        Maldice al mundo, Muda de piel, Se hace amigo del perro negro, Vivió entre las
+        hadas*), linked from the Heartwood foci list
+      - the 4 Heartwood character arcs in Cap. 10 (*Convertirse en defensor, Desarrollar
+        estrategias de afrontamiento, Echar raíces, Tomar el camino equivocado*) and a
+        *Arcos de personaje de Heartwood* section in Cap. 15
+      - fairy-tale skills: *Magia* was missing; *Empedrado* (paving) → *Zapatería*
+        (cobbling, registered as `skill-cobbling`)
+      - also fixed: the Cap. 10 sentence listing the arcs had link texts shifted from
+        *Construcción* on (e.g. "Crecimiento" → `#creacion`)
+      - not included: the Changeling NPC is from It's Only Magic (WP3); the Heartwood
+        foci that OG adds to the fantasy role suggestions are OG editorial (WP7)
+- [x] Diff existing rules text against CSRD 2025-08-22, 2026-11-22. **There are no
+      errata to apply.** Compared the two CSRD files directly
+      (`Cypher-System-Reference-Document-2023-04-18.docx` and `…-2025-08-22.docx`):
+      every paragraph of the 2023 CSRD appears word for word in the 2025 one, except the
+      title and one heading typo ("Exhorbitant" → "Exorbitant"). Everything new is in an
+      appendix, "Additional rules and supplementary content from: The Stars Are Fire,
+      Godforsaken, We Are All Mad Here, …, Neon Rain, and Cypher Shorts". For the books
+      DRSC-ES covers, that new content is Heartwood (above); the rest belongs to the
+      four supplements (WP3–6).
+      - OG-CSRD's text is not always CSRD text. A first pass that diffed two OG
+        versions found changes that are OG's own: *Secret and True Names* ("basic
+        attacks, and Might defense"), the Giant Spider's venom (1 Speed damage instead
+        of 3), the dropped note on *Efficacy Boost (Major)*, and the extra foci in the
+        fantasy role suggestions. The CSRD keeps the original text in all four, as
+        DRSC-ES does, so nothing was changed.
+      - OG's "Errata" ability category keeps old 2015-Rulebook versions of renamed or
+        changed abilities (e.g. Daring Escape → Misdirect) for compatibility. None of
+        its 16 unmatched entries is in either CSRD: they are OG editorial (WP7).
+      - OG also merges supplement text into core sections: Scavenging, Junk and the
+        post-apocalyptic species intro (Rust and Redemption, WP6); Crafting Cyphers and
+        the Masters Spells note (It's Only Magic, WP3); Character Reputations (Neon
+        Rain, WP4).
+- [x] Translate the missing abilities found by the WP0 audit: *Rayo de luna [Moonbeam]*
+      and *Interrogar al yo pasado [Question Past Self]*, added to the ability list and
+      their categories (2026-11-22). Neither is in the 2023 CSRD: the 2025 CSRD defines
+      them inside It's Only Magic (the Practices Moon Magic focus and the Divination
+      flavor). OG cites them with bare page numbers, which the audit reads as Rulebook
+      pages. The text is verbatim CSRD 2025, so they stay; WP3 should not add them
+      again. The 16 "errata" abilities are OG editorial (see above).
 - [x] Fix five entries whose Spanish changed the range band (found by comparing range
       terms with OG-CSRD; see `GLOSARIO.md` › *Alcance y distancia*). Fixed in the HTML
       on 2026-11-22 (branch `wp2-gaps`) and registered in `CORRECCIONES.json` for the ODT:
@@ -386,10 +436,18 @@ terminology, so translating a book in one pass keeps them consistent.
       2026-11-22 (WP9).
 - Every text correction that also applies to the ODT goes into `CORRECCIONES.json`, and
   is applied to the HTML with `tools/fixes/apply_fixes.py --target html --record`.
-- [ ] Resolve the two entries not found in OG and the Mutant descriptor source (§3.4–3.6).
-- [ ] Compare Cap. 18 Post-apocalíptico › Carroñeo with OG Ch19 Scavenging (Food, Water,
-      and Shelter; Useful Stuff; Useful Stuff (Basic); Junk). The Spanish chapter is
-      0.68 × its OG counterpart, the only outlier after WP1.
+- [x] Entries not found in OG and the Mutant descriptor (§3.4–3.6), 2026-11-22:
+      - *Estabilizador mental [Mind Stabilizer]* is in OG as "Mind Stablizer" (Rulebook,
+        page 393); keep.
+      - *Mutant* is cited as Rust and Redemption, page 116 (WP6).
+      - *Escudo deflector [Deflecting Shield]*: OG's editor's note says the deflecting
+        shield (Godforsaken, page 150) "is not included in the CSRD"; both CSRD files
+        list it by name only. **Decided 2026-11-22: keep** the Spanish entry (see §3.6).
+- [x] Carroñeo vs OG Scavenging, 2026-11-22: *Carroñeo* is the 2023 CSRD Rulebook text
+      and is complete. OG's Scavenging is Rust and Redemption's revised version (search
+      time, doubled finds, Useful Stuff (Expanded), junk loads, its own Junk table),
+      cited to both books, so the audit counts R&R words as covered; that explains the
+      0.68 ratio. Port it with WP6.
 - Acceptance: no OG section from ES-held sources without a Spanish equivalent.
 
 ### WP3 — It's Only Magic (~44k EN words)
@@ -397,7 +455,9 @@ terminology, so translating a book in one pass keeps them consistent.
       cyphers, artifacts).
 - [ ] 5 flavors (Ch6), 10 foci (Ch8), 7 descriptors, 125 abilities + cantrips (Ch9),
       Familiars and Covens (Ch11-A), equipment additions (Ch10).
-- [ ] 13 creatures (Ch22), 4 NPCs (Ch23).
+- [ ] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC.
+- [ ] Merged into core sections by OG: Crafting Cyphers (Godforsaken + IOM, page 90),
+      the Masters Spells note about Inks Spells on Skin.
 
 ### WP4 — Neon Rain (~42k EN words)
 - [ ] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
@@ -414,7 +474,11 @@ terminology, so translating a book in one pass keeps them consistent.
 ### WP6 — Rust and Redemption (~36k EN words)
 - [ ] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
       mutations, cyphers, artifacts).
-- [ ] 5 foci, 8 descriptors, 120 abilities + mutations list, 15 creatures, 5 NPCs.
+- [ ] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
+      15 creatures, 5 NPCs.
+- [ ] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
+      Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
+      ("In addition to descriptors for human survivors…").
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
 - [ ] Back matter: FAQ, Índice, Qué hay en el libro, Prólogo.
@@ -425,6 +489,9 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
       categories, editor notes, "Related Sections", page citations (decide whether
       to keep OG page numbers or map to Spanish/CSRD pages).
+- [ ] Errata ability category (old 2015-Rulebook versions, 16 entries without a
+      Spanish match) and the expanded fantasy role suggestions (Cap. 11), which add
+      supplement foci and flavors.
 - [ ] Mark every item as an OG addition per §2.
 
 ### WP8 — Structural integration (incremental, alongside WP1–WP7)
@@ -450,6 +517,8 @@ terminology, so translating a book in one pass keeps them consistent.
       - [x] 2026-11-22 (branch `wp2-gaps`): the 386 corrections registered so far
             applied; PDF regenerated with LibreOffice 26.8.3.1 (544 pages, untagged, same
             links and bookmarks as before). Repeat for corrections added later.
+      - Pending for the ODT, by hand: add *Magia* to the fairy-tale skills list (missing
+        since the first translation; a new list item cannot go through the register).
       - The first ODT run showed that the applier could empty a link, or keep an ODT
         space element, when a correction crossed markup. The applier now aligns
         changes word by word and checks the result. The one link affected in the HTML
