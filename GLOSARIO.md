@@ -89,6 +89,19 @@ choice looks wrong, raise it before using an alternative.
 | very expensive / exorbitant / priceless | muy caro / exorbitante / invaluable | |
 | contemporary / advanced / fantastic | contemporáneo / avanzado / fantástico | Technology levels. |
 
+### Cuentos de hadas (Heartwood)
+
+Added 2026-11-22 with the Heartwood material (We Are All Mad Here).
+
+| English | Español | Notes |
+|---|---|---|
+| Heartwood | Heartwood | Setting name, kept in English. |
+| Changeling (descriptor) | Trocado | From *niño trocado*. The fey creature in the fairy-tale tables stays *Changeling*. |
+| Frumious / Manxome / Bandersnatch | Frumioso / Manxomo / Bandersnatch | Lewis Carroll's *Jabberwocky*, as in the usual Spanish versions. |
+| Curiouser / And Curiouser | Curiorífico / Y curiorífico | *Alicia* ("¡Curiorífico y curiorífico!"). |
+| fey (as in "Lived Among the Fey") | hadas | Elsewhere *feérico* for the adjective. |
+| cobbling (skill) | zapatería | Not *empedrado* (paving). |
+
 ### Alcance y distancia
 
 Decided 2026-11-22. English uses two words on purpose: **range** for reach (attacks,
@@ -134,9 +147,9 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 
 | Kind | Entries |
 |---|---:|
-| [Capacidades](#capacidades) | 1106 |
-| [Rasgos](#rasgos) | 105 |
-| [Descriptores](#descriptores) | 68 |
+| [Capacidades](#capacidades) | 1108 |
+| [Rasgos](#rasgos) | 111 |
+| [Descriptores](#descriptores) | 74 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 345 |
 | [Artefactos](#artefactos) | 97 |
@@ -144,7 +157,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [PNJs](#pnjs) | 72 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 7 |
-| **Total** | **1956** |
+| **Total** | **1970** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -826,6 +839,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Monster Bane | Ruina de monstruos |
 | Monster Lore | Conocimiento de monstruos |
 | Moon Shape | Forma lunar |
+| Moonbeam | Rayo de luna |
 | Mount | Montura |
 | Move Metal | Mover metal |
 | Move Mountains | Mover montañas |
@@ -933,6 +947,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Push Off and Throw | Empujar y lanzar |
 | Push on Through | Seguir adelante |
 | Quarry | Presa |
+| Question Past Self | Interrogar al yo pasado |
 | Question the Spirits | Interrogar a los espíritus |
 | Quick Block | Bloqueo rápido |
 | Quick Death | Muerte rápida |
@@ -1276,6 +1291,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Awakens Dreams | Despierta los sueños |
 | Battles Robots | Lucha contra robots |
 | Bears a Halo of Fire | Porta un halo de fuego |
+| Befriends the Black Dog | Se hace amigo del perro negro |
 | Blazes With Radiance | Arde con resplandor |
 | Brandishes an Exotic Shield | Blande un escudo exótico |
 | Builds Robots | Construye robots |
@@ -1289,6 +1305,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Copies Superpowers | Copia superpoderes |
 | Crafts Illusions | Forja ilusiones |
 | Crafts Unique Objects | Fabrica objetos únicos |
+| Curses the World | Maldice al mundo |
 | Dances With Dark Matter | Danza con la materia oscura |
 | Defends the Gate | Defiende las puertas |
 | Defends the Weak | Defiende a los débiles |
@@ -1301,6 +1318,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Exists in Two Places at Once | Existe en dos lugares a la vez |
 | Exists Partially Out of Phase | Existe parcialmente fuera de fase |
 | Explores Dark Places | Explora lugares sombríos |
+| Feigns No Fear | Finge no tener miedo |
 | Fights Dirty | Pelea sucio |
 | Fights With Panache | Lucha con estilo |
 | Flies Faster Than a Bullet | Vuela más rápido que una bala |
@@ -1321,9 +1339,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Keeps a Magic Ally | Tiene un aliado mágico |
 | Leads | Lidera |
 | Learns Quickly | Aprende rápidamente |
+| Lived Among the Fey | Vivió entre las hadas |
 | Lives in the Wilderness | Vive en la naturaleza |
 | Looks for Trouble | Busca problemas |
 | Loves the Void | Ama el vacío |
+| Made a Deal With Death | Hizo un trato con la Muerte |
 | Masters Defense | Domina la defensa |
 | Masters Spells | Domina los hechizos |
 | Masters the Swarm | Domina el enjambre |
@@ -1346,6 +1366,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Sculpts Hard Light | Esculpe luz dura |
 | Sees Beyond | Ve más allá |
 | Separates Mind From Body | Separa la mente del cuerpo |
+| Sheds Their Skin | Muda de piel |
 | Shepherds Spirits | Pastorea espíritus |
 | Shepherds the Community | Pastorea a la comunidad |
 | Shreds the Walls of the World | Destroza los muros del mundo |
@@ -1385,9 +1406,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Appealing | Atractivo |
 | Artificially Intelligent | Artificialmente inteligente |
 | Beneficent | Benéfico |
+| Bewitched | Embrujado |
 | Brash | Temerario |
 | Calm | Tranquilo |
 | Catfolk | Félido |
+| Changeling | Trocado |
 | Chaotic | Caótico |
 | Charming | Encantador |
 | Clever | Astuto |
@@ -1404,12 +1427,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Exiled | Exiliado |
 | Fast | Rápido |
 | Foolish | Tonto |
+| Fragmented | Fragmentado |
+| Frumious | Frumioso |
 | Gnome | Gnomo |
 | Graceful | Grácil |
 | Guarded | Cauto |
 | Half-Giant | Semigigante |
 | Halfling | Mediano |
 | Hardy | Vigoroso |
+| Haunted | Atormentado |
 | Helborn | Inferniano |
 | Hideous | Repulsivo |
 | Honorable | Honorable |
@@ -1422,6 +1448,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Kind | Amable |
 | Learned | Culto |
 | Lizardfolk | Reptiliano |
+| Lost | Perdido |
 | Lucky | Afortunado |
 | Mad | Desequilibrado |
 | Mechanical | Mecánico |
