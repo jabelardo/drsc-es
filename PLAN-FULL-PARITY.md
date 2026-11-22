@@ -1,6 +1,8 @@
 # Plan for Full Parity: DRSC-ES → OG-CSRD
 
-Status: draft for execution (revised 2026-11-22 after a source-attribution audit, see §3)
+Status: in execution. WP1 is in progress on branch `wp1-fantasy-relocation`; see
+the WP1 checklist in §5 (last updated 2026-11-22). The plan was revised on 2026-11-22
+after a source-attribution audit (§3).
 Scope: bring the Spanish `DRSC-ES.html` to full content and structural parity with the
 current Old Gus' Cypher System Reference Document (OG-CSRD).
 
@@ -92,22 +94,22 @@ What is actually missing falls into three groups:
 
 ### 3.3 Existing Spanish material that OG keeps elsewhere (relocation map)
 
-| Current DRSC-ES location | Content | OG-CSRD target |
-|---|---|---|
-| Módulo de reglas mágicas (~11.8k ES words) | Crafting magic items, magical technology, mystical martial arts, ritual magic, secret/true names, wishes, awarding treasure, dungeons/castles/keeps and traps | Ch13 Fantasy |
-| Módulo de reglas mágicas › Control mental, Posesión | Mind control, possession | Ch16 Horror › Horror Rules (Posesión is already duplicated in Cap. 16, so merge) |
-| Cap. 3 Tipos › Opciones de personajes de fantasía | Sorcerer, Warlock or Witch, Wizard, Wild Mage, etc. | Ch13 › Fantasy Character Options |
-| Cap. 8 Equipo › fantasy weapon/armor/clothing/adventuring-gear descriptions, medieval price categories | Medieval equipment | Ch13 › Medieval Fantasy Equipment |
-| Cap. 22 Cyphers › Cyphers de fantasía | Fantasy cyphers | Ch13 › Fantasy Cyphers |
-| Cap. 23 Dirigir › Artefactos › Artefactos de fantasía (~6.9k) | Fantasy artifacts | Ch13 › Fantasy Artifacts |
-| Cap. 20 Criaturas › Criaturas y PNJs de fantasía por nivel; Otras criaturas y PNJs para un juego de fantasía | Fantasy creature/NPC lists | Ch13 › Basic Creatures and NPCs for a Fantasy Game |
-| Cap. 9 Reglas › Seguidores | Followers | Ch11-A Followers and Factions |
-| Cap. 13 Ciencia ficción › Intromisiones del DJ para naves espaciales | Spacecraft GM intrusions | Ch11 › Action: Do Something Else |
-| Cap. 13 Ciencia ficción › contemporary vehicles (cars, boats, submarines, early spacecraft) and modern items | Modern equipment | Ch14 Modern › Modern Vehicles / Additional Modern Equipment |
-| Cap. 13 Ciencia ficción › Criaturas y PNJs básicos (~12.2k) | SF creature and NPC stat blocks | Ch22 Creatures / Ch23 NPCs (genre chapter keeps the "Basic Creatures and NPCs" list) |
-| Cap. 16 Horror › Criaturas y PNJs de horror por nivel y género (~5.4k), PNJs | Horror stat blocks | Ch22 / Ch23 |
-| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) |
-| Cap. 20 Criaturas › Supervillanos (~2.7k) and NPC entries filed as creatures | Supervillains, NPCs | Ch23 NPCs (Ch18 keeps the Supervillains overview) |
+| Current DRSC-ES location | Content | OG-CSRD target | WP1 status |
+|---|---|---|---|
+| Módulo de reglas mágicas (~11.8k ES words) | Crafting magic items, magical technology, mystical martial arts, ritual magic, secret/true names, wishes, awarding treasure, dungeons/castles/keeps and traps | Ch13 Fantasy | Done |
+| Módulo de reglas mágicas › Control mental, Posesión | Mind control, possession | Ch16 Horror › Horror Rules (Posesión is already duplicated in Cap. 16, so merge) | Done (Posesión merged) |
+| Cap. 3 Tipos › Opciones de personajes de fantasía | Sorcerer, Warlock or Witch, Wizard, Wild Mage, etc. | Ch13 › Fantasy Character Options | Done |
+| Cap. 8 Equipo › fantasy weapon/armor/clothing/adventuring-gear descriptions, medieval price categories | Medieval equipment | Ch13 › Medieval Fantasy Equipment | Done |
+| Cap. 22 Cyphers › Cyphers de fantasía | Fantasy cyphers | Ch13 › Fantasy Cyphers | Done |
+| Cap. 23 Dirigir › Artefactos › Artefactos de fantasía (~6.9k) | Fantasy artifacts | Ch13 › Fantasy Artifacts | Done |
+| Cap. 20 Criaturas › Otras criaturas y PNJs para un juego de fantasía | Fantasy creature/NPC list | Ch13 › Basic Creatures and NPCs for a Fantasy Game | Done. *Criaturas y PNJs de fantasía por nivel* stays in Criaturas, because OG keeps its by-level list in Ch22 |
+| Cap. 9 Reglas › Seguidores | Followers | Ch11-A Followers and Factions | To do |
+| Cap. 13 Ciencia ficción › Intromisiones del DJ para naves espaciales | Spacecraft GM intrusions | Ch11 › Action: Do Something Else | To do |
+| Cap. 13 Ciencia ficción › contemporary vehicles (cars, boats, submarines, early spacecraft) and modern items | Modern equipment | Ch14 Modern › Modern Vehicles / Additional Modern Equipment | To do |
+| Cap. 13 Ciencia ficción › Criaturas y PNJs básicos (~12.2k) | SF creature and NPC stat blocks | Ch22 Creatures / Ch23 NPCs (genre chapter keeps the "Basic Creatures and NPCs" list) | Done (by-level table stays in Cap. 13) |
+| Cap. 16 Horror › Criaturas y PNJs de horror por nivel y género (~5.4k), PNJs | Horror stat blocks | Ch22 / Ch23 | Done (by-level table stays in Cap. 16) |
+| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | To do (OG merges several into combined NPC entries: Witch, Enchanter, Queen) |
+| Cap. 20 Criaturas › Supervillanos (~2.7k) and NPC entries filed as creatures | Supervillains, NPCs | Ch23 NPCs (Ch18 keeps the Supervillains overview) | Done (Supervillanos moved whole, after Otros PNJs) |
 
 Everything else in DRSC-ES sits in the OG chapter it maps to. Fairy-tale cyphers and
 artifacts already live in the Fairy Tale chapter in both documents.
@@ -187,12 +189,22 @@ Gaps inside books DRSC-ES already covers:
   - *Estabilizador mental [Mind Stabilizer]* (cypher, Cap. 22)
   - *Escudo deflector [Deflecting Shield]* (fantasy artifact, Cap. 23)
 - Duplicates to consolidate:
-  - *Posesión*: appears in the magic module and in Cap. 16.
+  - *Posesión*: **done in WP1.** The Cap. 16 section is kept, with the module's opening
+    sentence and consent paragraph merged in, as in OG. The module's `posesion` id
+    remains as an alias.
   - *Locura*: a stub in the horror encyclopedia plus *Regla opcional: Locura*; OG has a
-    single Madness section.
-- Heading bug: in Cap. 20 Criaturas, *Jotunn (gigante nórdico)* is an h4, so every
-  creature after it is nested under it. Make it an h5 at the same level as the other
-  creatures.
+    single Madness section. Still to do.
+- Heading bug: *Jotunn (gigante nórdico)* was an h4 in Cap. 20, so every creature after
+  it was nested under it. **Fixed in WP1:** Jotunn is now one NPC entry in Cap. 21 (h5),
+  with its fire and frost variants as h6 sub-entries, as in OG.
+- Found during WP1, not fixed yet:
+  - Cap. 11 now shows two consecutive *Artefactos de fantasía* headings: the section (h4)
+    and the former Dirigir list (h5). Rename the h5, e.g. *Listado de artefactos de
+    fantasía*.
+  - *Más hechos* in the spellcasting rule is a typo for *Más hechizos*.
+  - `#control-mental` is the id of both the Control mental ability and the Horror
+    section, so links meant for the section (e.g. in Posesión) open the ability.
+    Resolve with the duplicate-id clean-up in WP8.
 
 ---
 
@@ -233,17 +245,38 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Add the source-attribution audit (OG `og-cite` per section + ES bracket-name
       matching) so §3 can be re-run after each work package.
 
-### WP1 — Reorganise existing Spanish content (no new translation, ~4–8 days)
-- [ ] Apply the relocation map in §3.3, one OG chapter at a time, starting with
-      Fantasy (magic module, fantasy type options, medieval equipment, fantasy
-      cyphers, fantasy artifacts, fantasy creature lists).
-- [ ] Move genre stat blocks (SF, Horror, Fairy Tale, supervillains) to Criaturas/PNJs,
-      leaving the "Criaturas y PNJs básicos" lists and overviews in the genre chapters.
+### WP1 — Reorganise existing Spanish content (no new translation, ~4–8 days) — in progress
+- [x] Fantasy: Cap. 11 now follows OG Ch13 order.
+      - Moved in: the magic module, fantasy type options, medieval equipment, fantasy
+        cyphers, fantasy artifacts and the other fantasy creatures list.
+      - *Hechizos preparados vs espontáneos* joined the spellcasting rule.
+      - *Control mental* moved to the Horror encyclopedia, after *Locura*.
+- [x] Sci-Fi and Horror stat blocks moved to Criaturas/PNJs.
+      - Cap. 20 Criaturas now has 96 creatures in one alphabetical list.
+      - Cap. 21 PNJs now has 43 NPCs, followed by *Supervillanos*. That includes the
+        19 entries that were filed as creatures but are NPCs in OG (Goblin, Orco, Ogro,
+        Trol, Bruja, Fada…).
+      - The genre chapters keep their basic lists and by-level tables.
+- [ ] Fairy Tale stat blocks (*Bestias y seres*). This is a separate step, because OG
+      merges several of them into combined NPC entries (Witch, Enchanter, Queen) rather
+      than moving them as they are.
 - [ ] Move Seguidores to the new Seguidores y facciones chapter, spacecraft GM
       intrusions to Reglas, contemporary vehicles/items to Moderno.
-- [ ] Consolidate duplicates (Posesión, Locura) and fix the Jotunn heading level.
-- [ ] Keep every moved section's id; add alias anchors only where sections merge.
+- [x] Consolidate Posesión and fix the Jotunn heading level.
+- [ ] Consolidate Locura; fix the small issues found during WP1 (§3.6).
+- [x] Keep every moved section's id. Ids whose heading was dissolved remain as alias
+      anchors:
+      - `modulo-de-reglas-magicas` on *Artes marciales místicas*
+      - `posesion` on the Horror *Posesión*
+      - `pnjs-1`, `creatures-2-list` and `npcs-1-list` in Cap. 16
+      - `creatures-4-list` in Cap. 13
 - [ ] Update TOC, navbar, quick-reference boxes and cross-links after each move.
+      Done for every move so far. The TOC and navbar only link to chapters, so they
+      have not needed changes yet.
+- Verification run after each step: identical id set before and after, 0 broken
+  internal links, duplicate-id count unchanged (134), balanced tags, word diff limited
+  to quick-reference entries and merged text, headless Chrome render of the moved
+  sections. The ODT and PDF are not updated (WP9).
 - Acceptance: every DRSC-ES section sits under its OG chapter; no content lost
   (word-count and id diff against the pre-move baseline); anchor QA clean.
 
@@ -406,8 +439,13 @@ place.
 
 ## 12. Immediate next actions
 
-1. Create `GLOSARIO.md` and `TRADUCCION-PROGRESO.md`.
-2. Add the QA scripts and the source-attribution audit to the repo (read-only checks).
-3. Start WP1 with Fantasy (largest relocation), then the stat blocks.
+1. Finish WP1:
+   - Fairy Tale stat blocks.
+   - Seguidores, spacecraft GM intrusions and contemporary vehicles.
+   - Locura and the small §3.6 fixes.
+   - Then merge `wp1-fantasy-relocation`.
+2. Create `GLOSARIO.md` and `TRADUCCION-PROGRESO.md`.
+3. Add the QA scripts and the source-attribution audit to the repo (read-only checks):
+   id-set diff, link resolution, word diff and tag balance, as used in WP1.
 4. Close the Heartwood gap (WP2), a small self-contained task.
 5. Pick the first supplement for WP3–WP6 and translate it in one pass.
