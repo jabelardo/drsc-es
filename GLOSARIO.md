@@ -27,13 +27,14 @@ choice looks wrong, raise it before using an alternative.
 | Effort (level of Effort) | Esfuerzo (nivel de Esfuerzo) | |
 | type | tipo | |
 | Warrior / Adept / Explorer / Speaker | Guerrero / Adepto / Explorador / Orador | |
-| flavor | aspecto | Also used for the *Form* field of cyphers and artifacts (see below). |
+| flavor | aspecto | Also used for the *Form* field of cyphers and artifacts (decided 2026-11-22 to keep both). |
 | descriptor | descriptor | |
 | focus / foci | rasgo / rasgos | |
 | ability | capacidad | |
 | special abilities | capacidades especiales | |
 | skill | habilidad | |
 | trained / specialized | competente / especialista | |
+| training (game term: being trained in a skill) | competencia | Decided 2026-11-22. *Otorga competencia en…*, *tu competencia en esa habilidad*. The ordinary sense (years of training, training a creature) stays *entrenamiento*. Ability names keep *Entrenamiento* (e.g. *Entrenamiento mágico [Magic Training]*). |
 | inability | incapacidad | |
 | character arc | arco de personaje | |
 | power shift | mejora de poder | |
@@ -129,15 +130,26 @@ above.
   terminology. That includes five entries where the range band itself was wrong (e.g.
   *Reubicar*, *Vampiro*).
 
-### Decisiones pendientes
+### Magia moderna (It's Only Magic)
 
-The document is inconsistent here. Pick one canonical term for each before WP3, then
-normalise the existing text.
+Added 2026-11-22 for WP3.
 
-| English | Current usage in DRSC-ES (occurrences) |
-|---|---|
-| training (noun) | *entrenamiento* 70, *competencia* 30 |
-| Form (cypher/artifact field) | *Aspecto* 252, *Forma* 4. *Aspecto* is also "flavor". |
+| English | Español | Notes |
+|---|---|---|
+| coven | aquelarre | Already used in DRSC-ES. |
+| familiar | familiar | |
+| cantrip | truco | |
+| magical app | app mágica | |
+| Charms and Figments / Cozy Magic / Divination / Modern Magic / Protection (flavors) | Encantos e ilusiones / Magia acogedora / Adivinación / Magia moderna / Protección | Flavors are *aspectos*: *aspecto de Adivinación*. |
+
+### Decisiones tomadas
+
+Settled 2026-11-22, before WP3:
+- **training (noun):** split by meaning. The game term is *competencia*; the ordinary sense
+  stays *entrenamiento*. The existing text was normalised: 32 occurrences, registered in
+  `CORRECCIONES.json` as `training-01` to `training-28`.
+- **Form (cypher/artifact field):** keep *Aspecto:*. It shares the word with "flavor"; context
+  tells them apart.
 
 <!-- BEGIN GENERATED: tools/parity/glossary.py -->
 

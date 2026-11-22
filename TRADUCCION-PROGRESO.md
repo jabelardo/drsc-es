@@ -21,7 +21,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | WP0 | Setup: source version, glossary, this file, QA scripts, audit | in progress (2026-11-22, `wp0-setup`) |
 | WP1 | Reorganise existing Spanish content to the OG structure | done (2026-11-22, `wp1-fantasy-relocation`, not merged yet) |
 | WP2 | Gaps inside covered books, CSRD 2025 errata | done (2026-11-22, `wp2-gaps`, not merged yet): range/distance terminology, Heartwood, Moonbeam and Question Past Self; the CSRD 2025 has no errata to existing text; *Escudo deflector* kept |
-| WP3 | It's Only Magic (~44k) | to do |
+| WP3 | It's Only Magic (~48k) | in progress (2026-11-22, `wp3-iom`): terminology settled |
 | WP4 | Neon Rain (~42k) | to do |
 | WP5 | High Noon at Midnight (~38k) | to do |
 | WP6 | Rust and Redemption (~36k) | to do |
@@ -70,5 +70,6 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 
 ## Terminology decisions
 
-Open decisions are listed in `GLOSARIO.md` › *Decisiones pendientes*. Settle them before
-WP3 so the new chapters use one term from the start.
+Settled 2026-11-22 before WP3; see `GLOSARIO.md` › *Decisiones tomadas* and *Magia moderna
+(It's Only Magic)*. Add new open questions to `GLOSARIO.md` before translating the chapter that
+needs them.
