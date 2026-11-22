@@ -1,7 +1,7 @@
 # Plan for Full Parity: DRSC-ES → OG-CSRD
 
-Status: in execution. WP1 is in progress on branch `wp1-fantasy-relocation`; see
-the WP1 checklist in §5 (last updated 2026-11-22). The plan was revised on 2026-11-22
+Status: in execution. WP1 is complete on branch `wp1-fantasy-relocation`, ready to
+merge; see the WP1 checklist in §5 (last updated 2026-11-22). The plan was revised on 2026-11-22
 after a source-attribution audit (§3).
 Scope: bring the Spanish `DRSC-ES.html` to full content and structural parity with the
 current Old Gus' Cypher System Reference Document (OG-CSRD).
@@ -108,7 +108,7 @@ What is actually missing falls into three groups:
 | Cap. 13 Ciencia ficción › every category's "Contemporáneo" group (equipment, weapons, vehicles) and the pioneer-era spacecraft | Contemporary equipment and vehicles | Ch14 Modern › Additional Modern Equipment / Modern Vehicles | Done (11 equipment groups and a new *Vehículos modernos* section) |
 | Cap. 13 Ciencia ficción › Criaturas y PNJs básicos (~12.2k) | SF creature and NPC stat blocks | Ch22 Creatures / Ch23 NPCs (genre chapter keeps the "Basic Creatures and NPCs" list) | Done (by-level table stays in Cap. 13) |
 | Cap. 16 Horror › Criaturas y PNJs de horror por nivel y género (~5.4k), PNJs | Horror stat blocks | Ch22 / Ch23 | Done (by-level table stays in Cap. 16) |
-| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | Done (inline beings, archetype lists and PNJs intro stay in Cap. 15; Hada and Bruja pairs still to merge, §3.6) |
+| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | Done (inline beings, archetype lists and PNJs intro stay in Cap. 15; Sátiro, Hada and Bruja keep both versions, §3.6) |
 | Cap. 20 Criaturas › Supervillanos (~2.7k) and NPC entries filed as creatures | Supervillains, NPCs | Ch23 NPCs (Ch18 keeps the Supervillains overview) | Done (Supervillanos moved whole, after Otros PNJs) |
 
 Everything else in DRSC-ES sits in the OG chapter it maps to. Fairy-tale cyphers and
@@ -210,13 +210,12 @@ Gaps inside books DRSC-ES already covers:
     `contemporaneo-7`.
   - Criaturas and PNJs sort ignoring a leading El/La/Los/Las (decided 2026-11-22).
   - Duplicate ids are down from 134 to 128.
-- Decided: keep both *Sátiro* entries (Godforsaken and We Are All Mad Here), each
-  identified by origin; the fairy-tale one is labelled *(Cuentos de hadas)*.
+- Decided (2026-11-22): keep both versions of *Sátiro*, *Hada* and *Bruja* rather than
+  merging them as OG does for Hada and Bruja. Each pair is the same creature at the same
+  level but written differently (description, environment, abilities). The core or
+  Godforsaken version keeps the plain name; the We Are All Mad Here version is labelled
+  *(Cuentos de hadas)*. The two versions sit next to each other in Criaturas/PNJs.
 - Still open:
-  - *Hada* / *Hada (Cuentos de hadas)* and *Bruja* / *Bruja (Cuentos de hadas)* sit next
-    to each other in Criaturas/PNJs. They are the same creature at the same level but
-    written differently (different description, environment and abilities); OG merges
-    each pair into one listing. Decide whether to merge them or keep both.
   - `#control-mental` is the id of both the Control mental ability and the Horror
     section, so links meant for the section (e.g. in Posesión) open the ability.
     Resolve with the duplicate-id clean-up in WP8.
@@ -262,7 +261,7 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Add the source-attribution audit (OG `og-cite` per section + ES bracket-name
       matching) so §3 can be re-run after each work package.
 
-### WP1 — Reorganise existing Spanish content (no new translation, ~4–8 days) — relocations done; two duplicate pairs open
+### WP1 — Reorganise existing Spanish content (no new translation, ~4–8 days) — done
 - [x] Fantasy: Cap. 11 now follows OG Ch13 order.
       - Moved in: the magic module, fantasy type options, medieval equipment, fantasy
         cyphers, fantasy artifacts and the other fantasy creatures list.
@@ -297,9 +296,9 @@ terminology, so translating a book in one pass keeps them consistent.
 - [x] Consolidate Posesión and Locura; fix the Jotunn heading level.
 - [x] Fix the small issues found during WP1 (§3.6), including the duplicate-id targets
       that the moves had changed.
-- [x] Sort Criaturas and PNJs ignoring a leading El/La/Los/Las; keep both Sátiro
-      entries, labelled by origin.
-- [ ] Decide and apply the Hada and Bruja merges (§3.6).
+- [x] Sort Criaturas and PNJs ignoring a leading El/La/Los/Las.
+- [x] Keep both versions of Sátiro, Hada and Bruja, the We Are All Mad Here one
+      labelled *(Cuentos de hadas)* (§3.6).
 - [x] Keep every moved section's id. Ids whose heading was dissolved remain as alias
       anchors:
       - `modulo-de-reglas-magicas` on *Artes marciales místicas*
@@ -481,8 +480,7 @@ place.
 
 ## 12. Immediate next actions
 
-1. Finish WP1: decide the Hada and Bruja merges (§3.6), then merge
-   `wp1-fantasy-relocation`.
+1. Merge `wp1-fantasy-relocation` (WP1 is complete).
 2. Create `GLOSARIO.md` and `TRADUCCION-PROGRESO.md`.
 3. Add the QA scripts and the source-attribution audit to the repo (read-only checks):
    id-set diff, link resolution, word diff and tag balance, as used in WP1.
