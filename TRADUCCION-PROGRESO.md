@@ -22,7 +22,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | WP1 | Reorganise existing Spanish content to the OG structure | done (2026-11-22, `wp1-fantasy-relocation`, not merged yet) |
 | WP2 | Gaps inside covered books, CSRD 2025 errata | done (2026-11-22, `wp2-gaps`, not merged yet): range/distance terminology, Heartwood, Moonbeam and Question Past Self; the CSRD 2025 has no errata to existing text; *Escudo deflector* kept |
 | WP3 | It's Only Magic (~48k) | done (2026-11-22, `wp3-iom`, not merged yet): abilities, cantrips, flavors and foci; fantasy roles; Magia moderna chapter (Cap. 12-A); 13 creatures and 4 NPCs; Familiars and Covens; Reviving Artifacts; crafting additions |
-| WP4 | Neon Rain (~42k) | in progress (2026-11-23, `wp4-nr`): terminology settled; 52 abilities, 9 foci and 5 descriptors done; Cap. 12-B Ciberpunk started |
+| WP4 | Neon Rain (~42k) | in progress (2026-11-23, `wp4-nr`): terminology settled; 52 abilities, 9 foci and 5 descriptors done; Cap. 12-B Ciberpunk: cybernetics, types, descriptors and foci done |
 | WP5 | High Noon at Midnight (~38k) | to do |
 | WP6 | Rust and Redemption (~36k) | to do |
 | WP7 | OG editorial content (~68k) | to do |
@@ -49,7 +49,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | Ch13 Fantasy | Cap. 11 Fantasía | complete (IOM crafting additions merged in WP3) | OG editorial 1.5k (WP7) | to do |
 | Ch14 Modern | Cap. 12 Moderno | complete | OG editorial 0.6k (WP7) | to do |
 | Ch14-A Modern Magic | Cap. 12-A Magia moderna | complete (WP3) | — | done |
-| Ch14-B Cyberpunk | Cap. 12-B Ciberpunk (started in WP4: descriptors, foci) | partial | NR 33.5k (WP4) | in progress |
+| Ch14-B Cyberpunk | Cap. 12-B Ciberpunk (WP4: cybernetics, types, descriptors, foci) | partial | NR 33.5k (WP4) | in progress |
 | Ch15 Science Fiction | Cap. 13 Ciencia ficción | complete | OG editorial 1.2k (WP7) | to do |
 | Ch16 Horror | Cap. 16 Horror | complete | OG editorial 4.1k (WP7) | to do |
 | Ch17 Romance | Cap. 17 Romance | complete | NR 0.1k (WP4) | to do |

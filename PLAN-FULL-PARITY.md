@@ -513,6 +513,10 @@ terminology, so translating a book in one pass keeps them consistent.
         *Rasgos de ciberpunk* (table, *Cambiar de rasgo*, additional foci, *Adaptar rasgos al
         ciberpunk*). OG's sidebar pointing to *Switching Character Options* is left out until
         that OG editorial section is translated (WP7).
+      - Cap. 12-B *Ciberimplantes* (chrome, the three sample implants, ⚡ cyberware-derived
+        abilities, armor, stat minimums, targeting and damaging cybernetics, salvaging) and
+        *Tipos de ciberpunk* (Solo, As, Intermediario, Técnico, with the standard cyberpunk
+        abilities) done. Type ability lists are sorted by Spanish name, as in Cap. 3.
       - Links to Cyberpunk sections not translated yet are plain text, recorded for a
         linking pass at the end of WP4.
 
