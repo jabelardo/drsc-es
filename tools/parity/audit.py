@@ -14,7 +14,12 @@ It matches DRSC-ES game elements to OG by the English name in brackets
   3. Spanish named entries that sit outside their OG chapter
   4. Named OG entries from covered books with no Spanish match
 
-The "errata" column holds abilities OG cites as Errata (CSRD 2025 revisions).
+The "errata" column holds abilities OG cites as "(Errata)": its compatibility list of
+2015-Rulebook abilities that were later renamed, altered or dropped, and OG variants.
+They are OG editorial (WP7), not missing CSRD text.
+
+Citations are OG's: a few It's Only Magic abilities carry bare page numbers (e.g.
+Moonbeam) and so count as Rulebook here. Check doubtful cases against the CSRD file.
 
 Usage:
   python3 tools/parity/audit.py [--og PATH_OR_URL] [--es DRSC-ES.html] [--refresh] [--out FILE]
@@ -361,7 +366,8 @@ def main():
             p('| ' + ' | '.join(x.replace('|', '/') for x in row) + ' |')
     p(f'\nAbilities from covered books with no Spanish match: {len(ab_missing)}'
       + (': ' + ', '.join(ab_missing) if ab_missing else '') + '\n')
-    p(f'Abilities OG marks as "Errata" (CSRD 2025 revisions) with no Spanish match: {len(ab_errata)}'
+    p(f'Abilities OG cites as "Errata" (old 2015-Rulebook versions kept by OG for compatibility; '
+      f'OG editorial, not CSRD gaps) with no Spanish match: {len(ab_errata)}'
       + (': ' + ', '.join(ab_errata) if ab_errata else '') + '\n')
 
     report = '\n'.join(out)
