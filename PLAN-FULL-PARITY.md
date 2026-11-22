@@ -49,13 +49,24 @@ Full parity means:
   sometimes edits CSRD text without marking it (e.g. *Secret and True Names*, the
   Giant Spider). Take structure from OG, but check every paragraph you translate
   against `Cypher-System-Reference-Document-2025-08-22.docx`.
+- **Keep OG-CSRD's notes** (decided 2026-11-22). Translate OG's sidebars and editor's
+  notes with the content they belong to, even when the CSRD lacks them: they add
+  clarifications. Label editor's notes *Nota del editor:*. When extracting, take
+  every paragraph (including OG's indented `og-ind` ones) and the sidebars and notes that
+  follow each entry.
+  - Exception (decided 2026-11-22): leave out notes that point to *Old Gus' Daft
+    Drafts* (OG's external `og-dd.html` page). Where a note also says something else,
+    keep that part and drop only the Daft Drafts reference.
+  - OG-only additions are not labelled in the text (the user removed the
+    *Adición editorial de OG-CSRD.* markers on 2026-11-22).
 - **Terminology:** reuse the existing DRSC-ES glossary; keep English names in
   `[brackets]` exactly as the current document does.
 - **Editorial policy:** full parity includes OG editorial content (foreword, editor
   notes, page citations, "Related Sections", Index, FAQ, What's in the Book,
   Character Sentence Generator, PDFs/Player's Guide links). Where OG makes an
   editorial ruling that differs from the official CSRD, preserve the official rules
-  wording and mark the OG addition as such (a Spanish equivalent of the OG badge).
+  wording. OG's editor's notes keep the *Nota del editor:* label; OG-only sections are
+  not labelled (decided 2026-11-22).
 
 ---
 
@@ -228,6 +239,8 @@ Gaps inside books DRSC-ES already covers:
   - The Munición group reused Ocio's id `contemporaneo-6`; it now uses the unused
     `contemporaneo-7`.
   - Criaturas and PNJs sort ignoring a leading El/La/Los/Las (decided 2026-11-22).
+    Accents are ignored, but ñ sorts after n (*Canto* before *Cañón*), as in the
+    existing Cap. 7 lists.
   - Duplicate ids are down from 134 to 127.
 - Decided (2026-11-22): keep both versions of *Sátiro*, *Hada* and *Bruja* rather than
   merging them as OG does for Hada and Bruja. Each pair is the same creature at the same
@@ -383,8 +396,9 @@ terminology, so translating a book in one pass keeps them consistent.
         (cobbling, registered as `skill-cobbling`)
       - also fixed: the Cap. 10 sentence listing the arcs had link texts shifted from
         *Construcción* on (e.g. "Crecimiento" → `#creacion`)
-      - not included: the Changeling NPC is from It's Only Magic (WP3); the Heartwood
-        foci that OG adds to the fantasy role suggestions are OG editorial (WP7)
+      - not included: the Changeling NPC is from It's Only Magic (WP3). The Heartwood
+        foci OG adds to the fantasy role suggestions came later, with all of OG's role
+        additions (WP3, see there)
 - [x] Diff existing rules text against CSRD 2025-08-22, 2026-11-22. **There are no
       errata to apply.** Compared the two CSRD files directly
       (`Cypher-System-Reference-Document-2023-04-18.docx` and `…-2025-08-22.docx`):
@@ -450,14 +464,38 @@ terminology, so translating a book in one pass keeps them consistent.
       0.68 ratio. Port it with WP6.
 - Acceptance: no OG section from ES-held sources without a Spanish equivalent.
 
-### WP3 — It's Only Magic (~44k EN words)
-- [ ] Ch14-A Magia moderna (character options, equipment, crafting ingredients,
-      cyphers, artifacts).
-- [ ] 5 flavors (Ch6), 10 foci (Ch8), 7 descriptors, 125 abilities + cantrips (Ch9),
+### WP3 — It's Only Magic (~44k EN words) — done 2026-11-22
+- [x] Ch14-A Magia moderna (character options, equipment, crafting ingredients,
+      cyphers, artifacts). New Capítulo 12-A, before Ciencia ficción.
+      - 67 cyphers plus EasyMagic.app and the malware cyphers note; 47 artifacts.
+      - *Criaturas y PNJs de fantasía moderna por nivel* is OG's list (not in the CSRD).
+        *Estatua animada* is listed at level 7, as in its entry (OG's list says 8).
+- [x] 5 flavors (Ch6), 10 foci (Ch8), 7 descriptors, 125 abilities + cantrips (Ch9),
       Familiars and Covens (Ch11-A), equipment additions (Ch10).
-- [ ] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC.
-- [ ] Merged into core sections by OG: Crafting Cyphers (Godforsaken + IOM, page 90),
+      - Flavors in Cap. 4, foci in Cap. 6, descriptors in Cap. 12-A; 75 abilities in the
+        Cap. 7 lists and 50 cantrips in *Trucos*.
+      - Familiars and Covens done: *Familiares* and *Aquelarres* in Cap. 9-A, in OG's
+        order (Sidekicks, WP7, will go between them). Coven rank is *círculo*. OG's
+        editor's notes on Compañero bestia and the four familiar upgrades were added
+        with them.
+      - Reviving Artifacts done (the IOM equipment addition): *Regla opcional: Revivir
+        artefactos* at the end of *Artefactos* in Cap. 8, with OG's editor's note, listed
+        in the Cap. 8 and Magia moderna quick references and linked from the coven
+        talisman note.
+- [x] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC (*Trocado*).
+      Inserted alphabetically into Criaturas and PNJs; the *Electricity Elemental* is its
+      own entry next to the other elementals, as Criaturas already does.
+- [x] Merged into core sections by OG: Crafting Cyphers (Godforsaken + IOM, page 90),
       the Masters Spells note about Inks Spells on Skin.
+      - *Fabricación de objetos mágicos* (Cap. 11) now follows OG's merge: the
+        *Habilidades de fabricación mágica* box, "materiales o ingredientes" in step 2,
+        the IOM sentences and the Vanya examples in steps 3–5, and step 5 in the IOM
+        wording. The Spanish keeps one heading per step. Three slips in the existing
+        text were fixed through `CORRECCIONES.json` (`crafting-*`, plus
+        `evil-priest-cypers`), pending for the ODT.
+- Checked 2026-11-22: every It's Only Magic entry OG names (125 abilities and cantrips,
+  foci, descriptors, cyphers, artifacts, creatures and NPCs) has a Spanish entry, matched
+  by its English name; the source audit shows no IOM chapter left untranslated.
 
 ### WP4 — Neon Rain (~42k EN words)
 - [ ] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
@@ -490,9 +528,17 @@ terminology, so translating a book in one pass keeps them consistent.
       categories, editor notes, "Related Sections", page citations (decide whether
       to keep OG page numbers or map to Spanish/CSRD pages).
 - [ ] Errata ability category (old 2015-Rulebook versions, 16 entries without a
-      Spanish match) and the expanded fantasy role suggestions (Cap. 11), which add
-      supplement foci and flavors.
-- [ ] Mark every item as an OG addition per §2.
+      Spanish match).
+- [x] Expanded fantasy role suggestions (Cap. 11), done early in WP3 (2026-11-22):
+      OG's added foci, flavors and specialisations, the Artífice o erudito and Psiónico
+      roles, and their editor's notes. When WP5 and WP6 translate High Noon at Midnight
+      and Rust and Redemption, link their foci in these roles (provisional names in
+      `GLOSARIO.md`).
+- [x] Optional Rule: Exceeding Cypher Limits (Ch24), done early in WP3 (2026-11-22):
+      *Regla opcional: Superar el límite de Cyphers* in Cap. 22 under *Límites de
+      Cyphers*, with the *Volatilidad de los Cyphers* table and OG's note pointing to
+      Magia moderna; the Magia moderna note now links back to it.
+- OG additions are not labelled in the text (§2); editor's notes keep *Nota del editor:*.
 
 ### WP8 — Structural integration (incremental, alongside WP1–WP7)
 - [ ] Renumber/reorder to the target structure in §4.
@@ -616,7 +662,7 @@ place.
 
 | Risk | Mitigation |
 |---|---|
-| OG editorial rulings diverge from official CSRD | Keep official rules wording; mark OG additions explicitly |
+| OG editorial rulings diverge from official CSRD | Keep official rules wording; OG's notes keep the *Nota del editor:* label |
 | Terminology drift across hundreds of entries | `GLOSARIO.md` + review gate per milestone |
 | Duplicate/broken ids while adding hundreds of entries | Automated id/anchor checks each WP; fix pre-existing dupes |
 | Losing ES-only or existing content during reorganisation | Move blocks intact; diff ids and word counts against the pre-move baseline |
