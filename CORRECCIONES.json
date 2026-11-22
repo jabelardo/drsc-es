@@ -1,0 +1,4660 @@
+{
+  "description": "Text corrections to DRSC-ES that also apply to the ODT/PDF edition. Each fix is an exact replacement of visible text (old -> new); apply pending fixes with tools/fixes/apply_fixes.py. 'applied' records when each format got the fix (null = pending). Reorganisation (WP1 moves) is not listed here: the ODT keeps its own structure.",
+  "fixes": [
+    {
+      "id": "range-relocate",
+      "date": "2026-11-22",
+      "entry": "Reubicar [Relocate] (capacidad)",
+      "reason": "OG-CSRD: 'a new position within long range'; the Spanish had immediate range.",
+      "old": "nueva posición dentro del alcance inmediato que puedas ver",
+      "new": "nueva posición a largo alcance que puedas ver",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-resonant-quake",
+      "date": "2026-11-22",
+      "entry": "Terremoto resonante [Resonant Quake] (capacidad)",
+      "reason": "OG-CSRD: 'epicenter you can select within a very long distance'; 'muy' was missing.",
+      "old": "cuyo epicentro puedes seleccionar a una larga distancia",
+      "new": "cuyo epicentro puedes seleccionar a muy larga distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-posthuman",
+      "date": "2026-11-22",
+      "entry": "Posthumano [Posthuman] (PNJ)",
+      "reason": "OG-CSRD: 'attack foes up to a very long distance away'; 'muy' was missing.",
+      "old": "atacar selectivamente a sus enemigos a larga distancia",
+      "new": "atacar selectivamente a sus enemigos a muy larga distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-vampire-garlic",
+      "date": "2026-11-22",
+      "entry": "Vampiro [Vampire] (criatura)",
+      "reason": "OG-CSRD: 'garlic within immediate distance'; the Spanish had short distance.",
+      "old": "Cantidades significativas de ajo a corta distancia",
+      "new": "Cantidades significativas de ajo a una distancia inmediata",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-mighty-wizard",
+      "date": "2026-11-22",
+      "entry": "Mago poderoso [Wizard, Mighty] (PNJ)",
+      "reason": "OG-CSRD: 'all creatures the wizard selects within short range of the target'; the Spanish had immediate range.",
+      "old": "que el mago seleccione dentro del alcance inmediato del objetivo",
+      "new": "que el mago seleccione a corto alcance del objetivo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "typo-mas-hechizos",
+      "date": "2026-11-22",
+      "entry": "Regla opcional: Lanzamiento de hechizos",
+      "reason": "Typo in the heading 'More Spells'.",
+      "old": "Más hechos",
+      "new": "Más hechizos",
+      "all": true,
+      "applied": {
+        "html": "2026-11-22 (4c829b8)",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "typo-cuentos-bruja",
+      "date": "2026-11-22",
+      "entry": "Bruja (Cuentos de hadas) [Witch (Fairy Tale)]",
+      "reason": "Typo in the heading.",
+      "old": "Cuéntos de hadas",
+      "new": "Cuentos de hadas",
+      "all": true,
+      "applied": {
+        "html": "2026-11-22 (cbd28a7)",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "typo-hadas-hada",
+      "date": "2026-11-22",
+      "entry": "Hada (Cuentos de hadas) [Faerie (Fairy Tale)]",
+      "reason": "Typo in the heading.",
+      "old": "Cuentos de hádas",
+      "new": "Cuentos de hadas",
+      "all": true,
+      "applied": {
+        "html": "2026-11-22 (cbd28a7)",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-001",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "tiene un alcance corto. El arco tiene un alcance largo. La habilidad Arremetida del Adepto también tiene alcance corto.",
+      "new": "tiene un corto alcance. El arco tiene un largo alcance. La habilidad Arremetida del Adepto también tiene corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-002",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Un personaje puede moverse una distancia corta como su acción completa durante un turno. También puede intentar moverse una larga distancia como su acción completa, pero el jugador podría tener que tirar para ver si el PJ",
+      "new": "Un personaje puede moverse una corta distancia como su acción completa durante un turno. También puede intentar moverse una larga distancia como su acción completa, pero el jugador podría tener que tirar para ver si el PJ",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-003",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "- simplemente se considera una distancia corta. Sí importa si el cultista",
+      "new": "- simplemente se considera una corta distancia. Sí importa si el cultista",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-004",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "cercano que esté a corta distancia.",
+      "new": "cercano que esté a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-005",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "moverte una distancia corta y seguir",
+      "new": "moverte una corta distancia y seguir",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-006",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia muy larga con una",
+      "new": "hasta una muy larga distancia con una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-007",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "mas que alcance largo. La mano",
+      "new": "mas que largo alcance. La mano",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-008",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de una distancia corta por ronda,",
+      "new": "de una corta distancia por ronda,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-009",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "tus enemigos a larga distancia. Cada ronda, puedes atacar a un objetivo a larga distancia utilizandola como",
+      "new": "tus enemigos a largo alcance. Cada ronda, puedes atacar a un objetivo a largo alcance utilizandola como",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-010",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "dentro del alcance largo. Cualquier personaje",
+      "new": "dentro del largo alcance. Cualquier personaje",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-011",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia muy larga. Puedes intentar",
+      "new": "hasta una muy larga distancia. Puedes intentar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-012",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "perfectamente desalineados a corta distancia para crear",
+      "new": "perfectamente desalineados a corto alcance para crear",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-013",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de energía a larga distancia que inflige",
+      "new": "de energía a largo alcance que inflige",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-014",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "otra criatura a corta distancia. Este",
+      "new": "otra criatura a corto alcance. Este",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-015",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentre a corta distancia y lo",
+      "new": "se encuentre a corto alcance y lo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-016",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "contra alguien a corta distancia. Este ataque",
+      "new": "contra alguien a corto alcance. Este ataque",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-017",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Las criaturas a corta distancia pueden asustarse;",
+      "new": "Las criaturas a corto alcance pueden asustarse;",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-018",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que elijas a corta distancia. El campo",
+      "new": "que elijas a corto alcance. El campo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-019",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "pueda cerrarse a larga distancia se cierra",
+      "new": "pueda cerrarse a largo alcance se cierra",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-020",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "nivel 3 a corta distancia. Si tienes",
+      "new": "nivel 3 a corto alcance. Si tienes",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-021",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia corta. Capacitador.",
+      "new": "a una corta distancia. Capacitador.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-022",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una máquina a corta distancia no pueda",
+      "new": "una máquina a corto alcance no pueda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-023",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "seres vivos a larga distancia (incluyendo su",
+      "new": "seres vivos a largo alcance (incluyendo su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-024",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que estén a corta distancia hacen lo",
+      "new": "que estén a corto alcance hacen lo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-025",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "nivel 5 a corta distancia. Si tienes",
+      "new": "nivel 5 a corto alcance. Si tienes",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-026",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "vista y a corta distancia, y su",
+      "new": "vista y a corto alcance, y su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-027",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "correr una distancia corta y hacer",
+      "new": "correr una corta distancia y hacer",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-028",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "debe permanecer a una distancia inmediata de ti;",
+      "new": "debe permanecer dentro del alcance inmediato de ti;",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-029",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "la vista, a corta distancia y que",
+      "new": "la vista, a corto alcance y que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-030",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de un alcance corto, incluso si",
+      "new": "de un corto alcance, incluso si",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-031",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un objetivo a corta distancia. Capacitador.",
+      "new": "un objetivo a corto alcance. Capacitador.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-032",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "puedas ver a corta distancia. El duplicado",
+      "new": "puedas ver a corto alcance. El duplicado",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-033",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "debe estar a corta distancia. Además de",
+      "new": "debe estar a corto alcance. Además de",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-034",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "como máximo a larga distancia de ellos,",
+      "new": "como máximo a largo alcance de ellos,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-035",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "debe estar a corta distancia. El empuje",
+      "new": "debe estar a corto alcance. El empuje",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-036",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta desde su",
+      "new": "hasta una corta distancia desde su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-037",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de una distancia corta por ronda.",
+      "new": "de una corta distancia por ronda.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-038",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un objetivo a larga distancia que puedas",
+      "new": "un objetivo a largo alcance que puedas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-039",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "tienen un alcance corto pasan a tener un alcance largo. Tus capacidades",
+      "new": "tienen un corto alcance pasan a tener un largo alcance. Tus capacidades",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-040",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "debe estar a corta distancia. El escaneo",
+      "new": "debe estar a corto alcance. El escaneo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-041",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta o te",
+      "new": "hasta una corta distancia o te",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-042",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "volar hasta una distancia corta como tu movimiento",
+      "new": "volar hasta una corta distancia como tu movimiento",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-043",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia larga. Capacitador.",
+      "new": "hasta una larga distancia. Capacitador.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-044",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "moverse una distancia corta cada ronda",
+      "new": "moverse una corta distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-045",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia muy larga como tu",
+      "new": "hasta una muy larga distancia como tu",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-046",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "debe estar a corta distancia. Mientras está",
+      "new": "debe estar a corto alcance. Mientras está",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-047",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que esté a corta distancia. Ese personaje",
+      "new": "que esté a corto alcance. Ese personaje",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-048",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de un alcance corto que pueda",
+      "new": "de un corto alcance que pueda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-049",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que designes a corta distancia durante un",
+      "new": "que designes a corto alcance durante un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-050",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia larga cada ronda.",
+      "new": "hasta una larga distancia cada ronda.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-051",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "tu masa) a corta distancia. El objetivo",
+      "new": "tu masa) a corto alcance. El objetivo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-052",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "metálico pesado a corta distancia y lo lanzas contra alguien a corta distancia, una acción",
+      "new": "metálico pesado a corto alcance y lo lanzas contra alguien a corto alcance, una acción",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-053",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un enemigo dentro de una larga distancia, la materia",
+      "new": "un enemigo a largo alcance, la materia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-054",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a distancia inmediata de él.",
+      "new": "se encuentren dentro del alcance inmediato de él.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-055",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de una distancia corta, durante lo",
+      "new": "de una corta distancia, durante lo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-056",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "puedas ver a corta distancia para que",
+      "new": "puedas ver a corto alcance para que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-057",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "objeto suelto a corta distancia que podrías",
+      "new": "objeto suelto a corto alcance que podrías",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-058",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una máquina a larga distancia como si",
+      "new": "una máquina a largo alcance como si",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-059",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "sola criatura a larga distancia. El DJ",
+      "new": "sola criatura a largo alcance. El DJ",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-060",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia larga e intentas",
+      "new": "hasta una larga distancia e intentas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-061",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que estén a corta distancia y puedan",
+      "new": "que estén a corto alcance y puedan",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-062",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "los enemigos a corta distancia tropiezan con",
+      "new": "los enemigos a corto alcance tropiezan con",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-063",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "arma encantada a corta distancia como arma",
+      "new": "arma encantada a corto alcance como arma",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-064",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de fuerza a corta distancia como un",
+      "new": "de fuerza a corto alcance como un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-065",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "moverte una distancia corta como parte de otra acción. Puedes moverte una distancia larga como tu",
+      "new": "moverte una corta distancia como parte de otra acción. Puedes moverte una larga distancia como tu",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-066",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "moverlo hasta una distancia corta cada ronda como",
+      "new": "moverlo hasta una corta distancia cada ronda como",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-067",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "puedas ver a muy larga distancia, o cualquier",
+      "new": "puedas ver a muy largo alcance, o cualquier",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-068",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "la materia a corta distancia en un",
+      "new": "la materia a corto alcance en un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-069",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "objetos metálicos a corta distancia durante una",
+      "new": "objetos metálicos a corto alcance durante una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-070",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "dentro de una distancia larga que puedas ver,",
+      "new": "dentro de una larga distancia que puedas ver,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-071",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "atravesar una distancia larga, el alcance",
+      "new": "atravesar una larga distancia, el alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-072",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "inmediata y a corta distancia de ti",
+      "new": "inmediata y a corto alcance de ti",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-073",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "mueves una distancia corta o más",
+      "new": "mueves una corta distancia o más",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-074",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "algún lugar a larga distancia. El sueño",
+      "new": "algún lugar a largo alcance. El sueño",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-075",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta cada ronda,",
+      "new": "hasta una corta distancia cada ronda,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-076",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "criatura debe estar a corta distancia y ser capaz",
+      "new": "criatura debe estar a corto alcance y ser capaz",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-077",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta en imágenes",
+      "new": "hasta una corta distancia en imágenes",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-078",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta como parte de otra acción o una distancia larga si todo",
+      "new": "hasta una corta distancia como parte de otra acción o una larga distancia si todo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-079",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de Recuperación a corta distancia de ti",
+      "new": "de Recuperación a corto alcance de ti",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-080",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que esté a distancia larga del primero,",
+      "new": "que esté a largo alcance del primero,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-081",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de rayos a corta distancia en un",
+      "new": "de rayos a corto alcance en un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-082",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentre a corta distancia. Capacitador.",
+      "new": "se encuentre a corto alcance. Capacitador.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-083",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que están a distancia muy larga que necesitas",
+      "new": "que están a muy largo alcance que necesitas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-084",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta y atacas",
+      "new": "hasta una corta distancia y atacas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-085",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta. No puedes",
+      "new": "hasta una corta distancia. No puedes",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-086",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "radio de alcance largo si tienes",
+      "new": "radio de largo alcance si tienes",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-087",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "continuación una distancia corta, pero sólo",
+      "new": "continuación una corta distancia, pero sólo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-088",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "deben producirse a larga distancia de tu",
+      "new": "deben producirse a largo alcance de tu",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-089",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "cuando estás hasta una larga distancia de él.",
+      "new": "cuando estás hasta largo alcance de él.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-090",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que elijas a larga distancia, poniéndolo de",
+      "new": "que elijas a largo alcance, poniéndolo de",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-091",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "enemigo concreto hasta una larga distancia, el objetivo",
+      "new": "enemigo concreto hasta largo alcance, el objetivo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-092",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "en una distancia corta. Por ejemplo,",
+      "new": "en una corta distancia. Por ejemplo,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-093",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "capacidad (otra distancia corta por nivel",
+      "new": "capacidad (otra corta distancia por nivel",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-094",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una máquina a corta distancia, incluso si",
+      "new": "una máquina a corto alcance, incluso si",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-095",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "sobre objetos a corta distancia. Una vez",
+      "new": "sobre objetos a corto alcance. Una vez",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-096",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia corta que puedas",
+      "new": "a una corta distancia que puedas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-097",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "contigo. Cada distancia corta adicional cuesta",
+      "new": "contigo. Cada corta distancia adicional cuesta",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-098",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "teletransportarse una distancia corta adicional a",
+      "new": "teletransportarse una corta distancia adicional a",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-099",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "dentro de una distancia larga que puedas ver.",
+      "new": "dentro de una larga distancia que puedas ver.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-100",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un lugar a corta distancia y lanzas",
+      "new": "un lugar a corto alcance y lanzas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-101",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "dentro del alcance largo. Además, hasta",
+      "new": "dentro del largo alcance. Además, hasta",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-102",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "dentro del alcance corto de su",
+      "new": "dentro del corto alcance de su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-103",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "puedes ver a distancia muy larga. El suelo a corta distancia de ese",
+      "new": "puedes ver a muy largo alcance. El suelo a corto alcance de ese",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-104",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a corta distancia del epicentro",
+      "new": "se encuentren a corto alcance del epicentro",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-105",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que está a corta distancia. La luz",
+      "new": "que está a corto alcance. La luz",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-106",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "puedas ver a larga distancia. El objeto",
+      "new": "puedas ver a largo alcance. El objeto",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-107",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a distancia larga no te",
+      "new": "se encuentren a largo alcance no te",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-108",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "puedes moverte una distancia corta como parte de",
+      "new": "puedes moverte una corta distancia como parte de",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-109",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "ti mismo a corta distancia. Los duplicados",
+      "new": "ti mismo a corto alcance. Los duplicados",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-110",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "moverse una distancia larga en su turno en lugar de una distancia corta.",
+      "new": "moverse una larga distancia en su turno en lugar de una corta distancia.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-111",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "tiene un alcance corto. Una pistola pequeña también tiene un alcance corto. Un rifle",
+      "new": "tiene un corto alcance. Una pistola pequeña también tiene un corto alcance. Un rifle",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-112",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Un personaje puede moverse una distancia corta como su acción completa durante un turno. También puede intentar moverse una larga distancia como su acción completa, pero el jugador podría tener que tirar para ver si el personaje",
+      "new": "Un personaje puede moverse una corta distancia como su acción completa durante un turno. También puede intentar moverse una larga distancia como su acción completa, pero el jugador podría tener que tirar para ver si el personaje",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-113",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "distancia, simplemente se considera una distancia corta. Sí importa si el soldado",
+      "new": "distancia, simplemente se considera una corta distancia. Sí importa si el soldado",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-114",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "tienen un alcance muy largo). El corto",
+      "new": "tienen un muy largo alcance). El corto",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-115",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "pies]. El alcance muy largo suele ser",
+      "new": "pies]. El muy largo alcance suele ser",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-116",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "permite ver a corta distancia. Los objetivos",
+      "new": "permite ver a corto alcance. Los objetivos",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-117",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "formas vagas a corta distancia. Los objetivos",
+      "new": "formas vagas a corto alcance. Los objetivos",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-118",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "objetivos en alcance corto se ven",
+      "new": "objetivos en corto alcance se ven",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-119",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia corta, normalmente menos",
+      "new": "a una corta distancia, normalmente menos",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-120",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia muy larga, normalmente de",
+      "new": "a una muy larga distancia, normalmente de",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-121",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "corres una distancia corta antes de",
+      "new": "corres una corta distancia antes de",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-122",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "pesado hasta una distancia corta como tu acción.",
+      "new": "pesado hasta una corta distancia como tu acción.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-123",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Arma ligera, alcance corto",
+      "new": "Arma ligera, corto alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      },
+      "all": true
+    },
+    {
+      "id": "range-norm-124",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Arma media, alcance largo",
+      "new": "Arma media, largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      },
+      "all": true
+    },
+    {
+      "id": "range-norm-125",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Arma pesada, alcance largo",
+      "new": "Arma pesada, largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      },
+      "all": true
+    },
+    {
+      "id": "range-norm-126",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Puede arrojarse hasta alcance corto",
+      "new": "Puede arrojarse hasta corto alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      },
+      "all": true
+    },
+    {
+      "id": "range-norm-127",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Puede arrojarse hasta alcance largo",
+      "new": "Puede arrojarse hasta largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      },
+      "all": true
+    },
+    {
+      "id": "range-norm-128",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "fuerte. Puede lanzarse a corta distancia, infligiendo daño de",
+      "new": "fuerte. Puede lanzarse a corto alcance, infligiendo daño de",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-129",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "ronda. Puede lanzarse a corta distancia, infligiendo daño de",
+      "new": "ronda. Puede lanzarse a corto alcance, infligiendo daño de",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-130",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "o similar) a corta distancia muestra lo",
+      "new": "o similar) a corto alcance muestra lo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-131",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "más que a larga distancia del usuario",
+      "new": "más que a largo alcance del usuario",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-132",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una criatura a corta distancia que pueda",
+      "new": "una criatura a corto alcance que pueda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-133",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentre a distancia larga y ataque",
+      "new": "se encuentre a largo alcance y ataque",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-134",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "volar hasta larga distancia. El anillo",
+      "new": "volar hasta largo alcance. El anillo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-135",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "del portador a distancia inmediata durante una",
+      "new": "del portador dentro del alcance inmediato durante una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-136",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "fuerza sónica a larga distancia. Cualquier criatura",
+      "new": "fuerza sónica a largo alcance. Cualquier criatura",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-137",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "conducida una distancia larga cada ronda.",
+      "new": "conducida una larga distancia cada ronda.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-138",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se acerca a larga distancia, escupe una",
+      "new": "se acerca a largo alcance, escupe una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-139",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Un objetivo a corta distancia se mantiene",
+      "new": "Un objetivo a corto alcance se mantiene",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-140",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "aquel que se encuentre a corta distancia.",
+      "new": "aquel que se encuentre a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-141",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "(melé o a corta distancia) inflige daño e impide el movimiento de la víctima a distancia inmediata durante una",
+      "new": "(melé o a corto alcance) inflige daño e impide el movimiento de la víctima dentro del alcance inmediato durante una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-142",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "mueve una distancia larga cada ronda.",
+      "new": "mueve una larga distancia cada ronda.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-143",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "3; se mueve una distancia larga cada ronda",
+      "new": "3; se mueve una larga distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-144",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "15; se mueve una distancia larga cada ronda",
+      "new": "15; se mueve una larga distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-145",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "nada una distancia corta cada ronda",
+      "new": "nada una corta distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-146",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "vuela una distancia corta cada ronda",
+      "new": "vuela una corta distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-147",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "vuela una distancia larga cada ronda.",
+      "new": "vuela una larga distancia cada ronda.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-148",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "nivel 2; vuela una distancia larga cada ronda",
+      "new": "nivel 2; vuela una larga distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-149",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "atacar; vuela una distancia larga cada ronda",
+      "new": "atacar; vuela una larga distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-150",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "o vuela una distancia larga cada ronda",
+      "new": "o vuela una larga distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-151",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "3; Armadura 1; vuela una distancia larga cada ronda",
+      "new": "3; Armadura 1; vuela una larga distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-152",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "vuela una distancia larga cada ronda;",
+      "new": "vuela una larga distancia cada ronda;",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-153",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Transmite a larga distancia",
+      "new": "Transmite a largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      },
+      "all": true
+    },
+    {
+      "id": "range-norm-154",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "pesada, arma de fuego rápido, alcance largo",
+      "new": "pesada, arma de fuego rápido, largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-155",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "fuego rápido, alcance corto",
+      "new": "fuego rápido, corto alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-156",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Internet, radio a larga distancia, o almacenamiento",
+      "new": "Internet, radio a largo alcance, o almacenamiento",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-157",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se apunte a corta distancia durante unas",
+      "new": "se apunte a corto alcance durante unas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-158",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "se desplaza una distancia corta en cada turno",
+      "new": "se desplaza una corta distancia en cada turno",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-159",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Gatling. Vuela una distancia muy larga en cada ronda",
+      "new": "Gatling. Vuela una muy larga distancia en cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-160",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "desplaza una distancia corta cada ronda,",
+      "new": "desplaza una corta distancia cada ronda,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-161",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Arma ligera, alcance largo",
+      "new": "Arma ligera, largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-162",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "media, arma de fuego rápido, alcance largo",
+      "new": "media, arma de fuego rápido, largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-163",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "vigilancia electrónicas a corta distancia.",
+      "new": "vigilancia electrónicas a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-164",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "otros) tengan a corta distancia. El análisis",
+      "new": "otros) tengan a corto alcance. El análisis",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-165",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia muy larga durante periodos",
+      "new": "hasta una muy larga distancia durante periodos",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-166",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "contra objetivos a corta distancia del atacante",
+      "new": "contra objetivos a corto alcance del atacante",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-167",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de daño), alcance muy largo.",
+      "new": "de daño), muy largo alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-168",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "debe estar a corta distancia. El aire",
+      "new": "debe estar a corto alcance. El aire",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-169",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Se desplaza una distancia corta en cada ronda.",
+      "new": "Se desplaza una corta distancia en cada ronda.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-170",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Recorre una distancia muy larga en cada",
+      "new": "Recorre una muy larga distancia en cada",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-171",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "agreste, una distancia corta cada ronda",
+      "new": "agreste, una corta distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-172",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "atmósfera. Vuela una distancia muy larga cada ronda en",
+      "new": "atmósfera. Vuela una muy larga distancia cada ronda en",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-173",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "protección). Vuela una distancia muy larga en cada ronda",
+      "new": "protección). Vuela una muy larga distancia en cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-174",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "el combate vehicular). Vuela una distancia muy larga en cada ronda utilizando jets",
+      "new": "el combate vehicular). Vuela una muy larga distancia en cada ronda utilizando jets",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-175",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "individuos. Se desplaza una distancia corta en cada ronda o",
+      "new": "individuos. Se desplaza una corta distancia en cada ronda o",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-176",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "el combate vehicular). Vuela una distancia muy larga en cada ronda utilizando reactores",
+      "new": "el combate vehicular). Vuela una muy larga distancia en cada ronda utilizando reactores",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-177",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "sub desplazarse una distancia muy larga en cada ronda",
+      "new": "sub desplazarse una muy larga distancia en cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-178",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "submarino desplazarse una distancia muy larga en cada ronda",
+      "new": "submarino desplazarse una muy larga distancia en cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-179",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "desplazándose a una distancia muy larga en cada ronda",
+      "new": "desplazándose a una muy larga distancia en cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-180",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta o hasta",
+      "new": "hasta una corta distancia o hasta",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-181",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "desplaza una distancia corta o da saltos de potencia hasta una distancia muy larga una vez",
+      "new": "desplaza una corta distancia o da saltos de potencia hasta una muy larga distancia una vez",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-182",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "volar una distancia muy larga hasta diez",
+      "new": "volar una muy larga distancia hasta diez",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-183",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance; OG-CSRD says \"distance\": use distancia (GLOSARIO.md › Alcance y distancia).",
+      "old": "pueden realizarse a larga distancia), además de misiles de muy largo alcance, granadas y",
+      "new": "pueden realizarse a largo alcance), además de misiles de muy largo alcance, granadas y",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-184",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia muy larga en cada",
+      "new": "hasta una muy larga distancia en cada",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-185",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "armas de alcance corto pueden llegar a alcance largo, y las de alcance largo pueden llegar a alcance muy largo. Los personajes",
+      "new": "armas de corto alcance pueden llegar a largo alcance, y las de largo alcance pueden llegar a muy largo alcance. Los personajes",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-186",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "armas de alcance muy largo sólo llegan a alcance largo, las armas de alcance largo sólo llegan a alcance corto, y las armas de alcance corto sólo llegan",
+      "new": "armas de muy largo alcance sólo llegan a largo alcance, las armas de largo alcance sólo llegan a corto alcance, y las armas de corto alcance sólo llegan",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-187",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "armas de alcance corto pueden llegar a un alcance largo, y las armas de alcance largo pueden llegar a un alcance muy largo.",
+      "new": "armas de corto alcance pueden llegar a un largo alcance, y las armas de largo alcance pueden llegar a un muy largo alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-188",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "volar una distancia corta cada ronda;",
+      "new": "volar una corta distancia cada ronda;",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-189",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "objeto a distancia corta",
+      "new": "objeto a corta distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-190",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "objeto una distancia corta",
+      "new": "objeto una corta distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-191",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "moverse una distancia corta (15 m",
+      "new": "moverse una corta distancia (15 m",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-192",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "correr una distancia larga (30 m",
+      "new": "correr una larga distancia (30 m",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-193",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de una distancia larga como su",
+      "new": "de una larga distancia como su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-194",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "(correr una distancia corta y saltar",
+      "new": "(correr una corta distancia y saltar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-195",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "saltar una distancia larga o más.",
+      "new": "saltar una larga distancia o más.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-196",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "mágico de alcance corto inflige daño",
+      "new": "mágico de corto alcance inflige daño",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-197",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que estén dentro de una larga distancia. Pueden obstaculizar",
+      "new": "que estén a largo alcance. Pueden obstaculizar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-198",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "más que a larga distancia del personaje",
+      "new": "más que a largo alcance del personaje",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-199",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "y aliados a larga distancia.",
+      "new": "y aliados a largo alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-200",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "lo escuchen a corta distancia (excepto el",
+      "new": "lo escuchen a corto alcance (excepto el",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-201",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que se encuentren a corta distancia de la manzana,",
+      "new": "que se encuentren a corto alcance de la manzana,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-202",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentran a corta distancia de que",
+      "new": "se encuentran a corto alcance de que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-203",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "los enemigos a larga distancia que escuchen",
+      "new": "los enemigos a largo alcance que escuchen",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-204",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentre a larga distancia durante un",
+      "new": "se encuentre a largo alcance durante un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-205",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "uno vuela a un punto aleatorio a corta distancia y explota en un radio inmediato,",
+      "new": "uno vuela a un punto aleatorio a corto alcance y explota en un radio inmediato,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-206",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "sus aliados a corta distancia (pero sin",
+      "new": "sus aliados a corto alcance (pero sin",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-207",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que oiga a corta distancia (incluido el",
+      "new": "que oiga a corto alcance (incluido el",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-208",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a larga distancia. A los",
+      "new": "se encuentren a largo alcance. A los",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-209",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que estén a corta distancia y lo",
+      "new": "que estén a corto alcance y lo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-210",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia larga se sientan",
+      "new": "a una larga distancia se sientan",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-211",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "las criaturas a corta distancia comienzan a",
+      "new": "las criaturas a corto alcance comienzan a",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-212",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una criatura a corta distancia y tirar",
+      "new": "una criatura a corto alcance y tirar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-213",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "atrás una distancia muy larga e infligen",
+      "new": "atrás una muy larga distancia e infligen",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-214",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia corta del personaje,",
+      "new": "a una corta distancia del personaje,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-215",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentre a muy larga distancia, pero una",
+      "new": "se encuentre a muy largo alcance, pero una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-216",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una criatura a corta distancia que no",
+      "new": "una criatura a corto alcance que no",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-217",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "criaturas invisibles a corta distancia del punto",
+      "new": "criaturas invisibles a corto alcance del punto",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-218",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a corta distancia del Cypher.",
+      "new": "se encuentren a corto alcance del Cypher.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-219",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta, donde libera",
+      "new": "hasta una corta distancia, donde libera",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-220",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de vida a corta distancia.",
+      "new": "de vida a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-221",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "atrás una distancia corta.",
+      "new": "atrás una corta distancia.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-222",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Cualquier criatura a larga distancia que lo",
+      "new": "Cualquier criatura a largo alcance que lo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-223",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "sus frutos a corta distancia, infligiendo 4",
+      "new": "sus frutos a corto alcance, infligiendo 4",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-224",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "la canción a larga distancia debe hacer",
+      "new": "la canción a largo alcance debe hacer",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-225",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "su veneno a corta distancia, infligiendo 1",
+      "new": "su veneno a corto alcance, infligiendo 1",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-226",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Cualquiera a corta distancia de un basilisco",
+      "new": "Cualquiera a corto alcance de un basilisco",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-228",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de ácido a corta distancia contra un",
+      "new": "de ácido a corto alcance contra un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-229",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a corta distancia. Intenta dominar",
+      "new": "se encuentren a corto alcance. Intenta dominar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-230",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "vuela una distancia muy larga cada ronda;",
+      "new": "vuela una muy larga distancia cada ronda;",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-231",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "encuentren a una distancia corta.",
+      "new": "encuentren a una corta distancia.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-232",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "contra objetivos a larga distancia. Una roca",
+      "new": "contra objetivos a largo alcance. Una roca",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-233",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a un alcance largo de fracturas",
+      "new": "a un largo alcance de fracturas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-234",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de un alcance corto durante un",
+      "new": "de un corto alcance durante un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-235",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de agua a corta distancia.",
+      "new": "de agua a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-236",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta como su",
+      "new": "hasta una corta distancia como su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-237",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia larga (dependiendo del",
+      "new": "a una larga distancia (dependiendo del",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-238",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "cualquier lugar a larga distancia donde crezcan",
+      "new": "cualquier lugar a largo alcance donde crezcan",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-239",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que se encuentre a corta distancia de un elemental",
+      "new": "que se encuentre a corto alcance de un elemental",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-240",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "al suelo a corta distancia. Las criaturas",
+      "new": "al suelo a corto alcance. Las criaturas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-241",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una criatura a larga distancia, obstaculizando todas",
+      "new": "una criatura a largo alcance, obstaculizando todas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-242",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia muy larga. Puede usarse",
+      "new": "a una muy larga distancia. Puede usarse",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-243",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un objetivo a corta distancia como ataque",
+      "new": "un objetivo a corto alcance como ataque",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-244",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de un alcance corto con un",
+      "new": "de un corto alcance con un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-245",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "pueda alcanzar a larga distancia como parte",
+      "new": "pueda alcanzar a largo alcance como parte",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-246",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "a criaturas a larga distancia con ráfagas",
+      "new": "a criaturas a largo alcance con ráfagas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-247",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a distancia muy larga, intentar poner",
+      "new": "se encuentren a muy largo alcance, intentar poner",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-248",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "sus presas a larga distancia para poder",
+      "new": "sus presas a largo alcance para poder",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-249",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Cualquiera a corta distancia de una",
+      "new": "Cualquiera a corto alcance de una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-251",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "tres criaturas a corta distancia como su",
+      "new": "tres criaturas a corto alcance como su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-252",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "cualquier objetivo a corta distancia, pero a",
+      "new": "cualquier objetivo a corto alcance, pero a",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-253",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "encantar a otros a corta distancia. El objetivo debe",
+      "new": "encantar a otros a corto alcance. El objetivo debe",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-254",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un objetivo a corta distancia. Además, si",
+      "new": "un objetivo a corto alcance. Además, si",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-255",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "invocar animales a larga distancia para que",
+      "new": "invocar animales a largo alcance para que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-256",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "hechizar a otros a corta distancia. El objetivo debe",
+      "new": "hechizar a otros a corto alcance. El objetivo debe",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-257",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que se encuentren a corta distancia de la IA",
+      "new": "que se encuentren a corto alcance de la IA",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-258",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Movimiento: Vuela una distancia muy larga cada ronda; puede maniobrar como una nave espacial autónoma de nivel 5",
+      "new": "Movimiento: Vuela una muy larga distancia cada ronda; puede maniobrar como una nave espacial autónoma de nivel 5",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-259",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una criatura a corta distancia; si la",
+      "new": "una criatura a corto alcance; si la",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-260",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Un objetivo a corta distancia queda inmóvil",
+      "new": "Un objetivo a corto alcance queda inmóvil",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-261",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia larga, infligiendo 12",
+      "new": "hasta una larga distancia, infligiendo 12",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-262",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "todos los objetivos a corta distancia del objetivo principal.",
+      "new": "todos los objetivos a corto alcance del objetivo principal.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-263",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de electricidad a larga distancia que inflige",
+      "new": "de electricidad a largo alcance que inflige",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-264",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se llena a corta distancia e inflige",
+      "new": "se llena a corto alcance e inflige",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-265",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta y luego",
+      "new": "hasta una corta distancia y luego",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-266",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un objetivo a distancia larga. (Cuando un",
+      "new": "un objetivo a largo alcance. (Cuando un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-267",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "justo desde fuera del alcance corto. Cuando lo hace, se",
+      "new": "justo desde fuera del corto alcance. Cuando lo hace, se",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-268",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "puedan ver a corta distancia, incluso si",
+      "new": "puedan ver a corto alcance, incluso si",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-269",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentre a corta distancia a realizar",
+      "new": "se encuentre a corto alcance a realizar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-270",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "niños mente colmena a corta distancia entre sí aumentan",
+      "new": "niños mente colmena a corto alcance entre sí aumentan",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-271",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "a la vez como una criatura de nivel 4. Cuatro niños mente colmena a corta distancia entre sí pueden leer o controlar las mentes de dos objetivos a la",
+      "new": "a la vez como una criatura de nivel 4. Cuatro niños mente colmena a corto alcance entre sí pueden leer o controlar las mentes de dos objetivos a la",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      },
+      "all": true
+    },
+    {
+      "id": "range-norm-272",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "4. Cuatro a corta distancia entre sí",
+      "new": "4. Cuatro a corto alcance entre sí",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-273",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "Movimiento: Vuela una distancia muy larga cada ronda; puede maniobrar como una nave espacial autónoma de nivel 7",
+      "new": "Movimiento: Vuela una muy larga distancia cada ronda; puede maniobrar como una nave espacial autónoma de nivel 7",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-274",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un objetivo a corta distancia. En combate",
+      "new": "un objetivo a corto alcance. En combate",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-275",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "sube una distancia corta cada ronda",
+      "new": "sube una corta distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-276",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "lugar oculto a corta distancia.",
+      "new": "lugar oculto a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-277",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "el combate dentro de una distancia larga de los enemigos pero fuera de la distancia corta, puede cubrir",
+      "new": "el combate a largo alcance de los enemigos pero fuera del corto alcance, puede cubrir",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-278",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "ácido de alcance corto que inflige",
+      "new": "ácido de corto alcance que inflige",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-279",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "el metal a corta distancia, haciendo que",
+      "new": "el metal a corto alcance, haciendo que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-280",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "objetivos diferentes a muy larga distancia (o al",
+      "new": "objetivos diferentes a muy largo alcance (o al",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-281",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a corta distancia del objetivo",
+      "new": "se encuentren a corto alcance del objetivo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-282",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "lanza bombas a larga distancia con una",
+      "new": "lanza bombas a largo alcance con una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-283",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "cargar desde fuera del alcance corto. Cuando lo hace, se",
+      "new": "cargar desde fuera del corto alcance. Cuando lo hace, se",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-284",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia muy larga, y los",
+      "new": "a una muy larga distancia, y los",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-285",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "pueden volar una distancia corta cada ronda",
+      "new": "pueden volar una corta distancia cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-287",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "perforante hasta alcance largo que inflige",
+      "new": "perforante hasta largo alcance que inflige",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-288",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia corta y realizando",
+      "new": "hasta una corta distancia y realizando",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-289",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "de daño a larga distancia",
+      "new": "de daño a largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-290",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "la oscuridad a corta distancia.",
+      "new": "la oscuridad a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-291",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "nadar una distancia corta como su",
+      "new": "nadar una corta distancia como su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-292",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "hasta una distancia larga como su",
+      "new": "hasta una larga distancia como su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-293",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "y flores a muy larga distancia, haciéndolas crecer",
+      "new": "y flores a muy largo alcance, haciéndolas crecer",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-294",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un punto a larga distancia instantáneamente (no",
+      "new": "un punto a largo alcance instantáneamente (no",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-295",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Armadura) a un objetivo a corta distancia.",
+      "new": "Armadura) a un objetivo a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-296",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "ser vivo a larga distancia para poder",
+      "new": "ser vivo a largo alcance para poder",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-297",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una prisión a larga distancia y captura",
+      "new": "una prisión a largo alcance y captura",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-298",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Las criaturas a corta distancia que fallen",
+      "new": "Las criaturas a corto alcance que fallen",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-299",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "mueve una distancia larga cada ronda).",
+      "new": "mueve una larga distancia cada ronda).",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-300",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "y objetos a corta distancia de su",
+      "new": "y objetos a corto alcance de su",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-301",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "al otro a corta distancia, infligiendo 4",
+      "new": "al otro a corto alcance, infligiendo 4",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-302",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "robot, etc.) a corta distancia durante un",
+      "new": "robot, etc.) a corto alcance durante un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-303",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "el clima a larga distancia, transformarse en",
+      "new": "el clima a largo alcance, transformarse en",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-304",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Vuela a larga distancia cada ronda",
+      "new": "Vuela a largo alcance cada ronda",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-305",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "las víctimas a larga distancia de que",
+      "new": "las víctimas a largo alcance de que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-306",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un enemigo a corta distancia e infligirle",
+      "new": "un enemigo a corto alcance e infligirle",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-307",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "radio de alcance largo, obstaculizando todas",
+      "new": "radio de largo alcance, obstaculizando todas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-308",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "a objetivos a distancia larga. Contra oponentes",
+      "new": "a objetivos a largo alcance. Contra oponentes",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-309",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia corta del lugar",
+      "new": "a una corta distancia del lugar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-310",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "niebla espeluznante a larga distancia, o conceden",
+      "new": "niebla espeluznante a largo alcance, o conceden",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-311",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "rocas hasta muy larga distancia, infligiendo 6",
+      "new": "rocas hasta muy largo alcance, infligiendo 6",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-312",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "hielo hasta muy larga distancia, infligiendo 6",
+      "new": "hielo hasta muy largo alcance, infligiendo 6",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-313",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una criatura a corta distancia durante una",
+      "new": "una criatura a corto alcance durante una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-314",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un oponente a corta distancia, bajando la",
+      "new": "un oponente a corto alcance, bajando la",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-315",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un enemigo a corta distancia en una",
+      "new": "un enemigo a corto alcance en una",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-316",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "una criatura a corta distancia, convirtiéndola en",
+      "new": "una criatura a corto alcance, convirtiéndola en",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-317",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un enemigo a larga distancia con el",
+      "new": "un enemigo a largo alcance con el",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-318",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un enemigo a corta distancia una vez",
+      "new": "un enemigo a corto alcance una vez",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-319",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentren a corta distancia. La defensa",
+      "new": "se encuentren a corto alcance. La defensa",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-320",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "los enemigos a larga distancia. Algunos llevan",
+      "new": "los enemigos a largo alcance. Algunos llevan",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-321",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "todos los objetivos a corta distancia del objetivo principal,",
+      "new": "todos los objetivos a corto alcance del objetivo principal,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-322",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "objetivos seleccionados a corta distancia tienen un",
+      "new": "objetivos seleccionados a corto alcance tienen un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-323",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "los enemigos a corta distancia, derribándolos e",
+      "new": "los enemigos a corto alcance, derribándolos e",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-324",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "los enemigos a larga distancia durante tres",
+      "new": "los enemigos a largo alcance durante tres",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-325",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "los enemigos a larga distancia, infligiendo 2",
+      "new": "los enemigos a largo alcance, infligiendo 2",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-326",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "un enemigo a corta distancia, obstaculizando todas",
+      "new": "un enemigo a corto alcance, obstaculizando todas",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-327",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "contra enemigos a corta distancia. También pueden",
+      "new": "contra enemigos a corto alcance. También pueden",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-328",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Danza del ciervo saltarín: Los enemigos a corta distancia que fallen una tarea de Defensa por Intelecto pierden su siguiente turno bailando y saltando. Los ataques realizados",
+      "new": "Danza del ciervo saltarín: Los enemigos a corto alcance que fallen una tarea de Defensa por Intelecto pierden su siguiente turno bailando y saltando. Los ataques realizados",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-329",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Obertura feral: Un aliado a corta distancia se infunde con magia,",
+      "new": "Obertura feral: Un aliado a corto alcance se infunde con magia,",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-330",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Tonada de la mente nublada: Un enemigo a corta distancia que falle una tarea de Defensa por",
+      "new": "Tonada de la mente nublada: Un enemigo a corto alcance que falle una tarea de Defensa por",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-331",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "cuerpo y contra enemigos a corta distancia.",
+      "new": "cuerpo y contra enemigos a corto alcance.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-332",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Danza del ciervo saltarín: Los enemigos a corta distancia que fallen una tarea de Defensa por Intelecto pierden su siguiente turno bailando y saltando. Los ataques contra",
+      "new": "Danza del ciervo saltarín: Los enemigos a corto alcance que fallen una tarea de Defensa por Intelecto pierden su siguiente turno bailando y saltando. Los ataques contra",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-333",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Obertura feral: Un aliado a corta distancia se infunde con magia.",
+      "new": "Obertura feral: Un aliado a corto alcance se infunde con magia.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-334",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "Sintonía de la mente nublada: Un enemigo a corta distancia que falle una tarea de Defensa por",
+      "new": "Sintonía de la mente nublada: Un enemigo a corto alcance que falle una tarea de Defensa por",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-335",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "a objetivos a distancia larga, lo que",
+      "new": "a objetivos a largo alcance, lo que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-336",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "que esté a corta distancia del mismo",
+      "new": "que esté a corto alcance del mismo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-337",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de una distancia corta de ancho)",
+      "new": "de una corta distancia de ancho)",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-338",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "movimiento de alcance largo, este misil",
+      "new": "movimiento de largo alcance, este misil",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-339",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "el dispositivo a larga distancia, ordenándole que",
+      "new": "el dispositivo a largo alcance, ordenándole que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-340",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "dentro del alcance largo de la",
+      "new": "dentro del largo alcance de la",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-341",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "radio de alcance corto, infligiendo un",
+      "new": "radio de corto alcance, infligiendo un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-342",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "adicional vuela a un punto aleatorio a corta distancia y explota en un radio inmediato.",
+      "new": "adicional vuela a un punto aleatorio a corto alcance y explota en un radio inmediato.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-343",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "se encuentran a corta distancia, atrayéndolos (o",
+      "new": "se encuentran a corto alcance, atrayéndolos (o",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-344",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "puede ver a corta distancia durante un",
+      "new": "puede ver a corto alcance durante un",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-345",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "lugar indicado a larga distancia, etc). El",
+      "new": "lugar indicado a largo alcance, etc). El",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-346",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "moverse una distancia corta como acción puede moverse una distancia larga.",
+      "new": "moverse una corta distancia como acción puede moverse una larga distancia.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-347",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "de un alcance largo que sea",
+      "new": "de un largo alcance que sea",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-348",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "pueda ver a larga distancia y que",
+      "new": "pueda ver a largo alcance y que",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-349",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a una distancia corta, la sustracción",
+      "new": "a una corta distancia, la sustracción",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-350",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "cualquier superficie a corta distancia. Durante las",
+      "new": "cualquier superficie a corto alcance. Durante las",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-351",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "canonical word order (GLOSARIO.md › Alcance y distancia).",
+      "old": "a un alcance largo del detonador.",
+      "new": "a un largo alcance del detonador.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-352",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "los enemigos a larga distancia y ya",
+      "new": "los enemigos a largo alcance y ya",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-353",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "OG-CSRD says \"range\": use alcance (GLOSARIO.md › Alcance y distancia).",
+      "old": "si están a corta distancia (cuesta 2",
+      "new": "si están a corto alcance (cuesta 2",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-354",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "contra un objetivo a corta o larga distancia se considera un arma a distancia",
+      "new": "contra un objetivo a corto o largo alcance se considera un arma a distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-355",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "puede ser hasta una distancia corta o larga en su turno",
+      "new": "puede ser hasta una corta o larga distancia en su turno",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-356",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "hace caer al personaje a corta distancia y posiblemente",
+      "new": "hace caer al personaje fuera de corto alcance y posiblemente",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-357",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "Un druida conoce varios hechizos, como un ataque a corta distancia",
+      "new": "Un druida conoce varios hechizos, como un ataque de corto alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-358",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "ataques de fuego o frío a larga distancia contra todos los objetivos que se encuentren a una distancia inmediata entre sí",
+      "new": "ataques de fuego o frío de largo alcance contra todos los objetivos que se encuentren dentro del alcance inmediato entre sí",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-359",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "leer la mente de una víctima a corta distancia",
+      "new": "leer la mente de una víctima a corto alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-360",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "ataque susurrante de alcance corto",
+      "new": "ataque susurrante de corta distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-361",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "exhalar un chorro de fuego hasta largo alcance",
+      "new": "exhalar un chorro de fuego hasta una larga distancia",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-362",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "Más allá de ese rango, las distancias siempre se especifican",
+      "new": "Más allá de ese alcance, las distancias siempre se especifican",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-363",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "utilizan estos términos para los rangos. Por ejemplo",
+      "new": "utilizan estos términos para los alcances. Por ejemplo",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      },
+      "all": true
+    },
+    {
+      "id": "range-norm-364",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "sobre todo cuando se refiere a rangos.",
+      "new": "sobre todo cuando se refiere a alcances.",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-365",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "Más allá de ese rango, siempre se especifican las distancias",
+      "new": "Más allá de ese alcance, siempre se especifican las distancias",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-366",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "Los rangos precisos no son importantes en el Sistema Cypher. Los rangos ampliamente definidos",
+      "new": "Los alcances precisos no son importantes en el Sistema Cypher. Los alcances ampliamente definidos",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-367",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "permite ver claramente sólo dentro del rango inmediato",
+      "new": "permite ver claramente sólo dentro del alcance inmediato",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-368",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "Puede llegar al módulo desde un rango de hasta",
+      "new": "Puede llegar al módulo desde una distancia de hasta",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-369",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "pero el rango puede variar",
+      "new": "pero el alcance puede variar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-370",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "que equivalen a los rangos del mismo nombre",
+      "new": "que equivalen a los alcances del mismo nombre",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-371",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "un ataque psíquico a una criatura dentro de un rango corto",
+      "new": "un ataque psíquico a una criatura a corto alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-372",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "arañar a dos oponentes en rango inmediato",
+      "new": "arañar a dos oponentes dentro del alcance inmediato",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-373",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "a todas las criaturas en el rango inmediato",
+      "new": "a todas las criaturas dentro del alcance inmediato",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-374",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "emitir calor mortífero en el rango inmediato",
+      "new": "emitir calor mortífero dentro del alcance inmediato",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-375",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "Explotan en el rango inmediato",
+      "new": "Explotan dentro del alcance inmediato",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-376",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "a los seres orgánicos en el rango inmediato",
+      "new": "a los seres orgánicos dentro del alcance inmediato",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-377",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "en rango inmediato no pueden funcionar",
+      "new": "dentro del alcance inmediato no pueden funcionar",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-378",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "debe estar a corta distancia y ser capaz de entenderte. Mientras",
+      "new": "debe estar a corto alcance y ser capaz de entenderte. Mientras",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-379",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "rayo ocular destructivo de alcance largo",
+      "new": "rayo ocular destructivo de largo alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "range-norm-380",
+      "date": "2026-11-22",
+      "entry": "Alcance/distancia",
+      "reason": "Range/distance rule (GLOSARIO.md › Alcance y distancia); checked by hand against OG-CSRD.",
+      "old": "que no sea un gris dentro de un rango corto",
+      "new": "que no sea un gris a corto alcance",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "dup-hivemind-sentences",
+      "date": "2026-11-22",
+      "entry": "Niño mente colmena [Hivemind child] (criatura)",
+      "reason": "Two repeated, mistranslated sentences ('Cuatro niños mente colmena ... nivel 4'); OG-CSRD has only 'Two ... level 4. Four ... four targets ... level 5'. Removing them also leaves the paragraph with alcance throughout.",
+      "old": "como una criatura de nivel 4. Cuatro niños mente colmena a corto alcance entre sí pueden leer o controlar las mentes de dos objetivos a la vez como una criatura de nivel 4. Cuatro niños mente colmena a corta distancia entre sí pueden leer o controlar las mentes de dos objetivos a la vez como una criatura de nivel 4. Cuatro a corto alcance entre sí",
+      "new": "como una criatura de nivel 4. Cuatro a corto alcance entre sí",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    },
+    {
+      "id": "skill-cobbling",
+      "date": "2026-11-22",
+      "entry": "Cuentos de hadas › Habilidades",
+      "reason": "OG-CSRD lists 'Cobbling' (shoemaking); 'Empedrado' means paving.",
+      "old": "Empedrado",
+      "new": "Zapatería",
+      "applied": {
+        "html": "2026-11-22",
+        "odt": "2026-11-22"
+      }
+    }
+  ]
+}

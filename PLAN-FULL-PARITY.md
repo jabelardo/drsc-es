@@ -1,6 +1,9 @@
 # Plan for Full Parity: DRSC-ES → OG-CSRD
 
-Status: draft for execution (revised 2026-11-22 after a source-attribution audit, see §3)
+Status: in execution. WP1 is complete on branch `wp1-fantasy-relocation` and WP0 on
+`wp0-setup`; both are ready to merge (see §5; last updated 2026-11-22). Per-chapter status
+is tracked in `TRADUCCION-PROGRESO.md`. The plan was revised on 2026-11-22 after a
+source-attribution audit (§3).
 Scope: bring the Spanish `DRSC-ES.html` to full content and structural parity with the
 current Old Gus' Cypher System Reference Document (OG-CSRD).
 
@@ -42,6 +45,10 @@ Full parity means:
   (2019/2024), and the supplement PDFs (Godforsaken, The Stars Are Fire, We Are All
   Mad Here, Claim the Sky, Stay Alive!, Cypher Shorts, It's Only Magic, Neon Rain,
   High Noon at Midnight, Rust and Redemption, Cypher System Bestiary).
+- **Rules wording comes from the CSRD file, not OG** (learned in WP2). OG-CSRD
+  sometimes edits CSRD text without marking it (e.g. *Secret and True Names*, the
+  Giant Spider). Take structure from OG, but check every paragraph you translate
+  against `Cypher-System-Reference-Document-2025-08-22.docx`.
 - **Terminology:** reuse the existing DRSC-ES glossary; keep English names in
   `[brackets]` exactly as the current document does.
 - **Editorial policy:** full parity includes OG editorial content (foreword, editor
@@ -92,22 +99,23 @@ What is actually missing falls into three groups:
 
 ### 3.3 Existing Spanish material that OG keeps elsewhere (relocation map)
 
-| Current DRSC-ES location | Content | OG-CSRD target |
-|---|---|---|
-| Módulo de reglas mágicas (~11.8k ES words) | Crafting magic items, magical technology, mystical martial arts, ritual magic, secret/true names, wishes, awarding treasure, dungeons/castles/keeps and traps | Ch13 Fantasy |
-| Módulo de reglas mágicas › Control mental, Posesión | Mind control, possession | Ch16 Horror › Horror Rules (Posesión is already duplicated in Cap. 16, so merge) |
-| Cap. 3 Tipos › Opciones de personajes de fantasía | Sorcerer, Warlock or Witch, Wizard, Wild Mage, etc. | Ch13 › Fantasy Character Options |
-| Cap. 8 Equipo › fantasy weapon/armor/clothing/adventuring-gear descriptions, medieval price categories | Medieval equipment | Ch13 › Medieval Fantasy Equipment |
-| Cap. 22 Cyphers › Cyphers de fantasía | Fantasy cyphers | Ch13 › Fantasy Cyphers |
-| Cap. 23 Dirigir › Artefactos › Artefactos de fantasía (~6.9k) | Fantasy artifacts | Ch13 › Fantasy Artifacts |
-| Cap. 20 Criaturas › Criaturas y PNJs de fantasía por nivel; Otras criaturas y PNJs para un juego de fantasía | Fantasy creature/NPC lists | Ch13 › Basic Creatures and NPCs for a Fantasy Game |
-| Cap. 9 Reglas › Seguidores | Followers | Ch11-A Followers and Factions |
-| Cap. 13 Ciencia ficción › Intromisiones del DJ para naves espaciales | Spacecraft GM intrusions | Ch11 › Action: Do Something Else |
-| Cap. 13 Ciencia ficción › contemporary vehicles (cars, boats, submarines, early spacecraft) and modern items | Modern equipment | Ch14 Modern › Modern Vehicles / Additional Modern Equipment |
-| Cap. 13 Ciencia ficción › Criaturas y PNJs básicos (~12.2k) | SF creature and NPC stat blocks | Ch22 Creatures / Ch23 NPCs (genre chapter keeps the "Basic Creatures and NPCs" list) |
-| Cap. 16 Horror › Criaturas y PNJs de horror por nivel y género (~5.4k), PNJs | Horror stat blocks | Ch22 / Ch23 |
-| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) |
-| Cap. 20 Criaturas › Supervillanos (~2.7k) and NPC entries filed as creatures | Supervillains, NPCs | Ch23 NPCs (Ch18 keeps the Supervillains overview) |
+| Current DRSC-ES location | Content | OG-CSRD target | WP1 status |
+|---|---|---|---|
+| Módulo de reglas mágicas (~11.8k ES words) | Crafting magic items, magical technology, mystical martial arts, ritual magic, secret/true names, wishes, awarding treasure, dungeons/castles/keeps and traps | Ch13 Fantasy | Done |
+| Módulo de reglas mágicas › Control mental, Posesión | Mind control, possession | Ch16 Horror › Horror Rules (Posesión is already duplicated in Cap. 16, so merge) | Done (Posesión merged) |
+| Cap. 3 Tipos › Opciones de personajes de fantasía | Sorcerer, Warlock or Witch, Wizard, Wild Mage, etc. | Ch13 › Fantasy Character Options | Done |
+| Cap. 8 Equipo › fantasy weapon/armor/clothing/adventuring-gear descriptions, medieval price categories | Medieval equipment | Ch13 › Medieval Fantasy Equipment | Done |
+| Cap. 22 Cyphers › Cyphers de fantasía | Fantasy cyphers | Ch13 › Fantasy Cyphers | Done |
+| Cap. 23 Dirigir › Artefactos › Artefactos de fantasía (~6.9k) | Fantasy artifacts | Ch13 › Fantasy Artifacts | Done |
+| Cap. 20 Criaturas › Otras criaturas y PNJs para un juego de fantasía | Fantasy creature/NPC list | Ch13 › Basic Creatures and NPCs for a Fantasy Game | Done. *Criaturas y PNJs de fantasía por nivel* stays in Criaturas, because OG keeps its by-level list in Ch22 |
+| Cap. 9 Reglas › Seguidores | Followers | Ch11-A Followers and Factions | Done (new Capítulo 9-A *Seguidores y facciones*) |
+| Cap. 13 Ciencia ficción › GM-intrusion tables for wheeled, hovering/flying, sea and space vehicles | Vehicle GM intrusions | Ch11 › Action: Do Something Else › Riding or Piloting | Done (all four tables, under *Montar o pilotar*) |
+| Cap. 13 Ciencia ficción › every category's "Contemporáneo" group (equipment, weapons, vehicles) and the pioneer-era spacecraft | Contemporary equipment and vehicles | Ch14 Modern › Additional Modern Equipment / Modern Vehicles | Done (11 equipment groups and a new *Vehículos modernos* section) |
+| Cap. 13 Ciencia ficción › Criaturas y PNJs básicos (~12.2k) | SF creature and NPC stat blocks | Ch22 Creatures / Ch23 NPCs (genre chapter keeps the "Basic Creatures and NPCs" list) | Done (by-level table stays in Cap. 13) |
+| Cap. 16 Horror › Criaturas y PNJs de horror por nivel y género (~5.4k), PNJs | Horror stat blocks | Ch22 / Ch23 | Done (by-level table stays in Cap. 16) |
+| Cap. 15 Cuentos de hadas › Bestias y seres (~15.9k) | Fairy-tale stat blocks | Ch22 / Ch23 (Ch20 keeps the Beasts and Beings overview: magical animals, talking objects, beings by archetype) | Done (inline beings, archetype lists and PNJs intro stay in Cap. 15; Sátiro, Hada and Bruja keep both versions, §3.6) |
+| Cap. 20 Criaturas › Supervillanos (~2.7k) and NPC entries filed as creatures | Supervillains, NPCs | Ch23 NPCs (Ch18 keeps the Supervillains overview) | Done (Supervillanos moved whole, after Otros PNJs) |
+| Cap. 14 Superhéroes › Cyphers y artefactos › Cyphers de refuerzo de potencia | Three Claim the Sky power-boost cyphers and the d100 power-boost table | Ch24 › Power Boost Cyphers / Power Boost Cypher Table | Done (found by the final WP1 check; not in the original audit) |
 
 Everything else in DRSC-ES sits in the OG chapter it maps to. Fairy-tale cyphers and
 artifacts already live in the Fairy Tale chapter in both documents.
@@ -161,10 +169,18 @@ Gaps inside books DRSC-ES already covers:
   - 6 foci: Befriends the Black Dog, Curses the World, Feigns No Fear, Lived Among
     the Fey, Made a Deal With Death, Sheds Their Skin.
 - **CSRD 2025 text revisions.** Rules text that changed between the CSRD of
-  2023-04-18 and 2025-08-22 (Rulebook 2024 errata). A structural audit cannot detect
-  these. OG's "Errata" ability category is a starting list.
-- **Mutant descriptor** (post-apocalyptic). OG gives no citation; it sits among the
-  Rust and Redemption descriptors. Verify its source.
+  2023-04-18 and 2025-08-22. The WP0 audit found missing abilities:
+  - 16 abilities OG cites as *Errata*: Chop, Crush, Daring Escape, Extra Edge, Font of
+    Inspiration, Mighty Blow, Opening Gambit, Practiced With Light (and Medium) Weapons,
+    Riposte, Seize Opportunity, Shooting Gallery, Skills, Slayer, Specialization,
+    Surprise Strike. *Resolved in WP2:* these are old 2015-Rulebook versions that OG
+    keeps for compatibility, so they are OG editorial (WP7), not CSRD gaps.
+  - 2 abilities not in DRSC-ES: Moonbeam and Question Past Self. *Added in WP2;* they
+    turned out to be It's Only Magic abilities that OG cites with bare page numbers.
+  - A direct diff of the 2023 and 2025 CSRD files shows no changed wording in existing
+    text: the 2025 CSRD only adds material; see WP2.
+- **Mutant descriptor** (post-apocalyptic). *Resolved in WP2:* OG cites it as Rust and
+  Redemption, page 116 (WP6).
 
 ### 3.5 Revised entry-level gaps
 
@@ -183,16 +199,47 @@ Gaps inside books DRSC-ES already covers:
 
 - ES-only, to keep: Extras (Cypherpunk / Dark Sun PDFs, `contrib/`) and *Notas de la
   traducción*.
-- Not found in OG under any name; check against CSRD 2025 before keeping or removing:
-  - *Estabilizador mental [Mind Stabilizer]* (cypher, Cap. 22)
-  - *Escudo deflector [Deflecting Shield]* (fantasy artifact, Cap. 23)
+- Checked in WP2:
+  - *Estabilizador mental [Mind Stabilizer]* (cypher, Cap. 22) is in OG, misspelled
+    "Mind Stablizer" (Rulebook, page 393). Keep.
+  - *Escudo deflector [Deflecting Shield]* (fantasy artifact, Cap. 23): OG says the
+    deflecting shield (Godforsaken, page 150) is not included in the CSRD, and lists
+    the Truth Binoculars (*Prismáticos de la verdad*, already in DRSC-ES) in its place
+    in the Minor Fantasy Artifacts table. Both CSRD files list it by name only, with no
+    description. **Decided 2026-11-22: keep** the entry and the table row as they are.
 - Duplicates to consolidate:
-  - *Posesión*: appears in the magic module and in Cap. 16.
-  - *Locura*: a stub in the horror encyclopedia plus *Regla opcional: Locura*; OG has a
-    single Madness section.
-- Heading bug: in Cap. 20 Criaturas, *Jotunn (gigante nórdico)* is an h4, so every
-  creature after it is nested under it. Make it an h5 at the same level as the other
-  creatures.
+  - *Posesión*: **done in WP1.** The Cap. 16 section is kept, with the module's opening
+    sentence and consent paragraph merged in, as in OG. The module's `posesion` id
+    remains as an alias.
+  - *Locura*: **done in WP1.** The encyclopedia entry now holds the full optional-rule
+    text, as OG's single Madness section; the one-paragraph summary and the separate
+    *Regla opcional: Locura* section are gone, and its id remains as an alias.
+- Heading bug: *Jotunn (gigante nórdico)* was an h4 in Cap. 20, so every creature after
+  it was nested under it. **Fixed in WP1:** Jotunn is now one NPC entry in Cap. 21 (h5),
+  with its fire and frost variants as h6 sub-entries, as in OG.
+- Found and fixed during WP1:
+  - The second *Artefactos de fantasía* heading in Cap. 11 is now *Listado de artefactos
+    de fantasía*.
+  - *Más hechos* → *Más hechizos*; *Cuéntos* / *hádas* → *Cuentos* / *hadas*.
+  - Moving entries changed which element four duplicated ids resolved to (`bruja`,
+    `hada`, `satiro`, `espectro`). The shadowed alias spans were dropped so each id has
+    its pre-WP1 target again, and the fantasy/horror by-level tables now link to the
+    core/Godforsaken entries they list.
+  - The Munición group reused Ocio's id `contemporaneo-6`; it now uses the unused
+    `contemporaneo-7`.
+  - Criaturas and PNJs sort ignoring a leading El/La/Los/Las (decided 2026-11-22).
+  - Duplicate ids are down from 134 to 127.
+- Decided (2026-11-22): keep both versions of *Sátiro*, *Hada* and *Bruja* rather than
+  merging them as OG does for Hada and Bruja. Each pair is the same creature at the same
+  level but written differently (description, environment, abilities). The core or
+  Godforsaken version keeps the plain name; the We Are All Mad Here version is labelled
+  *(Cuentos de hadas)*. The two versions sit next to each other in Criaturas/PNJs.
+- Still open:
+  - `#control-mental` is the id of both the Control mental ability and the Horror
+    section, so links meant for the section (e.g. in Posesión) open the ability.
+    Resolve with the duplicate-id clean-up in WP8.
+  - `#botas-de-saltar` is used by three different items; the fairy-tale table link
+    opens the fantasy artifact. Resolve in WP8.
 
 ---
 
@@ -224,35 +271,183 @@ Translation work is organised by source book. Each book's foci, abilities,
 descriptors, creatures and NPCs are spread across several OG chapters but share
 terminology, so translating a book in one pass keeps them consistent.
 
-### WP0 — Setup (0.5–1 day)
-- [ ] Record the locked source version in the document header.
-- [ ] Create `GLOSARIO.md` (EN→ES term map) and `TRADUCCION-PROGRESO.md`
-      (per-section status).
-- [ ] Add QA scripts: anchor target check, duplicate-id check, HTML structure check,
-      headless render (light/dark).
-- [ ] Add the source-attribution audit (OG `og-cite` per section + ES bracket-name
-      matching) so §3 can be re-run after each work package.
+### WP0 — Setup (0.5–1 day) — done on branch `wp0-setup`
+- [x] Record the locked source version in the document header: *Estructura según
+      OG-CSRD v2.11a (2026-08-14), basado en el CSRD del 2025-08-22*.
+- [x] Create `GLOSARIO.md` (EN→ES term map) and `TRADUCCION-PROGRESO.md`
+      (per-chapter status).
+      - The glossary's core terms are hand-written from the document's actual usage.
+      - Its ~1,960 named elements are generated by `tools/parity/glossary.py`.
+      - It records the range/distance rule decided on 2026-11-22: range is *alcance*,
+        distance is *distancia*, as English distinguishes them.
+      - It lists two open terminology decisions ("training", *Aspecto*) and one likely
+        inconsistency: *Infiltrator* is *Infiltrado* as an ability and *Infiltrador* as
+        a cypher.
+- [x] Add QA scripts (`tools/qa/`):
+      - `check_html.py`: anchors, duplicate ids, tag structure, heading levels. With
+        `--baseline REF` it adds an id diff, a word diff, and duplicated ids whose
+        target element changed.
+      - `render.py`: headless Chrome in light and dark, for the whole page or one
+        section, failing on unexpected console messages.
+      - Usage is in `tools/README.md`. `.gitignore` now tracks `tools/**/*.py`.
+- [x] Add the source-attribution audit (`tools/parity/audit.py`) so §3 can be re-run
+      after each work package. It downloads OG-CSRD once into `.cache/` (git-ignored).
 
-### WP1 — Reorganise existing Spanish content (no new translation, ~4–8 days)
-- [ ] Apply the relocation map in §3.3, one OG chapter at a time, starting with
-      Fantasy (magic module, fantasy type options, medieval equipment, fantasy
-      cyphers, fantasy artifacts, fantasy creature lists).
-- [ ] Move genre stat blocks (SF, Horror, Fairy Tale, supervillains) to Criaturas/PNJs,
-      leaving the "Criaturas y PNJs básicos" lists and overviews in the genre chapters.
-- [ ] Move Seguidores to the new Seguidores y facciones chapter, spacecraft GM
-      intrusions to Reglas, contemporary vehicles/items to Moderno.
-- [ ] Consolidate duplicates (Posesión, Locura) and fix the Jotunn heading level.
-- [ ] Keep every moved section's id; add alias anchors only where sections merge.
-- [ ] Update TOC, navbar, quick-reference boxes and cross-links after each move.
+### WP1 — Reorganise existing Spanish content (no new translation, ~4–8 days) — done
+- [x] Fantasy: Cap. 11 now follows OG Ch13 order.
+      - Moved in: the magic module, fantasy type options, medieval equipment, fantasy
+        cyphers, fantasy artifacts and the other fantasy creatures list.
+      - *Hechizos preparados vs espontáneos* joined the spellcasting rule.
+      - *Control mental* moved to the Horror encyclopedia, after *Locura*.
+- [x] Sci-Fi and Horror stat blocks moved to Criaturas/PNJs.
+      - Cap. 20 Criaturas now has 96 creatures in one alphabetical list.
+      - Cap. 21 PNJs now has 43 NPCs, followed by *Supervillanos*. That includes the
+        19 entries that were filed as creatures but are NPCs in OG (Goblin, Orco, Ogro,
+        Trol, Bruja, Fada…).
+      - The genre chapters keep their basic lists and by-level tables.
+- [x] Fairy Tale stat blocks (*Bestias y seres*) moved to Criaturas/PNJs.
+      - Criaturas now has 104 creatures; *Minotauro, el* is nested under *Minotáuro*,
+        as in OG.
+      - PNJs now has 60 NPCs, including three combined entries as in OG: *Encantador*
+        (Morgan Le Fay, Oz, Virgilius), *Reina* (Grimilda, Roja, Nieves) and *Bruja
+        (Cuentos de hadas)* (Baba Yaga and four more).
+      - Cap. 15 keeps the inline beings (Bagheera, Gato Cheshire…), the archetype lists
+        and the PNJs introduction, as OG Ch20 does.
+      - The emptied *Encantadores del mundo* and *Brujas del mundo* headings remain as
+        alias anchors.
+- [x] Seguidores: new Capítulo 9-A *Seguidores y facciones* (OG Ch11-A) around the
+      existing section, with its quick reference and TOC entry. The number is
+      provisional until the WP8 renumbering.
+- [x] The four vehicle GM-intrusion tables moved from Cap. 13 to Cap. 9 › *Montar o
+      pilotar* (OG keeps all four in Rules, not only the spacecraft one).
+- [x] Contemporary equipment and vehicles moved to Cap. 12 Moderno.
+      - Each Sci-Fi category's "Contemporáneo" group moved, with its marker turned into
+        the group heading. That gives 11 equipment groups and a new *Vehículos modernos*
+        section with 5 vehicle groups plus the pioneer-era spacecraft.
+      - Cap. 12 now follows OG order.
+- [x] Consolidate Posesión and Locura; fix the Jotunn heading level.
+- [x] Fix the small issues found during WP1 (§3.6), including the duplicate-id targets
+      that the moves had changed.
+- [x] Sort Criaturas and PNJs ignoring a leading El/La/Los/Las.
+- [x] Keep both versions of Sátiro, Hada and Bruja, the We Are All Mad Here one
+      labelled *(Cuentos de hadas)* (§3.6).
+- [x] Superhero power-boost cyphers moved to Cap. 22. The final check found them:
+      - Reforzador de eficacia, de mejora and de proeza joined the power-boost list
+        (now all 11, as in OG).
+      - The d100 table became *Tabla de Cyphers de refuerzo de potencia* under *Listado
+        de Cyphers por categoría*.
+- [x] Keep every moved section's id. Ids whose heading was dissolved remain as alias
+      anchors:
+      - `modulo-de-reglas-magicas` on *Artes marciales místicas*
+      - `posesion` on the Horror *Posesión*
+      - `regla-opcional-locura` on the encyclopedia *Locura*
+      - `pnjs-1`, `creatures-2-list` and `npcs-1-list` in Cap. 16
+      - `creatures-4-list` in Cap. 13
+      - `encantadores-del-mundo`, `brujas-del-mundo` and the emptied fairy-tale list
+        wrappers in Cap. 15
+- [x] Update TOC, navbar, quick-reference boxes and cross-links after each move. The
+      TOC gained the 9-A chapter; the navbar only links to chapters and needed no
+      change.
+- Final acceptance check against the pre-WP1 baseline (main at 2aafddb):
+  - Of 818 Spanish headings whose English name matches OG, all sit in their OG
+    chapter. The only flags are the inline fairy-tale beings *Enano* and *Trol*, which
+    share names with NPC entries.
+  - Each Spanish chapter is now 0.84–1.12 × its OG counterpart (OG words from the books
+    DRSC-ES covers). The outlier is Post-apocalíptico at 0.68: the Carroñeo
+    (scavenging) tables look shorter than OG's, a possible content gap to check in WP2,
+    not a misplaced block.
+  - 395,479 → 395,073 words; every removed word is accounted for (duplicate Posesión,
+    Locura summary, the superhero power-boost intro, renamed headings, obsolete
+    quick-reference entries).
+- Verification run after each step:
+  - same id set before and after, except intended aliases and new headings
+  - 0 broken internal links; duplicate ids never increased (134 → 127 overall)
+  - no duplicate id switched to a different target
+  - balanced tags; word diff limited to headings, quick references and merged text
+  - headless Chrome render of the moved sections
+  The ODT and PDF are not updated (WP9).
 - Acceptance: every DRSC-ES section sits under its OG chapter; no content lost
   (word-count and id diff against the pre-move baseline); anchor QA clean.
 
 ### WP2 — Gaps inside books already covered (~3k EN words + errata)
-- [ ] Translate the 6 Heartwood descriptors and 6 Heartwood foci (We Are All Mad Here)
-      and replace the name-only lists.
-- [ ] Diff existing rules text against CSRD 2025-08-22 and apply errata (start from
-      OG's "Errata" ability category).
-- [ ] Resolve the two entries not found in OG and the Mutant descriptor source (§3.4–3.6).
+- [x] Heartwood (We Are All Mad Here), 2026-11-22, `wp2-gaps`:
+      - the 6 descriptors as full entries in Cap. 15 (*Atormentado, Embrujado,
+        Fragmentado, Frumioso, Perdido, Trocado*); the name-only list now links to them
+      - the 6 foci in Cap. 6 (*Finge no tener miedo, Hizo un trato con la Muerte,
+        Maldice al mundo, Muda de piel, Se hace amigo del perro negro, Vivió entre las
+        hadas*), linked from the Heartwood foci list
+      - the 4 Heartwood character arcs in Cap. 10 (*Convertirse en defensor, Desarrollar
+        estrategias de afrontamiento, Echar raíces, Tomar el camino equivocado*) and a
+        *Arcos de personaje de Heartwood* section in Cap. 15
+      - fairy-tale skills: *Magia* was missing; *Empedrado* (paving) → *Zapatería*
+        (cobbling, registered as `skill-cobbling`)
+      - also fixed: the Cap. 10 sentence listing the arcs had link texts shifted from
+        *Construcción* on (e.g. "Crecimiento" → `#creacion`)
+      - not included: the Changeling NPC is from It's Only Magic (WP3); the Heartwood
+        foci that OG adds to the fantasy role suggestions are OG editorial (WP7)
+- [x] Diff existing rules text against CSRD 2025-08-22, 2026-11-22. **There are no
+      errata to apply.** Compared the two CSRD files directly
+      (`Cypher-System-Reference-Document-2023-04-18.docx` and `…-2025-08-22.docx`):
+      every paragraph of the 2023 CSRD appears word for word in the 2025 one, except the
+      title and one heading typo ("Exhorbitant" → "Exorbitant"). Everything new is in an
+      appendix, "Additional rules and supplementary content from: The Stars Are Fire,
+      Godforsaken, We Are All Mad Here, …, Neon Rain, and Cypher Shorts". For the books
+      DRSC-ES covers, that new content is Heartwood (above); the rest belongs to the
+      four supplements (WP3–6).
+      - OG-CSRD's text is not always CSRD text. A first pass that diffed two OG
+        versions found changes that are OG's own: *Secret and True Names* ("basic
+        attacks, and Might defense"), the Giant Spider's venom (1 Speed damage instead
+        of 3), the dropped note on *Efficacy Boost (Major)*, and the extra foci in the
+        fantasy role suggestions. The CSRD keeps the original text in all four, as
+        DRSC-ES does, so nothing was changed.
+      - OG's "Errata" ability category keeps old 2015-Rulebook versions of renamed or
+        changed abilities (e.g. Daring Escape → Misdirect) for compatibility. None of
+        its 16 unmatched entries is in either CSRD: they are OG editorial (WP7).
+      - OG also merges supplement text into core sections: Scavenging, Junk and the
+        post-apocalyptic species intro (Rust and Redemption, WP6); Crafting Cyphers and
+        the Masters Spells note (It's Only Magic, WP3); Character Reputations (Neon
+        Rain, WP4).
+- [x] Translate the missing abilities found by the WP0 audit: *Rayo de luna [Moonbeam]*
+      and *Interrogar al yo pasado [Question Past Self]*, added to the ability list and
+      their categories (2026-11-22). Neither is in the 2023 CSRD: the 2025 CSRD defines
+      them inside It's Only Magic (the Practices Moon Magic focus and the Divination
+      flavor). OG cites them with bare page numbers, which the audit reads as Rulebook
+      pages. The text is verbatim CSRD 2025, so they stay; WP3 should not add them
+      again. The 16 "errata" abilities are OG editorial (see above).
+- [x] Fix five entries whose Spanish changed the range band (found by comparing range
+      terms with OG-CSRD; see `GLOSARIO.md` › *Alcance y distancia*). Fixed in the HTML
+      on 2026-11-22 (branch `wp2-gaps`) and registered in `CORRECCIONES.json` for the ODT:
+      - *Reubicar [Relocate]*: the new position is *a largo alcance* (was *alcance
+        inmediato*).
+      - *Terremoto resonante [Resonant Quake]*: the epicentre is *a muy larga distancia*
+        ("muy" was missing).
+      - *Posthumano*: attacks *a muy larga distancia* ("muy" was missing).
+      - *Vampiro*: garlic works *a una distancia inmediata* (was *corta distancia*).
+      - *Mago poderoso*: affects creatures *a corto alcance del objetivo* (was *alcance
+        inmediato*).
+- [x] Normalise range/distance terminology across the text (2026-11-22, `wp2-gaps`;
+      rules in `GLOSARIO.md` › *Alcance y distancia*). About 380 corrections:
+      - 215 *distancia* → *alcance* where OG-CSRD says "range"
+      - ~180 word-order fixes
+      - 19 phrases that used *rango* (tier) for range
+      Each was checked against the English of the same entry or paragraph, or reviewed
+      by hand. The same pass removed two repeated, mistranslated sentences in *Niño mente
+      colmena*. All are registered in `CORRECCIONES.json` and were applied to the ODT on
+      2026-11-22 (WP9).
+- Every text correction that also applies to the ODT goes into `CORRECCIONES.json`, and
+  is applied to the HTML with `tools/fixes/apply_fixes.py --target html --record`.
+- [x] Entries not found in OG and the Mutant descriptor (§3.4–3.6), 2026-11-22:
+      - *Estabilizador mental [Mind Stabilizer]* is in OG as "Mind Stablizer" (Rulebook,
+        page 393); keep.
+      - *Mutant* is cited as Rust and Redemption, page 116 (WP6).
+      - *Escudo deflector [Deflecting Shield]*: OG's editor's note says the deflecting
+        shield (Godforsaken, page 150) "is not included in the CSRD"; both CSRD files
+        list it by name only. **Decided 2026-11-22: keep** the Spanish entry (see §3.6).
+- [x] Carroñeo vs OG Scavenging, 2026-11-22: *Carroñeo* is the 2023 CSRD Rulebook text
+      and is complete. OG's Scavenging is Rust and Redemption's revised version (search
+      time, doubled finds, Useful Stuff (Expanded), junk loads, its own Junk table),
+      cited to both books, so the audit counts R&R words as covered; that explains the
+      0.68 ratio. Port it with WP6.
 - Acceptance: no OG section from ES-held sources without a Spanish equivalent.
 
 ### WP3 — It's Only Magic (~44k EN words)
@@ -260,7 +455,9 @@ terminology, so translating a book in one pass keeps them consistent.
       cyphers, artifacts).
 - [ ] 5 flavors (Ch6), 10 foci (Ch8), 7 descriptors, 125 abilities + cantrips (Ch9),
       Familiars and Covens (Ch11-A), equipment additions (Ch10).
-- [ ] 13 creatures (Ch22), 4 NPCs (Ch23).
+- [ ] 13 creatures (Ch22), 4 NPCs (Ch23), including the Changeling NPC.
+- [ ] Merged into core sections by OG: Crafting Cyphers (Godforsaken + IOM, page 90),
+      the Masters Spells note about Inks Spells on Skin.
 
 ### WP4 — Neon Rain (~42k EN words)
 - [ ] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
@@ -277,7 +474,11 @@ terminology, so translating a book in one pass keeps them consistent.
 ### WP6 — Rust and Redemption (~36k EN words)
 - [ ] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
       mutations, cyphers, artifacts).
-- [ ] 5 foci, 8 descriptors, 120 abilities + mutations list, 15 creatures, 5 NPCs.
+- [ ] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
+      15 creatures, 5 NPCs.
+- [ ] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
+      Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
+      ("In addition to descriptors for human survivors…").
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
 - [ ] Back matter: FAQ, Índice, Qué hay en el libro, Prólogo.
@@ -288,6 +489,9 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
       categories, editor notes, "Related Sections", page citations (decide whether
       to keep OG page numbers or map to Spanish/CSRD pages).
+- [ ] Errata ability category (old 2015-Rulebook versions, 16 entries without a
+      Spanish match) and the expanded fantasy role suggestions (Cap. 11), which add
+      supplement foci and flavors.
 - [ ] Mark every item as an OG addition per §2.
 
 ### WP8 — Structural integration (incremental, alongside WP1–WP7)
@@ -303,9 +507,23 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Headless render in light and dark; confirm no console errors.
 - [ ] Link sweep and cross-reference audit; re-run the §3 source audit.
 - [ ] Proofread pass against the glossary.
-- [ ] Bring the ODT and PDF in line with the HTML. Keep "Hyphenate last word" enabled
-      in the ODT; disabling it crashes LibreOffice 26.8 (tdf#173973). Export the
-      PDF untagged.
+- [ ] ODT and PDF: the ODT keeps its current structure (the WP1 reorganisation is not
+      ported to it) and only gets the text corrections registered in `CORRECCIONES.json`.
+      - Apply them with `tools/fixes/apply_fixes.py --target odt --record`; it matches
+        text across the ODT's `<text:span>` splits.
+      - Then regenerate the PDF, exported untagged.
+      - Keep "Hyphenate last word" enabled in the ODT; disabling it crashes LibreOffice
+        26.8 (tdf#173973).
+      - [x] 2026-11-22 (branch `wp2-gaps`): the 386 corrections registered so far
+            applied; PDF regenerated with LibreOffice 26.8.3.1 (544 pages, untagged, same
+            links and bookmarks as before). Repeat for corrections added later.
+      - [x] 2026-11-22: `skill-cobbling` applied (*Zapatería*) and the fairy-tale skills
+            table re-sorted; PDF regenerated (544 pages, same links and bookmarks; only
+            page 351 changed). The ODT already had *Magia*; only the HTML lacked it.
+      - The first ODT run showed that the applier could empty a link, or keep an ODT
+        space element, when a correction crossed markup. The applier now aligns
+        changes word by word and checks the result. The one link affected in the HTML
+        (*Arremetida* in Cap. 1 › *Alcance y velocidad*) was restored.
 - [ ] Bump the version line and the `?v=` cache-bust params for CSS/JS.
 - Acceptance: all QA checks green; parity checklist signed off.
 
@@ -341,15 +559,20 @@ terminology, so translating a book in one pass keeps them consistent.
 
 ## 8. QA and verification
 
-Automated checks to run after each work package (scripts already prototyped):
+Automated checks to run after each work package (see `tools/README.md`):
 
-1. Internal anchors: every `href="#x"` resolves to an `id="x"`.
-2. Duplicate ids: no new duplicates; drive the pre-existing 134 to zero.
-3. HTML structure: balanced tags, no unclosed containers.
-4. Render: load in headless Chromium (light and dark), assert no page errors, spot
-   check tables, sidebars, quick refs, tabbed items and dropdowns.
-5. Coverage: re-run the source-attribution audit (§3.1); every OG section should map
-   to a DRSC-ES section in the same chapter.
+1. Internal anchors: every `href="#x"` resolves to an `id="x"`
+   (`tools/qa/check_html.py`).
+2. Duplicate ids: no new duplicates, and no duplicated id may switch to a different
+   target element (`check_html.py --baseline <branch point>`); drive the remaining 127 to
+   zero in WP8.
+3. HTML structure: balanced tags, no unclosed containers (`check_html.py`).
+4. Render: load in headless Chrome in light and dark, assert no console errors, spot
+   check tables, sidebars, quick refs, tabbed items and dropdowns
+   (`tools/qa/render.py --section ID`).
+5. Coverage: re-run the source-attribution audit (`tools/parity/audit.py`, §3.1); every
+   named entry should sit in its OG chapter, and the missing-entry list should shrink.
+6. Glossary: `tools/parity/glossary.py --check` after adding or renaming entries.
 
 ---
 
@@ -398,7 +621,7 @@ place.
 | Duplicate/broken ids while adding hundreds of entries | Automated id/anchor checks each WP; fix pre-existing dupes |
 | Losing ES-only or existing content during reorganisation | Move blocks intact; diff ids and word counts against the pre-move baseline |
 | Inbound links to moved sections break | Keep ids on moved sections; alias anchors where sections merge |
-| ODT/PDF drift from the HTML | Sync in WP9; keep the LibreOffice crash workaround (tdf#173973) |
+| ODT/PDF drift from the HTML | The ODT gets only the corrections in `CORRECCIONES.json` (applied with `tools/fixes/apply_fixes.py`); keep the LibreOffice crash workaround (tdf#173973) |
 | File size/performance growth (~4 MB → 6–7 MB) | Monitor load time; consider section splitting if needed |
 | Scope creep (OG tools/randomizer/tooltips) | Use the definition of done; treat tools as WP7 items |
 
@@ -406,8 +629,9 @@ place.
 
 ## 12. Immediate next actions
 
-1. Create `GLOSARIO.md` and `TRADUCCION-PROGRESO.md`.
-2. Add the QA scripts and the source-attribution audit to the repo (read-only checks).
-3. Start WP1 with Fantasy (largest relocation), then the stat blocks.
-4. Close the Heartwood gap (WP2), a small self-contained task.
-5. Pick the first supplement for WP3–WP6 and translate it in one pass.
+1. Merge `wp1-fantasy-relocation`, then `wp0-setup` (both complete).
+2. Settle the two open terminology decisions in `GLOSARIO.md` ("training", *Aspecto*)
+   and normalise the existing text to them. Range/distance is already normalised.
+3. WP2 (branch `wp2-gaps`): close the Heartwood gap, add the 18 missing abilities and
+   check Carroñeo. The five range-band errors are already fixed.
+4. Pick the first supplement for WP3–WP6 and translate it in one pass.
