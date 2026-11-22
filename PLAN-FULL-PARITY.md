@@ -364,16 +364,28 @@ terminology, so translating a book in one pass keeps them consistent.
       OG's "Errata" ability category).
 - [ ] Translate the 18 missing abilities found by the WP0 audit: 16 errata abilities,
       plus Moonbeam and Question Past Self (§3.4).
-- [ ] Fix five entries whose Spanish changes the range band (found by comparing range
-      terms with OG-CSRD; see `GLOSARIO.md` › *Alcance y distancia*):
-      - *Reubicar [Relocate]*: the new position is within *largo alcance*, not *alcance
-        inmediato*.
-      - *Terremoto resonante [Resonant Quake]*: the epicentre is within *muy larga
-        distancia*; "muy" is missing.
-      - *Posthumano*: attacks up to *muy larga distancia*; "muy" is missing.
-      - *Vampiro*: garlic works within *distancia inmediata*, not *corta distancia*.
-      - *Mago poderoso*: affects creatures within *corto alcance* of the target, not
-        *alcance inmediato*.
+- [x] Fix five entries whose Spanish changed the range band (found by comparing range
+      terms with OG-CSRD; see `GLOSARIO.md` › *Alcance y distancia*). Fixed in the HTML
+      on 2026-11-22 (branch `wp2-gaps`) and registered in `CORRECCIONES.json` for the ODT:
+      - *Reubicar [Relocate]*: the new position is *a largo alcance* (was *alcance
+        inmediato*).
+      - *Terremoto resonante [Resonant Quake]*: the epicentre is *a muy larga distancia*
+        ("muy" was missing).
+      - *Posthumano*: attacks *a muy larga distancia* ("muy" was missing).
+      - *Vampiro*: garlic works *a una distancia inmediata* (was *corta distancia*).
+      - *Mago poderoso*: affects creatures *a corto alcance del objetivo* (was *alcance
+        inmediato*).
+- [x] Normalise range/distance terminology across the text (2026-11-22, `wp2-gaps`;
+      rules in `GLOSARIO.md` › *Alcance y distancia*). About 380 corrections:
+      - 215 *distancia* → *alcance* where OG-CSRD says "range"
+      - ~180 word-order fixes
+      - 19 phrases that used *rango* (tier) for range
+      Each was checked against the English of the same entry or paragraph, or reviewed
+      by hand. The same pass removed two repeated, mistranslated sentences in *Niño mente
+      colmena*. All are registered in `CORRECCIONES.json`; applied to a copy of the ODT,
+      they give the same terminology as the HTML.
+- Every text correction that also applies to the ODT goes into `CORRECCIONES.json`, and
+  is applied to the HTML with `tools/fixes/apply_fixes.py --target html --record`.
 - [ ] Resolve the two entries not found in OG and the Mutant descriptor source (§3.4–3.6).
 - [ ] Compare Cap. 18 Post-apocalíptico › Carroñeo with OG Ch19 Scavenging (Food, Water,
       and Shelter; Useful Stuff; Useful Stuff (Basic); Junk). The Spanish chapter is
@@ -428,9 +440,13 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Headless render in light and dark; confirm no console errors.
 - [ ] Link sweep and cross-reference audit; re-run the §3 source audit.
 - [ ] Proofread pass against the glossary.
-- [ ] Bring the ODT and PDF in line with the HTML. Keep "Hyphenate last word" enabled
-      in the ODT; disabling it crashes LibreOffice 26.8 (tdf#173973). Export the
-      PDF untagged.
+- [ ] ODT and PDF: the ODT keeps its current structure (the WP1 reorganisation is not
+      ported to it) and only gets the text corrections registered in `CORRECCIONES.json`.
+      - Apply them with `tools/fixes/apply_fixes.py --target odt --record`; it matches
+        text across the ODT's `<text:span>` splits.
+      - Then regenerate the PDF, exported untagged.
+      - Keep "Hyphenate last word" enabled in the ODT; disabling it crashes LibreOffice
+        26.8 (tdf#173973).
 - [ ] Bump the version line and the `?v=` cache-bust params for CSS/JS.
 - Acceptance: all QA checks green; parity checklist signed off.
 
@@ -528,7 +544,7 @@ place.
 | Duplicate/broken ids while adding hundreds of entries | Automated id/anchor checks each WP; fix pre-existing dupes |
 | Losing ES-only or existing content during reorganisation | Move blocks intact; diff ids and word counts against the pre-move baseline |
 | Inbound links to moved sections break | Keep ids on moved sections; alias anchors where sections merge |
-| ODT/PDF drift from the HTML | Sync in WP9; keep the LibreOffice crash workaround (tdf#173973) |
+| ODT/PDF drift from the HTML | The ODT gets only the corrections in `CORRECCIONES.json` (applied with `tools/fixes/apply_fixes.py`); keep the LibreOffice crash workaround (tdf#173973) |
 | File size/performance growth (~4 MB → 6–7 MB) | Monitor load time; consider section splitting if needed |
 | Scope creep (OG tools/randomizer/tooltips) | Use the definition of done; treat tools as WP7 items |
 
@@ -537,9 +553,8 @@ place.
 ## 12. Immediate next actions
 
 1. Merge `wp1-fantasy-relocation`, then `wp0-setup` (both complete).
-2. Settle the open terminology decisions in `GLOSARIO.md` and normalise the existing
-   text to them. That includes *short / long / very long range*, which is *distancia*
-   about half the time; check each occurrence against OG-CSRD.
-3. WP2: close the Heartwood gap, add the 18 missing abilities, fix the five range-band
-   errors and check Carroñeo.
+2. Settle the two open terminology decisions in `GLOSARIO.md` ("training", *Aspecto*)
+   and normalise the existing text to them. Range/distance is already normalised.
+3. WP2 (branch `wp2-gaps`): close the Heartwood gap, add the 18 missing abilities and
+   check Carroñeo. The five range-band errors are already fixed.
 4. Pick the first supplement for WP3–WP6 and translate it in one pass.

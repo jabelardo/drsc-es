@@ -96,22 +96,25 @@ abilities, areas) and **distance** for movement and spacing. Keep the distinctio
 always *alcance*, distance is always *distancia*, in the word order given in the table
 above.
 
-Current state of the text, from the 1,714 entries (abilities, cyphers, creatures, NPCs)
-that exist in both OG-CSRD and DRSC-ES under the same English name:
+- **Prepositions:** *a corto / largo / muy largo alcance*, *dentro del alcance inmediato*,
+  *de largo alcance* ("long-range"); *una corta distancia*, *hasta una larga distancia*.
+- **Category names keep the noun first:** labels and definitions (*Distancia corta: es…*,
+  *la distancia corta está cerca*) and table cells (*Alcance corto*).
+- **Do not use *rango* for range.** *Rango* is a character's tier.
+- **Non-game uses stay ordinary Spanish:** "close range", "long-haul" (*a corta
+  distancia*, *de larga distancia*).
 
-| English | Spanish in the same entry |
-|---|---|
-| immediate range | *alcance inmediato* 112, *distancia inmediata* 3 |
-| immediate distance | *distancia inmediata* 40 |
-| short / long / very long distance | always *distancia*; word order varies (*distancia corta* 28, *distancia larga* 11) |
-| short range | *corta distancia* 92, *corto alcance* 75, *alcance corto* 7, *distancia corta* 2 |
-| long range | *largo alcance* 57, *larga distancia* 40, *alcance largo* 10, *distancia larga* 5 |
-| very long range | *muy largo alcance* 9, *muy larga distancia* 5, *distancia muy larga* 3 |
-
-So *short / long / very long range* is translated as *distancia* about half the time.
-Normalising it means checking each occurrence against the English, because the Spanish
-alone does not show which word was meant. Five entries also change the range band; WP2
-fixes those.
+**Normalised 2026-11-22.**
+- **Before:** the text used *distancia* for "short / long / very long range" about half the
+  time, word order varied, and 19 phrases used *rango* for range.
+- **The fix:** each phrase was checked against the English of the same entry or
+  paragraph. Where neither existed, the Spanish wording decided (an article or a movement
+  verb means distance), and the rest were reviewed by hand.
+- **Result:** in the 1,700 entries that exist in both documents, the Spanish now agrees
+  with the English in all but a handful of cases where the English itself mixes the terms.
+- **ODT:** about 380 corrections are in `CORRECCIONES.json`, so the ODT gets the same
+  terminology. That includes five entries where the range band itself was wrong (e.g.
+  *Reubicar*, *Vampiro*).
 
 ### Decisiones pendientes
 

@@ -20,7 +20,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 |---|---|---|
 | WP0 | Setup: source version, glossary, this file, QA scripts, audit | in progress (2026-11-22, `wp0-setup`) |
 | WP1 | Reorganise existing Spanish content to the OG structure | done (2026-11-22, `wp1-fantasy-relocation`, not merged yet) |
-| WP2 | Gaps inside covered books, CSRD 2025 errata | to do |
+| WP2 | Gaps inside covered books, CSRD 2025 errata | in progress (2026-11-22, `wp2-gaps`): range/distance terminology normalised (including five range-band errors) |
 | WP3 | It's Only Magic (~44k) | to do |
 | WP4 | Neon Rain (~42k) | to do |
 | WP5 | High Noon at Midnight (~38k) | to do |
