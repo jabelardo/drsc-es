@@ -240,7 +240,10 @@ Gaps inside books DRSC-ES already covers:
     `contemporaneo-7`.
   - Criaturas and PNJs sort ignoring a leading El/La/Los/Las (decided 2026-11-22).
     Accents are ignored, but ñ sorts after n (*Canto* before *Cañón*), as in the
-    existing Cap. 7 lists.
+    existing Cap. 7 lists. The Cap. 7 ability lists sort letter by letter, ignoring
+    spaces and punctuation (*Ahí está tu problema* before *A la defensiva*), as the
+    original lists did; re-sorted on 2026-11-23 after WP3 and WP4 insertions had used
+    word-by-word order.
   - Duplicate ids are down from 134 to 127.
 - Decided (2026-11-22): keep both versions of *Sátiro*, *Hada* and *Bruja* rather than
   merging them as OG does for Hada and Bruja. Each pair is the same creature at the same
