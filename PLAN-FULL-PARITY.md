@@ -517,8 +517,9 @@ terminology, so translating a book in one pass keeps them consistent.
       - [x] 2026-11-22 (branch `wp2-gaps`): the 386 corrections registered so far
             applied; PDF regenerated with LibreOffice 26.8.3.1 (544 pages, untagged, same
             links and bookmarks as before). Repeat for corrections added later.
-      - Pending for the ODT, by hand: add *Magia* to the fairy-tale skills list (missing
-        since the first translation; a new list item cannot go through the register).
+      - [x] 2026-11-22: `skill-cobbling` applied (*Zapatería*) and the fairy-tale skills
+            table re-sorted; PDF regenerated (544 pages, same links and bookmarks; only
+            page 351 changed). The ODT already had *Magia*; only the HTML lacked it.
       - The first ODT run showed that the applier could empty a link, or keep an ODT
         space element, when a correction crossed markup. The applier now aligns
         changes word by word and checks the result. The one link affected in the HTML
