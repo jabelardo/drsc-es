@@ -6,3 +6,4 @@ ignore*
 *.py
 !tools/**/*.py
 .cache/
+__pycache__/

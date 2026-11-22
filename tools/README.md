@@ -57,6 +57,27 @@ python3 tools/parity/audit.py --refresh               # download OG-CSRD again
   - When a chapter is added, map its heading id in `ES_TO_OG`.
   - For new naming differences, add them to `NAME_ALIASES`.
 
+## `fixes/apply_fixes.py` — apply registered text corrections
+
+`CORRECCIONES.json` lists text corrections (old → new) that apply to both editions. The
+ODT keeps its own structure and gets only these corrections, not the HTML reorganisation.
+
+```sh
+python3 tools/fixes/apply_fixes.py --target html --dry-run      # what would change
+python3 tools/fixes/apply_fixes.py --target html --record       # apply and record in the register
+python3 tools/fixes/apply_fixes.py --target odt --record        # same for the ODT
+```
+
+- **Matching:** visible text only, ignoring markup and collapsing whitespace, so phrases
+  split across ODT `<text:span>` elements still match. Only the characters that change
+  are rewritten.
+- **Order:** fixes apply in register order. Non-overlapping fixes go in one pass; a fix
+  that overlaps or depends on an earlier one is applied in the next pass.
+- **Pending fixes:** a fix applies once per format; its `applied` entry records the date.
+  It must match exactly once unless it has `"all": true`.
+- **Adding a fix:** append an entry with a unique `id`, the exact `old` and `new` text
+  (long enough to be unique) and `applied` set to `{"html": null, "odt": null}`.
+
 ## `parity/glossary.py` — regenerate the named-element part of `GLOSARIO.md`
 
 ```sh
