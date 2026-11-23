@@ -644,6 +644,32 @@ terminology, so translating a book in one pass keeps them consistent.
       catalogue from other products is left out.
       - When Ch16 Horror and Ch18 Superheroes are done, add their *Horror Foci* and *Superhero
         Foci* lists to the "Rasgos sugeridos por género" list in the Cap. 6 quick reference.
+- [x] Ch9 (2026-11-23). Decisions: the Errata and OG-variant abilities are added to the A–Z list,
+      tagged *(Errata)* or *(variante del OG-CSRD)*; OG's † and ‡ marks are kept, with their legend.
+      - 25 entries: 19 old 2015-Rulebook abilities (16 with new names, plus the 2015 *Ligero de pies*,
+        *Naveparlar* and *Lanzar*) and six OG variants (armor, shield, *Burlar*, *Lanzamiento
+        rápido*). OG's Errata *Force Field* is the CSRD's current text, which *Campo de fuerza*
+        already had; the 2019 wording is quoted in its editor's note.
+      - Category lists rebuilt from OG's (1,137 → 1,702 items); Spanish-only items kept; plain
+        text throughout (most lists were italic before, a few were not); a few cut-short labels
+        fixed. Six new categories: *Acción extra*, *Atributos*, *Cyphers y artefactos*, *Errata*,
+        *Recuperación*, *Tirada*.
+      - The quick reference gains *Capacidades especiales*, *Activar una capacidad especial*, the
+        legend, all categories with the three paranormal vices, the A–Z letters and the related
+        sections DRSC-ES has.
+      - 72 editor's notes and 9 sidebars added to the A–Z list. The other OG sidebars were already
+        there, inline in parentheses as the CSRD prints them; the High Noon and Neon Rain notes
+        were already on the book-version entries. Left out: OG's note on an English misprint in
+        *Detect Life* and the immediate/close note on *Choque de energía* (the Spanish already
+        says *alcance inmediato*).
+      - Earlier WP7 notes now link *Galería de tiro*, *Habilidades*, *Fuente de inspiración*, the
+        2015 *Naveparlar* and the combat aspect's sixth-tier list.
+      - Left for later: *Calm Command*, *Hellfire* and *Icy Paths* in the Errata list (OG's own
+        abilities in its Spacecraft and Power Shifts sections); links to OG's optional rules
+        *Weapon Properties*, *Alternative Armor Encumbrance* and *Object Level, Health, and
+        Armor*; the *Estrés* category and section, *Creating Cyphers, Artifacts, and Abilities*
+        and *Sidekick Abilities* in the quick reference; *Skill Categories* and usage limits
+        (Ch25) in two notes.
 - [ ] Sidekicks (Ch11-A, ~10k).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
@@ -678,15 +704,15 @@ terminology, so translating a book in one pass keeps them consistent.
         the *Modificar criaturas* quick reference (Sidekicks).
 - [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play.
-- [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
-      categories, editor notes, "Related Sections", page citations (decide whether
-      to keep OG page numbers or map to Spanish/CSRD pages).
-- [ ] Errata ability category (old 2015-Rulebook versions, 16 entries without a
-      Spanish match).
-- [ ] Book abilities in the Cap. 7 category lists: OG's *Abilities by Category* lists
+- [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, editor notes,
+      "Related Sections", page citations (decide whether to keep OG page numbers or map to
+      Spanish/CSRD pages).
+- [x] Errata ability category (old 2015-Rulebook versions, 16 entries without a
+      Spanish match). Done in Ch9 (2026-11-23).
+- [x] Book abilities in the Cap. 7 category lists: OG's *Abilities by Category* lists
       include It's Only Magic, Neon Rain, High Noon at Midnight and Rust and Redemption
       abilities (about 613 of 1,494 unique entries); the Spanish lists still have only the
-      core abilities. Found in the WP6 verification (2026-11-23).
+      core abilities. Found in the WP6 verification (2026-11-23). Done in Ch9 (2026-11-23).
 - [ ] Typo in Cap. 15 Cuentos de hadas (on main before WP6): "nivel 7 para Defensa de debido a su
       intangibilidad" is missing the stat.
 - [x] Expanded fantasy role suggestions (Cap. 11), done early in WP3 (2026-11-22):
