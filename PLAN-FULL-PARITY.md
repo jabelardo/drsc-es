@@ -753,6 +753,25 @@ terminology, so translating a book in one pass keeps them consistent.
       editor's notes, the full quick reference, and the sidebars (the *Switching Character Options*
       pointer is a sentence at the end of *Cambiar de rasgo*). Only change: *Rasgos de ciberpunk
       adicionales* in alphabetical order.
+- [x] Ch15 (2026-11-23). Decision: Cap. 13 reordered to OG's structure (its own commit).
+      - Order and levels follow OG: setting, character options (new heading, with the species
+        descriptors), psionics, posthuman upgrades, void rules, space hazards (moved from Cap. 9,
+        with FTL instability and spatial anomaly), equipment by category, armaments, vehicles, the
+        spacecraft list, spacecraft rules (*Naves espaciales*), extended vehicular combat, artifacts,
+        creatures. Text not rewritten, ids kept.
+      - Older-CSRD duplicates merged as OG has them: the hard-SF paragraphs open *Efectos de la
+        gravedad*; one *Efectos del vacío*; one solar-system travel table, with OG's fusion-drive
+        column and note.
+      - CSRD misprint: the science-and-engineering intrusion table was printed under the piloting
+        title. It now sits in a new *Ciencia e ingeniería* section (CSRD intro translated), and the
+        real piloting table is translated. Swapped task-table headers and two capitalisation slips
+        fixed (`CORRECCIONES.json`).
+      - Seven editor's notes, including Captain's Calm with OG's *Mando sereno* ability (also in the
+        Errata category list); quick reference rebuilt with OG's groups.
+      - The pending links to Psionics, Posthuman Upgrades and redline maneuvers (Ch12, Ch13) now
+        resolve; that wording now uses Cap. 13's terms (*mejoras posthumanas*, *maniobra redline*).
+      - Left out: OG's three Daft Drafts notes and its "round beings" typo note (nothing to fix in
+        Spanish). The CSRD sidebars were already inline.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
