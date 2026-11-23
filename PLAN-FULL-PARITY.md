@@ -560,6 +560,9 @@ terminology, so translating a book in one pass keeps them consistent.
         *Supervivencia*, *Historias increíbles*, *Vicios paranormales*, *Amenazas y peligros*,
         *Cyphers* (29 alchemical rounds and slugs) and *Artefactos* (22). Equipment rows,
         cyphers and artifacts are sorted by Spanish name; random tables keep OG's ranges.
+      - 11 creatures (Cap. 20) and 2 NPCs (Cap. 21) done, inserted alphabetically. Cap. 19-A
+        gets *Criaturas del Oeste extraño* (basic animals and NPCs, famosos, bestias malditas,
+        forjados, pistoleros, necróvoros, with OG's stat lines) and the by-level table.
       - Links to Weird West sections not translated yet are plain text, recorded for a
         linking pass at the end of WP5 (as in WP4).
 

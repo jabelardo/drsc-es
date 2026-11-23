@@ -225,7 +225,7 @@ rustic phrasing in flavor text (descriptor intros, quotes); no invented dialect 
 | Curses / Survival / Threats and Hazards | Maldiciones / Supervivencia / Amenazas y peligros | |
 | self-aware artifacts | artefactos conscientes | |
 | alchemical manifest cyphers | Cyphers manifiestos alquímicos | |
-| Celebrities / Cursed Beasts / Gunfighters / Necrovores (creature groups) | Celebridades / Bestias malditas / Pistoleros / Necróvoros | |
+| Celebrities / Cursed Beasts / Forgeborn / Gunfighters / Necrovores (creature groups) | Famosos / Bestias malditas / Forjados / Pistoleros / Necróvoros | Celebrity template: *Famoso*. |
 | the Damned / Perdition | los Condenados / Perdición | |
 | gunslinger | pistolero | |
 | scrip | vales | Company scrip and private tokens: *vales y fichas privadas*. |
@@ -246,7 +246,14 @@ rustic phrasing in flavor text (descriptor intros, quotes); no invented dialect 
 | Tomb Moon / proscribed zone | Luna Tumba / zona proscrita | |
 | Drinking / Gambling / Swindling (paranormal vices) | Bebida / Juego / Estafa | |
 | sober / tipsy / inebriated / passed out / hungover | sobrio / achispado / ebrio / inconsciente / con resaca | Intoxication track states. |
-| deathbinder / hex gunner / deadshot / locomotem / nightcrawler / chupacabra / wild one | atamuertes / pistolero maldito / tirador infalible / locomotem / reptador nocturno / chupacabras / salvaje | Provisional until the creatures are translated. |
+| Angalith / Deathbinder / Dire Coyote / Frostwalker / Hellfire Steed / Hollowed Ranger / Inkubus / Risen / Shade of the Tomb / Sulfur Stalker / Tombdrift (creatures) | Angalito / Atamuertes / Coyote terrible / Caminante de escarcha / Corcel del fuego infernal / Jinete hueco / Inkubo / Resucitado / Sombra de la tumba / Acechador sulfuroso / Duna sepulcral | Cap. 20. Tomb shade: *sombra tumbal*. |
+| Alchemist / Hex Gunner (NPCs) | Alquimista / Pistolero maldito | Cap. 21. |
+| forgeborn traits: Dim / Temperamental / Resistant / Quiet | Torpe / Temperamental / Resistente / Callado | |
+| deadshot / bounty hunter / gunslinger / lawman | tirador infalible / cazarrecompensas / pistolero / agente de la ley | Gunfighters (stat lines only). |
+| chupacabra / deathtumbler / grizzly bull / jackalope / nightcrawler / quetzalsaur | chupacabras / rodadora mortal / toro grizzly / jackalope / reptador nocturno / quetzalsaurio | Cursed beasts (stat lines only). |
+| locomotem / fleshmare / alchehemoth | locomotem / yeguacarne / alquemot | Forgeborn (stat lines only). |
+| ghost rider / wraith lord / zombie sorcerer | jinete fantasma / señor espectral / hechicero zombi | Necrovores (stat lines only). |
+| wild one | salvaje | From *Inconvenientes de las historias increíbles*. |
 | hoodoo / dust devil | chimenea (de hadas) / remolino de polvo | |
 
 ### Decisiones tomadas
@@ -272,11 +279,11 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 442 |
 | [Artefactos](#artefactos) | 164 |
-| [Criaturas](#criaturas) | 135 |
-| [PNJs](#pnjs) | 76 |
+| [Criaturas](#criaturas) | 146 |
+| [PNJs](#pnjs) | 78 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2460** |
+| **Total** | **2473** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -2527,6 +2534,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | English | Español |
 |---|---|
 | Abomination | Abominación |
+| Angalith | Angalito |
 | Angiks | Angiks |
 | Artificial intelligence (AI) | Inteligencia artificial (IA) |
 | Bagheera | Bagheera |
@@ -2543,6 +2551,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Cryptic moth | Polilla críptica |
 | Cybrid | Cíbrido |
 | Cyclops | Cíclope |
+| Deathbinder | Atamuertes |
 | Deep One | Profundo |
 | Deinonychus | Deinonychus |
 | Demigod | Semidiós |
@@ -2550,6 +2559,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Demon Lord | Lord demonio |
 | Devil | Diablo |
 | Devolved | Involucionado |
+| Dire Coyote | Coyote terrible |
 | Divinity of the City | Divinidad de la ciudad |
 | Djinni | Djinni |
 | Dragon | Dragón |
@@ -2570,6 +2580,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fallen Angel | Ángel caído |
 | Feral tree | Árbol feral |
 | Fire Elemental | Elemental de fuego |
+| Frostwalker | Caminante de escarcha |
 | Fuath | Fuath |
 | Fundamental angel | Ángel Fundamental |
 | Fusion Hound | Sabueso de fusión |
@@ -2588,12 +2599,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Harpy | Arpía |
 | Haunted Car | Automóvil embrujado |
 | Hell Mary | Hell Mary |
+| Hellfire Steed | Corcel del fuego infernal |
 | Hivemind child | Niño mente colmena |
 | Hollow Knight | Caballero hueco |
+| Hollowed Ranger | Jinete hueco |
 | Hungry Haze | Bruma hambrienta |
 | Hydra | Hidra |
 | Ichthysian | Ichthysian |
 | Infovore | Infovoro |
+| Inkubus | Inkubo |
 | Inquisitor | Inquisidor |
 | Internet D@emon | D@emonio de internet |
 | Kaiju | Kaiju |
@@ -2623,8 +2637,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Ravage Bear | Oso de rapiña |
 | Reanimated | Reanimado |
 | Redivus | Redivus |
+| Risen | Resucitado |
 | Sapient Tree | Árbol sapiente |
 | Sentinel Tree | Árbol centinela |
+| Shade of the Tomb | Sombra de la tumba |
 | Shadow | Sombra |
 | Shining One | Resplandeciente |
 | Shoggoth | Shoggoth |
@@ -2635,10 +2651,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Space Rat | Rata espacial |
 | Sphinx | Esfinge |
 | Statue, Animate | Estatua animada |
+| Sulfur Stalker | Acechador sulfuroso |
 | Supernal | Supernal |
 | Television Thoughtform | Forma de pensamiento televisiva |
 | The West Wind | El Viento del Oeste |
 | Thundering Behemoth | Behemoth atronador |
+| Tombdrift | Duna sepulcral |
 | Troll | Trol |
 | Tyrannosaurus Rex | Tyrannosaurus Rex |
 | Urban Brownie | Brownie urbano |
@@ -2667,6 +2685,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | English | Español |
 |---|---|
 | áine, Fairy Queen of Light and Love | Áine, Hada Reina de la Luz y el Amor |
+| Alchemist | Alquimista |
 | Aristocrat | Aristócrata |
 | Assassin | Asesino |
 | Baba Yaga | Baba Yaga |
@@ -2698,6 +2717,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Guard | Guardia |
 | Hag | Fada |
 | Halfling | Mediano |
+| Hex Gunner | Pistolero maldito |
 | Huntsman/Woodcutter | Cazador/Leñador |
 | Jotunn, Fire | Jotunn de fuego |
 | Jotunn, Frost | Jotunn de hielo |
