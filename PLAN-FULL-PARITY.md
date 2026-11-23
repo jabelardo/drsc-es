@@ -826,6 +826,11 @@ terminology, so translating a book in one pass keeps them consistent.
       - Links: the Death rule is *muerte-1*, so #muerte reaches the Death NPC (also from Cap. 16
         Stress); the Wind Children link no longer goes to the Child.
       - Left out: OG's two Daft Drafts notes. The Heartwood note now carries OG's store link.
+- [x] Ch21 (2026-11-23): Cap. 19 had all of OG's text. Structure as OG: intro, creating and running
+      a historical game, character options (new heading with the types table), artifacts, basic
+      creatures at the end (alphabetical). OG's note pointing to *Rasgos mundanos*; quick reference
+      with OG's related sections; types table linked. Fixes: "usted" forms changed to "tú", the
+      orrery's gender slip, the Herrero row, a capitalisation slip, the types heading's permalink.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
