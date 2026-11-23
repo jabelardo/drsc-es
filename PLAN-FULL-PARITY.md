@@ -548,6 +548,13 @@ terminology, so translating a book in one pass keeps them consistent.
         The versions are named after their focus or vice, e.g. *Daño letal (Cobra recompensas)*
         and *Ojo certero (Ebrio)*. Cap. 7 gets a *Capacidades Q* section (*Que lo intenten*,
         *Quedar en tablas*).
+      - 7 foci done (Cap. 6). OG's High Noon foci have no GM intrusions. New *Capítulo 19-A
+        Oeste extraño* (nav, TOC, genres intro) with *Opciones de personaje* (OG's Dave Kehr
+        quote, translated, with a link to the video instead of the embed), *Tipos sugeridos*
+        (the types note drops its Daft Drafts part), *Rasgos del Oeste extraño* and the 9
+        descriptors (OG has 9, not 10), including the *Forjado* and *Resucitado* species
+        descriptors and *Avance de especie*. The Cap. 11 fantasy role suggestions now link
+        the seven foci.
       - Links to Weird West sections not translated yet are plain text, recorded for a
         linking pass at the end of WP5 (as in WP4).
 
@@ -561,7 +568,7 @@ terminology, so translating a book in one pass keeps them consistent.
       ("In addition to descriptors for human survivors…").
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
-- [ ] Back matter: FAQ, Índice, Qué hay en el libro, Prólogo.
+- [ ] Back matter: FAQ, Índice.
 - [ ] Character tools: Character Sentence Generator, creation checklist, PDFs links.
 - [ ] Sidekicks (Ch11-A, ~10k).
 - [ ] Links left from WP4, to add when these OG editorial sections exist:

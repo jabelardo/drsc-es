@@ -259,8 +259,8 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | Kind | Entries |
 |---|---:|
 | [Capacidades](#capacidades) | 1361 |
-| [Rasgos](#rasgos) | 130 |
-| [Descriptores](#descriptores) | 86 |
+| [Rasgos](#rasgos) | 137 |
+| [Descriptores](#descriptores) | 95 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 413 |
 | [Artefactos](#artefactos) | 142 |
@@ -268,7 +268,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [PNJs](#pnjs) | 76 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2393** |
+| **Total** | **2409** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -1657,12 +1657,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Battles Robots | Lucha contra robots |
 | Bears a Halo of Fire | Porta un halo de fuego |
 | Befriends the Black Dog | Se hace amigo del perro negro |
+| Blazes Paths | Abre caminos |
 | Blazes With Radiance | Arde con resplandor |
 | Brandishes an Exotic Shield | Blande un escudo exótico |
 | Builds Robots | Construye robots |
 | Calculates the Incalculable | Calcula lo incalculable |
 | Channels Divine Blessings | Canaliza bendiciones divinas |
 | Codes Magic Apps | Programa apps mágicas |
+| Collects Bounties | Cobra recompensas |
 | Commands Mental Powers | Comanda poderes mentales |
 | Conducts Weird Science | Realiza ciencia extraña |
 | Conjures Bullets | Conjura balas |
@@ -1694,12 +1696,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Focuses Mind Over Matter | Enfoca mente sobre materia |
 | Fuses Flesh and Steel | Fusiona carne y acero |
 | Fuses Mind and Machine | Fusiona mente y máquina |
+| Gambles It All Away | Se lo juega todo |
 | Grows to Towering Heights | Crece hasta alturas imponentes |
 | Hacks the Network | Hackea la red |
 | Has a Custom Drone | Tiene un dron personalizado |
 | Has a Thousand Faces | Tiene mil caras |
 | Has Eyes Everywhere | Tiene ojos en todas partes |
 | Helps Their Friends | Ayuda a sus amigos |
+| Hits the Saloon | Frecuenta el saloon |
 | Howls at the Moon | Aúlla a la luna |
 | Hunts | Caza |
 | Hunts Witches | Caza brujas |
@@ -1739,6 +1743,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Plays Too Many Games | Juega demasiados juegos |
 | Practices Moon Magic | Practica la magia lunar |
 | Rages | Entra en frenesí |
+| Rides Like the Wind | Cabalga como el viento |
 | Rides the Lightning | Cabalga el relámpago |
 | Runs Away | Huye |
 | Sailed Beneath the Jolly Roger | Navegó bajo la Jolly Roger |
@@ -1756,9 +1761,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Soars on Amazing Wings | Vuela con alas increíbles |
 | Solves Mysteries | Resuelve misterios |
 | Speaks for the Land | Habla por la tierra |
+| Spits Fire and Lead | Escupe fuego y plomo |
 | Stands Like a Bastion | Se yergue como un bastión |
 | Steers the Coven | Dirige el aquelarre |
 | Stretches | Se estira |
+| Strikes Like a Rattler | Ataca como una serpiente de cascabel |
 | Takes Animal Shape | Adopta forma animal |
 | Talks to Machines | Habla con las máquinas |
 | Throws With Deadly Accuracy | Lanza con una precisión mortal |
@@ -1816,12 +1823,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Exiled | Exiliado |
 | Fast | Rápido |
 | Foolish | Tonto |
+| Forgeborn | Forjado |
 | Fragmented | Fragmentado |
 | Frumious | Frumioso |
 | Furious | Furioso |
 | Ghost | Fantasma |
 | Gnome | Gnomo |
 | Graceful | Grácil |
+| Grizzled | Veterano |
 | Guarded | Cauto |
 | Half-Giant | Semigigante |
 | Halfling | Mediano |
@@ -1838,6 +1847,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Intuitive | Intuitivo |
 | Jovial | Jovial |
 | Kind | Amable |
+| Laconic | Lacónico |
 | Learned | Culto |
 | Lizardfolk | Reptiliano |
 | Lost | Perdido |
@@ -1854,12 +1864,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Perceptive | Perceptivo |
 | Quintar | Quintar |
 | Resilient | Resiliente |
+| Risen | Resucitado |
 | Risk-Taking | Arriesgado |
 | Roach | Roach |
 | Rugged | Curtido |
 | Sensational | Sensacional |
 | Sharp-Eyed | Perspicaz |
 | Skeptical | Escéptico |
+| Slick | Adulador |
 | Stealthy | Furtivo |
 | Strong | Fuerte |
 | Strong-Willed | Decidido |
@@ -1867,11 +1879,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Sylph | Sílfide |
 | Tongue-Tied | Callado |
 | Tough | Duro |
+| Trailblazing | Pionero |
+| Trigger Happy | Gatillo alegre |
 | Uncanny | Insólito |
+| Unforgiving | Implacable |
 | Unmagical | Amágico |
 | Vicious | Despiadado |
 | Virtuous | Virtuoso |
 | Weird | Extraño |
+| Wily | Taimado |
 
 ### Tipos y opciones
 
