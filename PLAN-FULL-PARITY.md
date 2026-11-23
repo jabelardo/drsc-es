@@ -525,6 +525,14 @@ terminology, so translating a book in one pass keeps them consistent.
         *Regla opcional: Persecuciones a alta velocidad* (box after *Situación especial:
         Persecución*, with OG's editor's note). The Cap. 9 quick reference gets a *Reglas
         opcionales* list with these two; OG's editorial optional rules join it in WP7.
+      - Splitting XP done: *Regla opcional: Dividir los PX* (box after *Avance de rango en
+        el Sistema Cypher*). The Cap. 10 quick reference gets a *Reglas opcionales* list
+        (*Dividir los PX*, *Igualdad de avance*). OG's own Ch12 quick reference leaves
+        Splitting XP out (it lists Slower Advancement twice).
+      - Romance addition done: box *Reputación y relaciones de los personajes* (with
+        *Usar los niveles de relación*) after the opening paragraphs of *Niveles de
+        relación*, as in OG. The core paragraph "El nivel de las relaciones puede bajar o
+        subir" moved into the box, where OG has it.
       - Links to Cyberpunk sections not translated yet are plain text, recorded for a
         linking pass at the end of WP4.
 

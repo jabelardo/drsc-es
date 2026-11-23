@@ -202,6 +202,8 @@ Decided 2026-11-23 for WP4.
 | Ultimate Damage (optional rule) | Daño definitivo | Cap. 9, after *Daño*. |
 | High-Speed Chases (optional rule) | Persecuciones a alta velocidad | Cap. 9, after *Persecución*. |
 | plot armor | armadura de guion | |
+| Splitting XP (optional rule) | Dividir los PX | Cap. 10, after *Avance de rango en el Sistema Cypher*. |
+| Character Reputations and Relationships | Reputación y relaciones de los personajes | Box in *Regla opcional: Niveles de relación* (Cap. 17). |
 
 ### Decisiones tomadas
 
