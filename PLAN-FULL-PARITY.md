@@ -664,9 +664,9 @@ terminology, so translating a book in one pass keeps them consistent.
         says *alcance inmediato*).
       - Earlier WP7 notes now link *Galería de tiro*, *Habilidades*, *Fuente de inspiración*, the
         2015 *Naveparlar* and the combat aspect's sixth-tier list.
-      - Later change (2026-11-23, user's request): the six OG variants moved inside the editor's note
-        of the current ability ("esta variante"), dropping their separate A–Z and Errata-category
-        entries; their anchors (`*-og`) still work.
+      - Later change (2026-11-23, user's request): the six OG variants follow OG's layout. The
+        editor's note box sits between list entries, and the variant is an ability entry inside it,
+        introduced as "esta variante"; the Errata category list keeps both entries.
       - Left for later: *Calm Command*, *Hellfire* and *Icy Paths* in the Errata list (OG's own
         abilities in its Spacecraft and Power Shifts sections); links to OG's optional rule
         *Object Level, Health, and Armor* (*Weapon Properties* and *Alternative Armor
