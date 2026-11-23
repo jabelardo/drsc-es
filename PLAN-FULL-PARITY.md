@@ -251,11 +251,8 @@ Gaps inside books DRSC-ES already covers:
   Godforsaken version keeps the plain name; the We Are All Mad Here version is labelled
   *(Cuentos de hadas)*. The two versions sit next to each other in Criaturas/PNJs.
 - Still open:
-  - `#control-mental` is the id of both the Control mental ability and the Horror
-    section, so links meant for the section (e.g. in Posesión) open the ability.
-    Resolve with the duplicate-id clean-up in WP8.
-  - `#botas-de-saltar` is used by three different items; the fairy-tale table link
-    opens the fantasy artifact. Resolve in WP8.
+  - Resolved in WP8 (2026-11-23): `#control-mental` (the Horror links now open the Horror
+    section) and `#botas-de-saltar` (the fairy-tale table opens the fairy-tale boots).
 
 ---
 
@@ -987,9 +984,17 @@ terminology, so translating a book in one pass keeps them consistent.
       numbers and lists the FAQ and the Índice; the *Reglas* menu gained *Reglas opcionales*,
       *Preguntas frecuentes* and *Índice* in the back matter chunk; the *Géneros* menu is
       alphabetical and carries no numbers.
-- [ ] Extend part-colour theming and quick-reference styling to new content.
-- [ ] Fix the 134 pre-existing duplicate ids and normalise new ids.
-- [ ] Preserve the ES-only appendix.
+- [x] Extend part-colour theming and quick-reference styling to new content (2026-11-23): every
+      chapter sits in its part container (#part0–#part5), so the part colours apply; new quick
+      references use the standard classes.
+- [x] Fix the 134 pre-existing duplicate ids and normalise new ids (2026-11-23): 118 → 0. First
+      occurrences keep their id (no link changes destination); 169 later alias spans removed, 11
+      headings renamed; 13 links meant for a later copy retargeted (Nadar, Resultados especiales,
+      Purificación, Resistencia al veneno, Comunicación, Control mental ×3, Botas de saltar, four
+      cyphers). Five skipped heading levels remain, as before (informational).
+      - Cap. 13: the older CSRD's short basic creature list is merged into the full one, as OG
+        has it (one list, sorted; Were* creatures named *Hombre oso/rata/tiburón/tigre*).
+- [x] Preserve the ES-only appendix (Extras, #part6).
 - Acceptance: navigation complete; no orphan sections; anchors coherent.
 
 ### WP9 — QA and release
