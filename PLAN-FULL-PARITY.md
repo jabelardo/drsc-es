@@ -665,11 +665,22 @@ terminology, so translating a book in one pass keeps them consistent.
       - Earlier WP7 notes now link *Galería de tiro*, *Habilidades*, *Fuente de inspiración*, the
         2015 *Naveparlar* and the combat aspect's sixth-tier list.
       - Left for later: *Calm Command*, *Hellfire* and *Icy Paths* in the Errata list (OG's own
-        abilities in its Spacecraft and Power Shifts sections); links to OG's optional rules
-        *Weapon Properties*, *Alternative Armor Encumbrance* and *Object Level, Health, and
-        Armor*; the *Estrés* category and section, *Creating Cyphers, Artifacts, and Abilities*
+        abilities in its Spacecraft and Power Shifts sections); links to OG's optional rule
+        *Object Level, Health, and Armor* (*Weapon Properties* and *Alternative Armor
+        Encumbrance* were linked in Ch10); the *Estrés* category and section, *Creating Cyphers, Artifacts, and Abilities*
         and *Sidekick Abilities* in the quick reference; *Skill Categories* and usage limits
         (Ch25) in two notes.
+- [x] Ch10 (2026-11-23). Decision: the armor section keeps the CSRD paragraph and table; OG's
+      clarified table (by experience, with prices), sidebar and worked example replace the
+      translator's Twitter note, under an editor's note citing the 2024 Starter Set.
+      - OG's five optional rules (*Dinero y agotamiento de recursos*, *Menor coste de Esfuerzo de
+        Velocidad por llevar armadura*, *Carga de armadura alternativa*, *Armas letales*,
+        *Propiedades de las armas*); *Armadura especial*; the priceless category (*invaluable*);
+        OG's shield wording; three editor's notes and two sidebars; chapter quick reference
+        expanded and a new *Artefactos* quick reference. The Daft Drafts note is left out.
+      - The Ch9 links to *Carga de armadura alternativa* and *Propiedades de las armas* now resolve.
+      - Five slips in the existing text fixed and recorded in `CORRECCIONES.json` (pending for the
+        ODT).
 - [ ] Sidekicks (Ch11-A, ~10k).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
