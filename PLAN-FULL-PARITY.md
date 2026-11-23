@@ -608,12 +608,13 @@ terminology, so translating a book in one pass keeps them consistent.
 - [x] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
       Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
       ("In addition to descriptors for human survivors…").
-- [ ] Linking pass over the 45 entries in WP6's `pending-links.json`. Many point at the
-      R&R creatures and NPCs still to translate (Plagado template, Four Horsemen, glowing
-      roach, raiders…); Cap. 18 targets such as *mutaciones increíbles*, *tecnología avanzada
-      y alienígena*, *amenazas y peligros realistas* and *artefactos preapocalípticos* now
-      exist and can be linked. *Transferring Subtle Cyphers* and *Modifying Creatures* wait
-      for WP7.
+- [x] Linking pass: 37 of the 45 pending links applied. OG links the translation had dropped
+      were restored: item links in the equipment tables and *Cosas útiles (ampliado)*,
+      Vigor/Reserva/Armadura links in the exposure and radiation rules, and the Morlock
+      descriptor's links. Inbound links from older sections were added (Chatarrero,
+      Conocimiento de ruinas, Daño ambiental, Otros efectos), with OG's editor's note in
+      *Especie como descriptor*. Per-section link counts now match OG, apart from the WP7
+      links below.
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
 - [ ] Back matter: FAQ, Índice.
@@ -635,6 +636,11 @@ terminology, so translating a book in one pass keeps them consistent.
       - *Blighted* creature template (R&R, in OG's *Modifying Creatures*): translate it as
         *Plagado*, then link the *Plagado* mentions in Cap. 18 (*Criaturas, plantas y PNJs
         mutados*, *Criaturas y PNJs post-apocalípticos*) and "plantillas de criatura" there.
+      - Links left from WP6 (WP6 `pending-links.json`): OG's *Mundane Foci*, *Fantasy Foci*
+        and *Science Fiction Foci* lists ("rasgos mundanos", "rasgos de fantasía", "rasgos de
+        ciencia ficción" in *Rasgos post-apocalípticos*, Cap. 18); *Optional Rule:
+        Transferring Subtle Cyphers* ("transferir Cyphers sutiles" in *Cyphers sutiles de
+        carroñero*); *Plagado* in *Apocalipsis nuclear*.
 - [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
