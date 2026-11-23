@@ -642,8 +642,8 @@ terminology, so translating a book in one pass keeps them consistent.
       category intro list was repaired (two entries pointed at the wrong category); five
       editor's notes; *Rasgos psiónicos* (Cap. 13), missed in the first chunk. The foci
       catalogue from other products is left out.
-      - When Ch16 Horror and Ch18 Superheroes are done, add their *Horror Foci* and *Superhero
-        Foci* lists to the "Rasgos sugeridos por género" list in the Cap. 6 quick reference.
+      - *Horror Foci* added to the "Rasgos sugeridos por género" list in the Cap. 6 quick reference
+        (Ch16). When Ch18 Superheroes is done, add its *Superhero Foci* list there too.
 - [x] Ch9 (2026-11-23). Decisions: the Errata and OG-variant abilities are added to the A–Z list,
       tagged *(Errata)* or *(variante del OG-CSRD)*; OG's † marks are kept, with their legend; the ‡ marks (abilities categorised by OG's editor) were removed on 2026-11-23 at the user's request.
       - 25 entries: 19 old 2015-Rulebook abilities (16 with new names, plus the 2015 *Ligero de pies*,
@@ -761,7 +761,7 @@ terminology, so translating a book in one pass keeps them consistent.
         creatures. Text not rewritten, ids kept.
       - Older-CSRD duplicates merged as OG has them: the hard-SF paragraphs open *Efectos de la
         gravedad*; one *Efectos del vacío*; one solar-system travel table, with OG's fusion-drive
-        column and note.
+        column (the user later removed the editor's note describing it).
       - CSRD misprint: the science-and-engineering intrusion table was printed under the piloting
         title. It now sits in a new *Ciencia e ingeniería* section (CSRD intro translated), and the
         real piloting table is translated. Swapped task-table headers and two capitalisation slips
@@ -772,6 +772,18 @@ terminology, so translating a book in one pass keeps them consistent.
         resolve; that wording now uses Cap. 13's terms (*mejoras posthumanas*, *maniobra redline*).
       - Left out: OG's three Daft Drafts notes and its "round beings" typo note (nothing to fix in
         Spanish). The CSRD sidebars were already inline.
+- [x] Ch16 (2026-11-23). Cap. 16 reordered like OG: character options (new, with *Rasgos de
+      horror*), consent, horror rules, cyphers (category lists as h6), artifacts, creatures (new
+      *Criaturas de horror*); *Uso de las intromisiones del DJ en modo horror*, stranded at the end
+      of the chapter, goes under *Modo horror*.
+      - New translations of OG's modules: *Heridas graves y condiciones* (about 1,050 words) and
+        *Estrés* (about 2,700 words, with 19 Stress abilities). "Relieve Stress" is *liberar*, since
+        *aliviar* means easing a task.
+      - OG's 31 horror foci; notes on *Operación peligrosa* and *Stay Alive!* artifacts; quick
+        reference with OG's groups. All the pending links to Stress and Serious Injuries resolve
+        (Cap. 7, 9, 10, 11 and three quick references).
+      - Left as is: *Shock* keeps the CSRD's short summary; OG pastes in the Rulebook's fuller text.
+        OG's Daft Drafts mentions and its notes on titles and *Consent in Gaming* are left out.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
