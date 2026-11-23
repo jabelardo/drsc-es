@@ -620,7 +620,7 @@ terminology, so translating a book in one pass keeps them consistent.
 - Decisions (2026-11-23): start with the OG sections that WP4–WP6 links wait for, then go
   chapter by chapter; leave out *What's in the Book*; Sidekick is *camarada*; keep omitting
   OG's source and page citations.
-- [ ] Back matter: FAQ, Índice.
+- [x] Back matter: FAQ, Índice. Done (2026-11-23, see the back matter entry below).
 - [x] Ch1, Ch3, Ch4, Ch5 (2026-11-23). Decisions: Ch1 becomes *Acerca de esta edición* plus
       factual updates to the translator's notes; the generator, the checklist and the PDFs
       section are ported, with OG's character and sidekick sheets rebuilt in Spanish
@@ -895,6 +895,23 @@ terminology, so translating a book in one pass keeps them consistent.
         reference), usage limits, the example of play (also added to Cap. 8's related sections).
         12 links are left, all for later sections: OG's Optional Rules index (11) and the FAQ (1).
       - Fixes in `CORRECCIONES.json`: *habilidad* for ability, gender, *usted*.
+- [x] Back matter (2026-11-23), in three parts.
+      - *Cypher cortos* and *Atrapado en llamas* matched to OG: heading levels (descriptors, types
+        and focus under character creation, types as h6), boxes for the descriptors, foci, GM
+        intrusions and *Otros hechos*, the NPC dialogue d6 table, OG's sidebars, five editor's notes
+        on the types and OG's links. 32 fixes in `CORRECCIONES.json` (focus names in the third
+        person, Tough is *Duro*, Middle Manager is *Mando intermedio*, *tú* forms, agreement).
+        The chapter label (*Capítulo 24*; OG says Quick Start) is left for WP8.
+      - *Preguntas frecuentes* (new translation, ~4.1k words): 20 questions in four groups; each
+        question is a tab that opens its answer (Bootstrap collapse), as in OG, styled by
+        `drsc-es-faq-q`. Pointers to OG's own products and to *What's in the Book?* are left out.
+      - *Índice*: OG's quick references list (plus Ciberpunk and Oeste extraño, missing from
+        OG's), optional rules index (four groups) and editorial additions, with DRSC-ES names,
+        sorted. Added because the Index points to them: the summoned giant spider and demon stat
+        boxes in Cap. 7, and the boxed random GM intrusions variant in Cap. 23.
+      - Navigation: TOC entries for both chapters; the navbar's *Reglas* menu gains *Reglas
+        opcionales*, *Preguntas frecuentes* and *Índice*; Cap. 8 and Cap. 23 list them under
+        *Secciones relacionadas*. All pending links are resolved (`pending-links.json` is empty).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
@@ -928,9 +945,12 @@ terminology, so translating a book in one pass keeps them consistent.
         the *Modificar criaturas* quick reference (Sidekicks).
 - [x] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play. Done in Ch25 (2026-11-23).
-- [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, editor notes,
+- [x] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, editor notes,
       "Related Sections", page citations (decide whether to keep OG page numbers or map to
       Spanish/CSRD pages).
+      Done (2026-11-23): Stress in Ch16; every rule in OG's optional rules index exists in
+      DRSC-ES and is linked from the *Índice*; notes and related sections went chapter by
+      chapter; page citations are omitted (decision of 2026-11-23).
 - [x] Errata ability category (old 2015-Rulebook versions, 16 entries without a
       Spanish match). Done in Ch9 (2026-11-23).
 - [x] Book abilities in the Cap. 7 category lists: OG's *Abilities by Category* lists
