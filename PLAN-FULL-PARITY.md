@@ -517,6 +517,14 @@ terminology, so translating a book in one pass keeps them consistent.
         abilities, armor, stat minimums, targeting and damaging cybernetics, salvaging) and
         *Tipos de ciberpunk* (Solo, As, Intermediario, Técnico, with the standard cyberpunk
         abilities) done. Type ability lists are sorted by Spanish name, as in Cap. 3.
+      - Cap. 12-B setting sections done: *Sociedad distópica*, *Drogas*, *Tecnología
+        ciberpunk*, *CAGADA*, *Hackeo*, *Netrunning*, *Reglas adicionales*, *Cyphers de
+        ciberpunk*, *Intromisiones del DJ de ciberpunk* (categories in Spanish alphabetical
+        order) and *Criaturas y PNJs de ciberpunk por nivel*.
+      - Ch11 optional rules done: *Regla opcional: Daño definitivo* (box after *Daño*) and
+        *Regla opcional: Persecuciones a alta velocidad* (box after *Situación especial:
+        Persecución*, with OG's editor's note). The Cap. 9 quick reference gets a *Reglas
+        opcionales* list with these two; OG's editorial optional rules join it in WP7.
       - Links to Cyberpunk sections not translated yet are plain text, recorded for a
         linking pass at the end of WP4.
 

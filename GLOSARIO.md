@@ -199,6 +199,9 @@ Decided 2026-11-23 for WP4.
 | programmed cypher | Cypher programado | Created with the Crafting rules; counts toward the cypher limit. |
 | Forced Downtime / Wild Firing (optional rules) | Tiempo de inactividad forzoso / Disparo descontrolado | |
 | Wild Event (GM intrusion category) | Evento imprevisto | |
+| Ultimate Damage (optional rule) | Daño definitivo | Cap. 9, after *Daño*. |
+| High-Speed Chases (optional rule) | Persecuciones a alta velocidad | Cap. 9, after *Persecución*. |
+| plot armor | armadura de guion | |
 
 ### Decisiones tomadas
 
