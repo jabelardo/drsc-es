@@ -798,12 +798,19 @@ terminology, so translating a book in one pass keeps them consistent.
       reference, one artifacts section with all six; *Personajes superhéroes* gathers the character
       sentences, types, descriptors and power origin.
       - OG additions: *Rasgos de superhéroes* (44 foci), the archetypes note with *Fuego infernal* and
-        *Senderos helados*, the Claim the Sky archetypes, *Mejoras de poder en otros géneros*,
+        *Senderos helados*, *Mejoras de poder en otros géneros*,
         *Obtener superpoderes tras crear el personaje*, *Transformaciones fantásticas*, four notes
         and a *Supervillanos* section; quick reference with OG's groups.
       - Pending links resolved: Power Shifts in Other Genres (four), Hellfire and Icy Paths.
       - Left as is: *Power Stunt Difficulty* stays as bold paragraphs (OG uses a table). OG's
         Daft Drafts mentions are left out. The CSRD sidebars were already inline.
+- [x] Product pointers removed (2026-11-23, user's rule): nothing that points to other
+      products or sites, apart from acknowledgment or attribution. Removed from earlier WP7
+      chunks: the Claim the Sky archetype list (Ch18), the "Si te gusta este módulo de reglas,
+      plantéate comprar…" lines (*Claim the Sky*, *Gods of the Fall*, *Stay Alive!*, *Unmasked*,
+      *The Origin*, *The Magnus Archives*, *Predation*), the store links in the romance note
+      (Ch12) and the official character-sheets link (Ch1–5). Links in the CSRD text itself
+      (myMCG.info/consent) stay.
 - [x] Ch19 (2026-11-23): checked, no changes. Cap. 18 was rebuilt in OG's order in WP6 and already
       has OG's eight editor's notes, its 15 sidebars and the full quick reference (descriptors,
       species, optional rules, related sections).
@@ -909,6 +916,9 @@ terminology, so translating a book in one pass keeps them consistent.
 - New sections get a "Referencia rápida" box listing their immediate subheadings.
 - Use relative internal links (`#id`) inside the page; external links only for
   genuine external resources.
+- Do not add pointers to other products or sites (store links, "if you like this module,
+  consider buying…", lists of what another book contains) except for acknowledgment or
+  attribution. Leave OG's product promotions out.
 - Do not introduce inline styles; extend `css/drsc-es.css`.
 - When moving a section, move its HTML block intact (heading, id, anchor, body) and
   fix only the heading level and surrounding quick references.
