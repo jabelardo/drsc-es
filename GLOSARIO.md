@@ -39,6 +39,7 @@ choice looks wrong, raise it before using an alternative.
 | character arc | arco de personaje | |
 | power shift | mejora de poder | |
 | follower | seguidor | |
+| sidekick | camarada | Settled 2026-11-23 (WP7). Companion stays *compañero*. |
 
 ### Reglas
 
@@ -287,6 +288,9 @@ Settled 2026-11-22, before WP3:
   `CORRECCIONES.json` as `training-01` to `training-28`.
 - **Form (cypher/artifact field):** keep *Aspecto:*. It shares the word with "flavor"; context
   tells them apart.
+
+Settled 2026-11-23, before WP7:
+- **Sidekick:** *camarada*, distinct from *seguidor* (follower) and *compañero* (companion).
 
 <!-- BEGIN GENERATED: tools/parity/glossary.py -->
 

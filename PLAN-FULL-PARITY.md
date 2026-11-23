@@ -617,6 +617,9 @@ terminology, so translating a book in one pass keeps them consistent.
       links below.
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
+- Decisions (2026-11-23): start with the OG sections that WP4–WP6 links wait for, then go
+  chapter by chapter; leave out *What's in the Book*; Sidekick is *camarada*; keep omitting
+  OG's source and page citations.
 - [ ] Back matter: FAQ, Índice.
 - [ ] Character tools: Character Sentence Generator, creation checklist, PDFs links.
 - [ ] Sidekicks (Ch11-A, ~10k).
