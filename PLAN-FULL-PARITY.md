@@ -873,6 +873,28 @@ terminology, so translating a book in one pass keeps them consistent.
         not linked yet.
       - Fixes: ability is *capacidad* (14 places), the Bears a Halo of Fire focus name, the Stim
         name, *intromisiones de jugador*, the ray emitter list, gender slips.
+- [x] Ch25 (2026-11-23), in five parts. Cap. 23 grows from 11.4k to 25.6k words.
+      - Rules sections in OG's order: *Vincular las acciones a los atributos* first (the three stats in
+        a box); the chapter quick reference with OG's groups; the GM Intrusion quick reference as an h5
+        (general intrusions and all genre tables); a Player Intrusions quick reference. Cap. 9's Task
+        Difficulty table is repeated under its own h5, as in OG.
+      - New translations of OG sections: *Dificultad aproximada*, *graduada* and *pasiva*;
+        *Exteriorizar la intromisión del DJ en las tiradas de los jugadores*; two optional rules
+        (separate reroll and intrusion-refusal costs, trading success for an intrusion); *Categorías
+        de habilidades*; *Lista de comprobación para diseñar una campaña*; *Preparar la sesión*;
+        *Enseñar las reglas*; *Usar las reglas: dar sentido*; *Crear Cyphers, artefactos y
+        capacidades*; *Crear nuevas opciones de personaje*; *Un ejemplo de juego*. The example's
+        Crabby Hermit is *Ermitaño cascarrabias*, and its dialogue uses a new `drsc-es-play` list
+        style (speaker column, one colour per speaker in each theme).
+      - 12 new editor's notes and OG's sidebars boxed. Left out: the "based on" lines, the sidebar
+        quoting the Rulebook, OG's own Player's Guide, quick-reference PDFs, cypher deck and cypher
+        video, and the Daft Drafts pointers. Monte Cook Games products and the actual-play
+        compilation keep their mentions and links.
+      - Pending links resolved: skill categories, passive difficulty, separate costs, campaign
+        checklist, making meaning, creating cyphers (one as a new entry in the Cap. 7 quick
+        reference), usage limits, the example of play (also added to Cap. 8's related sections).
+        12 links are left, all for later sections: OG's Optional Rules index (11) and the FAQ (1).
+      - Fixes in `CORRECCIONES.json`: *habilidad* for ability, gender, *usted*.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
@@ -904,8 +926,8 @@ terminology, so translating a book in one pass keeps them consistent.
       - Left for later WP7 items: "Estrés" and "heridas graves y condiciones" in *Crear
         encuentros desafiantes* (Stress and Serious Injuries); the "Sidekick Abilities" entry in
         the *Modificar criaturas* quick reference (Sidekicks).
-- [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
-      preparation, teaching the rules, making meaning, example of play.
+- [x] Running the game additions (Ch25, ~14k): campaign design checklist, session
+      preparation, teaching the rules, making meaning, example of play. Done in Ch25 (2026-11-23).
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, editor notes,
       "Related Sections", page citations (decide whether to keep OG page numbers or map to
       Spanish/CSRD pages).
