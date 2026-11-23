@@ -648,6 +648,12 @@ terminology, so translating a book in one pass keeps them consistent.
       to keep OG page numbers or map to Spanish/CSRD pages).
 - [ ] Errata ability category (old 2015-Rulebook versions, 16 entries without a
       Spanish match).
+- [ ] Book abilities in the Cap. 7 category lists: OG's *Abilities by Category* lists
+      include It's Only Magic, Neon Rain, High Noon at Midnight and Rust and Redemption
+      abilities (about 613 of 1,494 unique entries); the Spanish lists still have only the
+      core abilities. Found in the WP6 verification (2026-11-23).
+- [ ] Typo in Cap. 15 Cuentos de hadas (on main before WP6): "nivel 7 para Defensa de debido a su
+      intangibilidad" is missing the stat.
 - [x] Expanded fantasy role suggestions (Cap. 11), done early in WP3 (2026-11-22):
       OG's added foci, flavors and specialisations, the Artífice o erudito and Psiónico
       roles, and their editor's notes. When WP5 and WP6 translate High Noon at Midnight
