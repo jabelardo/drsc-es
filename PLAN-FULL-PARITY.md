@@ -555,6 +555,11 @@ terminology, so translating a book in one pass keeps them consistent.
         descriptors (OG has 9, not 10), including the *Forjado* and *Resucitado* species
         descriptors and *Avance de especie*. The Cap. 11 fantasy role suggestions now link
         the seven foci.
+      - Cap. 19-A sections done: *Monedas*, *Equipo* (with *Recargar armas*), *Jugar al
+        póquer*, *Manos del destino*, *La baraja como d20*, *Duelo*, *Maldiciones*,
+        *Supervivencia*, *Historias increíbles*, *Vicios paranormales*, *Amenazas y peligros*,
+        *Cyphers* (29 alchemical rounds and slugs) and *Artefactos* (22). Equipment rows,
+        cyphers and artifacts are sorted by Spanish name; random tables keep OG's ranges.
       - Links to Weird West sections not translated yet are plain text, recorded for a
         linking pass at the end of WP5 (as in WP4).
 

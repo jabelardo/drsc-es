@@ -240,6 +240,14 @@ rustic phrasing in flavor text (descriptor intros, quotes); no invented dialect 
 | Lady Luck | la Dama Fortuna | |
 | HNAM versions of core abilities | *Nombre (rasgo)* | E.g. *Daño letal (Cobra recompensas) [Lethal Damage (Collects Bounties)]*, *Ojo certero (Ebrio)*; as WP4 did with *(ciberpunk)*. |
 | Gambling God / Meticulous Aim | Dios de las apuestas / Puntería minuciosa | *Dios del juego* (Gaming God) and *Puntería meticulosa* (Careful Aim) were taken. |
+| alchemical round / slug | bala / proyectil (alquímicos) | Rounds infuse the gun for a minute; slugs don't. |
+| Midnight deck suits: gears / eyes / elixirs / guns; jackalope (joker) | engranajes / ojos / elixires / pistolas; jackalope (comodín) | Diamonds / spades / hearts / clubs: *diamantes / picas / corazones / tréboles*. |
+| poker hands | escalera real, escalera de color, póquer, full, color, escalera, trío, doble pareja, pareja, carta alta | |
+| Tomb Moon / proscribed zone | Luna Tumba / zona proscrita | |
+| Drinking / Gambling / Swindling (paranormal vices) | Bebida / Juego / Estafa | |
+| sober / tipsy / inebriated / passed out / hungover | sobrio / achispado / ebrio / inconsciente / con resaca | Intoxication track states. |
+| deathbinder / hex gunner / deadshot / locomotem / nightcrawler / chupacabra / wild one | atamuertes / pistolero maldito / tirador infalible / locomotem / reptador nocturno / chupacabras / salvaje | Provisional until the creatures are translated. |
+| hoodoo / dust devil | chimenea (de hadas) / remolino de polvo | |
 
 ### Decisiones tomadas
 
@@ -263,12 +271,12 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Descriptores](#descriptores) | 95 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 442 |
-| [Artefactos](#artefactos) | 142 |
+| [Artefactos](#artefactos) | 164 |
 | [Criaturas](#criaturas) | 135 |
 | [PNJs](#pnjs) | 76 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2438** |
+| **Total** | **2460** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -2380,6 +2388,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Coil of Endless Rope | Bobina de cuerda sin fin |
 | Color Cannon | Cañón de color |
 | Combat Glasses | Gafas de combate |
+| Conspicuous Badge | Placa llamativa |
 | Crow Friend | Amigo cuervo |
 | Crown of Eyes | Corona de ojos |
 | Crown of the High King | Corona del Gran Rey |
@@ -2388,12 +2397,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Darkest Book | Libro Más Oscuro |
 | Death Ray | Rayo mortal |
 | Death’s Scythe | Guadaña de la muerte |
+| Deck of Second Chances | Baraja de segundas oportunidades |
 | Deflecting Shield | Escudo deflector |
+| Demon Pistol | Pistola demoníaca |
 | Demonflesh | Pieldemonio |
 | Demonic Rune Blade | Hoja rúnica demoníaca |
 | Dimensional Modulator | Modulador dimensional |
 | Disintegration Beamer | Proyector desintegrador |
 | Doctor Dread’s Time Portal | Portal del tiempo del Doctor Dread |
+| Downtime Bandana | Pañuelo del tiempo muerto |
 | Dragon Pen | Pluma de dragón |
 | Dragontongue Weapon | Arma Linguodracónica |
 | Dragontooth Soldiers | Soldados Dentodracónicos |
@@ -2403,6 +2415,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Empathetic Ray | Rayo Empático |
 | Enchanted Armor | Armadura encantada |
 | Enviroscanner | Enviroscáner |
+| Everfull Shot Glass | Vasito siempre lleno |
 | Exploding Arrow | Flecha explosiva |
 | Explorer’s Gloves | Guantes de explorador |
 | Falcon Cloak | Capa de halcón |
@@ -2416,14 +2429,19 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Gruelmaker | Hacepotaje |
 | Guardian Idol | ídolo guardián |
 | Hand of Glory | Mano de gloria |
+| Hand of the Eclipse | Mano del Eclipse |
 | Harrowing Blade | Hoja angustiosa |
 | Helm of Water Breathing | Yelmo de respiración acuática |
 | History's Fickle Hands | Las manos caprichosas de la historia |
 | Horn of Thunder | Cuerno de trueno |
+| Illuck Stone | Piedra malasuerte |
+| Ilu Idol | Ídolo ilu |
 | Instant Ladder | Escalera instantánea |
 | Keys of Close to You | Llaves de Cerca de ti |
+| Lightning Eye | Ojo del rayo |
 | Lightning Hammer | Martillo de relámpagos |
 | Living Copycat | Imitador viviente |
+| Magebreak Manacles | Grilletes rompemagos |
 | Magician's Protective Amulet | Amuleto protector del mago |
 | Malware Genie | Genio malware |
 | Mastercraft Armor | Armadura de fabricación maestra |
@@ -2436,9 +2454,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Mindshield Helmet | Casco de escudo mental |
 | My Friend Lockness | Mi amigo Lockness |
 | Necromantic Wand | Varita nigromántica |
+| Nihilal Tendril Horn | Cuerno de zarcillos nihilal |
 | Omni Orb | Orbe Omni |
 | Pack of Storage | Mochila de almacenaje |
 | Pearls of Your Grandmother, the Witch | Las perlas de tu abuela, la bruja |
+| Persuader | Persuasora |
+| Philosopher's Gun | Pistola filosofal |
 | Poisoner’s Touch | Toque del envenenador |
 | Poor Magician's Lunchbox | Fiambrera del mago pobre |
 | Probability Regulator | Regulador de probabilidad |
@@ -2450,12 +2471,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Ring of Fall Flourishing | Anillo de caída venturosa |
 | Ring of Invisibility | Anillo de invisibilidad |
 | Ring of Reflected Bullets | Anillo de balas reflejadas |
+| Ring of Seeping Travel | Anillo de viaje filtrante |
 | Ring OF Wishes | Anillo de deseos |
 | Rocket Fist | Puño cohete |
 | Rocket-Propelled Grenade | Granada propulsada por cohete |
+| Salubrious Snuffbox | Tabaquera salutífera |
 | Scarf of Love and Death | Bufanda de amor y muerte |
 | Serum X | Suero X |
 | Shadow Box | Caja de sombras |
+| Shadow Duster | Guardapolvo de sombra |
 | Shield of Two Skies | Escudo de dos cielos |
 | Skill Ring | Anillo de habilidad |
 | Smooth-Stepping Boots | Botas de pisar suave |
@@ -2468,24 +2492,30 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Spehre 23 | Esfera 23 |
 | Spellbook of Elemental Summoning | Libro de hechizos de invocación elemental |
 | Spellbook of the Amber Mage | Libro de hechizos del mago del ámbar |
+| Spirit Reflecting Knife | Cuchillo reflejaespíritus |
 | Staff of Black Iron | Báculo de hierro negro |
 | Staff of Healing | Báculo de curación |
 | Staff of the Prophet | Báculo del profeta |
 | Stellarex Crystal | Cristal Stellarex |
 | Steorraform | Steorraform |
 | Storm Shack | Choza de tormenta |
+| Swarm Ring | Anillo del enjambre |
+| Tanglefoot Lariat | Lazo enredapiés |
 | Tattoo of the Tiger | Tatuaje del tigre |
 | Tattoo of Tomorrow's Edge | Tatuaje del filo del mañana |
 | Tattoo of True Shot | Tatuaje del tiro certero |
 | Terahertz Scanner | Escáner de terahercios |
 | Time is a Circle | El tiempo es un círculo |
+| Tracker's Map | Mapa del rastreador |
 | Trap Runestone | Trampa de piedra rúnica |
 | Tunneling Gauntlets | Guanteletes tuneladores |
 | Umbrella of No-Touch | Paraguas de no tocar |
 | Vanity of the Vanities | Tocador de las vanidades |
+| Vorpal Six-Gun | Revólver vorpalino |
 | Vorpal Sword | Espada vorpal |
 | Wand of Firebolts | Varita de rayos flamígeros |
 | Wand of Spider’s Webbing | Varita de telaraña |
+| Wheel of Consumption | Rueda de consunción |
 | Whisperer in the Ether | Susurrador en el éter |
 | Witch’s Broom | Escoba de bruja |
 | Witch Wand | Varita de bruja |
