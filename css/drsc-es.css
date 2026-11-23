@@ -10,6 +10,16 @@ html { scroll-padding-top: 5rem; }
 .drsc-es-navbar.theme-dark { 
 	background-color: #1c1f21 !important;
 }
+/* collapsed navbar (below md): the sticky navbar does not scroll with the page,
+   so the open menu scrolls on its own when it is taller than the viewport */
+@media (max-width: 767.98px) {
+	.drsc-es-navbar .navbar-collapse {
+		max-height: calc(100vh - 4rem);
+		max-height: calc(100dvh - 4rem);
+		overflow-y: auto;
+		overscroll-behavior: contain;
+	}
+}
 /* navbar link click color override */
 nav ul.navbar-nav li.nav-item ul li a.dropdown-item:active {
   	background-color: #238d94 !important;
