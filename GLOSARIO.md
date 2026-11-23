@@ -267,7 +267,9 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Merges Mind With Machine / Prepped for the End / Raids / Remembers the Past / Walks the Wasteland (foci) | Une mente y máquina / Preparado para el fin / Saquea / Recuerda el pasado / Recorre el yermo | *Fusiona mente y máquina* is the core Fuses Mind and Machine. *Saquea* was provisional since WP3. |
 | wasteland | yermo | As in the existing text (*Amenazas del yermo*). Badlands stay *tierras baldías*. |
 | mutation / incredible mutations | mutación / mutaciones increíbles | Mutation abilities that share a name with an existing ability get *(mutación)*. |
-| scavenging / useful stuff / junk | carroñeo / cosas útiles / chatarra | As in the existing Cap. 18. |
+| scavenging / useful stuff / junk | carroñeo / cosas útiles / chatarra | As in the existing Cap. 18. Basic / expanded tables: *(básico) / (ampliado)*. |
+| load (of junk) | carga (de chatarra) | Kinds in the repair table: *1 de construcción, 1 textil, 1 electrónica, 1 química, 1 médica, 1 de metal…* Unearthly junk is *de otro mundo*. |
+| repairing and building / equipment maintenance | reparar y construir / mantenimiento del equipo | Rush job is *trabajo urgente*, as in Cap. 9. |
 | exposure | exposición | Too cold / too hot: *demasiado frío / demasiado calor*. |
 | scavenger subtle cyphers / AI-fashioned manifest cyphers | Cyphers sutiles de carroñero / Cyphers manifiestos fabricados por IA | |
 | pre-apocalyptic artifacts | artefactos preapocalípticos | |
