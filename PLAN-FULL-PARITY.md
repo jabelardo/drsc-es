@@ -831,6 +831,10 @@ terminology, so translating a book in one pass keeps them consistent.
       creatures at the end (alphabetical). OG's note pointing to *Rasgos mundanos*; quick reference
       with OG's related sections; types table linked. Fixes: "usted" forms changed to "tú", the
       orrery's gender slip, the Herrero row, a capitalisation slip, the types heading's permalink.
+- [x] Ch21-A (2026-11-23): Cap. 19-A was translated from OG in WP5 and matches it (same headings;
+      OG's Alien Manifest Cyphers box is commented out in its source; 17 editor's notes; the
+      stat-block sidebars). Changes: the Resucitado and Implacable sidebars boxed; the Paranormal
+      Vices quick reference grouped by vice, as in OG.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
