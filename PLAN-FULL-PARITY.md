@@ -580,7 +580,7 @@ terminology, so translating a book in one pass keeps them consistent.
       task table and "changing conditions" come from the CSRD (OG v2.11a lacks them).
 - [x] Link from WP5: "un frío excesivo" in *Amenazas y peligros del Oeste extraño*
       (Cap. 19-A, Uncanny Blizzard) now points to *Exposición*.
-- [ ] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
+- [x] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
       15 creatures, 5 NPCs.
       - 19 regular abilities done (Cap. 7 lists). OG's *Know Where to Look* and R&R
         *Ruin Lore* entries are the core abilities word for word (*Saber dónde buscar*,
@@ -596,6 +596,15 @@ terminology, so translating a book in one pass keeps them consistent.
         with the species intro revised to R&R's wording and the existing Morlock and Roach
         moved in among the new descriptors (Spanish alphabetical order). The Cap. 11 role
         suggestions now link *Saquea*.
+      - 15 creatures and 5 NPCs done. New h5 entries in Cap. 20 (*Ángel del Apocalipsis*,
+        *Cuatro Jinetes del Apocalipsis* with *Bestia*, *Espada*, *Hambre* and *Peste* as
+        h6, *Cucaracha brillante*, *Flor ganchuda*, *Fundido*, *Gusano gamma*, *Oso
+        radiactivo*); h6 variants under existing entries, as OG does (*Zombi corredor*,
+        *Zombi de IA*, *Zombi mastodonte* under *Zombi*; *Inteligencia artificial (IA)
+        post-apocalíptica* under *Inteligencia artificial*; *Caníbal post-apocalíptico*
+        under *Caníbal*); *Saqueador* in Cap. 21 with *Caudillo*, *Jinete despiadado* and
+        *Merodeador*. The R&R *Blighted* template (*Plagado*) moves to WP7 with *Modifying
+        Creatures*.
 - [x] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
       Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
       ("In addition to descriptors for human survivors…").
@@ -623,6 +632,9 @@ terminology, so translating a book in one pass keeps them consistent.
         (Cap. 19-A).
       - *Celebrity* creature template and *Modifying Creatures* (Ch25): "famosos", "Famoso"
         and "Modificar criaturas" in *Famosos* (Cap. 19-A).
+      - *Blighted* creature template (R&R, in OG's *Modifying Creatures*): translate it as
+        *Plagado*, then link the *Plagado* mentions in Cap. 18 (*Criaturas, plantas y PNJs
+        mutados*, *Criaturas y PNJs post-apocalípticos*) and "plantillas de criatura" there.
 - [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
