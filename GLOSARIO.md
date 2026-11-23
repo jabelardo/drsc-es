@@ -1,7 +1,7 @@
 # Glosario EN → ES
 
-Canonical Spanish terms for DRSC-ES, for everyone translating new material (see §7 of
-`PLAN-FULL-PARITY.md`). Use one Spanish term per English term. If a term is missing or a
+Canonical Spanish terms for DRSC-ES, for everyone translating new material. Use one Spanish
+term per English term. If a term is missing or a
 choice looks wrong, raise it before using an alternative.
 
 - **Core terms** (below) are maintained by hand. Every entry reflects how `DRSC-ES.html`
@@ -129,9 +129,8 @@ above.
   verb means distance), and the rest were reviewed by hand.
 - **Result:** in the 1,700 entries that exist in both documents, the Spanish now agrees
   with the English in all but a handful of cases where the English itself mixes the terms.
-- **ODT:** about 380 corrections are in `CORRECCIONES.json`, so the ODT gets the same
-  terminology. That includes five entries where the range band itself was wrong (e.g.
-  *Reubicar*, *Vampiro*).
+- **Range bands:** five entries had the range band itself wrong (e.g. *Reubicar*, *Vampiro*)
+  and were corrected.
 
 ### Magia moderna (It's Only Magic)
 
@@ -340,8 +339,7 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 
 Settled 2026-11-22, before WP3:
 - **training (noun):** split by meaning. The game term is *competencia*; the ordinary sense
-  stays *entrenamiento*. The existing text was normalised: 32 occurrences, registered in
-  `CORRECCIONES.json` as `training-01` to `training-28`.
+  stays *entrenamiento*. The existing text was normalised (32 occurrences).
 - **Form (cypher/artifact field):** keep *Aspecto:*. It shares the word with "flavor"; context
   tells them apart.
 
