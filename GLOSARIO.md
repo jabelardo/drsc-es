@@ -1011,7 +1011,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Illusory Disguise | Disfraz ilusorio |
 | Illusory Duplicate | Duplicado ilusorio |
 | Illusory Evasion | Evasión ilusoria |
-| Illusory Selves | Yos Ilusorios |
+| Illusory Selves | Yos ilusorios |
 | Immovable | Inamovible |
 | Impart Ideal | Impartir ideal |
 | Impart Understanding | Impartir comprensión |
@@ -1051,7 +1051,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Incredible Recovery | Recuperación increíble |
 | Incredible Running Speed | Velocidad de carrera increíble |
 | Infer Thoughts | Inferir pensamientos |
-| Inferno Trail | Sendero Infernal |
+| Inferno Trail | Sendero infernal |
 | Infiltrator | Infiltrado |
 | Influence Swarm | Influir enjambre |
 | Information Gathering | Recabar información |
