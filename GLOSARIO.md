@@ -302,11 +302,11 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 465 |
 | [Artefactos](#artefactos) | 174 |
-| [Criaturas](#criaturas) | 146 |
-| [PNJs](#pnjs) | 78 |
+| [Criaturas](#criaturas) | 161 |
+| [PNJs](#pnjs) | 83 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2638** |
+| **Total** | **2658** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -2724,12 +2724,16 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | English | Español |
 |---|---|
 | Abomination | Abominación |
+| AI Zombie | Zombi de IA |
 | Angalith | Angalito |
+| Angel of the Apocalypse | Ángel del Apocalipsis |
 | Angiks | Angiks |
 | Artificial intelligence (AI) | Inteligencia artificial (IA) |
+| Artificial Intelligence (AI), Post-Apocalyptic | Inteligencia artificial (IA) post-apocalíptica |
 | Bagheera | Bagheera |
 | Bargainer Fiend | Negociador infernal |
 | Basilisk | Basilisco |
+| Beast | Bestia |
 | Beast (with a capital B) | Bestia (con B mayúscula) |
 | Black Dog | Perro negro |
 | Blob | Blob |
@@ -2768,12 +2772,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Faerie | Hada |
 | Faerie (Fairy Tale) | Hada (Cuentos de hadas) |
 | Fallen Angel | Ángel caído |
+| Famine | Hambre |
 | Feral tree | Árbol feral |
 | Fire Elemental | Elemental de fuego |
+| Four Horsemen of the Apocalypse | Cuatro Jinetes del Apocalipsis |
 | Frostwalker | Caminante de escarcha |
 | Fuath | Fuath |
 | Fundamental angel | Ángel Fundamental |
 | Fusion Hound | Sabueso de fusión |
+| Gamma Worm | Gusano gamma |
 | Gargoyle | Gárgola |
 | Geppetto’s Children | Hijos de Geppetto |
 | Ghost | Fantasma |
@@ -2783,6 +2790,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Giant Snake | Serpiente gigante |
 | Giant Spider | Araña gigante |
 | Gingerbread Creatures | Criaturas de pan de jengibre |
+| Glowing Roach | Cucaracha brillante |
 | Godmind | Godmind |
 | Golem | Golem |
 | Gorgon | Gorgona |
@@ -2793,6 +2801,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Hivemind child | Niño mente colmena |
 | Hollow Knight | Caballero hueco |
 | Hollowed Ranger | Jinete hueco |
+| Hooked Blossom | Flor ganchuda |
 | Hungry Haze | Bruma hambrienta |
 | Hydra | Hidra |
 | Ichthysian | Ichthysian |
@@ -2808,6 +2817,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Malware, Fatal | Malware, fatal |
 | Manticore | Mantícora |
 | Mechanical Soldier | Soldado mecánico |
+| Melted | Fundido |
 | Mi-Go | Mi-Go |
 | Minotaur | Minotáuro |
 | Minotaur, the | Minotauro, el |
@@ -2821,9 +2831,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Omworwar | Omworwar |
 | Photonomorph | Fotonomorfo |
 | Pixies | Pixies |
+| Plague | Peste |
 | Pollution Goblin | Goblin de la contaminación |
 | Puppet Tree | Árbol marioneta |
 | Puss in Boots | Gato con Botas |
+| Radioactive Bear | Oso radiactivo |
 | Ravage Bear | Oso de rapiña |
 | Reanimated | Reanimado |
 | Redivus | Redivus |
@@ -2843,6 +2855,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Statue, Animate | Estatua animada |
 | Sulfur Stalker | Acechador sulfuroso |
 | Supernal | Supernal |
+| Sword | Espada |
 | Television Thoughtform | Forma de pensamiento televisiva |
 | The West Wind | El Viento del Oeste |
 | Thundering Behemoth | Behemoth atronador |
@@ -2868,6 +2881,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Yithian | Yithiano |
 | Zero-Point Phantom | Fantasma de punto cero |
 | Zombie | Zombi |
+| Zombie Hulk | Zombi mastodonte |
+| Zombie Sprinter | Zombi corredor |
 | Zorp | Zorp |
 
 ### PNJs
@@ -2885,6 +2900,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Cailleach | Cailleach |
 | Cambion | Cambión |
 | Cannibal | Caníbal |
+| Cannibal, Post-Apocalyptic | Caníbal post-apocalíptico |
 | Changeling | Trocado |
 | Child | Niño |
 | Corporate Mage | Mago corporativo |
@@ -2901,6 +2917,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Enchanter | Encantador |
 | Evil Priest | Sacerdote maligno |
 | Fairy Godmother | Hada madrina |
+| Fell Rider | Jinete despiadado |
 | Goblin | Goblin |
 | Gráinne, the Wayward Daughter | Gráinne, la Hija Descarriada |
 | Grey | Gris |
@@ -2912,6 +2929,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Jotunn, Fire | Jotunn de fuego |
 | Jotunn, Frost | Jotunn de hielo |
 | Mad scientist | Científico loco |
+| Marauder | Merodeador |
 | Merfolk | Acuariano |
 | Morgan Le Fay | Morgan Le Fay |
 | Morlock | Morlock |
@@ -2928,6 +2946,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Prince(ss) of Summer | Princesa/Príncipe del verano |
 | Queen | Reina |
 | Queen Grimhilde | Reina Grimilda |
+| Raider | Saqueador |
 | Replicant | Replicante |
 | Robber/Thief | Atracador/Ladrón |
 | Satyr | Sátiro |
@@ -2947,6 +2966,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Tin Woodman | Leñador Hojalata |
 | Troll | Trol |
 | Virgilius the Sorcerer | Virgilius el Hechicero |
+| Warlord | Caudillo |
 | Witch | Bruja |
 | Witch (Fairy Tale) | Bruja (Cuentos de hadas) |
 | Wizard, Mighty | Mago poderoso |
