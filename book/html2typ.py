@@ -229,11 +229,29 @@ class Converter:
         if t == 'div' and any(isinstance(c, Node) and c.tag == 'button' for c in n.children):
             return '#generador-web()'
         if t == 'div':
-            inner = self.join(self.blocks(n))
-            if 'alert' in cl:
-                return pre + f'#recuadro[\n{inner}\n]'
-            if 'drsc-es-sidebar' in cl or 'drsc-es-ednote' in cl:
-                return pre + f'#lateral[\n{inner}\n]'
+            items = self.blocks(n)
+            boxed = 'alert' in cl or 'drsc-es-sidebar' in cl or 'drsc-es-ednote' in cl
+            wide = boxed and any(x.startswith('#flotante[\n') for x in items)
+            kind = 'recuadro' if 'alert' in cl else 'lateral'
+            if wide:
+                # a float cannot leave its box: a small box floats whole; a big one is split around its wide tables
+                unwrap = lambda x: x[len('#flotante[\n'):-len('\n]')] if x.startswith('#flotante[\n') else x
+                if len(self.join(items)) < 6000:
+                    return pre + f'#flotante[\n#{kind}[\n{self.join([unwrap(x) for x in items])}\n]\n]'
+                out, seg = [], []
+                for x in items:
+                    if x.startswith('#flotante[\n'):
+                        if seg:
+                            out.append(f'#{kind}[\n{self.join(seg)}\n]'); seg = []
+                        out.append(f'#flotante[\n#{kind}[\n{unwrap(x)}\n]\n]')
+                    else:
+                        seg.append(x)
+                if seg:
+                    out.append(f'#{kind}[\n{self.join(seg)}\n]')
+                return pre + self.join(out)
+            inner = self.join(items)
+            if boxed:
+                return pre + f'#{kind}[\n{inner}\n]'
             if 'drsc-es-dial' in cl:
                 return pre + '#dial()'
             if 'ratio' in cl:

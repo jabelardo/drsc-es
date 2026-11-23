@@ -16,6 +16,9 @@
     #line(length: 40%, stroke: 1.5pt + white)
     #v(14pt)
     #text(font: fuente-rotulos, size: 10pt, tracking: 0.2em)[VERSIÓN DEL 2026-11-23 · CSRD DEL 2025-08-22]
+    #v(30pt)
+    // required by the Cypher System Open License: the compatibility logo (or phrase) on the cover, unaltered
+    #image("/book/assets/compatible-cypher-system-blanco.png", width: 150pt)
   ]
   #v(1.4fr)
   #align(center, text(size: 9pt)[

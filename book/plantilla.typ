@@ -203,7 +203,7 @@
 #let tabla(n, cabeza, filas, rojo: (), ancha: false) = context {
   let c = col()
   block(above: 0.8em, below: 0.9em, width: 100%, {
-    set text(size: 8.8pt)
+    set text(size: if n >= 7 { 7.8pt } else { 8.8pt }, hyphenate: false)
     set par(justify: false)
     table(columns: n, stroke: none, inset: (x: 4pt, y: 3pt),
       fill: (x, y) => if cabeza != none and y == 0 { c } else if calc.odd(y) { c.lighten(88%) } else { none },
