@@ -544,6 +544,12 @@ terminology, so translating a book in one pass keeps them consistent.
       fate/deck as d20, showdown, curses, survival, tall tales, paranormal vices,
       threats/hazards, cyphers, artifacts).
 - [ ] 7 foci, 10 descriptors, 73 abilities, 11 creatures, 2 NPCs.
+      - 76 abilities done (OG counts 67 new ones plus 9 High Noon versions of core abilities).
+        The versions are named after their focus or vice, e.g. *Daño letal (Cobra recompensas)*
+        and *Ojo certero (Ebrio)*. Cap. 7 gets a *Capacidades Q* section (*Que lo intenten*,
+        *Quedar en tablas*).
+      - Links to Weird West sections not translated yet are plain text, recorded for a
+        linking pass at the end of WP5 (as in WP4).
 
 ### WP6 — Rust and Redemption (~36k EN words)
 - [ ] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
