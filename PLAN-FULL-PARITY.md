@@ -732,6 +732,16 @@ terminology, so translating a book in one pass keeps them consistent.
         PNJs* list (OG has only the full one); a WP8 candidate.
       - Left for later: *Power Shifts in Other Genres*, Psionics, *Creating Cyphers, Artifacts, and
         Abilities*, Stress (three links) and Serious Injuries and Conditions.
+- [x] Ch14 (2026-11-23). Decision: OG's price tables replace the CSRD ones. The CSRD tables
+      disagree with the CSRD's own contemporary item entries (hand grenade 4 vs 6 damage, sports car
+      exorbitant vs very expensive, cell phone and handcuffs vs Smartphone and Restraint); OG rebuilt
+      them from the entries and added *Artículos invaluables*. Only the concealed microphone and the
+      luxury car rows are gone.
+      - An editor's note explains the rebuild and carries OG's notes on "contemporary" equipment,
+        tech levels and variable prices; OG's hand grenade note; the chapter and equipment quick
+        references rebuilt with OG's groups; basic creatures sorted.
+      - Already there: the mundane foci list and its adjustments table, the three CSRD sidebars.
+        The contemporary items stay in level order, as in the CSRD.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
