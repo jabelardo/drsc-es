@@ -299,13 +299,13 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Rasgos](#rasgos) | 142 |
 | [Descriptores](#descriptores) | 103 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
-| [Cyphers](#cyphers) | 442 |
+| [Cyphers](#cyphers) | 465 |
 | [Artefactos](#artefactos) | 164 |
 | [Criaturas](#criaturas) | 146 |
 | [PNJs](#pnjs) | 78 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2605** |
+| **Total** | **2628** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -2080,8 +2080,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Adhesion | Adhesión |
 | Agate Eye | Ojo de ágata |
 | Age Taker | Anti-edad |
+| AI Instance | Instancia de IA |
 | Algomancy | Algomancia |
 | Ambiance | Ambiente |
+| Ammunition | Munición |
 | Analeptic | Analéptico |
 | Anathema Siren | Sirena anatema |
 | Animal Control | Controlar animal |
@@ -2092,6 +2094,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Anywhere Web | Red en cualquier parte |
 | Apple of Discord | Manzana de la discordia |
 | Area Boost | Reforzador de área |
+| Armor Breach | Brecha de armadura |
 | Armor Reinforcer | Refuerzo de armadura |
 | Ascendant Brain Vivisector | Vivisector cerebral ascendente |
 | Ascendant Flesh Vivisector | Vivisector de carne ascendente |
@@ -2135,6 +2138,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Cold Resistance | Resistencia al frío |
 | Comprehension | Comprensión |
 | Condition Remover | Removedor de condición |
+| Construction Supply | Suministro de construcción |
 | Contingent Activator | Activador de contingencia |
 | Controlled Blinking | Parpadeo controlado |
 | Corrupted Canopic Jar | Vaso canopo corrupto |
@@ -2148,6 +2152,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Dark Slug | Proyectil oscuro |
 | Darksight | Vista en oscuridad |
 | Darning Needle | Aguja de zurcir |
+| Data Wipe | Borrado de datos |
 | Dead Water | Agua muerta |
 | Death Bringer | Portador de muerte |
 | Death’s Candle | Vela de la muerte |
@@ -2155,6 +2160,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Deathless | Inmortalidad |
 | Decapitative Longevity | Longevidad decapitativa |
 | Demon Ward | Protección contra demonios |
+| Denature Nanotech | Desnaturalizar nanotecnología |
 | Density | Densidad |
 | Detonation | Detonación |
 | Detonation (Creature) | Detonación (criatura) |
@@ -2165,6 +2171,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Detonation (Massive) | Detonación (masiva) |
 | Detonation (Matter Disruption) | Detonación (alteración de materia) |
 | Detonation (Pressure) | Detonación (presión) |
+| Detonation (Prion) | Detonación (priónica) |
 | Detonation (Singularity) | Detonación (singularidad) |
 | Detonation (Sonic) | Detonación (sónica) |
 | Detonation (Spawn) | Detonación (proliferante) |
@@ -2172,6 +2179,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Devils and tailors | Diablos y sastres |
 | Diadem of Death | Diadema de muerte |
 | Disarm | Desarmar |
+| Disassembler | Desensamblador |
+| Disassembler, Ephemeral | Desensamblador efímero |
 | Disguise Module | Módulo de disfraz |
 | Disrupting | Disrupción |
 | Dragon’s Blood | Sangre de dragón |
@@ -2185,6 +2194,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Eagleseye | Ojo de águila |
 | EasyMagic.App | EasyMagic.app |
 | Eat Me | Cómeme |
+| Edible Food | Alimento comestible |
 | Effect Resistance | Resistencia a efecto |
 | Efficacy Boost | Reforzador de eficacia |
 | Efficacy Boost (Major) | Reforzador de eficacia (mayor) |
@@ -2202,6 +2212,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Exorcism Round | Bala de exorcismo |
 | Exsanguinating Round | Bala desangradora |
 | Extrovert Shield | Escudo extrovertido |
+| Fabricator, Civil | Fabricador civil |
+| Fabricator, Military | Fabricador militar |
 | Fade to Black | Fundido a negro |
 | Fairy Cup | Copa feérica |
 | False Grandmother | Falsa abuela |
@@ -2211,7 +2223,9 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fey Collar | Collar feérico |
 | Fiddle of the fossegrim | Violín del Fossegrim |
 | Fire Resistance | Resistencia al fuego |
+| Firearm | Arma de fuego |
 | Fireproofing | Ignifugación |
+| First Aid | Primeros auxilios |
 | Flame-Retardant Wall | Pared ignífuga |
 | Flaming Arrow | Flecha flameante |
 | Flaying Round | Bala desolladora |
@@ -2270,6 +2284,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Horrific Integrated Weapon | Arma integrada horrible |
 | Horrific Orifice | Orificio horrible |
 | Hot Cross Buns | Bollos cruzados calientes |
+| How-to Manual | Manual práctico |
 | Humanity Tester | Tester de humanidad |
 | Hunter/Seeker | Cazador/buscador |
 | Image Projector | Proyector de imágenes |
@@ -2314,7 +2329,9 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Magnetic shield | Escudo magnético |
 | Manipulation Beam | Rayo manipulador |
 | Matter Transference Ray | Rayo de transferencia de materia |
+| Medicine | Medicamento |
 | Meditation Aid | Ayuda a la meditación |
+| Melee Weapon | Arma cuerpo a cuerpo |
 | Memory’s Match | Cerilla de memoria |
 | Memory Switch | Interruptor de memoria |
 | Mental Load Alleviator | Aliviador de carga mental |
@@ -2364,6 +2381,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Poppet (Silence) | Figurilla (Silencio) |
 | Portal Stone | Piedra portal |
 | Possessing Round | Bala de posesión |
+| Potable Liquid | Líquido potable |
 | Powder of Life | Polvo de vida |
 | Power Device | Potenciar dispositivo |
 | Power House | Casa instantánea |
@@ -2423,6 +2441,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Skill Boost | Reforzador de habilidad |
 | Slave Maker | Esclavizador |
 | Sleep Inducer | Somnífero |
+| Smartdust | Polvo inteligente |
 | Snake Leaves | Hojas de serpiente |
 | Snickersnee | Snickersnee |
 | Sniper Module | Módulo francotirador |
@@ -2478,6 +2497,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Tissue Regeneration | Regeneración de tejido |
 | To Peter With Love | Para Pedro con amor |
 | Tracer | Trazador |
+| Transport | Transporte |
 | Trick Embedder | Integrador de trucos |
 | Tunnel Traverser | Atraviesatúneles |
 | Tweedledee’s Umbrella | Paraguas de Tweedledee |
@@ -2485,6 +2505,9 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Uninterruptible Power Source | Fuente de energía ininterrumpida |
 | Unphantomed Limb | Miembro afantasmizado |
 | Unraveling Round | Bala desintegradora |
+| Useful Clothing | Ropa útil |
+| Useful Thing | Cosa útil |
+| Useful Tool | Herramienta útil |
 | Valorous Whetstone | Piedra de afilar valerosa |
 | Vanisher | Desvanecedor |
 | Vase of Tears | Jarrón de lágrimas |
