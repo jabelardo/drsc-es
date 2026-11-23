@@ -501,9 +501,9 @@ terminology, so translating a book in one pass keeps them consistent.
   by its English name; the source audit shows no IOM chapter left untranslated.
 
 ### WP4 — Neon Rain (~42k EN words)
-- [ ] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
+- [x] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
       hacking, netrunning, rules, cyphers, GM intrusions).
-- [ ] 9 foci, 5 descriptors, 49 abilities, Ch11 optional rules, Splitting XP (Ch12),
+- [x] 9 foci, 5 descriptors, 49 abilities, Ch11 optional rules, Splitting XP (Ch12),
       Romance addition (Ch17).
       - 52 abilities done (OG counts Camera Sight and Drone Upgrade, which a first
         extraction missed). Machine Bond and Robot Builder have *(ciberpunk)* versions;
@@ -533,8 +533,11 @@ terminology, so translating a book in one pass keeps them consistent.
         *Usar los niveles de relación*) after the opening paragraphs of *Niveles de
         relación*, as in OG. The core paragraph "El nivel de las relaciones puede bajar o
         subir" moved into the box, where OG has it.
-      - Links to Cyberpunk sections not translated yet are plain text, recorded for a
-        linking pass at the end of WP4.
+      - Linking pass done (2026-11-23): the 107 links recorded while Cap. 12-B was being
+        written (from abilities, foci, descriptors and the chapter's own sections) now
+        point at their Spanish sections. OG `choose-*` ids map to the section headings,
+        not the quick-reference boxes. OG's broken `#cyberpunk-app-cyphers` link maps to
+        *Comprar Cyphers de app*. Five links wait for WP7 sections (see WP7).
 
 ### WP5 — High Noon at Midnight (~38k EN words)
 - [ ] Ch21-A Oeste extraño (character options, currency, equipment, poker/hands of
@@ -555,6 +558,15 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Back matter: FAQ, Índice, Qué hay en el libro, Prólogo.
 - [ ] Character tools: Character Sentence Generator, creation checklist, PDFs links.
 - [ ] Sidekicks (Ch11-A, ~10k).
+- [ ] Links left from WP4, to add when these OG editorial sections exist:
+      - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
+        *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
+        inactividad forzoso* and in *Intromisiones de salud* (Cap. 12-B).
+      - *Optional Rule: Choosing a Combat Effect Ahead of Time* (Ch11): "eliges un efecto
+        de combate de antemano" in *Atacar los ciberimplantes* and "elegir un efecto de
+        combate de antemano" in *Dañar los ciberimplantes* (Cap. 12-B).
+      - *Switching Character Options*: OG's sidebar in *Rasgos de ciberpunk* that points
+        to it was left out; add it with the section.
 - [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
