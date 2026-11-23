@@ -570,8 +570,14 @@ terminology, so translating a book in one pass keeps them consistent.
         WP6 (*Exposure*, see WP6).
 
 ### WP6 — Rust and Redemption (~36k EN words)
-- [ ] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
-      mutations, cyphers, artifacts).
+- [x] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
+      mutations, cyphers, artifacts). Cap. 18 now follows OG's h4/h5 order: equipment
+      merged into one table set; *Reglas opcionales para el apocalipsis* (exposure,
+      radiation, Carroñeo with basic and expanded Cosas útiles, Chatarra, Reparar y
+      construir, Mantenimiento del equipo, advanced tech, incredible mutations); threats and
+      GM intrusions; 23 cyphers; 4 pre-apocalyptic and 13 post-apocalyptic artifacts;
+      *Criaturas y PNJs post-apocalípticos*; the QR with OG's sub-lists. The scavenging
+      task table and "changing conditions" come from the CSRD (OG v2.11a lacks them).
 - [x] Link from WP5: "un frío excesivo" in *Amenazas y peligros del Oeste extraño*
       (Cap. 19-A, Uncanny Blizzard) now points to *Exposición*.
 - [ ] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
@@ -590,9 +596,15 @@ terminology, so translating a book in one pass keeps them consistent.
         with the species intro revised to R&R's wording and the existing Morlock and Roach
         moved in among the new descriptors (Spanish alphabetical order). The Cap. 11 role
         suggestions now link *Saquea*.
-- [ ] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
+- [x] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
       Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
       ("In addition to descriptors for human survivors…").
+- [ ] Linking pass over the 45 entries in WP6's `pending-links.json`. Many point at the
+      R&R creatures and NPCs still to translate (Plagado template, Four Horsemen, glowing
+      roach, raiders…); Cap. 18 targets such as *mutaciones increíbles*, *tecnología avanzada
+      y alienígena*, *amenazas y peligros realistas* and *artefactos preapocalípticos* now
+      exist and can be linked. *Transferring Subtle Cyphers* and *Modifying Creatures* wait
+      for WP7.
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
 - [ ] Back matter: FAQ, Índice.
