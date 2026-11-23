@@ -47,7 +47,7 @@ def build(t):
     asp = chapter(t, 'seleccionar-aspecto')
     aspectos = [[clean(re.sub(r'<a class="drsc-es-header-anchor".*?</a>', '', m.group(2))), m.group(1)]
                 for m in re.finditer(r'<h4[^>]*\bid="([^"]+)"[^>]*>(.*?)</h4>', asp, re.S)
-                if not m.group(1).startswith('referencia-rapida')]
+                if not m.group(1).startswith(('referencia-rapida', 'regla-opcional'))]
     rasgos = bracketed(chapter(t, 'seleccionar-rasgo'), '5')
     s = t.index('id="ejemplos-de-arcos-de-personaje"')
     e = re.compile(r'<h3[\s>]|<h4(?![^>]*id="referencia-rapida)[^>]*>').search(t, s + 10)
