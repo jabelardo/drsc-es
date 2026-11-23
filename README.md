@@ -16,6 +16,4 @@ aspectos distintivos, son marcas registradas de Monte Cook Games, LLC.
 
 [PDF del documento de referencia del Sistema Cypher](https://github.com/jabelardo/drsc-es/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.pdf)
 
-[ODT de LibreOffice Writer del documento de referencia del Sistema Cypher](https://github.com/jabelardo/drsc-es/raw/main/DOCUMENTO%20DE%20REFERENCIA%20DEL%20SISTEMA%20CYPHER.odt)
-
 [Proyecto en Github](https://github.com/jabelardo/drsc-es)
