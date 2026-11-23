@@ -849,6 +849,17 @@ terminology, so translating a book in one pass keeps them consistent.
         not needed.
       - Cap. 15 and Cap. 16 creature lists that linked #fantasma, #artesano and #encantador (an
         ability or a descriptor answers first) now link the creature and NPC entries.
+- [x] Ch23 (2026-11-23). Cap. 21 had all of OG's NPCs. Changes:
+      - *Supervillanos* (an h4 closing the chapter since WP1) becomes OG's *Supervillano
+        [Supervillain]* entry in alphabetical place, with the five villains as sub-entries, a
+        by-level box and OG's power-shift note. By-level boxes also for Encantadores, Reinas and
+        Brujas. Robber is *Atracador [Robber]*, as in OG, with OG's note.
+      - OG's boxes: GM intrusions (singular label), the opening reminders, Otros PNJs
+        (alphabetical), ten CSRD sidebars. Notes: chapter note, Elf/Shadow Elf, Robber/Thief, Hex
+        Gunner. Close range is *alcance inmediato* in Corrupt Mage and Ogre (the immediate/close note
+        is not needed); OG's Witch note is left out (we keep both Witches).
+      - Fixes: "las atributos" (5 places in the document), "otras atributos", "Mejoras de poder",
+        a repeated phrase, two agreement slips.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
