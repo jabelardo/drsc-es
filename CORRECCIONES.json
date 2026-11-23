@@ -5137,6 +5137,54 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-tarea-pilotaje",
+      "date": "2026-11-23",
+      "entry": "Opciones del sistema de pilotaje para PJ, tabla (Cap. 13)",
+      "reason": "The column header was the targeting one; the CSRD says Piloting Task.",
+      "old": "Tarea de puntería",
+      "new": "Tarea de pilotaje",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-tarea-ciencia",
+      "date": "2026-11-23",
+      "entry": "Opciones del sistema de ciencia e ingeniería para PJ, tabla (Cap. 13)",
+      "reason": "The column header was the piloting one; the CSRD says Science and Engineering Task.",
+      "old": "Tarea de pilotaje",
+      "new": "Tarea de ciencia e ingeniería",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-montar",
+      "date": "2026-11-23",
+      "entry": "Montar un escenario de ciencia ficción (Cap. 13)",
+      "reason": "Missing initial capital.",
+      "old": "montar un escenario",
+      "new": "Montar un escenario",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-articulos-baratos",
+      "date": "2026-11-23",
+      "entry": "Artículos baratos (Cap. 13)",
+      "reason": "Stray capital.",
+      "old": "Artículos Baratos\n        <a class=\"drsc-es-header-anchor\" href=\"#articulos-baratos-2\"",
+      "new": "Artículos baratos\n        <a class=\"drsc-es-header-anchor\" href=\"#articulos-baratos-2\"",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
