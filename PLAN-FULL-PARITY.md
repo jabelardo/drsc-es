@@ -700,6 +700,19 @@ terminology, so translating a book in one pass keeps them consistent.
         camaradas*.
       - Left for later: OG's *Power Shifts in Other Genres* (two links).
 - [x] Sidekicks (Ch11-A, ~10k). Done in Ch11-A (2026-11-23) as *Camaradas*.
+- [x] Ch12 (2026-11-23): OG's four optional rules (*Adelanto de PX* with its benefits and
+      complications tables, *Empezar en rango 0* with *Avanzar a rango 1*, *Avance más lento*,
+      *Avanzar más allá del rango 6*), placed with *Dividir los PX* in one box as OG does, and
+      *Avances de personaje opcionales*; four editor's notes (*Otras opciones*, rerolls and GM
+      intrusions, covens, romance); the CSRD's second paragraph in the sample-arcs sidebar; the
+      chapter quick reference gains OG's optional rules, related sections and the *Gastar 1/2/3/4/10
+      PX* lists. The GM intrusion sidebar now names and links Cap. 23. The CSRD's "about half their
+      XP from arcs" sidebar is already inline in parentheses, so it is not repeated.
+      - The links to *XP Advance* (Cap. 2, Cap. 3) and *Optional Character Advancements* (Cap. 4)
+        now resolve; the existing text said *avance de PX*, now *adelanto de PX*.
+      - Left for later: OG's *Separate Reroll and GM Intrusion Refusal Costs* (Ch25), Psionics and
+        Posthuman Upgrades (OG-only, from the Science Fiction book), *Extended Vehicular Combat*,
+        Stress, Serious Injuries and Conditions, *Skill Categories* and OG's optional-rules index.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
