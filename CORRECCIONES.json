@@ -5653,6 +5653,114 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-cy-capitulo-22-cyphers",
+      "date": "2026-11-23",
+      "entry": "Capítulo 22: Cyphers (texto de reglas)",
+      "reason": "'ability' is 'capacidad' in the glossary; 15 places said 'habilidad' (which means skill). The skill uses stay.",
+      "old": "habilidad(es)",
+      "new": "capacidad(es)",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cy-capitulo-22-cyphers-2",
+      "date": "2026-11-23",
+      "entry": "Capítulo 22: Cyphers (introducción)",
+      "reason": "Gender agreement.",
+      "old": "Los Cyphers no tienen que ser utilizadas para dejar espacio a otras nuevas",
+      "new": "Los Cyphers no tienen que ser utilizados para dejar espacio a otros nuevos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cy-usar-cyphers",
+      "date": "2026-11-23",
+      "entry": "Usar Cyphers",
+      "reason": "Gender agreement.",
+      "old": "un Cypher manifiesto que no ha sido identificada",
+      "new": "un Cypher manifiesto que no ha sido identificado",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cy-efectos-normales-y-fantasticos",
+      "date": "2026-11-23",
+      "entry": "Efectos normales y fantásticos",
+      "reason": "CSRD: 'A cypher that turns a corpse into a zombie'.",
+      "old": "Un código que convierta un cadáver en un zombi",
+      "new": "Un Cypher que convierta un cadáver en un zombi",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cy-solicitar-cyphers-sutiles",
+      "date": "2026-11-23",
+      "entry": "Solicitar Cyphers sutiles",
+      "reason": "'player intrusion' is 'intromisión de jugador'.",
+      "old": "gastando 1 PX en una de las siguientes intromisiones de PJ:",
+      "new": "gastando 1 PX en una de las siguientes intromisiones de jugador:",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cy-solicitar-cyphers-sutiles-2",
+      "date": "2026-11-23",
+      "entry": "Solicitar Cyphers sutiles",
+      "reason": "The Stim cypher is 'Estimulante'.",
+      "old": "(como un curativo o un estímulo)",
+      "new": "(como un curativo o un estimulante)",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cy-cyphers-de-refuerzo-de-potencia",
+      "date": "2026-11-23",
+      "entry": "Cyphers de refuerzo de potencia",
+      "reason": "CSRD: 'a burst boost cypher... Bears a Halo of Fire focus'; the focus name was mistranslated.",
+      "old": "Un Cypher de aumento de ráfaga, por ejemplo, permite a alguien con el rasgo Osos un Halo de Fuego crear",
+      "new": "Un reforzador de ráfaga, por ejemplo, permite a alguien con el rasgo Porta un halo de fuego crear",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cy-proyector-de-imagenes",
+      "date": "2026-11-23",
+      "entry": "Proyector de imágenes [Image Projector] (Cypher)",
+      "reason": "CSRD: 'within close distance'; OG-CSRD notes that 'close' means immediate.",
+      "old": "La imagen aparece hasta una distancia cercana al usuario",
+      "new": "La imagen aparece a distancia inmediata del usuario",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cy-emisor-de-rayos",
+      "date": "2026-11-23",
+      "entry": "Emisor de rayos [Ray Emitter] (Cypher)",
+      "reason": "CSRD: 'Turns target inside out', 'Renders target mute', 'stonelike material'.",
+      "old": "Gira el objetivo al revés; Hace que el objetivo se silencie",
+      "new": "Vuelve del revés al objetivo; Deja mudo al objetivo",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
