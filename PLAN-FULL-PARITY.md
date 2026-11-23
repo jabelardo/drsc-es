@@ -623,7 +623,7 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Back matter: FAQ, Índice.
 - [ ] Character tools: Character Sentence Generator, creation checklist, PDFs links.
 - [ ] Sidekicks (Ch11-A, ~10k).
-- [ ] Links left from WP4 and WP5, to add when these OG editorial sections exist:
+- [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
         inactividad forzoso* and in *Intromisiones de salud* (Cap. 12-B).
@@ -644,6 +644,16 @@ terminology, so translating a book in one pass keeps them consistent.
         ciencia ficción" in *Rasgos post-apocalípticos*, Cap. 18); *Optional Rule:
         Transferring Subtle Cyphers* ("transferir Cyphers sutiles" in *Cyphers sutiles de
         carroñero*); *Plagado* in *Apocalipsis nuclear*.
+      - Done (2026-11-23): Cap. 23 *Modificar criaturas* (templates *Reforzado*, *Más grande y
+        resistente* moved from Cap. 20, *Plagado*, *Famoso*), *Esfuerzo para PNJs*, *Criaturas con
+        varias partes*, *Crear criaturas y PNJs*, *Crear encuentros desafiantes*; Cap. 9 *Elegir
+        un efecto de combate de antemano*; Cap. 22 *Transferir Cyphers sutiles*; Cap. 2 *Cambiar
+        las opciones de personaje* (plus OG's links to it and its Descriptores editor's note);
+        *Rasgos de fantasía*, *Rasgos mundanos*, *Rasgos de ciencia ficción*. OG's "This section
+        is based on…" source lines are omitted like the page citations.
+      - Left for later WP7 items: "Estrés" and "heridas graves y condiciones" in *Crear
+        encuentros desafiantes* (Stress and Serious Injuries); the "Sidekick Abilities" entry in
+        the *Modificar criaturas* quick reference (Sidekicks).
 - [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
