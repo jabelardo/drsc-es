@@ -298,6 +298,9 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Simplified / Personalized Flavor | Aspecto simplificado / personalizado | Foolish's Carefree trait is *Despreocupado* (existing). |
 | sidekick sheet: nature / niche / associated PC | hoja de camarada: naturaleza / nicho / PJ asociado | Provisional until the Camaradas chapter (Sidekicks) is translated. |
 | Errata abilities (2015 Rulebook) / OG-CSRD variant abilities | capacidades de errata / variantes del OG-CSRD | Entries end with *(Errata)* or *(variante del OG-CSRD)*. Chop *Tajo*, Crush *Aplastar*, Daring Escape *Huida audaz*, Extra Edge *Ventaja extra*, Font of Inspiration *Fuente de inspiración*, Mighty Blow *Golpe poderoso*, Opening Gambit *Gambito de apertura*, Practiced With Light (and Medium) Weapons *Práctica en armas ligeras (y medias)*, Riposte *Contraataque*, Seize Opportunity *Aprovechar la oportunidad*, Shooting Gallery *Galería de tiro*, Skills *Habilidades*, Slayer *Matador*, Specialization *Especialización*, Surprise Strike *Golpe sorpresa* (not *Ataque sorpresa*, which is Surprise Attack). The 2015 Fleet of Foot, Shipspeak and Throw and the six OG variants keep the current ability's name. |
+| Extra Action / Stats / Cyphers and Artifacts / Errata / Recovery / Roll (ability categories) | Acción extra / Atributos / Cyphers y artefactos / Errata / Recuperación / Tirada | OG's extra categories in Cap. 7. Stat is *atributo*, so Stats is *Atributos*. |
+| Weapon Properties / Alternative Armor Encumbrance / Object Level, Health, and Armor (optional rules) | propiedades de las armas / carga de armadura alternativa / nivel, salud y Armadura de los objetos | Provisional: OG optional rules not translated yet; Cap. 7 notes mention them unlinked. |
+| deluxe editions (of the Cypher System Rulebook) | ediciones de lujo | |
 
 ### Decisiones tomadas
 
