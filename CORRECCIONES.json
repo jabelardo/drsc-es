@@ -5041,6 +5041,66 @@
         "html": "2026-11-22",
         "odt": null
       }
+    },
+    {
+      "id": "equipo-piensa",
+      "date": "2026-11-23",
+      "entry": "Categorías de precios (Cap. 8)",
+      "reason": "Usted form; the document uses tú.",
+      "old": "Piense en las categorías como potencias de 10.",
+      "new": "Piensa en las categorías como potencias de 10.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "equipo-quieras",
+      "date": "2026-11-23",
+      "entry": "Utilizando las categorías de precios (Cap. 8)",
+      "reason": "Usted form; the document uses tú.",
+      "old": "lo preciso que quiera ser con los precios y el dinero, puede utilizar",
+      "new": "lo preciso que quieras ser con los precios y el dinero, puedes utilizar",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "equipo-enfoque",
+      "date": "2026-11-23",
+      "entry": "Utilizando las categorías de precios (Cap. 8)",
+      "reason": "OG-CSRD: 'this approach makes it clear'; rasgo is the word for focus.",
+      "old": "este rasgo deja claro que reciben dos objetos",
+      "new": "este enfoque deja claro que reciben dos objetos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "equipo-facilitan",
+      "date": "2026-11-23",
+      "entry": "Utilizando las categorías de precios (Cap. 8)",
+      "reason": "OG-CSRD: 'The categories make it easy to lump similar items together'; aliviar is the game term for ease.",
+      "old": "Las categorías alivian la agrupación de artículos similares.",
+      "new": "Las categorías facilitan agrupar artículos similares.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "equipo-nivel-4",
+      "date": "2026-11-23",
+      "entry": "Nivel de equipamiento (Cap. 8)",
+      "reason": "OG-CSRD: 'about level 4—less if of inferior quality or materials'; 'menos' was missing.",
+      "old": "El equipo mundano tiene un nivel 4 aproximadamente si es de calidad o materiales inferiores",
+      "new": "El equipo mundano es de nivel 4 aproximadamente: menos si es de calidad o materiales inferiores",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
