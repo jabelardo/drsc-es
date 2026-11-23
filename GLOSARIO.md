@@ -262,13 +262,13 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Rasgos](#rasgos) | 137 |
 | [Descriptores](#descriptores) | 95 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
-| [Cyphers](#cyphers) | 413 |
+| [Cyphers](#cyphers) | 442 |
 | [Artefactos](#artefactos) | 142 |
 | [Criaturas](#criaturas) | 135 |
 | [PNJs](#pnjs) | 76 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2409** |
+| **Total** | **2438** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -1915,6 +1915,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Anathema Siren | Sirena anatema |
 | Animal Control | Controlar animal |
 | Animated Wood | Madera animada |
+| Answering Slug | Proyectil de respuesta |
 | Antivenom | Antiveneno |
 | Anywhere Door | Puerta en cualquier lugar |
 | Anywhere Web | Red en cualquier parte |
@@ -1923,10 +1924,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Armor Reinforcer | Refuerzo de armadura |
 | Ascendant Brain Vivisector | Vivisector cerebral ascendente |
 | Ascendant Flesh Vivisector | Vivisector de carne ascendente |
+| Asphyxiation Round | Bala de asfixia |
 | Attractor | Atractor |
 | Azure Dust | Polvo celeste |
 | Baba Yaga’s Spiced Cookie | Galleta con especias de Baba Yaga |
 | Banishing | Desplazar |
+| Banishing Round | Bala de destierro |
 | Beast Shape | Forma de bestia |
 | Bellman’s Map of the Ocean | Mapa oceánico de Bellman |
 | Beloved’s Kiss | Beso del amado |
@@ -1971,6 +1974,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Damage Boost | Reforzador de daño |
 | Dame Trot’s Cat | Gato de la Dama Trot |
 | Dancing on Air | Bailar en el aire |
+| Dark Slug | Proyectil oscuro |
 | Darksight | Vista en oscuridad |
 | Darning Needle | Aguja de zurcir |
 | Dead Water | Agua muerta |
@@ -2021,8 +2025,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Emperor’s New Clothes | Traje nuevo del emperador |
 | Enduring Shield | Escudo duradero |
 | Energy Boost | Reforzador de energía |
+| Entombing Round | Bala de sepultura |
 | Equipment Cache | Almacén de equipo |
 | Exceptional Engine | Motor excepcional |
+| Exorcism Round | Bala de exorcismo |
+| Exsanguinating Round | Bala desangradora |
 | Extrovert Shield | Escudo extrovertido |
 | Fade to Black | Fundido a negro |
 | Fairy Cup | Copa feérica |
@@ -2036,6 +2043,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fireproofing | Ignifugación |
 | Flame-Retardant Wall | Pared ignífuga |
 | Flaming Arrow | Flecha flameante |
+| Flaying Round | Bala desolladora |
 | Flowers for Grandmother | Flores para la abuela |
 | Force Cube | Cubo de fuerza |
 | Force Field | Campo de fuerza |
@@ -2050,12 +2058,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Genie’s Handkerchief | Pañuelo de Genio |
 | Genie’s lamp | Lámpara de genio |
 | Ghost Detector | Detector de fantasmas |
+| Ghost Round | Bala fantasma |
 | Ghost Tag | Firma fantasma |
 | Ghost Trap | Trampa de fantasmas |
 | Giant Size | Tamaño gigante |
 | Gilded Shell | Concha dorada |
 | Gingerbread Man | Hombre de pan de jengibre |
 | Girl Moss | Chica musgo |
+| Glacier Round | Bala glaciar |
 | Godfather’s Picture Book | Libro de Imágenes del Padrino |
 | Golden Beetle | Escarabajo dorado |
 | Golden bridle | Brida dorada |
@@ -2067,14 +2077,19 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Great Hair Day | Día de pelo perfecto |
 | Green Spectacles | Espejuelos verdes |
 | Growwell | Crecebién |
+| Gunlantern Slug | Proyectil farol |
 | Hand Wave | Gesto de la mano |
 | Hart’s Heart | Corazón de ciervo |
 | Hashtag | Hashtag |
 | Hatchet of the Woodsman | Hacha del leñador |
+| Haunted Slug | Proyectil encantado |
 | Heart of a Star | Corazón de una estrella |
 | Heart’s Tart | Tarta del corazón |
 | Heat Attack | Ataque calorífico |
+| Heavenly Fire Round | Bala de fuego celestial |
+| Hellfire Slug | Proyectil de fuego infernal |
 | Here All Along | Siempre estuvo aquí |
+| Hexing Round | Bala de maleficio |
 | Homunculus Flask | Frasco de homúnculo |
 | Hook’s hook | Garfio de Garfio |
 | Horn of destruction | Cuerno de destrucción |
@@ -2087,6 +2102,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Humanity Tester | Tester de humanidad |
 | Hunter/Seeker | Cazador/buscador |
 | Image Projector | Proyector de imágenes |
+| Impervious Slug | Proyectil de invulnerabilidad |
+| Inebriating Round | Bala embriagadora |
 | Inferno Wall | Muro infernal |
 | Infiltrator | Infiltrador |
 | Information Sensor | Sensor de información |
@@ -2100,6 +2117,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Instant Tower | Torre instantánea |
 | Intellect Booster | Reforzador de intelecto |
 | Intelligence Enhancement | Mejora de inteligencia |
+| Interrogation Round | Bala de interrogatorio |
 | Invisibility Revealer | Revelador de invisibilidad |
 | Invisibility Serum | Suero de invisibilidad |
 | Iron Bands of Three | Bandas de hierro de tres |
@@ -2141,6 +2159,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Monoblade | Monofilo |
 | Monohorn | Monocuerno |
 | Motion Sensor | Sensor de movimiento |
+| Necrotic Round | Bala necrótica |
 | Neverlost | Nuncaperdido |
 | Next You | El próximo tú |
 | No Take Backs | Sin devoluciones |
@@ -2149,6 +2168,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Nullification Ray | Rayo de anulación |
 | Nutrition and Hydration | Nutrición e hidratación |
 | Omniscient Bean | Haba omnisciente |
+| Otherwhere Slug | Proyectil de otraparte |
 | Pandora’s box | Caja de Pandora |
 | Penultimate Key | Penúltima llave |
 | Perfect Memory | Memoria perfecta |
@@ -2172,6 +2192,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Poppet (Prosperity) | Figurilla (Prosperidad) |
 | Poppet (Silence) | Figurilla (Silencio) |
 | Portal Stone | Piedra portal |
+| Possessing Round | Bala de posesión |
 | Powder of Life | Polvo de vida |
 | Power Device | Potenciar dispositivo |
 | Power House | Casa instantánea |
@@ -2234,12 +2255,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Snake Leaves | Hojas de serpiente |
 | Snickersnee | Snickersnee |
 | Sniper Module | Módulo francotirador |
+| Sobering Round | Bala despejadora |
 | Social Battery | Batería social |
 | Soldier’s Cloak of Invisibility | Capa de Invisibilidad de soldado |
 | Solvent | Solvente |
 | Song of the Dead | Canción de los muertos |
 | Sonic Hole | Agujero sónico |
 | Sorcerer’s Skeleton Key | Llave esqueleto del Hechicero |
+| Soul Killing Round | Bala mataalmas |
 | Soul Saver | Salvaalmas |
 | Soulful Fiddle | Violín conmovedor |
 | Sound Dampener | Amortiguador sónico |
@@ -2257,6 +2280,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Strength Enhancer | Potenciador de fuerza |
 | Stunt Boost | Reforzador de proeza |
 | Subdual Field | Campo de sumisión |
+| Sympathy Slug | Proyectil de simpatía |
 | Table-Be-Set | Mesa servida |
 | Take Me There | Llévame allí |
 | Talk to Me | Háblame |
@@ -2273,6 +2297,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Thought Listening | Escuchar pensamientos |
 | Three Needles | Tres agujas |
 | Through the Window | A través de la ventana |
+| Thunder Slug | Proyectil de trueno |
 | Time Dilation (Defensive) | Dilatación temporal (defensiva) |
 | Time Dilation (Offensive) | Dilatación temporal (ofensiva) |
 | Time Ticket | Billete puntual |
@@ -2288,6 +2313,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Undead Ward | Protección contra no muertos |
 | Uninterruptible Power Source | Fuente de energía ininterrumpida |
 | Unphantomed Limb | Miembro afantasmizado |
+| Unraveling Round | Bala desintegradora |
 | Valorous Whetstone | Piedra de afilar valerosa |
 | Vanisher | Desvanecedor |
 | Vase of Tears | Jarrón de lágrimas |
@@ -2297,7 +2323,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Visual Displacement Device | Dispositivo de desplazamiento visual |
 | Vocal Translator | Traductor vocal |
 | Walking Corpse | Cadáver andante |
+| Wanted Slug | Proyectil de "Se busca" |
 | Warmth | Calor |
+| Washing Round | Bala de lavado |
+| Watcher Slug | Proyectil vigía |
 | Water Adapter | Adaptador acuático |
 | Weapon Enhancement | Mejora de arma |
 | What the Doctor Ordered | Lo que recetó el médico |
