@@ -153,7 +153,8 @@ Added 2026-11-22 for WP3.
 | thoughtform | forma de pensamiento | |
 
 Provisional names for foci not translated yet, used in the fantasy role suggestions (Cap. 11). Use
-them when WP5 and WP6 translate these foci:
+them when WP5 and WP6 translate these foci (the High Noon at Midnight ones are final, see
+*Oeste extraño* below):
 
 | English | Español | Book |
 |---|---|---|
@@ -204,6 +205,30 @@ Decided 2026-11-23 for WP4.
 | plot armor | armadura de guion | |
 | Splitting XP (optional rule) | Dividir los PX | Cap. 10, after *Avance de rango en el Sistema Cypher*. |
 | Character Reputations and Relationships | Reputación y relaciones de los personajes | Box in *Regla opcional: Niveles de relación* (Cap. 17). |
+
+### Oeste extraño (High Noon at Midnight)
+
+Decided 2026-11-23 for WP5. Register: neutral Spanish for rules, with a touch of informal,
+rustic phrasing in flavor text (descriptor intros, quotes); no invented dialect spellings.
+
+| English | Español | Notes |
+|---|---|---|
+| Weird West | Oeste extraño | New *Capítulo 19-A*, after *Histórico*. |
+| Tall Tales (optional rule) | Historias increíbles | The existing *Tall Tale* ability stays *Cuento chino*. |
+| Forgeborn / Risen (species descriptors) | Forjado / Resucitado | Forgeborn creatures: *forjados*. |
+| Grizzled / Laconic / Slick / Trailblazing / Trigger Happy / Unforgiving / Wily (descriptors) | Veterano / Lacónico / Adulador / Pionero / Gatillo alegre / Implacable / Taimado | |
+| Blazes Paths / Collects Bounties / Gambles It All Away / Hits the Saloon / Rides Like the Wind / Spits Fire and Lead / Strikes Like a Rattler (foci) | Abre caminos / Cobra recompensas / Se lo juega todo / Frecuenta el saloon / Cabalga como el viento / Escupe fuego y plomo / Ataca como una serpiente de cascabel | The provisional names from WP3, now final. |
+| Showdown (optional rule) | Duelo | |
+| Hands of Fate | Manos del destino | |
+| Deck as d20 | La baraja como d20 | |
+| Paranormal Vices | Vicios paranormales | |
+| Curses / Survival / Threats and Hazards | Maldiciones / Supervivencia / Amenazas y peligros | |
+| self-aware artifacts | artefactos conscientes | |
+| alchemical manifest cyphers | Cyphers manifiestos alquímicos | |
+| Celebrities / Cursed Beasts / Gunfighters / Necrovores (creature groups) | Celebridades / Bestias malditas / Pistoleros / Necróvoros | |
+| the Damned / Perdition | los Condenados / Perdición | |
+| gunslinger | pistolero | |
+| scrip | vales | Company scrip and private tokens: *vales y fichas privadas*. |
 
 ### Decisiones tomadas
 
