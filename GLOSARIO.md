@@ -271,6 +271,9 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | load (of junk) | carga (de chatarra) | Kinds in the repair table: *1 de construcción, 1 textil, 1 electrónica, 1 química, 1 médica, 1 de metal…* Unearthly junk is *de otro mundo*. |
 | repairing and building / equipment maintenance | reparar y construir / mantenimiento del equipo | Rush job is *trabajo urgente*, as in Cap. 9. |
 | exposure | exposición | Too cold / too hot: *demasiado frío / demasiado calor*. |
+| advanced and alien tech | tecnología avanzada y alienígena | Grey goo is *plaga gris*. |
+| transitory / volatile mutation | mutación transitoria / volátil | Harmful / adaptive mutations in creatures: *perjudiciales / adaptativas*. A cypher slot is an *espacio de Cypher*. |
+| Blighted (creature template) | Plagado | The blight is *la plaga*. |
 | scavenger subtle cyphers / AI-fashioned manifest cyphers | Cyphers sutiles de carroñero / Cyphers manifiestos fabricados por IA | |
 | pre-apocalyptic artifacts | artefactos preapocalípticos | |
 
