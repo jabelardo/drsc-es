@@ -5365,6 +5365,102 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-hist-crear-una-aventura-historica",
+      "date": "2026-11-23",
+      "entry": "Crear una aventura histórica",
+      "reason": "The reader is addressed as 'tú' elsewhere; this sentence used 'usted'.",
+      "old": "asegúrese de que los trasfondos",
+      "new": "asegúrate de que los trasfondos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-hist-crear-una-aventura-historica-2",
+      "date": "2026-11-23",
+      "entry": "Crear una aventura histórica",
+      "reason": "The reader is addressed as 'tú' elsewhere; this sentence used 'usted'.",
+      "old": "Asegúrese de saber cuándo termina",
+      "new": "Asegúrate de saber cuándo termina",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-hist-dirigir-un-juego-historico",
+      "date": "2026-11-23",
+      "entry": "Dirigir un juego histórico",
+      "reason": "The reader is addressed as 'tú' elsewhere; this sentence used 'usted'.",
+      "old": "no le faltarán recursos",
+      "new": "no te faltarán recursos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-hist-dirigir-un-juego-historico-2",
+      "date": "2026-11-23",
+      "entry": "Dirigir un juego histórico",
+      "reason": "The reader is addressed as 'tú' elsewhere; this sentence used 'usted'.",
+      "old": "Tal vez les haga leer una entrada",
+      "new": "Tal vez les hagas leer una entrada",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-hist-dirigir-un-juego-historico-3",
+      "date": "2026-11-23",
+      "entry": "Dirigir un juego histórico",
+      "reason": "The reader is addressed as 'tú' elsewhere; this sentence used 'usted'.",
+      "old": "Si busca inspiración para periodos de tiempo en los que ambientar su juego histórico, aquí tiene algunas",
+      "new": "Si buscas inspiración para periodos de tiempo en los que ambientar tu juego histórico, aquí tienes algunas",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-hist-artefactos-historicos",
+      "date": "2026-11-23",
+      "entry": "Artefactos históricos",
+      "reason": "CSRD: 'an ancient analog computer and orrery used to predict'; one device, and the Spanish had a gender mismatch.",
+      "old": "(un antiguo ordenador analógico y una orrería utilizado para predecir",
+      "new": "(un antiguo ordenador analógico y planetario mecánico utilizado para predecir",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-hist-artefactos-historicos-2",
+      "date": "2026-11-23",
+      "entry": "Artefactos históricos",
+      "reason": "Capitalisation.",
+      "old": "Artefactos Históricos",
+      "new": "Artefactos históricos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-hist-tipos-sugeridos-para-un-juego-historico",
+      "date": "2026-11-23",
+      "entry": "Tipos sugeridos para un juego histórico (Herrero)",
+      "reason": "Type name capitalised and 'conocimientos' plural, as elsewhere.",
+      "old": "algunas capacidades de guerrero y aspecto de habilidades y conocimiento",
+      "new": "algunas capacidades de Guerrero y aspecto de habilidades y conocimientos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
