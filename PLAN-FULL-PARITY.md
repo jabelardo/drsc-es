@@ -511,8 +511,8 @@ terminology, so translating a book in one pass keeps them consistent.
       - 9 foci done (Cap. 6, with the ⚡ cyberware marker and GM intrusions as sidebars).
         New Capítulo 12-B *Ciberpunk* (nav, TOC, genres intro) with the 5 descriptors and
         *Rasgos de ciberpunk* (table, *Cambiar de rasgo*, additional foci, *Adaptar rasgos al
-        ciberpunk*). OG's sidebar pointing to *Switching Character Options* is left out until
-        that OG editorial section is translated (WP7).
+        ciberpunk*). OG's sidebar pointing to *Switching Character Options* was later added
+        inline, at the end of *Cambiar de rasgo* (WP7).
       - Cap. 12-B *Ciberimplantes* (chrome, the three sample implants, ⚡ cyberware-derived
         abilities, armor, stat minimums, targeting and damaging cybernetics, salvaging) and
         *Tipos de ciberpunk* (Solo, As, Intermediario, Técnico, with the standard cyberpunk
@@ -749,6 +749,10 @@ terminology, so translating a book in one pass keeps them consistent.
       67 cyphers, 47 artifacts, the six descriptor errata notes, the cypher-limit note, the
       sidebars). Only the quick reference changed: OG's descriptor group and *Oeste extraño* among
       the related sections. OG's Daft Drafts note stays out.
+- [x] Ch14-B (2026-11-23): Cap. 12-B was translated from OG in WP4 and matches it: OG's four
+      editor's notes, the full quick reference, and the sidebars (the *Switching Character Options*
+      pointer is a sentence at the end of *Cambiar de rasgo*). Only change: *Rasgos de ciberpunk
+      adicionales* in alphabetical order.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
@@ -757,7 +761,7 @@ terminology, so translating a book in one pass keeps them consistent.
         de combate de antemano" in *Atacar los ciberimplantes* and "elegir un efecto de
         combate de antemano" in *Dañar los ciberimplantes* (Cap. 12-B).
       - *Switching Character Options*: OG's sidebar in *Rasgos de ciberpunk* that points
-        to it was left out; add it with the section.
+        to it is now a sentence at the end of *Cambiar de rasgo*.
       - *Creating Challenging Encounters* (WP5): "daño duradero" in the *Forjado* descriptor
         (Cap. 19-A).
       - *Celebrity* creature template and *Modifying Creatures* (Ch25): "famosos", "Famoso"
