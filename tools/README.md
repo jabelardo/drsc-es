@@ -144,5 +144,20 @@ TYPST=/path/to/typst book/build.sh
   fonts lack are handled in the template (the ⚡ cyberware mark is drawn, ℞ becomes "Rx").
 - **Checks:** every HTML id becomes a PDF destination, and links to ids missing from the output
   fall back to plain text. The PDF is untagged, as before (tagging nearly triples its size).
+- **Chapter-end art:** where a chapter ends with space to spare, the page background draws an
+  illustration from `book/assets/arte/` (across both columns below the text, or in the empty right
+  column), with edges that fade into the page; smaller spaces get an original vector ornament.
+  Placement keeps clear of page-wide floats (wide tables, boxes, chapter openers), which mark where
+  they start and end. `book/arte/fuentes.json` maps chapters to Wikimedia Commons files, all public
+  domain or CC0, and holds their credits (Spanish title, author, date), which the book prints on its
+  last page with the page each one illustrates. No Monte Cook Games art is used: the Cypher System
+  Open License forbids it.
+- **Refreshing the art (optional):** `python3 book/arte/preparar.py` (needs Pillow and network) checks
+  each file's licence through the Commons API, refuses anything that is not public domain or CC0,
+  downloads it, tones it as a duotone in its part's colour and records the licence and source. For a
+  new entry it drafts the title, author and date from the Commons metadata; edit them in the manifest
+  (reruns keep them). It pauses between files because Wikimedia rate-limits bursts (set
+  `WIKIMEDIA_CONTACT` to an email or URL of your own for a shorter pause); rerun it to resume.
+  `--solo CAPITULO` redoes one image.
 - **Requires:** Python 3 (standard library) and Typst 0.15 or later; a full build takes about
   15 seconds.

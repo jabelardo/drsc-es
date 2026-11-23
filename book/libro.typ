@@ -38,3 +38,33 @@
 ]
 
 #include "build/contenido.typ"
+
+// créditos de las ilustraciones (todas de dominio público o CC0; book/arte/fuentes.json)
+#pagebreak(weak: true)
+#fijar-parte(6)
+#place(top, float: true, scope: "parent", clearance: 14pt, align(center)[
+  #text(font: fuente-rotulos, size: 11pt, tracking: 0.22em, fill: colores.at(6))[CRÉDITOS]
+  #v(2pt)
+  #text(font: fuente-titulos, weight: 600, size: 30pt, fill: colores.at(6))[ILUSTRACIONES]
+  #v(2pt)
+  #line(length: 100%, stroke: 2pt + colores.at(6))
+  #v(4pt)
+  #block(width: 78%, align(left, par(justify: false, text(size: 9.4pt)[Las ilustraciones al final de los capítulos son obras de dominio público o con licencia CC0, tomadas de Wikimedia Commons (cada título enlaza con la ficha de la obra) y entonadas en el color de cada parte. Ninguna procede de publicaciones de Monte Cook Games.])))
+])
+#context {
+  let paginas = (:)
+  for m in query(<fin-cap>) {
+    if colocacion(m.value).tipo == "lamina" { paginas.insert(m.value.id, m.value.pagina) }
+  }
+  set text(size: 9.2pt)
+  set par(justify: false)
+  let lista = arte-lista.filter(e => e.capitulo in paginas)
+  for (i, e) in lista.enumerate() {
+    if i > 0 and i == calc.ceil(lista.len() / 2) { colbreak() }
+    let n = paginas.at(e.capitulo)
+    let lic = if e.licencia.starts-with("CC0") { "CC0" } else { "Dominio público" }
+    block(above: 0.9em, below: 0.9em, breakable: false)[
+      #strong(link(e.fuente, e.obra)). #e.autor, #e.fecha. #lic. Página #link((page: n, x: 0pt, y: 0pt), str(n)).
+    ]
+  }
+}
