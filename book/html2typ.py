@@ -401,7 +401,23 @@ class Converter:
                 kids = [c for c in kids[start + 1:] if not (isinstance(c, Node) and c.tag == 'div' and find(c, lambda x: x.attrs.get('id') == 'creditos'))]
             wrap = Node('div'); wrap.children = kids
             out.extend(self.regroup(self.blocks(wrap)))
-        return '\n'.join(out) + '\n'
+        return '\n'.join(self.mark_ends(out)) + '\n'
+
+    def mark_ends(self, bl):
+        """An end-of-chapter marker before every chapter or part that follows a chapter (and at the end)."""
+        res, cur = [], None
+        for b in bl:
+            if b.startswith(('#capitulo(', '#capitulo-breve(', '#parte(')) and cur:
+                if not b.startswith('#capitulo-breve('):     # a short chapter continues inline: no free space
+                    res.append(f'#fin-capitulo({q(cur)})')
+                cur = None
+            if b.startswith(('#capitulo(', '#capitulo-breve(')):
+                m = re.search(r'ids: \("([^"]+)"', b)
+                cur = m.group(1) if m else None
+            res.append(b)
+        if cur:
+            res.append(f'#fin-capitulo({q(cur)})')
+        return res
 
     def regroup(self, bl):
         """Part intros onto the part page; chapters of a few plain paragraphs as a block at the foot of a page."""

@@ -11,3 +11,4 @@ ignore*
 .cache/
 __pycache__/
 Cypher-System-Reference-Document-*.docx
+!book/arte/*.py

@@ -16,6 +16,10 @@
 
 #let anclas(ids) = for i in ids { [#metadata(none)#label(i)] }
 #let fijar-parte(n) = parte-n.update(n)
+// the end of a chapter: the page background fills the free space below it with art or an ornament
+// start and end of a page-wide float, so chapter-end art (colocacion) keeps clear of it
+#let marca-flotante(k) = context [#metadata((k: k, pagina: here().page(), y: here().position().y.pt()))<flot>]
+#let fin-capitulo(id) = context [#metadata((id: id, parte: parte-n.get(), pagina: here().page(), x: here().position().x.pt(), y: here().position().y.pt()))<fin-cap>]
 
 // ---------- rótulos y títulos ----------
 #let rotulo-versalitas(t, size: 10pt, fill: none) = context text(font: fuente-rotulos, size: size, tracking: 0.14em,
@@ -50,9 +54,95 @@
   if calc.even(p) { align(left, num) } else { align(right, num) }
 }
 
+// ---------- arte y ornamentos al final de los capítulos ----------
+#let arte-lista = json("/book/arte/fuentes.json")
+#let arte-de(id) = {
+  let r = arte-lista.filter(e => e.capitulo == id and "imagen" in e)
+  if r.len() > 0 { r.first() } else { none }
+}
+
+// an original ornament (not MCG's): a diamond between two dots, with lines fading out
+#let ornamento(c, ancho: 130pt) = box(width: ancho, height: 12pt, {
+  let brazo = ancho / 2 - 14pt
+  place(left + horizon, line(length: brazo, stroke: (paint: gradient.linear(c.transparentize(100%), c), thickness: 0.9pt)))
+  place(right + horizon, line(length: brazo, stroke: (paint: gradient.linear(c, c.transparentize(100%)), thickness: 0.9pt)))
+  place(center + horizon, rotate(45deg, square(size: 5.5pt, fill: c)))
+  place(center + horizon, dx: -9.5pt, circle(radius: 1.7pt, fill: c))
+  place(center + horizon, dx: 9.5pt, circle(radius: 1.7pt, fill: c))
+})
+
+// art toned in the part's colour (book/arte/preparar.py), contained in its area, bottom-aligned, edges fading into the page
+#let lamina(e, rx, ry, rw, rh) = {
+  let a = e.ancho / e.alto
+  let h = rh
+  let w = h * a
+  if w > rw { w = rw; h = w / a }
+  let f = calc.min(w, h) * 0.14
+  let blanco = white
+  // at the foot of the free space, as the rulebook's chapter-end art; a little above the middle of a tall one
+  let dy = if rh - h > 200pt { ry + (rh - h) * 0.45 } else { ry + rh - h }
+  place(top + left, dx: rx + (rw - w) / 2, dy: dy, box(width: w, height: h, {
+    image(e.imagen, width: w, height: h, fit: "cover")
+    place(top, rect(width: 100%, height: f, fill: gradient.linear(blanco, blanco.transparentize(100%), angle: 90deg)))
+    place(bottom, rect(width: 100%, height: f, fill: gradient.linear(blanco.transparentize(100%), blanco, angle: 90deg)))
+    place(left, rect(width: f, height: 100%, fill: gradient.linear(blanco, blanco.transparentize(100%))))
+    place(right, rect(width: f, height: 100%, fill: gradient.linear(blanco.transparentize(100%), blanco)))
+  }))
+}
+
+// page geometry (same numbers as in libro()): text area and columns
+#let geo(p) = {
+  let x0 = if calc.even(p) { 44pt } else { 52pt }
+  (x0: x0, arriba: 62pt, abajo: 783pt - 56pt, ancho: 507pt, col: 246pt, x2: x0 + 261pt)
+}
+
+// what fills the free space after a chapter's end (a <fin-cap> marker): art from book/arte/ when there is
+// room for it, else a small ornament; the credits page uses the same decision to list only the art shown
+#let colocacion(v) = {
+  let g = geo(v.pagina)
+  let y = v.y * 1pt + 16pt
+  let e = arte-de(v.id)
+  let en-col1 = v.x * 1pt < g.x0 + g.col + 7pt
+  // page-wide floats on this page, as (top, bottom) pairs: those above the chapter's end push the empty right
+  // column down, those below it (bottom floats) cut the free space short
+  let ms = query(<flot>).filter(m => m.value.pagina == v.pagina).map(m => m.value)
+  let fl = range(calc.max(ms.len() - 1, 0)).filter(i => ms.at(i).k == "ini" and ms.at(i + 1).k == "fin")
+    .map(i => (ms.at(i).y * 1pt, ms.at(i + 1).y * 1pt))
+  let abajo = fl.filter(f => f.at(0) > v.y * 1pt).fold(g.abajo, (a, f) => calc.min(a, f.at(0) - 14pt))
+  let arriba = fl.filter(f => f.at(0) < v.y * 1pt).fold(g.arriba + 10pt, (a, f) => calc.max(a, f.at(1) + 14pt))
+  let libre = abajo - y
+  // the image's size when fitted into a w × h space
+  let area(w, h) = if e == none { 0 } else { let a = e.ancho / e.alto; calc.min(w / 1pt, h / 1pt * a) * calc.min(h / 1pt, w / 1pt / a) }
+  let ancha = libre >= 190pt                    // across both columns, under the text of the left one
+  let derecha = abajo - arriba >= 190pt         // the empty right column
+  if e != none and en-col1 and ancha and (not derecha or area(g.ancho, libre) * 1.3 >= area(g.col, abajo - arriba)) {
+    (tipo: "lamina", e: e, x: g.x0, y: y, w: g.ancho, h: libre)
+  } else if e != none and en-col1 and derecha {
+    (tipo: "lamina", e: e, x: g.x2, y: arriba, w: g.col, h: abajo - arriba)
+  } else if e != none and not en-col1 and libre >= 250pt {
+    (tipo: "lamina", e: e, x: g.x2, y: y, w: g.col, h: libre)            // under the text in the right column
+  } else if libre >= 40pt {
+    (tipo: "ornamento", x: (if en-col1 { g.x0 } else { g.x2 }) + (g.col - 130pt) / 2, y: y + 4pt)
+  } else {
+    (tipo: none)
+  }
+}
+
+#let relleno(p, c) = {
+  for m in query(<fin-cap>).filter(m => m.location().page() == p) {
+    let r = colocacion(m.value)
+    if r.tipo == "lamina" {
+      lamina(r.e, r.x, r.y, r.w, r.h)
+    } else if r.tipo == "ornamento" {
+      place(top + left, dx: r.x, dy: r.y, ornamento(c))
+    }
+  }
+}
+
 #let fondo() = context {
   let p = here().page()
   let c = col()
+  relleno(p, c)
   // a coloured swoosh in the outer top corner, as in the rulebook's running header
   if calc.even(p) {
     place(top + left, polygon(fill: c, (0pt, 0pt), (120pt, 0pt), (70pt, 22pt), (0pt, 40pt)))
@@ -110,6 +200,7 @@
 #let capitulo(etiqueta, titulo, ids: (), salto: true) = {
   if salto { pagebreak(weak: true) }
   place(top, float: true, scope: "parent", clearance: 18pt, context {
+    marca-flotante("ini")
     anclas(ids)
     let c = col()
     align(center)[
@@ -119,6 +210,7 @@
       #v(4pt)
       #line(length: 100%, stroke: 2pt + c)
     ]
+    marca-flotante("fin")
   })
 }
 
@@ -138,7 +230,8 @@
 }
 
 // a wide table (with its heading or caption) across both columns, at the top or foot of the page
-#let flotante(cuerpo) = place(auto, float: true, scope: "parent", clearance: 14pt, block(width: 100%, align(left, cuerpo)))
+#let flotante(cuerpo) = place(auto, float: true, scope: "parent", clearance: 14pt,
+  block(width: 100%, align(left, { marca-flotante("ini"); cuerpo; marca-flotante("fin") })))
 
 #let encabezado(nivel, titulo, estilo: "normal", ids: ()) = context {
   let c = col()
