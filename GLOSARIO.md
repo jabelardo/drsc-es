@@ -366,8 +366,8 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Rasgos](#rasgos) | 142 |
 | [Descriptores](#descriptores) | 103 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
-| [Cyphers](#cyphers) | 465 |
-| [Artefactos](#artefactos) | 174 |
+| [Cyphers](#cyphers) | 430 |
+| [Artefactos](#artefactos) | 209 |
 | [Criaturas](#criaturas) | 161 |
 | [PNJs](#pnjs) | 83 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
@@ -2156,7 +2156,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
-| A Tisket a Tasket | A Tisket a Tasket |
 | Absolute power | Energía absoluta |
 | Acid Resistance | Resistencia al ácido |
 | Adderstone | Adderstone |
@@ -2202,16 +2201,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Bone Key | Llave de hueso |
 | Bones of the Beloved | Huesos del querido |
 | Borrowed Familiar | Familiar prestado |
-| Bounding boots | Botas de saltar |
-| Boundless bag | Bolsa ilimitada |
 | Bowl of Porridge | Tazón de papilla de avena |
-| Boy Blue’s horn | Cuerno de azul de chico |
 | Brain Overclock | Overclock cerebral |
 | Burn Your Bridges | Quema tus puentes |
 | Burner Phone | Teléfono desechable |
 | Burst Boost | Reforzador de ráfaga |
 | Burst of Speed | Ráfaga de velocidad |
-| Carving knife of sharpness | Cuchillo tallador de gran filo |
 | Cat Sidhe Medallion | Medallón de Gato Sidhe |
 | Catholicon | Elixir |
 | Chemical Factory | Planta química |
@@ -2259,7 +2254,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Detonation (Sonic) | Detonación (sónica) |
 | Detonation (Spawn) | Detonación (proliferante) |
 | Detonation (web) | Detonación (red) |
-| Devils and tailors | Diablos y sastres |
 | Diadem of Death | Diadema de muerte |
 | Disarm | Desarmar |
 | Disassembler | Desensamblador |
@@ -2304,7 +2298,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Farsight | Vistalejos |
 | Father’s Betrayal | Traición del padre |
 | Fey Collar | Collar feérico |
-| Fiddle of the fossegrim | Violín del Fossegrim |
 | Fire Resistance | Resistencia al fuego |
 | Firearm | Arma de fuego |
 | Fireproofing | Ignifugación |
@@ -2318,13 +2311,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Force Screen Projector | Proyector de barrera de fuerza |
 | Force Shield Projector | Proyector de escudo de fuerza |
 | Forget-Me-Knot | Anuda recuerdo |
-| Fortunate’s purse | Bolso del afortunado |
 | Friction Reducer | Reductor de fricción |
 | Frigid Wall | Muro gélido |
-| Galoshes of fortune | Galochas de la fortuna |
 | Gas Bomb | Bomba de gas |
 | Genie’s Handkerchief | Pañuelo de Genio |
-| Genie’s lamp | Lámpara de genio |
 | Ghost Detector | Detector de fantasmas |
 | Ghost Round | Bala fantasma |
 | Ghost Tag | Firma fantasma |
@@ -2336,7 +2326,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Glacier Round | Bala glaciar |
 | Godfather’s Picture Book | Libro de Imágenes del Padrino |
 | Golden Beetle | Escarabajo dorado |
-| Golden bridle | Brida dorada |
 | Golden Vanity | Vanidad dorada |
 | Got Your Back | Te cubro las espaldas |
 | Gravity Denied | Gravedad negada |
@@ -2349,7 +2338,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Hand Wave | Gesto de la mano |
 | Hart’s Heart | Corazón de ciervo |
 | Hashtag | Hashtag |
-| Hatchet of the Woodsman | Hacha del leñador |
 | Haunted Slug | Proyectil encantado |
 | Heart of a Star | Corazón de una estrella |
 | Heart’s Tart | Tarta del corazón |
@@ -2359,8 +2347,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Here All Along | Siempre estuvo aquí |
 | Hexing Round | Bala de maleficio |
 | Homunculus Flask | Frasco de homúnculo |
-| Hook’s hook | Garfio de Garfio |
-| Horn of destruction | Cuerno de destrucción |
 | Horrific Arm | Brazo horrible |
 | Horrific Eye | Ojo horrible |
 | Horrific Face | Rostro horrible |
@@ -2390,11 +2376,9 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Invisibility Revealer | Revelador de invisibilidad |
 | Invisibility Serum | Suero de invisibilidad |
 | Iron Bands of Three | Bandas de hierro de tres |
-| Iron stove | Estufa de hierro |
 | Itsy Bitsy Spider | Itsy Bitsy Araña |
 | Jack’s Candlestick | Candelabro de Jack |
 | Jiminy Cricket | Pepito Grillo |
-| Knapsack of sevens | Mochila de sietes |
 | Knave of Hearts | Sota de corazones |
 | Knowledge Enhancement | Mejora de conocimientos |
 | Lie To Me | Miénteme |
@@ -2426,7 +2410,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Mind-Restricting Wall | Muro de restricción mental |
 | Mind Stabilizer | Estabilizador mental |
 | Mind Swapper | Intercambiador de mentes |
-| Mirror mirror | Espejo espejo |
 | Monoblade | Monofilo |
 | Monohorn | Monocuerno |
 | Motion Sensor | Sensor de movimiento |
@@ -2440,7 +2423,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Nutrition and Hydration | Nutrición e hidratación |
 | Omniscient Bean | Haba omnisciente |
 | Otherwhere Slug | Proyectil de otraparte |
-| Pandora’s box | Caja de Pandora |
 | Penultimate Key | Penúltima llave |
 | Perfect Memory | Memoria perfecta |
 | Perfection | Perfección |
@@ -2449,7 +2431,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Phase Disruptor | Disruptor de fase |
 | Pickpocket | Carterista |
 | Pictureless Book | Libro sin imágenes |
-| Pixie dust | Polvo de pixie |
 | Pocket Protector | Protector de bolsillo |
 | Poison (Emotion) | Veneno (emoción) |
 | Poison (Explosive) | Veneno (explosivo) |
@@ -2489,8 +2470,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Real Fake | Falso auténtico |
 | Reality Spike | Anclaje de realidad |
 | Reanimator | Reanimador |
-| Red cap | Gorro rojo |
-| Red riding hood | Caperuza roja |
 | Reflex Enhancer | Potenciador de reflejos |
 | Rejuvenator | Rejuvenecedor |
 | Remembering | Recordar |
@@ -2506,16 +2485,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Safe Space | Espacio seguro |
 | Screen Control | Control de pantalla |
 | Secret | Secreto |
-| Self-swinging sword | Espada autogolpeante |
-| Seven-league boots | Botas de siete leguas |
 | Shadow Soap | Jabón de sombra |
-| Shapeshifter wand | Varita de cambiaformas |
 | Shard of the Moon | Fragmento de la Luna |
-| She-bear | Osa |
 | Sheen | Lustre |
 | Shift Boost | Reforzador de mejora |
 | Shining Knife | Cuchillo reluciente |
-| Shirt of nettles | Camisa de ortigas |
 | Shock Attack | Ataque eléctrico |
 | Shocker | Sacudidor |
 | Silgarho Infusion | Infusión de plajobe |
@@ -2530,14 +2504,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Sniper Module | Módulo francotirador |
 | Sobering Round | Bala despejadora |
 | Social Battery | Batería social |
-| Soldier’s Cloak of Invisibility | Capa de Invisibilidad de soldado |
 | Solvent | Solvente |
 | Song of the Dead | Canción de los muertos |
 | Sonic Hole | Agujero sónico |
 | Sorcerer’s Skeleton Key | Llave esqueleto del Hechicero |
 | Soul Killing Round | Bala mataalmas |
 | Soul Saver | Salvaalmas |
-| Soulful Fiddle | Violín conmovedor |
 | Sound Dampener | Amortiguador sónico |
 | Spatial Warp | Deformación espacial |
 | Speed Boost | Reforzador de velocidad |
@@ -2545,16 +2517,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Spy | Espía |
 | Stasis Keeper | Contenedor de estasis |
 | Stay Down | No te levantes |
-| Steadfast Tin Soldier | Soldadito de plomo tenaz |
 | Stim | Estimulante |
-| Stone Canoe | Canoa de piedra |
-| Story Knife | Cuchillo de cuentos |
 | Strength Boost | Reforzador de fuerza |
 | Strength Enhancer | Potenciador de fuerza |
 | Stunt Boost | Reforzador de proeza |
 | Subdual Field | Campo de sumisión |
 | Sympathy Slug | Proyectil de simpatía |
-| Table-Be-Set | Mesa servida |
 | Take Me There | Llévame allí |
 | Talk to Me | Háblame |
 | Target Boost | Reforzador de objetivo |
@@ -2575,7 +2543,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Time Dilation (Offensive) | Dilatación temporal (ofensiva) |
 | Time Ticket | Billete puntual |
 | Tin Man’s Tears | Lágrimas del Hombre de Hojalata |
-| Tinderbox | Yesquero |
 | Tiny Size | Tamaño diminuto |
 | Tissue Regeneration | Regeneración de tejido |
 | To Peter With Love | Para Pedro con amor |
@@ -2583,7 +2550,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Transport | Transporte |
 | Trick Embedder | Integrador de trucos |
 | Tunnel Traverser | Atraviesatúneles |
-| Tweedledee’s Umbrella | Paraguas de Tweedledee |
 | Undead Ward | Protección contra no muertos |
 | Uninterruptible Power Source | Fuente de energía ininterrumpida |
 | Unphantomed Limb | Miembro afantasmizado |
@@ -2594,7 +2560,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Valorous Whetstone | Piedra de afilar valerosa |
 | Vanisher | Desvanecedor |
 | Vase of Tears | Jarrón de lágrimas |
-| Vicious Tankard | Jarra sañosa |
 | Visage Changer | Alterador de aspecto |
 | Visage Scrutinizer | Escrutador de semblantes |
 | Visual Displacement Device | Dispositivo de desplazamiento visual |
@@ -2626,6 +2591,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
+| A Tisket a Tasket | A Tisket a Tasket |
 | Accessories Sold Separately | Accesorios que se venden por separado |
 | Adamantine Rope | Cuerda adamantina |
 | Alchemist Bag | Bolsa alquimista |
@@ -2645,9 +2611,13 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Book of Inversion | Libro de inversión |
 | Book of the Baker | Libro del panadero |
 | Bounding Boots | Botas de saltar |
+| Bounding boots | Botas de saltar |
+| Boundless bag | Bolsa ilimitada |
+| Boy Blue’s horn | Cuerno de azul de chico |
 | Breakaway Bag | Bolsa de parches |
 | Busy Box | Caja de actividades |
 | Carbonizer | Carbonizador |
+| Carving knife of sharpness | Cuchillo tallador de gran filo |
 | Cat’s Eye Spectacles | Gafas de ojo de gato |
 | Cats Hide Their Paws | Los gatos esconden las uñas |
 | Cloak of Balakar | Capa de Balakar |
@@ -2672,6 +2642,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Demon Pistol | Pistola demoníaca |
 | Demonflesh | Pieldemonio |
 | Demonic Rune Blade | Hoja rúnica demoníaca |
+| Devils and tailors | Diablos y sastres |
 | Dimensional Modulator | Modulador dimensional |
 | Disintegration Beamer | Proyector desintegrador |
 | Doctor Dread’s Time Portal | Portal del tiempo del Doctor Dread |
@@ -2690,25 +2661,35 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Explorer’s Gloves | Guantes de explorador |
 | Falcon Cloak | Capa de halcón |
 | Faraday Cage | Jaula de Faraday |
+| Fiddle of the fossegrim | Violín del Fossegrim |
 | Flying Carpet | Alfombra voladora |
+| Fortunate’s purse | Bolso del afortunado |
 | Fractal Traveler | Viajero fractal |
+| Galoshes of fortune | Galochas de la fortuna |
 | Gate Ring | Anillo portal |
+| Genie’s lamp | Lámpara de genio |
 | Ghostly Armor | Armadura fantasmal |
 | Gift from the Fairy Queen | Regalo de la Reina de las Hadas |
 | Gloves of Agility | Guantes de agilidad |
+| Golden bridle | Brida dorada |
 | Goodest Gargoyle | La gárgola más buena |
 | Gruelmaker | Hacepotaje |
 | Guardian Idol | Ídolo guardián |
 | Hand of Glory | Mano de gloria |
 | Hand of the Eclipse | Mano del Eclipse |
 | Harrowing Blade | Hoja angustiosa |
+| Hatchet of the Woodsman | Hacha del leñador |
 | Helm of Water Breathing | Yelmo de respiración acuática |
 | History's Fickle Hands | Las manos caprichosas de la historia |
+| Hook’s hook | Garfio de Garfio |
+| Horn of destruction | Cuerno de destrucción |
 | Horn of Thunder | Cuerno de trueno |
 | Illuck Stone | Piedra malasuerte |
 | Ilu Idol | Ídolo ilu |
 | Instant Ladder | Escalera instantánea |
+| Iron stove | Estufa de hierro |
 | Keys of Close to You | Llaves de Cerca de ti |
+| Knapsack of sevens | Mochila de sietes |
 | Lightning Eye | Ojo del rayo |
 | Lightning Hammer | Martillo de relámpagos |
 | Living Copycat | Imitador viviente |
@@ -2724,6 +2705,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Military Exoskeleton | Exoesqueleto militar |
 | Mind Imager | Visualizador mental |
 | Mindshield Helmet | Casco de escudo mental |
+| Mirror mirror | Espejo espejo |
 | Mutation Inducer | Inductor de mutaciones |
 | My Friend Lockness | Mi amigo Lockness |
 | Nanorifle | Nanorrifle |
@@ -2731,15 +2713,19 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Nihilal Tendril Horn | Cuerno de zarcillos nihilal |
 | Omni Orb | Orbe Omni |
 | Pack of Storage | Mochila de almacenaje |
+| Pandora’s box | Caja de Pandora |
 | Pearls of Your Grandmother, the Witch | Las perlas de tu abuela, la bruja |
 | Persuader | Persuasora |
 | Philosopher's Gun | Pistola filosofal |
+| Pixie dust | Polvo de pixie |
 | Poisoner’s Touch | Toque del envenenador |
 | Poor Magician's Lunchbox | Fiambrera del mago pobre |
 | Probability Regulator | Regulador de probabilidad |
 | Protection Amulet | Amuleto de protección |
 | Psychic Crystal | Cristal Psíquico |
 | Rainbow Suspenders | Tirantes arcoíris |
+| Red cap | Gorro rojo |
+| Red riding hood | Caperuza roja |
 | Repair Sphere | Esfera reparadora |
 | Ring of Dragon’s Flight | Anillo del vuelo del dragón |
 | Ring of Fall Flourishing | Anillo de caída venturosa |
@@ -2753,15 +2739,22 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Salvaged Car | Coche recuperado |
 | Scarf of Love and Death | Bufanda de amor y muerte |
 | Seal of Solomon | Sello de Salomón |
+| Self-swinging sword | Espada autogolpeante |
 | Serum X | Suero X |
+| Seven-league boots | Botas de siete leguas |
 | Shadow Box | Caja de sombras |
 | Shadow Duster | Guardapolvo de sombra |
+| Shapeshifter wand | Varita de cambiaformas |
+| She-bear | Osa |
 | Shield of Two Skies | Escudo de dos cielos |
+| Shirt of nettles | Camisa de ortigas |
 | Skill Ring | Anillo de habilidad |
 | Smooth-Stepping Boots | Botas de pisar suave |
+| Soldier’s Cloak of Invisibility | Capa de Invisibilidad de soldado |
 | Song of the Siren | Canto de la sirena |
 | Soul-Stealing Knife | Cuchillo roba almas |
 | Soulflaying Weapon | Arma desgarradora de almas |
+| Soulful Fiddle | Violín conmovedor |
 | Sovereign Key | Llave soberana |
 | Space Ring | Anillo Espacial |
 | Spear of Destiny | Lanza del Destino |
@@ -2773,22 +2766,29 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Staff of Black Iron | Báculo de hierro negro |
 | Staff of Healing | Báculo de curación |
 | Staff of the Prophet | Báculo del profeta |
+| Steadfast Tin Soldier | Soldadito de plomo tenaz |
 | Stellarex Crystal | Cristal Stellarex |
 | Steorraform | Steorraform |
+| Stone Canoe | Canoa de piedra |
 | Storm Shack | Choza de tormenta |
+| Story Knife | Cuchillo de cuentos |
 | Swarm Ring | Anillo del enjambre |
+| Table-Be-Set | Mesa servida |
 | Tanglefoot Lariat | Lazo enredapiés |
 | Tattoo of the Tiger | Tatuaje del tigre |
 | Tattoo of Tomorrow's Edge | Tatuaje del filo del mañana |
 | Tattoo of True Shot | Tatuaje del tiro certero |
 | Terahertz Scanner | Escáner de terahercios |
 | Time is a Circle | El tiempo es un círculo |
+| Tinderbox | Yesquero |
 | Tracker's Map | Mapa del rastreador |
 | Transfer Discs | Discos de transferencia |
 | Trap Runestone | Trampa de piedra rúnica |
 | Tunneling Gauntlets | Guanteletes tuneladores |
+| Tweedledee’s Umbrella | Paraguas de Tweedledee |
 | Umbrella of No-Touch | Paraguas de no tocar |
 | Vanity of the Vanities | Tocador de las vanidades |
+| Vicious Tankard | Jarra sañosa |
 | Vorpal Six-Gun | Revólver vorpalino |
 | Vorpal Sword | Espada vorpal |
 | Wand of Firebolts | Varita de rayos flamígeros |
