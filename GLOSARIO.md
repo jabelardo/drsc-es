@@ -290,8 +290,8 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | Kind | Entries |
 |---|---:|
 | [Capacidades](#capacidades) | 1480 |
-| [Rasgos](#rasgos) | 137 |
-| [Descriptores](#descriptores) | 95 |
+| [Rasgos](#rasgos) | 142 |
+| [Descriptores](#descriptores) | 103 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 442 |
 | [Artefactos](#artefactos) | 164 |
@@ -299,7 +299,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [PNJs](#pnjs) | 78 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2592** |
+| **Total** | **2605** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -1882,6 +1882,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Masters Spells | Domina los hechizos |
 | Masters the Swarm | Domina el enjambre |
 | Masters Weaponry | Domina las armas |
+| Merges Mind With Machine | Une mente y máquina |
 | Metes Out Justice | Imparte justicia |
 | Moves Like a Cat | Se mueve como un gato |
 | Moves Like the Wind | Se mueve como el viento |
@@ -1894,7 +1895,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Pilots Starcraft | Pilota naves estelares |
 | Plays Too Many Games | Juega demasiados juegos |
 | Practices Moon Magic | Practica la magia lunar |
+| Prepped for the End | Preparado para el fin |
 | Rages | Entra en frenesí |
+| Raids | Saquea |
+| Remembers the Past | Recuerda el pasado |
 | Rides Like the Wind | Cabalga como el viento |
 | Rides the Lightning | Cabalga el relámpago |
 | Runs Away | Huye |
@@ -1927,6 +1931,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Travels Through Time | Viaja a través del tiempo |
 | Turns Decay to Growth | Convierte la putrefacción en crecimiento |
 | Uses Wild Magic | Usa magia salvaje |
+| Walks the Wasteland | Recorre el yermo |
 | Walks the Wild Woods | Camina por bosques salvajes |
 | Was Foretold | Fue predicho |
 | Weaponizes Chrome | Convierte el cromo en arma |
@@ -1951,8 +1956,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Artificially Intelligent | Artificialmente inteligente |
 | Beneficent | Benéfico |
 | Bewitched | Embrujado |
+| Bitter | Amargado |
 | Brash | Temerario |
 | Calm | Tranquilo |
+| Canien | Cánido |
 | Catfolk | Félido |
 | Changeling | Trocado |
 | Chaotic | Caótico |
@@ -1974,6 +1981,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Engram | Engrama |
 | Exiled | Exiliado |
 | Fast | Rápido |
+| Felis | Félido |
+| Flutter | Volitar |
 | Foolish | Tonto |
 | Forgeborn | Forjado |
 | Fragmented | Fragmentado |
@@ -1991,6 +2000,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Helborn | Inferniano |
 | Hideous | Repulsivo |
 | Honorable | Honorable |
+| Hopeful | Esperanzado |
 | Hunter | Cazador |
 | Impulsive | Impulsivo |
 | Incredible | Increíble |
@@ -2009,6 +2019,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Mechanical | Mecánico |
 | Mighty | Poderoso |
 | Morlock | Morlock |
+| Mutant | Mutante |
 | Mysterious | Misterioso |
 | Mystical | Místico |
 | Naive | Ingenuo |
@@ -2020,8 +2031,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Risk-Taking | Arriesgado |
 | Roach | Roach |
 | Rugged | Curtido |
+| Rusted | Oxidado |
 | Sensational | Sensacional |
 | Sharp-Eyed | Perspicaz |
+| Shiny | Reluciente |
 | Skeptical | Escéptico |
 | Slick | Adulador |
 | Stealthy | Furtivo |

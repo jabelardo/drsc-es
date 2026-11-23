@@ -584,6 +584,12 @@ terminology, so translating a book in one pass keeps them consistent.
         Mutante*, the beneficial, harmful, powerful, distinctive and cosmetic d100 tables, the
         crippling-mutations box and the 100 mutations in alphabetical order. Eight mutations
         whose Spanish name was already taken get *(mutación)*, e.g. *Telepatía (mutación)*.
+      - 5 foci (Cap. 6) and 8 descriptors done. Cap. 18 now opens with *Opciones de personaje
+        post-apocalípticas* as in OG: *Roles de personaje alternativos*, the existing types
+        table (now an h5), *Rasgos post-apocalípticos* and *Descriptores post-apocalípticos*,
+        with the species intro revised to R&R's wording and the existing Morlock and Roach
+        moved in among the new descriptors (Spanish alphabetical order). The Cap. 11 role
+        suggestions now link *Saquea*.
 - [ ] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
       Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
       ("In addition to descriptors for human survivors…").

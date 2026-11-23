@@ -24,7 +24,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | WP3 | It's Only Magic (~48k) | done (2026-11-22, `wp3-iom`, not merged yet): abilities, cantrips, flavors and foci; fantasy roles; Magia moderna chapter (Cap. 12-A); 13 creatures and 4 NPCs; Familiars and Covens; Reviving Artifacts; crafting additions |
 | WP4 | Neon Rain (~42k) | done (2026-11-23, `wp4-nr`, not merged yet): 52 abilities, 9 foci, 5 descriptors, Cap. 12-B Ciberpunk, Ch11 optional rules, Splitting XP, Romance addition, linking pass; 5 links wait for WP7 sections |
 | WP5 | High Noon at Midnight (~38k) | done (2026-11-23, `wp5-hnam`, not merged yet): 76 abilities, 7 foci, 9 descriptors, Cap. 19-A Oeste extraño, 11 creatures, 2 NPCs, linking pass; 5 links wait for WP6/WP7 sections |
-| WP6 | Rust and Redemption (~36k) | in progress (2026-11-23, `wp6-rr`): terminology settled; 19 regular abilities and the 100 mutations done |
+| WP6 | Rust and Redemption (~36k) | in progress (2026-11-23, `wp6-rr`): terminology settled; 19 regular abilities, the 100 mutations, 5 foci and 8 descriptors done |
 | WP7 | OG editorial content (~68k) | to do |
 | WP8 | Structural integration (renumbering, duplicate ids) | to do |
 | WP9 | QA and release, ODT/PDF | in progress (2026-11-22, `wp2-gaps`): `CORRECCIONES.json` applied to the ODT (386 fixes), PDF regenerated |
