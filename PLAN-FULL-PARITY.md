@@ -689,7 +689,17 @@ terminology, so translating a book in one pass keeps them consistent.
       now resolve. Fixed "maniobrabi-lidad" (`CORRECCIONES.json`).
       - Left for later: links to Stress, Serious Injuries and Conditions, *An Example of Play*, the
         FAQ, OG's optional-rules index, *Making Meaning* and *Passive Difficulty*.
-- [ ] Sidekicks (Ch11-A, ~10k).
+- [x] Ch11-A (2026-11-23): OG's *Seguidores frente a compañeros temporales* (with *Progresión de
+      nivel de los seguidores* and *Equilibrar a los seguidores*), and Sidekicks as *Camaradas*
+      (about 10k words): core rules with the sheet link (KUR-CSSK), the optional rules, 10 natures,
+      10 niches, 10 fantastic niches with 19 templates and the mon-battle cyphers, and a catalog
+      of 32 sidekick abilities. The CSRD followers, familiars and covens were already complete;
+      OG's Daft Drafts note on covens is left out.
+      - The sidekick sheet's provisional terms (*naturaleza*, *nicho*, *PJ asociado*) stay as they
+        are. The Cap. 7 and *Modificar criaturas* quick references now link *Capacidades de los
+        camaradas*.
+      - Left for later: OG's *Power Shifts in Other Genres* (two links).
+- [x] Sidekicks (Ch11-A, ~10k). Done in Ch11-A (2026-11-23) as *Camaradas*.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
