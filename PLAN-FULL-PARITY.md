@@ -621,7 +621,16 @@ terminology, so translating a book in one pass keeps them consistent.
   chapter by chapter; leave out *What's in the Book*; Sidekick is *camarada*; keep omitting
   OG's source and page citations.
 - [ ] Back matter: FAQ, Índice.
-- [ ] Character tools: Character Sentence Generator, creation checklist, PDFs links.
+- [x] Ch1, Ch3, Ch4, Ch5 (2026-11-23). Decisions: Ch1 becomes *Acerca de esta edición* plus
+      factual updates to the translator's notes; the generator, the checklist and the PDFs
+      section are ported, with OG's character and sidekick sheets rebuilt in Spanish
+      (`sheets/`, KUR-CSCS and KUR-CSSK) next to the existing KUR-CSQR; OG's online sheets list,
+      its other PDFs and the product catalogues (*Additional Types*, and the Ch7/Ch8 ones) are
+      left out; *¿Eres un jugador nuevo?* embeds a Spanish video chosen by the user.
+      - Left for later: links in the new editor's notes to *An Example of Play* (Ch25), *XP
+        Advance* (Ch12), OG's optional-rules index, *sixth-tier combat abilities* (ability
+        categories) and three Errata abilities (*Shooting Gallery*, *Skills*, *Font of
+        Inspiration*); the *campaign design checklist* link in the creation checklist.
 - [ ] Sidekicks (Ch11-A, ~10k).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
