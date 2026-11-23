@@ -466,6 +466,21 @@ ul.drsc-es-play > li > strong {
 .theme-light .drsc-es-play-ori { color: #1864ab; }
 .theme-light .drsc-es-play-chert { color: #6741d9; }
 .theme-light .drsc-es-play-rena { color: #c2410c; }
+/* FAQ (back matter): each question is a tab that opens its answer (Bootstrap collapse), as in OG */
+h5.drsc-es-faq-q {
+	font-size: 1.35rem;
+}
+h5.drsc-es-faq-q a {
+	display: block;
+	color: inherit !important;
+	text-decoration: none;
+}
+h5.drsc-es-faq-q a::before {
+	content: "\25BE\00A0";
+}
+h5.drsc-es-faq-q a.collapsed::before {
+	content: "\25B8\00A0";
+}
 /* lists quick reference column controls */
 ul.drsc-es-quick-reference {
 	column-count: 2;
