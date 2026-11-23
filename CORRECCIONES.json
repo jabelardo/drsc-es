@@ -5185,6 +5185,186 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-ft-mensajeros-de-la-muerte",
+      "date": "2026-11-23",
+      "entry": "Mensajeros de la muerte [Death’s Messengers] (Cypher)",
+      "reason": "CSRD: 'within close range'; OG-CSRD notes that 'close' means immediate. The Spanish had short distance.",
+      "old": "envuelven a una criatura a corta distancia",
+      "new": "envuelven a una criatura a alcance inmediato",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-anuda-recuerdo",
+      "date": "2026-11-23",
+      "entry": "Anuda recuerdo [Forget-Me-Knot] (Cypher)",
+      "reason": "CSRD: 'everyone in close range'; OG-CSRD notes that 'close' means immediate.",
+      "old": "todos los que estén cerca pasan una ronda",
+      "new": "todos los que estén a alcance inmediato pasan una ronda",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-anuda-recuerdo-2",
+      "date": "2026-11-23",
+      "entry": "Anuda recuerdo [Forget-Me-Knot] (Cypher)",
+      "reason": "The Form field lacked its label ('Forma' instead of 'Aspecto:').",
+      "old": "Forma Cuerda mágica",
+      "new": "Aspecto: Cuerda mágica",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-beso-del-amado",
+      "date": "2026-11-23",
+      "entry": "Beso del amado [Beloved’s Kiss] (Cypher)",
+      "reason": "The Effect field was labelled 'Aspecto:'.",
+      "old": "Aspecto: Cuando es presionado en los labios",
+      "new": "Efecto: Cuando es presionado en los labios",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-polvo-de-vida",
+      "date": "2026-11-23",
+      "entry": "Polvo de vida [Powder of Life] (Cypher)",
+      "reason": "Repeated phrase.",
+      "old": "el polvo le da vida. , el polvo le da vida.",
+      "new": "el polvo le da vida.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-espejo-espejo",
+      "date": "2026-11-23",
+      "entry": "Espejo espejo [Mirror Mirror] (artefacto)",
+      "reason": "CSRD: 'Some sing their answers'; 'respuestas' was missing.",
+      "old": "Algunos cantan sus, otros muestran imágenes",
+      "new": "Algunos cantan sus respuestas, otros muestran imágenes",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-arcos-de-personaje-de-cuento-de-hadas",
+      "date": "2026-11-23",
+      "entry": "Arcos de personaje de cuento de hadas",
+      "reason": "CSRD: 'or choose one of the new character arcs created specifically for the Heartwood setting'; the clause was missing.",
+      "old": "inventar los suyos propios (con la ayuda y aprobación del DJ).",
+      "new": "inventar los suyos propios (con la ayuda y aprobación del DJ) o elegir uno de los nuevos arcos de personaje creados específicamente para la ambientación Heartwood.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-equipo-basico",
+      "date": "2026-11-23",
+      "entry": "Equipo básico (cuentos de hadas)",
+      "reason": "Typo.",
+      "old": "Espejo de adivinaciión de mano",
+      "new": "Espejo de adivinación de mano",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-ropa",
+      "date": "2026-11-23",
+      "entry": "Ropa (cuentos de hadas)",
+      "reason": "Typo.",
+      "old": "proporciona una recurso en tareas de interacción",
+      "new": "proporciona un recurso en tareas de interacción",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-armas-y-armadura",
+      "date": "2026-11-23",
+      "entry": "Armas y armadura (cuentos de hadas)",
+      "reason": "Typo ('o a hecha').",
+      "old": "regia o a hecha a la medida",
+      "new": "regia o hecha a medida",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-fuath",
+      "date": "2026-11-23",
+      "entry": "Fuath [Fuath] (criatura)",
+      "reason": "Typo ('Defensa de debido').",
+      "old": "nivel 7 para Defensa de debido a su intangibilidad",
+      "new": "nivel 7 para defensa debido a su intangibilidad",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-cuchillo-de-cuentos",
+      "date": "2026-11-23",
+      "entry": "Cuchillo de cuentos [Story Knife] (artefacto)",
+      "reason": "Typo.",
+      "old": "oyentes ( alivia cualquier",
+      "new": "oyentes (alivia cualquier",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-tabla-de-maldiciones",
+      "date": "2026-11-23",
+      "entry": "Tabla de maldiciones",
+      "reason": "Capitalisation.",
+      "old": ">Tabla de Maldiciones<",
+      "new": ">Tabla de maldiciones<",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-intromisiones-de-maldicion-y-modo-maldicion",
+      "date": "2026-11-23",
+      "entry": "Intromisiones de maldición y modo maldición",
+      "reason": "Capitalisation.",
+      "old": ">Intromisiones de maldición y Modo maldición<",
+      "new": ">Intromisiones de maldición y modo maldición<",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ft-bestias-y-seres-por-arquetipo-animales",
+      "date": "2026-11-23",
+      "entry": "Bestias y seres por arquetipo: Animales",
+      "reason": "CSRD: 'Devil’s dandy dogs'; the Spanish repeated Perro negro.",
+      "old": "Perro negro",
+      "new": "Devil’s dandy dogs",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
