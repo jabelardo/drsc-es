@@ -5461,6 +5461,90 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-cr-sabueso-de-fusion",
+      "date": "2026-11-23",
+      "entry": "Sabueso de fusión [Fusion Hound] (criatura)",
+      "reason": "CSRD: 'within close distance'; OG-CSRD notes that 'close' means immediate.",
+      "old": "Cualquiera que se encuentre a corta distancia de un sabueso",
+      "new": "Cualquiera que se encuentre a distancia inmediata de un sabueso",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cr-snark",
+      "date": "2026-11-23",
+      "entry": "Snark [Snark] (criatura)",
+      "reason": "CSRD: 'everyone in close range'; OG-CSRD notes that 'close' means immediate.",
+      "old": "a cualquiera que se encuentre a corta distancia",
+      "new": "a cualquiera que se encuentre a alcance inmediato",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cr-fantasma-de-punto-cero",
+      "date": "2026-11-23",
+      "entry": "Fantasma de punto cero [Zero-Point Phantom] (criatura)",
+      "reason": "CSRD: 'GM (Group) Intrusion'.",
+      "old": "Intromisiones del DJ: Las fuentes de luz cercanas fallan",
+      "new": "Intromisión del DJ (grupo): Las fuentes de luz cercanas fallan",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cr-intromision-del-dj",
+      "date": "2026-11-23",
+      "entry": "Intromisión del DJ (Capítulo 20: Criaturas)",
+      "reason": "CSRD: 'GM Intrusion' (singular). 102 labels in Cap. 20 (creature entries and the template) said 'Intromisiones del DJ' or 'Intromisión de DJ'.",
+      "old": "Intromisiones del DJ:",
+      "new": "Intromisión del DJ:",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cr-entender-los-listados",
+      "date": "2026-11-23",
+      "entry": "Entender los listados (Capítulo 20: Criaturas)",
+      "reason": "Gender agreement.",
+      "old": "en las atributos",
+      "new": "en los atributos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cr-entender-los-listados-2",
+      "date": "2026-11-23",
+      "entry": "Entender los listados (Capítulo 20: Criaturas)",
+      "reason": "Gender agreement.",
+      "old": "algunas criaturas tienen otras ajustes, pero casi siempre son específicas de su nivel",
+      "new": "algunas criaturas tienen otros ajustes, pero casi siempre son específicos de su nivel",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cr-entender-los-listados-3",
+      "date": "2026-11-23",
+      "entry": "Entender los listados (Capítulo 20: Criaturas)",
+      "reason": "CSRD: 'target number'.",
+      "old": "El número de objetivo de una criatura",
+      "new": "El número objetivo de una criatura",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
