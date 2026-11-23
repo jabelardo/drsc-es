@@ -1,6 +1,6 @@
 # Herramientas
 
-Read-only helpers for the parity work in `PLAN-FULL-PARITY.md`, and the builds for the PDFs.
+Checks and generators for `DRSC-ES.html`, and the builds for the PDFs.
 They need Python 3.8+ and only the standard library; `render.py` also needs Chrome or
 Chromium, and the Typst builds need Typst. Run them from the repository root.
 
@@ -37,50 +37,6 @@ python3 tools/qa/render.py --section vehiculos-modernos --theme dark --lines 200
   anchors, so this is the way to check a section deep in the page.
 - **Chrome:** taken from `$CHROME`, else Chrome or Chromium on `PATH`, else the Flatpak
   apps.
-
-## `parity/audit.py` — source-attribution audit against OG-CSRD
-
-```sh
-python3 tools/parity/audit.py --out /tmp/audit.md     # downloads OG-CSRD once into .cache/
-python3 tools/parity/audit.py --refresh               # download OG-CSRD again
-```
-
-- **Method:** splits OG-CSRD content by source book, then matches DRSC-ES entries by
-  their `[English Name]`.
-- **Report:**
-  - OG words per chapter by source
-  - Spanish chapter sizes against OG
-  - entries outside their OG chapter
-  - named OG entries from covered books with no Spanish match
-- **Updating:**
-  - When a supplement is translated, move it from `SUPPLEMENTS` to `COVERED`.
-  - When a chapter is added, map its heading id in `ES_TO_OG`.
-  - For new naming differences, add them to `NAME_ALIASES`.
-
-## `fixes/apply_fixes.py` — apply registered text corrections
-
-`CORRECCIONES.json` lists text corrections (old → new) that apply to both editions. The
-ODT keeps its own structure and gets only these corrections, not the HTML reorganisation.
-
-```sh
-python3 tools/fixes/apply_fixes.py --target html --dry-run      # what would change
-python3 tools/fixes/apply_fixes.py --target html --record       # apply and record in the register
-python3 tools/fixes/apply_fixes.py --target odt --record        # same for the ODT
-```
-
-- **Matching:** visible text only, ignoring markup and collapsing whitespace, so phrases
-  split across ODT `<text:span>` elements still match. Only the characters that change
-  are rewritten. When a change crosses markup, old and new are aligned word by word, so
-  words that stay keep their links and styles.
-- **Self-check:** after applying, the visible text must equal the expected result and
-  no link may be left without text; otherwise it reports `[check failed]`, writes
-  nothing and exits 1. `--dry-run` runs the same check without writing.
-- **Order:** fixes apply in register order. Non-overlapping fixes go in one pass; a fix
-  that overlaps or depends on an earlier one is applied in the next pass.
-- **Pending fixes:** a fix applies once per format; its `applied` entry records the date.
-  It must match exactly once unless it has `"all": true`.
-- **Adding a fix:** append an entry with a unique `id`, the exact `old` and `new` text
-  (long enough to be unique) and `applied` set to `{"html": null, "odt": null}`.
 
 ## `parity/glossary.py` — regenerate the named-element part of `GLOSARIO.md`
 
