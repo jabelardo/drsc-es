@@ -631,6 +631,12 @@ terminology, so translating a book in one pass keeps them consistent.
         Advance* (Ch12), OG's optional-rules index, *sixth-tier combat abilities* (ability
         categories) and three Errata abilities (*Shooting Gallery*, *Skills*, *Font of
         Inspiration*); the *campaign design checklist* link in the creation checklist.
+- [x] Ch6 and Ch7 (2026-11-23): the two flavor optional rules (*Aspecto simplificado*,
+      *Aspecto personalizado*) and OG's editor's notes in Cap. 4 and Cap. 5 (the *Especie como
+      descriptor* and Descriptores-intro notes were added earlier). The flavor and descriptor
+      catalogues from other products are left out.
+      - Left for later: *optional character advancements* (Ch12), OG's optional-rules index
+        (two more mentions) and the 2015 *Shipspeak* (Errata).
 - [ ] Sidekicks (Ch11-A, ~10k).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
