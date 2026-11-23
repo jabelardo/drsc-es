@@ -860,6 +860,19 @@ terminology, so translating a book in one pass keeps them consistent.
         is not needed); OG's Witch note is left out (we keep both Witches).
       - Fixes: "las atributos" (5 places in the document), "otras atributos", "Mejoras de poder",
         a repeated phrase, two agreement slips.
+- [x] Ch24 (2026-11-23). Cap. 22 restructured as OG: quick reference with all genre cypher
+      tables; boxes for the definitions, Why Cyphers? and the subtle concepts; a new *Solicitar Cyphers
+      sutiles* heading boxed with the transfer rule; *Forma física de los Cyphers manifiestos* under
+      Manifest Cyphers; levels/effects and normal/fantastic effects under Using Cyphers, with OG's
+      *Resolver los niveles y efectos de los Cyphers* box translated; one listing (tables,
+      *Cyphers por orden alfabético*, power boost cyphers; entries are h6). The older CSRD's lead-in
+      to the tables is dropped.
+      - OG's sidebars boxed (the minimum-damage box repeated in each damaging detonation, as in OG)
+        and five notes. Close distance is *inmediata* in Image Projector; the Daft Drafts note and
+        OG's Cypher Decks link are left out; *Creating Cyphers, Artifacts, and Abilities* (Ch25) is
+        not linked yet.
+      - Fixes: ability is *capacidad* (14 places), the Bears a Halo of Fire focus name, the Stim
+        name, *intromisiones de jugador*, the ray emitter list, gender slips.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
