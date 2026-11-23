@@ -240,7 +240,10 @@ Gaps inside books DRSC-ES already covers:
     `contemporaneo-7`.
   - Criaturas and PNJs sort ignoring a leading El/La/Los/Las (decided 2026-11-22).
     Accents are ignored, but ñ sorts after n (*Canto* before *Cañón*), as in the
-    existing Cap. 7 lists.
+    existing Cap. 7 lists. The Cap. 7 ability lists sort letter by letter, ignoring
+    spaces and punctuation (*Ahí está tu problema* before *A la defensiva*), as the
+    original lists did; re-sorted on 2026-11-23 after WP3 and WP4 insertions had used
+    word-by-word order.
   - Duplicate ids are down from 134 to 127.
 - Decided (2026-11-22): keep both versions of *Sátiro*, *Hada* and *Bruja* rather than
   merging them as OG does for Hada and Bruja. Each pair is the same creature at the same
@@ -498,10 +501,43 @@ terminology, so translating a book in one pass keeps them consistent.
   by its English name; the source audit shows no IOM chapter left untranslated.
 
 ### WP4 — Neon Rain (~42k EN words)
-- [ ] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
+- [x] Ch14-B Cyberpunk (cybernetics, dystopian society, drugs, technology, SHITS,
       hacking, netrunning, rules, cyphers, GM intrusions).
-- [ ] 9 foci, 5 descriptors, 49 abilities, Ch11 optional rules, Splitting XP (Ch12),
+- [x] 9 foci, 5 descriptors, 49 abilities, Ch11 optional rules, Splitting XP (Ch12),
       Romance addition (Ch17).
+      - 52 abilities done (OG counts Camera Sight and Drone Upgrade, which a first
+        extraction missed). Machine Bond and Robot Builder have *(ciberpunk)* versions;
+        Limited Camouflage has *(Técnico)* and *(sigilo)*.
+      - 9 foci done (Cap. 6, with the ⚡ cyberware marker and GM intrusions as sidebars).
+        New Capítulo 12-B *Ciberpunk* (nav, TOC, genres intro) with the 5 descriptors and
+        *Rasgos de ciberpunk* (table, *Cambiar de rasgo*, additional foci, *Adaptar rasgos al
+        ciberpunk*). OG's sidebar pointing to *Switching Character Options* is left out until
+        that OG editorial section is translated (WP7).
+      - Cap. 12-B *Ciberimplantes* (chrome, the three sample implants, ⚡ cyberware-derived
+        abilities, armor, stat minimums, targeting and damaging cybernetics, salvaging) and
+        *Tipos de ciberpunk* (Solo, As, Intermediario, Técnico, with the standard cyberpunk
+        abilities) done. Type ability lists are sorted by Spanish name, as in Cap. 3.
+      - Cap. 12-B setting sections done: *Sociedad distópica*, *Drogas*, *Tecnología
+        ciberpunk*, *CAGADA*, *Hackeo*, *Netrunning*, *Reglas adicionales*, *Cyphers de
+        ciberpunk*, *Intromisiones del DJ de ciberpunk* (categories in Spanish alphabetical
+        order) and *Criaturas y PNJs de ciberpunk por nivel*.
+      - Ch11 optional rules done: *Regla opcional: Daño definitivo* (box after *Daño*) and
+        *Regla opcional: Persecuciones a alta velocidad* (box after *Situación especial:
+        Persecución*, with OG's editor's note). The Cap. 9 quick reference gets a *Reglas
+        opcionales* list with these two; OG's editorial optional rules join it in WP7.
+      - Splitting XP done: *Regla opcional: Dividir los PX* (box after *Avance de rango en
+        el Sistema Cypher*). The Cap. 10 quick reference gets a *Reglas opcionales* list
+        (*Dividir los PX*, *Igualdad de avance*). OG's own Ch12 quick reference leaves
+        Splitting XP out (it lists Slower Advancement twice).
+      - Romance addition done: box *Reputación y relaciones de los personajes* (with
+        *Usar los niveles de relación*) after the opening paragraphs of *Niveles de
+        relación*, as in OG. The core paragraph "El nivel de las relaciones puede bajar o
+        subir" moved into the box, where OG has it.
+      - Linking pass done (2026-11-23): the 107 links recorded while Cap. 12-B was being
+        written (from abilities, foci, descriptors and the chapter's own sections) now
+        point at their Spanish sections. OG `choose-*` ids map to the section headings,
+        not the quick-reference boxes. OG's broken `#cyberpunk-app-cyphers` link maps to
+        *Comprar Cyphers de app*. Five links wait for WP7 sections (see WP7).
 
 ### WP5 — High Noon at Midnight (~38k EN words)
 - [ ] Ch21-A Oeste extraño (character options, currency, equipment, poker/hands of
@@ -522,6 +558,15 @@ terminology, so translating a book in one pass keeps them consistent.
 - [ ] Back matter: FAQ, Índice, Qué hay en el libro, Prólogo.
 - [ ] Character tools: Character Sentence Generator, creation checklist, PDFs links.
 - [ ] Sidekicks (Ch11-A, ~10k).
+- [ ] Links left from WP4, to add when these OG editorial sections exist:
+      - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
+        *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
+        inactividad forzoso* and in *Intromisiones de salud* (Cap. 12-B).
+      - *Optional Rule: Choosing a Combat Effect Ahead of Time* (Ch11): "eliges un efecto
+        de combate de antemano" in *Atacar los ciberimplantes* and "elegir un efecto de
+        combate de antemano" in *Dañar los ciberimplantes* (Cap. 12-B).
+      - *Switching Character Options*: OG's sidebar in *Rasgos de ciberpunk* that points
+        to it was left out; add it with the section.
 - [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability

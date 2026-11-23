@@ -166,6 +166,45 @@ them when WP5 and WP6 translate these foci:
 | Strikes Like a Rattler | Ataca como una serpiente de cascabel | High Noon at Midnight |
 | Raids | Saquea | Rust and Redemption |
 
+### Ciberpunk (Neon Rain)
+
+Decided 2026-11-23 for WP4.
+
+| English | Español | Notes |
+|---|---|---|
+| SHITS (Spontaneous Hypersensitive Induced Trauma Syndrome) | CAGADA (Cuadro Agudo de Grave Alteración Disociativa Adquirida) | Keeps the crude pun: "A Doug le ha tocado una buena CAGADA". |
+| Solo / Hotshot / Broker / Tech (cyberpunk types) | Solo / As / Intermediario / Técnico | Variants of Guerrero, Explorador, Orador and Adepto. *Solo* is the genre term. |
+| chrome | cromo | Slang for cybernetic implants. |
+| cyberware | ciberimplantes | *Capacidades derivadas de ciberimplantes*. |
+| netrunning / netrunner | netrunning / netrunner | Genre loanwords, kept. |
+| jack in | conectarse | |
+| datajack | conector de datos | |
+| cyberspace | ciberespacio | |
+| Addicted / Corpo / Engram / Furious / Luddite (descriptors) | Adicto / Corpo / Engrama / Furioso / Ludita | |
+| cyberware-derived ability (⚡) | capacidad derivada de ciberimplantes (⚡) | The ⚡ marker is kept in the foci tier lists. |
+| fixer | conseguidor | |
+| chopper (cyber surgeon) | cirujano clandestino | |
+| brainslide | diapositiva cerebral | |
+| FuBo (full-body cybernetic) | FuBo | Kept, glossed as *cuerpo completo cibernético*. |
+| Packs Chromed Heat (focus) | Lleva hierro cromado | *Hierro*: slang for a gun. |
+| matrix / meatspace | matriz / espacio físico | |
+| frame / node / conduit | marco / nodo / conducto | Cyberspace locations. |
+| I/O point | punto de E/S | Entrada y salida. |
+| ICE / black ICE | ICE / ICE negro | *Contramedidas electrónicas contra intrusos*. |
+| glitch (cyberspace) | fallo | *fallo de avatar*, *fallo de expulsión*. |
+| log off | desconectarse | |
+| corpocurrency | corpomoneda | |
+| syndromer (person with SHITS) | enfermo de CAGADA | "Syndromer look" → *pinta de enfermo de CAGADA*. |
+| scraprats | ratas chatarreras | |
+| programmed cypher | Cypher programado | Created with the Crafting rules; counts toward the cypher limit. |
+| Forced Downtime / Wild Firing (optional rules) | Tiempo de inactividad forzoso / Disparo descontrolado | |
+| Wild Event (GM intrusion category) | Evento imprevisto | |
+| Ultimate Damage (optional rule) | Daño definitivo | Cap. 9, after *Daño*. |
+| High-Speed Chases (optional rule) | Persecuciones a alta velocidad | Cap. 9, after *Persecución*. |
+| plot armor | armadura de guion | |
+| Splitting XP (optional rule) | Dividir los PX | Cap. 10, after *Avance de rango en el Sistema Cypher*. |
+| Character Reputations and Relationships | Reputación y relaciones de los personajes | Box in *Regla opcional: Niveles de relación* (Cap. 17). |
+
 ### Decisiones tomadas
 
 Settled 2026-11-22, before WP3:
@@ -183,17 +222,17 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 
 | Kind | Entries |
 |---|---:|
-| [Capacidades](#capacidades) | 1233 |
-| [Rasgos](#rasgos) | 121 |
-| [Descriptores](#descriptores) | 81 |
+| [Capacidades](#capacidades) | 1285 |
+| [Rasgos](#rasgos) | 130 |
+| [Descriptores](#descriptores) | 86 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 413 |
 | [Artefactos](#artefactos) | 142 |
 | [Criaturas](#criaturas) | 135 |
 | [PNJs](#pnjs) | 76 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
-| [Otros](#otros) | 7 |
-| **Total** | **2242** |
+| [Otros](#otros) | 16 |
+| **Total** | **2317** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -210,6 +249,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
+| 360° Vision | Visión de 360° |
 | A Smile and a Word | Una sonrisa y una palabra |
 | Able Assistance | Ayuda eficaz |
 | Absorb Energy | Absorber energía |
@@ -222,6 +262,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Adaptation | Adaptación |
 | Adroit Cypher Use | Uso erudito de Cyphers |
 | Advanced Command | Mando avanzado |
+| Advanced Targeting System | Sistema de puntería avanzado |
 | Advantage to Disadvantage | Ventaja a la desventaja |
 | Advantages of Being Big | Ventajas de ser grande |
 | Advantages of Being Small | Ventajas de ser pequeño |
@@ -231,6 +272,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Agent Provocateur | Agente provocador |
 | Aggression | Agresión |
 | Agile Wit | Mente ágil |
+| AI Assistant | Asistente de IA |
 | All-Out Con | Con todo |
 | Alleviate | Aliviar |
 | Alley Rat | Rata callejera |
@@ -255,6 +297,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Arc Spray | Ráfaga |
 | Arcanaphone | Arcanófono |
 | Arcane Flare | Llamarada arcana |
+| Armored Chrome | Cromo blindado |
 | Artifact Scavenger | Carroñero de artefactos |
 | Artifact Tinkerer | Manipulador de artefactos |
 | As Foretold in Prophecy | Como se predijo en la profecía |
@@ -283,6 +326,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Beast Companion | Compañero bestia |
 | Beast Eyes | Ojos de la bestia |
 | Beast Form | Forma bestial |
+| Beckon Hack | Hackeo de reclamo |
 | Bee Cantrip | Truco de abeja |
 | Beneath Notice | Discreto |
 | Bestiary Knowledge | Conocimiento del bestiario |
@@ -311,6 +355,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Bolster Illusion | Reforzar ilusión |
 | Bolt Rider | Jinete del rayo |
 | Bolts of Power | Rayos de energía |
+| Bonus Cypher App | App de Cypher adicional |
 | Boost Manifest Cypher | Potenciar Cypher manifiesto |
 | Boost Manifest Cypher Function | Potenciar función de Cypher manifiesto |
 | Bouncing Shield | Escudo rebotante |
@@ -337,6 +382,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Call Through Time | Invocar a través del tiempo |
 | Calm | Calmar |
 | Calm Stranger | Calmar a un extraño |
+| Camera Sight | Visión por cámaras |
 | Candles Cantrip | Truco de velas |
 | Capable Warrior | Guerrero competente |
 | Captivate or Inspire | Cautivar o inspirar |
@@ -347,6 +393,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Careful Shot | Disparo meticuloso |
 | Cast Illusion | Lanzar ilusión |
 | Castigate | Castigar |
+| Cat's Paw | Pata de gato |
 | Celebrity Talent | Talento de celebridad |
 | Center of Attention | Centro de atención |
 | Chamber of Dreams | Cámara de sueños |
@@ -396,8 +443,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Controlled Fall | Caída controlada |
 | Convenient Rideshare Cantrip | Truco de viaje compartido oportuno |
 | Cooking Cantrip | Truco de cocina |
+| Coordinated Actions | Acciones coordinadas |
 | Coordinated Effort | Esfuerzo coordinado |
 | Copy Power | Copiar poder |
+| Corpse Datadump | Volcado de datos del cadáver |
 | Counter Danger | Contrarrestar el peligro |
 | Countercharm | Contraencanto |
 | Countermeasures | Contramedidas |
@@ -456,6 +505,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Defensive Augmentation | Aumentación defensiva |
 | Defensive Blinking | Parpadeo defensivo |
 | Defensive Field | Campo defensivo |
+| Defensive HUD | HUD defensivo |
 | Defensive Phasing | Cambio defensivo de fase |
 | Define Down | Definir el abajo |
 | Deflect Attacks | Desviar ataques |
@@ -511,6 +561,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Dreamcraft | Onirismo |
 | Driver | Conductor |
 | Driving on the Edge | Conducir al límite |
+| Drone Buddy | Dron compañero |
+| Drone Evolution | Evolución del dron |
+| Drone Split | División del dron |
+| Drone Upgrade | Mejora del dron |
 | Dual Defense | Defensa dual |
 | Dual Distraction | Distracción dual |
 | Dual Light Wield | Esgrima dual ligera |
@@ -528,6 +582,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Electrical Flight | Vuelo eléctrico |
 | Elemental Protection | Protección elemental |
 | Elusive | Evasivo |
+| Embedded Drone | Dron incrustado |
+| Embedded Pistol | Pistola incrustada |
 | Embrace the Night | Abrazar la noche |
 | Embraced by Darkness | Abrazado por la oscuridad |
 | Emotional Support Pet | Mascota de apoyo emocional |
@@ -545,8 +601,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Energy Resistance | Resistencia contra energía |
 | Enhance Athletics | Mejorar el atletismo |
 | Enhance Strength | Mejorar fuerza |
+| Enhanced Armor | Armadura mejorada |
 | Enhanced Beast Form | Forma bestial mejorada |
 | Enhanced Body | Cuerpo mejorado |
+| Enhanced Camera Sight | Visión por cámaras mejorada |
 | Enhanced Intellect | Intelecto mejorado |
 | Enhanced Intellect Edge | Ventaja de intelecto mejorada |
 | Enhanced Might | Vigor mejorado |
@@ -564,6 +622,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Enveloping Shield | Escudo envolvente |
 | Erase Cantrip | Truco de borrado |
 | Erase Memories | Borrar recuerdos |
+| Erased | Borrado |
 | Escape | Escape |
 | Escape Plan | Plan de escape |
 | Evanesce | Evanescer |
@@ -571,12 +630,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Everything Is a Weapon | Todo es un arma |
 | Exile | Exiliar |
 | Expanded Repertoire | Repertorio expandido |
+| Experienced Coder | Programador experimentado |
 | Experienced Defender | Defensor experto |
 | Experienced Finder | Buscador experto |
 | Experienced in Armor | Especializado en armaduras |
+| Experienced Netrunner | Netrunner experimentado |
 | Expert Crafter | Fabricante experto |
 | Expert Cypher Use | Uso experto de Cyphers |
 | Expert Driver | Conductor experto |
+| Expert Drone | Dron experto |
 | Expert Follower | Seguidor experto |
 | Expert Pilot | Piloto experto |
 | Expert Skill | Habilidad de experto |
@@ -598,6 +660,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Facsimile of Life | Facsímil de vida |
 | Familiarize | Familiarizarse |
 | Far Step | Paso lejano |
+| Fast Chrome | Cromo rápido |
 | Fast Kill | Matanza rápida |
 | Fast Talk | Convencer |
 | Fast Travel | Viaje rápido |
@@ -614,6 +677,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fight On | Sigue luchando |
 | Final Defiance | Desafío final |
 | Find an Opening | Encontrar una apertura |
+| Find by Phone | Localizar por el teléfono |
 | Find the Guilty | Encontrar a los culpables |
 | Find the Hidden | Encontrar lo oculto |
 | Find the Way | Encontrar el camino |
@@ -640,6 +704,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Flight Exertion | Esfuerzo de vuelo |
 | Flight Not Fight | Huir, no luchar |
 | Fling | Arrojar |
+| Floating in the Matrix | Flotar en la matriz |
 | Flying Companion | Compañero volador |
 | Foil Danger | Detener el peligro |
 | Font of Healing | Fuente curativa |
@@ -736,6 +801,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Heads-Up Display | Pantalla de información |
 | Healing Pulse | Pulso sanador |
 | Healing Touch | Toque sanador |
+| Heavy Integrated Weapon | Arma pesada integrada |
 | Hedge Magic | Ardid mágico |
 | Heightened Skills | Habilidades mejoradas |
 | Hemorrhage | Hemorragia |
@@ -743,6 +809,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Heroic Witch Bane | Ruina de brujas heroica |
 | Hidden Closet | Armario oculto |
 | Hidden Reserves | Reservas ocultas |
+| Hidden Shield | Escudo oculto |
 | Hide Cantrip | Truco de ocultación |
 | Higher Mathematics | Matemáticas superiores |
 | Hold Breath | Aguantar la respiración |
@@ -818,6 +885,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Inspire the Innocent | Inspirar a los inocentes |
 | Inspiring Ease | Inspirar alivio |
 | Inspiring Success | Éxito inspirador |
+| Integrated Weapon | Arma integrada |
 | Intelligent Interface | Interfaz inteligente |
 | Intense Interaction | Interacción intensa |
 | Interaction Skills | Habilidades de interacción |
@@ -866,6 +934,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Light Switch Cantrip | Truco de interruptor |
 | Lightning Flash | Fogonazo relampagueante |
 | Like the Back of Your Hand | Como la palma de la mano |
+| Limited Camouflage (Stealth) | Camuflaje limitado (sigilo) |
+| Limited Camouflage (Tech) | Camuflaje limitado (Técnico) |
 | Link Senses | Enlazar sentidos |
 | Living Armor | Armadura viviente |
 | Living Light | Luz viva |
@@ -877,6 +947,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Lunge | Acometida |
 | Machine Affinity | Afinidad con las máquinas |
 | Machine Bond | Vínculo con máquina |
+| Machine Bond (Cyberpunk) | Vínculo con máquina (ciberpunk) |
 | Machine Companion | Compañero máquina |
 | Machine Efficiency | Eficiencia de máquina |
 | Machine Enhancement | Mejora de máquina |
@@ -916,6 +987,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Maximize Cypher | Maximizar Cypher |
 | Mechanical Telepathy | Telepatía mecánica |
 | Medium Teleportation | Teletransporte medio |
+| Melee Chrome | Cromo melé |
 | Memory Becomes Action | El recuerdo se vuelve acción |
 | Mending Cantrip | Truco de remiendo |
 | Mental Link | Enlace mental |
@@ -994,6 +1066,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Open Mind | Mente abierta |
 | Opening Statement | Declaración inicial |
 | Opportunist | Oportunista |
+| Optical Hack | Hackeo óptico |
 | Oratory | Oratoria |
 | Out of Harm’s Way | Fuera de peligro |
 | Outlast the Foe | Superar al enemigo |
@@ -1004,15 +1077,19 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Overcharge Device | Sobrecargar dispositivo |
 | Overcharge Energy | Sobrecargar energía |
 | Overcome All Obstacles | Supera todos los obstáculos |
+| Overheat Hack | Hackeo de sobrecalentamiento |
 | Overload Machine | Sobrecargar máquina |
 | Overwatch | Vigilancia |
+| Paralysis Hack | Hackeo paralizante |
 | Paralyzing Touch | Toque paralizante |
 | Parry | Parada |
 | Passing Mechanic | Mecánico pasante |
 | Patient Recovery | Recuperación con paciencia |
 | Pay It Forward | Sigue la cadena |
+| Peaceblock Hack | Hackeo de bloqueo pacífico |
 | Pen Cantrip | Truco de bolígrafo |
 | Perfect Control | Control absoluto |
+| Perfect Direction | Dirección perfecta |
 | Perfect Parking Space | Estacionamiento perfecto |
 | Perfect Speed Burst | Ráfaga de velocidad perfecta |
 | Perfect Stranger | Perfecto desconocido |
@@ -1050,6 +1127,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Precognition | Precognición |
 | Predictive Equation | Ecuación predictiva |
 | Predictive Model | Modelo predictivo |
+| Premium Drone | Dron prémium |
 | Premonition | Premonición |
 | Present Cantrip | Truco de presentación |
 | Preternatural Senses | Sentidos preternaturales |
@@ -1072,6 +1150,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Push on Through | Seguir adelante |
 | Quarry | Presa |
 | Question Past Self | Interrogar al yo pasado |
+| Question the Network | Interrogar a la red |
 | Question the Spirits | Interrogar a los espíritus |
 | Quick Block | Bloqueo rápido |
 | Quick Death | Muerte rápida |
@@ -1104,6 +1183,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Regeneration | Regeneración |
 | Reinforcing Field | Campo de refuerzo |
 | Release Energy | Liberar energía |
+| Reliable Weaponry | Armamento fiable |
 | Reload | Recarga |
 | Relocate | Reubicar |
 | Remote Control | Control remoto |
@@ -1111,6 +1191,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Remote Viewing | Visión remota |
 | Repair Flesh | Reparar carne |
 | Repair Machine | Reparar máquina |
+| Repeat Hack | Hackeo repetido |
 | Repeated Rituals | Rituales repetidos |
 | Repel Metal | Repeler metal |
 | Reshape | Moldear |
@@ -1140,6 +1221,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Roaming Third Eye | Tercer ojo errante |
 | Robot Assistant | Asistente robot |
 | Robot Builder | Constructor de robots |
+| Robot Builder (Cyberpunk) | Constructor de robots (ciberpunk) |
 | Robot Control | Control de robots |
 | Robot Evolution | Evolución de robots |
 | Robot Fighter | Cazador de robots |
@@ -1172,6 +1254,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Sensing Package | Paquete de sensores |
 | Sensor | Sensor |
 | Sensor Array | Sistema de sensores |
+| Sensor Hack | Hackeo de sensores |
+| Sensor Scan | Escaneo de sensores |
 | Serv-0 | Serv-0 |
 | Serv-0 Aim | Serv-0 apuntador |
 | Serv-0 Brawler | Serv-0 peleador |
@@ -1194,7 +1278,9 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Shield Training | Entrenamiento con escudo |
 | Ship Footing | Pies de nave |
 | Shipspeak | Naveparlar |
+| SHITS Hack | Hackeo de CAGADA |
 | Shock | Shock |
+| Shooter Chrome | Cromo de tirador |
 | Short Teleportation | Teletransporte corto |
 | Show Them the Way | Muéstrales el camino |
 | Shred Existence | Destrozar existencia |
@@ -1211,6 +1297,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Slippery Customer | Cliente escurridizo |
 | Small Flight | Pequeño Vuelo |
 | Smaller | Más pequeño |
+| Smart Link | Enlace inteligente |
 | Smoke Cantrip | Truco de humo |
 | Snap Shot | Disparo rápido |
 | Sneak | Sigiloso |
@@ -1278,11 +1365,13 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Superior Duplicate | Duplicado superior |
 | Surging Confidence | Confianza creciente |
 | Surprise Attack | Ataque sorpresa |
+| Surveillance Overwatch | Vigilancia protectora |
 | Swim | Nadar |
 | Swipe | Barrido |
 | Take Command | Tomar el mando |
 | Taking Advantage | Tomar ventaja |
 | Tall Tale | Cuento chino |
+| Tank Chrome | Cromo tanque |
 | Tap Currents | Aprovechar las corrientes |
 | Targeting Eye | Ojo de puntería |
 | Task Specialization | Especialización en tarea |
@@ -1341,6 +1430,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Trained Swimmer | Nadador entrenado |
 | Trained Without Armor | Entrenado sin armadura |
 | Transcend the Script | Trascender el guion |
+| Translation App | App de traducción |
 | Trapfinder | Buscador de trampas |
 | Trapster | Trampero |
 | Travel Skills | Habilidades de viaje |
@@ -1442,6 +1532,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Wrest From Chance | Luchar contra el azar |
 | You Studied | Has estudiado |
 | Youth Cantrip | Truco de juventud |
+| Zeerosh Prime Delivery | Entrega Zeerosh Prime |
 | Zero Dark Eyes | Ojos cero oscuro |
 
 ### Rasgos
@@ -1476,11 +1567,13 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Descends From Nobility | Desciende de la nobleza |
 | Doesn’t Do Much | No hace mucho |
 | Drives Like a Maniac | Conduce como un maníaco |
+| Embeds Stealthtech | Integra tecnología sigilosa |
 | Emerged From the Obelisk | Surgido del obelisco |
 | Employs Magnetism | Emplea magnetismo |
 | Entertains | Entretiene |
 | Exists in Two Places at Once | Existe en dos lugares a la vez |
 | Exists Partially Out of Phase | Existe parcialmente fuera de fase |
+| Explores Cyberspace | Explora el ciberespacio |
 | Explores Dark Places | Explora lugares sombríos |
 | Feigns No Fear | Finge no tener miedo |
 | Fights Dirty | Pelea sucio |
@@ -1490,7 +1583,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fuses Flesh and Steel | Fusiona carne y acero |
 | Fuses Mind and Machine | Fusiona mente y máquina |
 | Grows to Towering Heights | Crece hasta alturas imponentes |
+| Hacks the Network | Hackea la red |
+| Has a Custom Drone | Tiene un dron personalizado |
 | Has a Thousand Faces | Tiene mil caras |
+| Has Eyes Everywhere | Tiene ojos en todas partes |
 | Helps Their Friends | Ayuda a sus amigos |
 | Howls at the Moon | Aúlla a la luna |
 | Hunts | Caza |
@@ -1500,10 +1596,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Inks Spells on Skin | Tatúa hechizos en la piel |
 | Interprets the Law | Interpreta la ley |
 | Is A Car Wizard | Es un mago del volante |
+| Is a Walking Tank | Es un tanque andante |
 | Is Idolized by Millions | Es idolatrado por millones |
 | Is Licensed to Carry | Tiene licencia de porte |
 | Is Wanted by the Law | Es buscado por la ley |
 | Keeps a Magic Ally | Tiene un aliado mágico |
+| Knows Everything | Lo sabe todo |
 | Leads | Lidera |
 | Learned From the Classics | Aprendió de los clásicos |
 | Learns Quickly | Aprende rápidamente |
@@ -1523,6 +1621,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Needs No Weapon | No necesita armas |
 | Never Says Die | Nunca dice morir |
 | Operates Undercover | Opera de forma encubierta |
+| Packs Chromed Heat | Lleva hierro cromado |
 | Performs Feats of Strength | Realiza proezas de fuerza |
 | Pilots Starcraft | Pilota naves estelares |
 | Plays Too Many Games | Juega demasiados juegos |
@@ -1559,6 +1658,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Uses Wild Magic | Usa magia salvaje |
 | Walks the Wild Woods | Camina por bosques salvajes |
 | Was Foretold | Fue predicho |
+| Weaponizes Chrome | Convierte el cromo en arma |
 | Wears a Sheen of Ice | Viste una capa de hielo |
 | Wears Power Armor | Viste una armadura de poder |
 | Weilds an Enchanted Weapon | Blande un arma encantada |
@@ -1574,6 +1674,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
+| Addicted | Adicto |
 | Amazing | Asombroso |
 | Appealing | Atractivo |
 | Artificially Intelligent | Artificialmente inteligente |
@@ -1588,6 +1689,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Chimera | Quimera |
 | Clever | Astuto |
 | Clumsy | Torpe |
+| Corpo | Corpo |
 | Craven | Cobarde |
 | Creative | Creativo |
 | Cruel | Cruel |
@@ -1598,11 +1700,13 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Dwarf | Enano |
 | Elf | Elfo |
 | Empathic | Empático |
+| Engram | Engrama |
 | Exiled | Exiliado |
 | Fast | Rápido |
 | Foolish | Tonto |
 | Fragmented | Fragmentado |
 | Frumious | Frumioso |
+| Furious | Furioso |
 | Ghost | Fantasma |
 | Gnome | Gnomo |
 | Graceful | Grácil |
@@ -1626,6 +1730,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Lizardfolk | Reptiliano |
 | Lost | Perdido |
 | Lucky | Afortunado |
+| Luddite | Ludita |
 | Mad | Desequilibrado |
 | Mechanical | Mecánico |
 | Mighty | Poderoso |
@@ -2490,12 +2595,21 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
+| Blue Spirit | Espíritu azul |
+| Broker | Intermediario |
+| Catspaw | Catspaw |
+| Communicator Implant | Implante comunicador |
 | Finding Prying Eyes | Encontrar miradas indiscretas |
 | Frozen Timepiece | Reloj congelado |
+| Hotshot | As |
+| Moon Rocks | Rocas lunares |
 | Power Device | Potenciar dispositivo |
 | Safesuit, space | Traje de seguridad, espacio |
 | Screen Control | Control de pantalla |
+| Smart Link | Enlace inteligente |
+| Solo | Solo |
 | Stunstick | Bastón aturdidor |
+| Tech | Técnico |
 | Truth Binoculars | Prismáticos de la verdad |
 
 <!-- END GENERATED -->
