@@ -297,6 +297,7 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Character Sentence Generator / Character Creation Checklist | Generador de frases de personaje / Lista de comprobación para crear un personaje | |
 | Simplified / Personalized Flavor | Aspecto simplificado / personalizado | Foolish's Carefree trait is *Despreocupado* (existing). |
 | sidekick sheet: nature / niche / associated PC | hoja de camarada: naturaleza / nicho / PJ asociado | Provisional until the Camaradas chapter (Sidekicks) is translated. |
+| Errata abilities (2015 Rulebook) / OG-CSRD variant abilities | capacidades de errata / variantes del OG-CSRD | Entries end with *(Errata)* or *(variante del OG-CSRD)*. Chop *Tajo*, Crush *Aplastar*, Daring Escape *Huida audaz*, Extra Edge *Ventaja extra*, Font of Inspiration *Fuente de inspiración*, Mighty Blow *Golpe poderoso*, Opening Gambit *Gambito de apertura*, Practiced With Light (and Medium) Weapons *Práctica en armas ligeras (y medias)*, Riposte *Contraataque*, Seize Opportunity *Aprovechar la oportunidad*, Shooting Gallery *Galería de tiro*, Skills *Habilidades*, Slayer *Matador*, Specialization *Especialización*, Surprise Strike *Golpe sorpresa* (not *Ataque sorpresa*, which is Surprise Attack). The 2015 Fleet of Foot, Shipspeak and Throw and the six OG variants keep the current ability's name. |
 
 ### Decisiones tomadas
 
@@ -309,6 +310,9 @@ Settled 2026-11-22, before WP3:
 
 Settled 2026-11-23, before WP7:
 - **Sidekick:** *camarada*, distinct from *seguidor* (follower) and *compañero* (companion).
+- **Errata and OG-variant abilities (Ch9):** added to the A–Z list like OG, each ending with *(Errata)* or
+  *(variante del OG-CSRD)*; a 2015 version or OG variant follows the current ability of the same name.
+  OG's † and ‡ marks are kept in the category lists, with their legend in the quick reference.
 
 <!-- BEGIN GENERATED: tools/parity/glossary.py -->
 
@@ -318,7 +322,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 
 | Kind | Entries |
 |---|---:|
-| [Capacidades](#capacidades) | 1480 |
+| [Capacidades](#capacidades) | 1496 |
 | [Rasgos](#rasgos) | 142 |
 | [Descriptores](#descriptores) | 103 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
@@ -328,7 +332,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [PNJs](#pnjs) | 83 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2658** |
+| **Total** | **2674** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -522,6 +526,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Check Status | Comprobar estado |
 | Chill Cantrip | Truco de frío |
 | Chlorophyll | Clorofila |
+| Chop | Tajo |
 | Clean Cantrip | Truco de limpieza |
 | Cloak of Opportunity | Manto de oportunidad |
 | Closed Mind | Mente cerrada |
@@ -584,6 +589,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Critter Companion | Compañero bicho |
 | Critter Telekinesis | Telequinesis de animalitos |
 | Crowd Control | Control de multitudes |
+| Crush | Aplastar |
 | Crushing Blow | Golpe demoledor |
 | Crystal Lens | Lente de cristal |
 | Crystalline Body | Cuerpo cristalino |
@@ -600,6 +606,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Danger Instinct | Instinto del peligro |
 | Danger Sense | Sentido del peligro |
 | Dangerous When Mounted | Peligroso a caballo |
+| Daring Escape | Huida audaz |
 | Dark Explorer | Explorador de las sombras |
 | Dark Matter Shell | Cubierta de materia oscura |
 | Dark Matter Shroud | Mortaja de materia oscura |
@@ -792,6 +799,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Exterminate Cantrip | Truco de exterminio |
 | Extra Arms | Brazos adicionales |
 | Extra Chair Cantrip | Truco de silla extra |
+| Extra Edge | Ventaja extra |
 | Extra Eye | Ojo adicional |
 | Extra Eyes on Hands/Fingers | Ojos adicionales en las manos o los dedos |
 | Extra Fries Cantrip | Truco de patatas extra |
@@ -865,6 +873,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Flying Companion | Compañero volador |
 | Foil Danger | Detener el peligro |
 | Font of Healing | Fuente curativa |
+| Font of Inspiration | Fuente de inspiración |
 | Forbidden Topic Cantrip | Truco de tema prohibido |
 | Force and Accuracy | Fuerza y precisión |
 | Force at Distance | Fuerza a distancia |
@@ -1190,6 +1199,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Meticulous Planner | Planificador meticuloso |
 | Microgravity Adept | Diestro en microgravedad |
 | Microgravity Avoidance | Evasión microgravitatoria |
+| Mighty Blow | Golpe poderoso |
 | Mind Control | Control mental |
 | Mind for Might | Mente por vigor |
 | Mind Games | Juegos mentales |
@@ -1262,6 +1272,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Onslaught | Arremetida |
 | Open and Close Cantrip | Truco de abrir y cerrar |
 | Open Mind | Mente abierta |
+| Opening Gambit | Gambito de apertura |
 | Opening Statement | Declaración inicial |
 | Opportunist | Oportunista |
 | Optical Hack | Hackeo óptico |
@@ -1323,6 +1334,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Practiced in Light Armor | Práctica en armadura ligera |
 | Practiced With All Weapons | Práctica en todas las armas |
 | Practiced With Guns | Práctica en armas de fuego |
+| Practiced With Light and Medium Weapons | Práctica en armas ligeras y medias |
+| Practiced With Light Weapons | Práctica en armas ligeras |
 | Practiced With Medium Weapons | Práctica en armas medias |
 | Practiced With Swords | Práctica en espadas |
 | Precise Cut | Corte preciso |
@@ -1435,6 +1448,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Ride Across the Miles | Cabalgar mil leguas |
 | Rider | Jinete |
 | Rider (Rides Like the Wind) | Jinete (Cabalga como el viento) |
+| Riposte | Contraataque |
 | Ritual Guidance | Guía ritual |
 | Roaming Third Eye | Tercer ojo errante |
 | Robot Assistant | Asistente robot |
@@ -1472,6 +1486,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | See Through Time | Ver a través del tiempo |
 | Seeds of Fury | Semillas de furia |
 | Seek and Hide | Buscar y esconderse |
+| Seize Opportunity | Aprovechar la oportunidad |
 | Seize the Initiative | Aprovechar la iniciativa |
 | Seize the Moment | Aprovechar el momento |
 | Sense Ambush | Sentir emboscadas |
@@ -1510,6 +1525,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | SHITS Hack | Hackeo de CAGADA |
 | Shock | Shock |
 | Shooter Chrome | Cromo de tirador |
+| Shooting Gallery | Galería de tiro |
 | Short Teleportation | Teletransporte corto |
 | Show Them the Way | Muéstrales el camino |
 | Shred Existence | Destrozar existencia |
@@ -1523,6 +1539,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Skill With Attacks | Habilidad ofensiva |
 | Skill With Attacks (Hits the Saloon) | Habilidad ofensiva (Frecuenta el saloon) |
 | Skill With Defense | Habilidad defensiva |
+| Skills | Habilidades |
+| Slayer | Matador |
 | Sleuth | Detective |
 | Slice | Rebanar |
 | Slicing Resistance | Resistencia a los cortes |
@@ -1553,6 +1571,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Space Fighting | Pelea espacial |
 | Speaker for the Dead | Portavoz de los muertos |
 | Special Shot | Tiro especial |
+| Specialization | Especialización |
 | Specialized Basher | Golpeador especializado |
 | Specialized Throwing | Lanzamiento especializado |
 | Spectral Servant | Sirviente espectral |
@@ -1623,6 +1642,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Supernatural Jump | Salto sobrenatural |
 | Surging Confidence | Confianza creciente |
 | Surprise Attack | Ataque sorpresa |
+| Surprise Strike | Golpe sorpresa |
 | Surveillance Overwatch | Vigilancia protectora |
 | Surviving the Wasteland | Sobrevivir en el yermo |
 | Swift Slither | Reptar veloz |
