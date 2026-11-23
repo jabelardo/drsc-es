@@ -742,6 +742,10 @@ terminology, so translating a book in one pass keeps them consistent.
         references rebuilt with OG's groups; basic creatures sorted.
       - Already there: the mundane foci list and its adjustments table, the three CSRD sidebars.
         The contemporary items stay in level order, as in the CSRD.
+- [x] Ch14-A (2026-11-23): Cap. 12-A was translated from OG in WP3 and matches it (126 entries,
+      67 cyphers, 47 artifacts, the six descriptor errata notes, the cypher-limit note, the
+      sidebars). Only the quick reference changed: OG's descriptor group and *Oeste extraño* among
+      the related sections. OG's Daft Drafts note stays out.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
