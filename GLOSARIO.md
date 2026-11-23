@@ -326,6 +326,7 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Tier-Based Limits / Daily Limits / Universal, Individual Depletion / Backlash and Corruption / Supernatural Stat Pool / Enablers and Durations | Límites según el rango / Límites diarios / Agotamiento universal, individual / Contragolpe y corrupción / Reserva de atributo sobrenatural / Capacitadores y duraciones | Preparation Counts / Duration Assignment / Minimum Concentration: *Cuenta la preparación / Duración asignada / Concentración mínima*. GM intrusion rate: *rango de intromisión del DJ*. |
 | Fighter (fantasy character option) | Luchador | Was a bold paragraph inside *Druida*; now its own heading. |
 | cp / sp / gp / pp (coins) | pc / pp / po / ppt | Copper, silver, gold, platinum pieces. |
+| Priceless Items / Modern Equipment by Type | Artículos invaluables / Equipo moderno por tipo | Cap. 12 (WP7 Ch14). The price tables are OG's, rebuilt from the contemporary item entries. |
 
 ### Decisiones tomadas
 
