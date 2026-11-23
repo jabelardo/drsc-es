@@ -341,7 +341,7 @@ Settled 2026-11-23, before WP7:
 - **Sidekick:** *camarada*, distinct from *seguidor* (follower) and *compañero* (companion). Translated in WP7 Ch11-A (Cap. 9-A).
 - **Errata and OG-variant abilities (Ch9):** added to the A–Z list like OG, each ending with *(Errata)* or
   *(variante del OG-CSRD)*; a 2015 version or OG variant follows the current ability of the same name.
-  OG's † and ‡ marks are kept in the category lists, with their legend in the quick reference.
+  OG's † marks are kept in the category lists, with their legend in the quick reference. The ‡ marks were removed (2026-11-23, user's request).
 
 <!-- BEGIN GENERATED: tools/parity/glossary.py -->
 

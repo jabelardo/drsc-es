@@ -645,7 +645,7 @@ terminology, so translating a book in one pass keeps them consistent.
       - When Ch16 Horror and Ch18 Superheroes are done, add their *Horror Foci* and *Superhero
         Foci* lists to the "Rasgos sugeridos por género" list in the Cap. 6 quick reference.
 - [x] Ch9 (2026-11-23). Decisions: the Errata and OG-variant abilities are added to the A–Z list,
-      tagged *(Errata)* or *(variante del OG-CSRD)*; OG's † and ‡ marks are kept, with their legend.
+      tagged *(Errata)* or *(variante del OG-CSRD)*; OG's † marks are kept, with their legend; the ‡ marks (abilities categorised by OG's editor) were removed on 2026-11-23 at the user's request.
       - 25 entries: 19 old 2015-Rulebook abilities (16 with new names, plus the 2015 *Ligero de pies*,
         *Naveparlar* and *Lanzar*) and six OG variants (armor, shield, *Burlar*, *Lanzamiento
         rápido*). OG's Errata *Force Field* is the CSRD's current text, which *Campo de fuerza*
