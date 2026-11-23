@@ -681,6 +681,14 @@ terminology, so translating a book in one pass keeps them consistent.
       - The Ch9 links to *Carga de armadura alternativa* and *Propiedades de las armas* now resolve.
       - Five slips in the existing text fixed and recorded in `CORRECCIONES.json` (pending for the
         ODT).
+- [x] Ch11 (2026-11-23): 13 of OG's optional rules plus *Ataques de área, Esfuerzo y daño*;
+      *Así se juega al Sistema Cypher* as a heading and *El dial de dificultad*, which reuses the
+      quick-reference dial SVG; 25 editor's notes; the driving sidebar in *Combate de vehículos*;
+      hazards and crafting quick references; the chapter quick reference rebuilt with OG's groups.
+      The CSRD text was already complete. The Ch9 links to *Nivel, salud y Armadura de los objetos*
+      now resolve. Fixed "maniobrabi-lidad" (`CORRECCIONES.json`).
+      - Left for later: links to Stress, Serious Injuries and Conditions, *An Example of Play*, the
+        FAQ, OG's optional-rules index, *Making Meaning* and *Passive Difficulty*.
 - [ ] Sidekicks (Ch11-A, ~10k).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
