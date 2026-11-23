@@ -5797,6 +5797,390 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-cc-avance-del-personaje",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "'character advancement' is 'avance del personaje' (now linked).",
+      "old": "no se piensa en su evolución",
+      "new": "no se piensa en el avance del personaje",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-rasgo-enfoque",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "'focus' is 'rasgo'.",
+      "old": "decidiendo entre este enfoque y aquel otro",
+      "new": "decidiendo entre este rasgo y aquel otro",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-resgos",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "Typo.",
+      "old": "Los descriptores y resgos",
+      "new": "Los descriptores y rasgos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-reservas-atributo",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "Agreement: 'Reservas' is feminine; 'atributo' is masculine.",
+      "old": "con 6 puntos para repartir entre ellos como deseen. Tienen una Ventaja de 1 en una atributo de su elección",
+      "new": "con 6 puntos para repartir entre ellas como deseen. Tienen una Ventaja de 1 en un atributo de su elección",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-entre-ellos",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "The list after 'They include:' needs a colon.",
+      "old": "Estos incluyen",
+      "new": "Entre ellos:",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-duro",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "Glossary: the Tough descriptor is 'Duro'.",
+      "old": "Fuerte:",
+      "new": "Duro:",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-mando-intermedio",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24) / Atrapado en llamas",
+      "reason": "'Middle Manager' is 'mando intermedio' (two different wrong renderings).",
+      "old": "Intermediario / Gerente medio",
+      "new": "Mando intermedio",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-percepcion-defensa",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "'Trained in perception and Intellect defense rolls': perception is a skill, not a roll.",
+      "old": "Competente en tiradas de Percepción y Defensa por Intelecto",
+      "new": "Competente en percepción y en tiradas de Defensa por Intelecto",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-poder-ofensivo",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "'up to long range and either deals up to 4 points of damage or…': range and broken syntax.",
+      "old": "que afecta a los enemigos a largo alcance y ya sea les cause hasta 4 puntos de daño o les haga perder su siguiente acción",
+      "new": "que afecta a enemigos hasta a largo alcance y les inflige hasta 4 puntos de daño o les hace perder su siguiente acción",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-poder-miscelaneo",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "The reader is 'tú' ('yourself', 'You'll have to'); 'stat' is 'atributo'.",
+      "old": "crear un duplicado de sí mismo, etc). Cuesta 3 puntos de estadística (probablemente Intelecto). El jugador tendrá que idear",
+      "new": "crear un duplicado de ti mismo, etc.). Cuesta 3 puntos de atributo (probablemente Intelecto). Tendrás que idear",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-psiquico",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "Style: no articles before the role names, as in the other types.",
+      "old": "podría llamarse un Psíquico, un Mago, un Superhéroe o un Mutante (sólo por nombrar algunos)",
+      "new": "podría llamarse Psíquico, Mago, Superhéroe o Mutante (por nombrar algunos)",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-rasgos-tercera-persona",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "Focus names complete 'who [blanks]' in the third person, like the type names.",
+      "old": "Peleas / Planificas / Ayudas / Proporcionas información / Proporcionas alivio cómico / Trabajas con herramientas (o máquinas) / Usas poderes",
+      "new": "Pelea / Planifica / Ayuda / Proporciona información / Proporciona alivio cómico / Trabaja con herramientas (o máquinas) / Usa poderes",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-ayudarlos",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "'physically enabling them'.",
+      "old": "habilitarlos físicamente",
+      "new": "ayudarlos físicamente",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-recuperen-de",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "Preposition.",
+      "old": "recuperen 2 puntos a sus Reservas",
+      "new": "recuperen 2 puntos de sus Reservas",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-una-capacidad",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "Agreement.",
+      "old": "una capacidades que ya hayas elegido",
+      "new": "una capacidad que ya hayas elegido",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-cypher-corto",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "'Cypher Short' is a name, not an adjective.",
+      "old": "una aventura Cypher Corta",
+      "new": "una aventura de Cypher Corto",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-cc-esquemas",
+      "date": "2026-11-23",
+      "entry": "Cypher cortos (Capítulo 24)",
+      "reason": "Agreement.",
+      "old": "esquemas detallado",
+      "new": "esquemas detallados",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-oficinista",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Gender-neutral role name, same opening as the other roles; 'accounts manager' listed as a task like the others.",
+      "old": "Trabajador de oficina: Este es probablemente alguien",
+      "new": "Oficinista: Probablemente se trate de alguien",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-gestion-de-cuentas",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Listed as a task like the others.",
+      "old": "gestor de cuentas",
+      "new": "gestión de cuentas",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-conoce",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Agreement (singular subject).",
+      "old": "Conocen bien su distribución.",
+      "new": "Conoce bien su distribución.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-taser",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "RAE spelling.",
+      "old": "un taser",
+      "new": "un táser",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-personas-al-azar",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Wording.",
+      "old": "Todas las personas al azar en el edificio",
+      "new": "Todas las personas que haya al azar en el edificio",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-incendios",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Ungrammatical gerund clause.",
+      "old": "(bajando al interior del edificio lleno de humo y llamas es cómo muchas personas mueren en incendios de rascacielos)",
+      "new": "(en los incendios de rascacielos, mucha gente muere por bajar hacia el humo y las llamas)",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-informacion",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "'Some of them claim to have information. Some of it is true and some isn't.'",
+      "old": "Algunos de ellos dicen tener información. Algunas son ciertas y otras no.",
+      "new": "Algunas dicen tener información. Parte de ella es cierta y parte no.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-esto-es-falso",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Full sentence inside the parentheses; 'eventually' is not 'eventualmente'.",
+      "old": "(Esto es falso). / Puede ser una táctica que intenten eventualmente",
+      "new": "(Esto es falso.) / Puede que sea una táctica que intenten más adelante",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-intelecto",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "'Intellect-based task' is a task of the Intellect stat.",
+      "old": "una tarea basada en el intelecto de dificultad 3",
+      "new": "una tarea de Intelecto de dificultad 3",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-helicoptero",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "'eventually' is not 'eventualmente'; comma placement.",
+      "old": "Eventualmente, un pequeño helicóptero sobrevuela, y si",
+      "new": "Al cabo de un rato, un pequeño helicóptero sobrevuela la zona y, si",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-rescatar",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Singular 'they' (one trapped person) read as plural.",
+      "old": "Es una tarea de dificultad 4 rescatarlos. Son de nivel 2 y su pierna está bastante herida.",
+      "new": "Rescatar a esa persona es una tarea de dificultad 4. Es de nivel 2 y tiene la pierna bastante herida.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-les-dicen",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Pronoun agreement.",
+      "old": "le dicen a los PJs",
+      "new": "les dicen a los PJs",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-uno-o-mas-pjs",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Plural as elsewhere.",
+      "old": "Uno o más PJ se ven",
+      "new": "Uno o más PJs se ven",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-mantas",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "Active voice.",
+      "old": "Son envueltos en mantas por los bomberos y cargados en ambulancias.",
+      "new": "Los bomberos los envuelven en mantas y los suben a las ambulancias.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-ael-podrias",
+      "date": "2026-11-23",
+      "entry": "Atrapado en llamas",
+      "reason": "The reader is 'tú' ('You could also have').",
+      "old": "También podría hacer que",
+      "new": "También podrías hacer que",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
