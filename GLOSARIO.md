@@ -274,6 +274,7 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | advanced and alien tech | tecnología avanzada y alienígena | Grey goo is *plaga gris*. |
 | transitory / volatile mutation | mutación transitoria / volátil | Harmful / adaptive mutations in creatures: *perjudiciales / adaptativas*. A cypher slot is an *espacio de Cypher*. |
 | Blighted (creature template) | Plagado | The blight is *la plaga*. |
+| realistic / fantastic threats and hazards | amenazas y peligros realistas / fantásticos | Grizzly bear: *oso pardo*; war pig: *cerdo de guerra*; *wardroid* stays as in the core text. Ashy / glowing / hungry tide: *marea cenicienta / brillante / hambrienta*. |
 | scavenger subtle cyphers / AI-fashioned manifest cyphers | Cyphers sutiles de carroñero / Cyphers manifiestos fabricados por IA | |
 | pre-apocalyptic artifacts | artefactos preapocalípticos | |
 
