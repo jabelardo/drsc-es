@@ -86,9 +86,9 @@
 }
 
 // ---------- partes y capítulos ----------
-#let parte(n, etiqueta, titulo, ids: ()) = {
+#let parte(n, etiqueta, titulo, ids: (), intro: none) = {
   parte-n.update(n)
-  pagebreak(to: "odd", weak: true)
+  pagebreak(weak: true)
   page(columns: 1, header: none, footer: none, background: none, fill: colores.at(n))[
     #anclas(ids)
     #set text(fill: white)
@@ -98,12 +98,16 @@
       #v(10pt)
       #heading(level: 1, bookmarked: true, outlined: true, supplement: [#etiqueta])[#titulo]
     ]
+    #if intro != none {
+      v(18pt)
+      align(center, block(width: 72%, { set par(justify: true); set text(size: 10.5pt); intro }))
+    }
     #v(1.2fr)
   ]
 }
 
-#let capitulo(etiqueta, titulo, ids: ()) = {
-  pagebreak(weak: true)
+#let capitulo(etiqueta, titulo, ids: (), salto: true) = {
+  if salto { pagebreak(weak: true) }
   place(top, float: true, scope: "parent", clearance: 18pt, context {
     anclas(ids)
     let c = col()
@@ -116,6 +120,26 @@
     ]
   })
 }
+
+// a chapter of a few paragraphs: a full-width block at the top of a new page; the next chapter
+// (called with salto: false) opens below it on the same page
+#let capitulo-breve(etiqueta, titulo, ids: (), cuerpo: []) = {
+  pagebreak(weak: true)
+  place(top, float: true, scope: "parent", clearance: 16pt, context {
+    anclas(ids)
+    let c = col()
+    align(center)[
+      #if etiqueta != none { text(font: fuente-rotulos, size: 11pt, tracking: 0.22em, fill: c, upper(etiqueta)) }
+      #heading(level: 2, supplement: if etiqueta != none [#etiqueta] else [])[#titulo]
+    ]
+    columns(2, gutter: 15pt, cuerpo)
+    v(2pt)
+    line(length: 100%, stroke: 2pt + c)
+  })
+}
+
+// a wide table (with its heading or caption) across both columns, at the top or foot of the page
+#let flotante(cuerpo) = place(auto, float: true, scope: "parent", clearance: 14pt, block(width: 100%, align(left, cuerpo)))
 
 #let encabezado(nivel, titulo, estilo: "normal", ids: ()) = context {
   let c = col()
@@ -176,7 +200,7 @@
 #let en-linea(items) = items.join([ · ])
 #let terminos(pares) = for (a, b) in pares { block(above: 0.6em, below: 0.3em)[#text(font: fuente-titulos, weight: 600, size: 11pt, upper(a))]; b }
 
-#let tabla(n, cabeza, filas, rojo: ()) = context {
+#let tabla(n, cabeza, filas, rojo: (), ancha: false) = context {
   let c = col()
   block(above: 0.8em, below: 0.9em, width: 100%, {
     set text(size: 8.8pt)

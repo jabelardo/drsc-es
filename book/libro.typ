@@ -18,7 +18,11 @@
     #text(font: fuente-rotulos, size: 10pt, tracking: 0.2em)[VERSIÓN DEL 2026-11-23 · CSRD DEL 2025-08-22]
   ]
   #v(1.4fr)
-  #align(center, text(size: 9pt)[Traducción al español: José Abelardo Gutiérrez Saturno])
+  #align(center, text(size: 9pt)[
+    #strong[Traducción al español:] José Abelardo Gutiérrez Saturno \
+    #strong[Corrección:] José Abelardo Gutiérrez Saturno, Parvus Domus \
+    #strong[Maquetación:] José Abelardo Gutiérrez Saturno
+  ])
 ]
 
 // índice
