@@ -437,9 +437,35 @@ ul.drsc-es-list-disc li {
 	color: #17a0a9;
 	background-color: #1f2733;
 }
-.drsc-es-sidebar { 
+.drsc-es-sidebar {
 	font-style: italic;
 }
+/* example of play (Cap. 23): dialogue rows with the speaker in a right-aligned column */
+ul.drsc-es-play {
+	display: table;
+}
+ul.drsc-es-play > li {
+	display: table-row;
+}
+ul.drsc-es-play > li > strong,
+ul.drsc-es-play > li > span {
+	display: table-cell;
+	padding: 0.25rem 0;
+}
+ul.drsc-es-play > li > strong {
+	padding-right: 1rem;
+	text-align: right;
+	white-space: nowrap;
+}
+/* example of play: one color per speaker, as in OG */
+.theme-dark .drsc-es-play-dj { color: #63e6be; }
+.theme-dark .drsc-es-play-ori { color: #74c0fc; }
+.theme-dark .drsc-es-play-chert { color: #c3a6ff; }
+.theme-dark .drsc-es-play-rena { color: #ffa06b; }
+.theme-light .drsc-es-play-dj { color: #0b7a5c; }
+.theme-light .drsc-es-play-ori { color: #1864ab; }
+.theme-light .drsc-es-play-chert { color: #6741d9; }
+.theme-light .drsc-es-play-rena { color: #c2410c; }
 /* lists quick reference column controls */
 ul.drsc-es-quick-reference {
 	column-count: 2;

@@ -371,8 +371,8 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Criaturas](#criaturas) | 161 |
 | [PNJs](#pnjs) | 84 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
-| [Otros](#otros) | 16 |
-| **Total** | **2675** |
+| [Otros](#otros) | 17 |
+| **Total** | **2676** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -3099,6 +3099,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Broker | Intermediario |
 | Catspaw | Catspaw |
 | Communicator Implant | Implante comunicador |
+| Crabby Hermit | Ermitaño cascarrabias |
 | Finding Prying Eyes | Encontrar miradas indiscretas |
 | Frozen Timepiece | Reloj congelado |
 | Hotshot | As |
