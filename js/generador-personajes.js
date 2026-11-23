@@ -835,168 +835,250 @@
   ],
   "arcos": [
     [
-      "Aprender",
-      "aprender"
+      "aprender",
+      "aprender",
+      "Quiero ",
+      " algo nuevo"
     ],
     [
-      "Ayudar a un amigo",
-      "ayudar-a-un-amigo"
+      "ayudar a un amigo",
+      "ayudar-a-un-amigo",
+      "Quiero ",
+      ""
     ],
     [
-      "Ayudar a una organización",
-      "ayudar-a-una-organizacion"
+      "ayudar a una organización",
+      "ayudar-a-una-organizacion",
+      "Me propongo ",
+      ""
     ],
     [
-      "Caer en desgracia",
-      "caer-en-desgracia"
+      "caer en desgracia",
+      "caer-en-desgracia",
+      "Temo ",
+      ""
     ],
     [
-      "Construcción",
-      "construccion-1"
+      "construcción",
+      "construccion-1",
+      "Quiero levantar una ",
+      " que perdure"
     ],
     [
-      "Convertirse en defensor",
-      "convertirse-en-defensor"
+      "convertirme en defensor",
+      "convertirse-en-defensor",
+      "Voy a ",
+      " de quienes lo necesitan"
     ],
     [
-      "Creación",
-      "creacion"
+      "creación",
+      "creacion",
+      "Trabajo en mi mayor ",
+      ""
     ],
     [
-      "Crecimiento",
-      "crecimiento"
+      "crecimiento",
+      "crecimiento",
+      "No puedo seguir así. Me llega la hora del ",
+      " y del cambio"
     ],
     [
-      "Criar a un niño",
-      "criar-a-un-ni~o"
+      "criar a un niño",
+      "criar-a-un-ni~o",
+      "Tengo que ",
+      ""
     ],
     [
-      "Defensa",
-      "defensa"
+      "defensa",
+      "defensa",
+      "Organizaré la ",
+      " de algo importante"
     ],
     [
-      "Derrotar a un enemigo",
-      "derrotar-a-un-enemigo"
+      "derrotar a un enemigo",
+      "derrotar-a-un-enemigo",
+      "Debo ",
+      ""
     ],
     [
-      "Desarrollar estrategias de afrontamiento",
-      "desarrollar-estrategias-de-afrontamiento"
+      "desarrollar estrategias de afrontamiento",
+      "desarrollar-estrategias-de-afrontamiento",
+      "Debo ",
+      " para lo que he vivido"
     ],
     [
-      "Desarrollar un vínculo",
-      "desarrollar-un-vinculo"
+      "desarrollar un vínculo",
+      "desarrollar-un-vinculo",
+      "Busco ",
+      " con otra persona"
     ],
     [
-      "Descubrir un secreto",
-      "descubrir-un-secreto"
+      "descubrir un secreto",
+      "descubrir-un-secreto",
+      "Me cansé de las mentiras y quiero ",
+      ""
     ],
     [
-      "Deshacer un agravio",
-      "deshacer-un-agravio"
+      "deshacer un agravio",
+      "deshacer-un-agravio",
+      "Debo ",
+      " del pasado"
     ],
     [
-      "Echar raíces",
-      "echar-raices"
+      "echar raíces",
+      "echar-raices",
+      "Por fin ha llegado el momento de asentarme y ",
+      ""
     ],
     [
-      "Empresa",
-      "empresa"
+      "empresa",
+      "empresa",
+      "Quiero montar mi propia ",
+      ""
     ],
     [
-      "Entrenar a una criatura",
-      "entrenar-a-una-criatura"
+      "entrenar a una criatura",
+      "entrenar-a-una-criatura",
+      "Debo ",
+      ""
     ],
     [
-      "Explorar",
-      "explorar"
+      "explorar",
+      "explorar",
+      "Quiero ",
+      " con audacia lo desconocido"
     ],
     [
-      "Instruir",
-      "instruir"
+      "instruir",
+      "instruir",
+      "Hay alguien en mi vida a quien debo ",
+      ""
     ],
     [
-      "Justicia",
-      "justicia"
+      "justicia",
+      "justicia",
+      "Debo traer algo de ",
+      " a este mundo"
     ],
     [
-      "Nacimiento",
-      "nacimiento"
+      "nacimiento",
+      "nacimiento",
+      "Me preparo para un ",
+      " en la familia"
     ],
     [
-      "Nuevo descubrimiento",
-      "nuevo-descubrimiento"
+      "nuevo descubrimiento",
+      "nuevo-descubrimiento",
+      "Quiero hacer un ",
+      ""
     ],
     [
-      "Pagar una deuda",
-      "pagar-una-deuda"
+      "pagar una deuda",
+      "pagar-una-deuda",
+      "Debo ",
+      ""
     ],
     [
-      "Pasado misterioso",
-      "pasado-misterioso"
+      "pasado misterioso",
+      "pasado-misterioso",
+      "Quiero saber más de mi ",
+      ""
     ],
     [
-      "Perfeccionar una habilidad",
-      "perfeccionar-una-habilidad"
+      "perfeccionar una habilidad",
+      "perfeccionar-una-habilidad",
+      "Voy a ",
+      " y a estar entre los mejores de los mejores"
     ],
     [
-      "Purificación",
-      "purificacion"
+      "purificación",
+      "purificacion",
+      "Debo lograr la ",
+      " de alguien o de algo"
     ],
     [
-      "Reconocimiento",
-      "reconocimiento"
+      "reconocimiento",
+      "reconocimiento",
+      "Quiero ",
+      ": quiero que se fijen en mí"
     ],
     [
-      "Recuperarse de una herida (o trauma)",
-      "recuperarse-de-una-herida-o-trauma"
+      "recuperarme de una herida (o trauma)",
+      "recuperarse-de-una-herida-o-trauma",
+      "Necesito ",
+      ""
     ],
     [
-      "Redención",
-      "redencion"
+      "redención",
+      "redencion",
+      "Busco mi ",
+      ""
     ],
     [
-      "Rescate",
-      "rescate"
+      "rescate",
+      "rescate",
+      "Debo ir al ",
+      " de alguien o de algo que me importa"
     ],
     [
-      "Resolver un misterio",
-      "resolver-un-misterio"
+      "resolver un misterio",
+      "resolver-un-misterio",
+      "Intento ",
+      ""
     ],
     [
-      "Restauración",
-      "restauracion"
+      "restauración",
+      "restauracion",
+      "Quiero recuperar mi antigua vida. Busco la ",
+      ""
     ],
     [
-      "Revancha",
-      "revancha"
+      "revancha",
+      "revancha",
+      "Quiero tomarme la ",
+      ""
     ],
     [
-      "Robo",
-      "robo"
+      "robo",
+      "robo",
+      "Planeo el ",
+      " de algo importante"
     ],
     [
-      "Romance",
-      "romance"
+      "romance",
+      "romance",
+      "Quiero un ",
+      " en mi vida"
     ],
     [
-      "Terminar una gran obra",
-      "terminar-una-gran-obra"
+      "terminar una gran obra",
+      "terminar-una-gran-obra",
+      "Recibí el legado de los siglos. Voy a ",
+      ""
     ],
     [
-      "Tomar el camino equivocado",
-      "tomar-el-camino-equivocado"
+      "tomar el camino equivocado",
+      "tomar-el-camino-equivocado",
+      "Estoy a punto de ",
+      ""
     ],
     [
-      "Transformación",
-      "transformacion"
+      "transformación",
+      "transformacion",
+      "Debo atravesar una ",
+      " radical"
     ],
     [
-      "Unirse a una organización",
-      "unirse-a-una-organizacion"
+      "unirme a una organización",
+      "unirse-a-una-organizacion",
+      "Aspiro a ",
+      ""
     ],
     [
-      "Venganza",
-      "venganza"
+      "venganza",
+      "venganza",
+      "Debo cobrar ",
+      " por alguien o por algo"
     ]
   ]
 };
@@ -1017,7 +1099,10 @@
     tipo: () => put('gen-out-tipo', link(pick(D.tipos), true)),
     aspecto: () => put('gen-out-aspecto', ' con aspecto de ', link(pick(D.aspectos), true)),
     rasgo: () => put('gen-out-rasgo', link(pick(D.rasgos), true)),
-    arco: () => put('gen-out-arco', link(pick(D.arcos), false)),
+    arco: () => {
+      const a = pick(D.arcos);
+      put('gen-out-arco', a[2], link(a, false), a[3]);
+    },
   };
   function init() {
     for (const [key, fn] of Object.entries(parts)) {

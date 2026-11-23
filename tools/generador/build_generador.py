@@ -4,7 +4,8 @@
 The script collects the core descriptors (Cap. 4), the four core types (Cap. 3), the flavors
 (Cap. 5), every focus (Cap. 6) and the sample character arcs (Cap. 10), with the id each one
 links to, and writes them into the generator script. Re-run it after adding descriptors,
-flavors, foci or arcs.
+flavors, foci or arcs. Each arc also needs a first-person phrase in FRASES_ARCOS (after OG-CSRD's
+generator); the build fails if an arc has none.
 
 Usage: python3 tools/generador/build_generador.py [--es DRSC-ES.html] [--out js/generador-personajes.js] [--check]
 """
@@ -41,6 +42,69 @@ def bracketed(seg, levels):
     return out
 
 
+# First-person phrase for each sample arc, after the OG-CSRD generator ("I must Avenge someone or
+# something"). Keyed by the arc's id; the text in [brackets] links to the arc.
+FRASES_ARCOS = {
+    'aprender': 'Quiero [aprender] algo nuevo',
+    'ayudar-a-un-amigo': 'Quiero [ayudar a un amigo]',
+    'ayudar-a-una-organizacion': 'Me propongo [ayudar a una organización]',
+    'caer-en-desgracia': 'Temo [caer en desgracia]',
+    'construccion-1': 'Quiero levantar una [construcción] que perdure',
+    'convertirse-en-defensor': 'Voy a [convertirme en defensor] de quienes lo necesitan',
+    'creacion': 'Trabajo en mi mayor [creación]',
+    'crecimiento': 'No puedo seguir así. Me llega la hora del [crecimiento] y del cambio',
+    'criar-a-un-ni~o': 'Tengo que [criar a un niño]',
+    'defensa': 'Organizaré la [defensa] de algo importante',
+    'derrotar-a-un-enemigo': 'Debo [derrotar a un enemigo]',
+    'desarrollar-estrategias-de-afrontamiento': 'Debo [desarrollar estrategias de afrontamiento] para lo que he vivido',
+    'desarrollar-un-vinculo': 'Busco [desarrollar un vínculo] con otra persona',
+    'descubrir-un-secreto': 'Me cansé de las mentiras y quiero [descubrir un secreto]',
+    'deshacer-un-agravio': 'Debo [deshacer un agravio] del pasado',
+    'echar-raices': 'Por fin ha llegado el momento de asentarme y [echar raíces]',
+    'empresa': 'Quiero montar mi propia [empresa]',
+    'entrenar-a-una-criatura': 'Debo [entrenar a una criatura]',
+    'explorar': 'Quiero [explorar] con audacia lo desconocido',
+    'instruir': 'Hay alguien en mi vida a quien debo [instruir]',
+    'justicia': 'Debo traer algo de [justicia] a este mundo',
+    'nacimiento': 'Me preparo para un [nacimiento] en la familia',
+    'nuevo-descubrimiento': 'Quiero hacer un [nuevo descubrimiento]',
+    'pagar-una-deuda': 'Debo [pagar una deuda]',
+    'pasado-misterioso': 'Quiero saber más de mi [pasado misterioso]',
+    'perfeccionar-una-habilidad': 'Voy a [perfeccionar una habilidad] y a estar entre los mejores de los mejores',
+    'purificacion': 'Debo lograr la [purificación] de alguien o de algo',
+    'reconocimiento': 'Quiero [reconocimiento]: quiero que se fijen en mí',
+    'recuperarse-de-una-herida-o-trauma': 'Necesito [recuperarme de una herida (o trauma)]',
+    'redencion': 'Busco mi [redención]',
+    'rescate': 'Debo ir al [rescate] de alguien o de algo que me importa',
+    'resolver-un-misterio': 'Intento [resolver un misterio]',
+    'restauracion': 'Quiero recuperar mi antigua vida. Busco la [restauración]',
+    'revancha': 'Quiero tomarme la [revancha]',
+    'robo': 'Planeo el [robo] de algo importante',
+    'romance': 'Quiero un [romance] en mi vida',
+    'terminar-una-gran-obra': 'Recibí el legado de los siglos. Voy a [terminar una gran obra]',
+    'tomar-el-camino-equivocado': 'Estoy a punto de [tomar el camino equivocado]',
+    'transformacion': 'Debo atravesar una [transformación] radical',
+    'unirse-a-una-organizacion': 'Aspiro a [unirme a una organización]',
+    'venganza': 'Debo cobrar [venganza] por alguien o por algo',
+}
+
+
+def frases_arcos(arcos):
+    """[link text, id, text before, text after] for each arc, from FRASES_ARCOS."""
+    ids = [a[1] for a in arcos]
+    missing = [i for i in ids if i not in FRASES_ARCOS]
+    stale = [i for i in FRASES_ARCOS if i not in ids]
+    if missing or stale:
+        sys.exit(f'FRASES_ARCOS out of step with the arcs: missing {missing}, unknown {stale}')
+    out = []
+    for i in ids:
+        m = re.fullmatch(r'([^\[\]]*)\[([^\[\]]+)\]([^\[\]]*)', FRASES_ARCOS[i])
+        if not m:
+            sys.exit(f'FRASES_ARCOS[{i!r}] needs exactly one [linked] part')
+        out.append([m.group(2), i, m.group(1), m.group(3)])
+    return out
+
+
 def build(t):
     desc = bracketed(chapter(t, 'descriptores-de-personaje'), '5|6')
     tipos = [['Guerrero', 'guerrero'], ['Adepto', 'adepto'], ['Explorador', 'explorador'], ['Orador', 'orador']]
@@ -56,6 +120,7 @@ def build(t):
              for m in re.finditer(r'<h5[^>]*\bid="([^"]+)"[^>]*>(.*?)</h5>', arcs_seg, re.S)]
     for name, lst in [('descriptores', desc), ('aspectos', aspectos), ('rasgos', rasgos), ('arcos', arcos)]:
         assert lst, name
+    arcos = frases_arcos(arcos)
     return {'descriptores': desc, 'tipos': tipos, 'aspectos': aspectos, 'rasgos': rasgos, 'arcos': arcos}
 
 
@@ -79,7 +144,10 @@ JS = """// Generador de frases de personaje (Cap. 2). Generado por tools/generad
     tipo: () => put('gen-out-tipo', link(pick(D.tipos), true)),
     aspecto: () => put('gen-out-aspecto', ' con aspecto de ', link(pick(D.aspectos), true)),
     rasgo: () => put('gen-out-rasgo', link(pick(D.rasgos), true)),
-    arco: () => put('gen-out-arco', link(pick(D.arcos), false)),
+    arco: () => {
+      const a = pick(D.arcos);
+      put('gen-out-arco', a[2], link(a, false), a[3]);
+    },
   };
   function init() {
     for (const [key, fn] of Object.entries(parts)) {

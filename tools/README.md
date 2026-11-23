@@ -103,7 +103,11 @@ python3 tools/generador/build_generador.py --check  # exit 1 if it is out of dat
 - **What:** collects the core descriptors (Cap. 4), the four types, the flavors (Cap. 5),
   every focus (Cap. 6) and the sample character arcs (Cap. 10), with their ids, and writes
   them into the script behind *Generador de frases de personaje* (Cap. 2).
-- **When:** re-run it after adding descriptors, flavors, foci or arcs.
+- **Arc phrases:** each arc is shown in a first-person phrase, after OG-CSRD's generator
+  ("Debo cobrar [venganza] por alguien o por algo"). The phrases live in `FRASES_ARCOS` in the
+  script, keyed by the arc's id, and the build fails if an arc has none.
+- **When:** re-run it after adding descriptors, flavors, foci or arcs. A new arc also needs a
+  phrase in `FRASES_ARCOS`.
 
 ## `../sheets/build.sh` — fillable character sheets
 
