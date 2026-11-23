@@ -580,6 +580,10 @@ terminology, so translating a book in one pass keeps them consistent.
         *Ruin Lore* entries are the core abilities word for word (*Saber dónde buscar*,
         *Conocimiento de ruinas*), so they get no new entry. The 100 mutations go in their
         own *Mutaciones* section at the end of Cap. 7, as in OG's Ch9.
+      - *Mutaciones* done (Cap. 7, after *Trucos*): intro, *Regla opcional: Descriptor
+        Mutante*, the beneficial, harmful, powerful, distinctive and cosmetic d100 tables, the
+        crippling-mutations box and the 100 mutations in alphabetical order. Eight mutations
+        whose Spanish name was already taken get *(mutación)*, e.g. *Telepatía (mutación)*.
 - [ ] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
       Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
       ("In addition to descriptors for human survivors…").
