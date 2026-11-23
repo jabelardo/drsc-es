@@ -310,6 +310,7 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Acting While Under Attack / Drowning and Suffocation / Healing Limitations / Gaining Insight | Actuar mientras te atacan / Ahogamiento y asfixia / Límites de la curación / Obtener una revelación | Insight is *revelación* (a useful clue). |
 | Additional Cooperative Actions: Cover Fire / Double Strike / Triple Team | Acciones cooperativas adicionales: Fuego de cobertura / Ataque combinado / Ataque en grupo | *Ataque combinado* avoids clashing with the ability *Ataque doble* [Double Strike]. |
 | Area Attacks, Effort, and Damage / Basic Hazards / Quick Reference: Hazards, Crafting | Ataques de área, Esfuerzo y daño / Peligros básicos / Referencia rápida: Peligros, Fabricación | |
+| Followers vs. Temporary Companions / Follower Level Progression / Balancing Followers | Seguidores frente a compañeros temporales / Progresión de nivel de los seguidores / Equilibrar a los seguidores | Cap. 9-A. |
 | deluxe editions (of the Cypher System Rulebook) | ediciones de lujo | |
 
 ### Decisiones tomadas
