@@ -804,6 +804,9 @@ terminology, so translating a book in one pass keeps them consistent.
       - Pending links resolved: Power Shifts in Other Genres (four), Hellfire and Icy Paths.
       - Left as is: *Power Stunt Difficulty* stays as bold paragraphs (OG uses a table). OG's
         Daft Drafts mentions are left out. The CSRD sidebars were already inline.
+- [x] Ch19 (2026-11-23): checked, no changes. Cap. 18 was rebuilt in OG's order in WP6 and already
+      has OG's eight editor's notes, its 15 sidebars and the full quick reference (descriptors,
+      species, optional rules, related sections).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
