@@ -5,6 +5,7 @@ ignore*
 *.txt
 *.py
 !tools/**/*.py
+!sheets/*.py
 .cache/
 __pycache__/
 Cypher-System-Reference-Document-*.docx

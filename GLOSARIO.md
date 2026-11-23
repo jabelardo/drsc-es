@@ -291,6 +291,11 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Switching Character Options | Cambiar las opciones de personaje | |
 | Transferring Subtle Cyphers | Transferir Cyphers sutiles | |
 | Mundane / Fantasy / Science Fiction Foci | Rasgos mundanos / de fantasía / de ciencia ficción | |
+| Effort Costs and Edge Reductions / Pool Costs for Effort and Edge | Costes de Esfuerzo y reducciones por Ventaja / Coste en Reserva del Esfuerzo y la Ventaja | Weakness: *debilidad*; task success rate: *probabilidad de éxito*. |
+| practiced (skill level) | practicado | Inability, practiced, trained, specialized: *incapacidad, practicado, competente, especialista* (I P C E on the sheets). |
+| Skills from Backgrounds / Skill Training | Habilidades de trasfondo / Competencia en habilidades | |
+| Character Sentence Generator / Character Creation Checklist | Generador de frases de personaje / Lista de comprobación para crear un personaje | |
+| sidekick sheet: nature / niche / associated PC | hoja de camarada: naturaleza / nicho / PJ asociado | Provisional until the Camaradas chapter (Sidekicks) is translated. |
 
 ### Decisiones tomadas
 
