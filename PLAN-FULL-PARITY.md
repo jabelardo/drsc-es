@@ -570,15 +570,51 @@ terminology, so translating a book in one pass keeps them consistent.
         WP6 (*Exposure*, see WP6).
 
 ### WP6 — Rust and Redemption (~36k EN words)
-- [ ] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
-      mutations, cyphers, artifacts).
-- [ ] Link from WP5: "un frío excesivo" in *Amenazas y peligros del Oeste extraño*
-      (Cap. 19-A, Uncanny Blizzard) should point to R&R's *Exposure* (Too Cold).
-- [ ] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
+- [x] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
+      mutations, cyphers, artifacts). Cap. 18 now follows OG's h4/h5 order: equipment
+      merged into one table set; *Reglas opcionales para el apocalipsis* (exposure,
+      radiation, Carroñeo with basic and expanded Cosas útiles, Chatarra, Reparar y
+      construir, Mantenimiento del equipo, advanced tech, incredible mutations); threats and
+      GM intrusions; 23 cyphers; 4 pre-apocalyptic and 13 post-apocalyptic artifacts;
+      *Criaturas y PNJs post-apocalípticos*; the QR with OG's sub-lists. The scavenging
+      task table and "changing conditions" come from the CSRD (OG v2.11a lacks them).
+- [x] Link from WP5: "un frío excesivo" in *Amenazas y peligros del Oeste extraño*
+      (Cap. 19-A, Uncanny Blizzard) now points to *Exposición*.
+- [x] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
       15 creatures, 5 NPCs.
-- [ ] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
+      - 19 regular abilities done (Cap. 7 lists). OG's *Know Where to Look* and R&R
+        *Ruin Lore* entries are the core abilities word for word (*Saber dónde buscar*,
+        *Conocimiento de ruinas*), so they get no new entry. The 100 mutations go in their
+        own *Mutaciones* section at the end of Cap. 7, as in OG's Ch9.
+      - *Mutaciones* done (Cap. 7, after *Trucos*): intro, *Regla opcional: Descriptor
+        Mutante*, the beneficial, harmful, powerful, distinctive and cosmetic d100 tables, the
+        crippling-mutations box and the 100 mutations in alphabetical order. Eight mutations
+        whose Spanish name was already taken get *(mutación)*, e.g. *Telepatía (mutación)*.
+      - 5 foci (Cap. 6) and 8 descriptors done. Cap. 18 now opens with *Opciones de personaje
+        post-apocalípticas* as in OG: *Roles de personaje alternativos*, the existing types
+        table (now an h5), *Rasgos post-apocalípticos* and *Descriptores post-apocalípticos*,
+        with the species intro revised to R&R's wording and the existing Morlock and Roach
+        moved in among the new descriptors (Spanish alphabetical order). The Cap. 11 role
+        suggestions now link *Saquea*.
+      - 15 creatures and 5 NPCs done. New h5 entries in Cap. 20 (*Ángel del Apocalipsis*,
+        *Cuatro Jinetes del Apocalipsis* with *Bestia*, *Espada*, *Hambre* and *Peste* as
+        h6, *Cucaracha brillante*, *Flor ganchuda*, *Fundido*, *Gusano gamma*, *Oso
+        radiactivo*); h6 variants under existing entries, as OG does (*Zombi corredor*,
+        *Zombi de IA*, *Zombi mastodonte* under *Zombi*; *Inteligencia artificial (IA)
+        post-apocalíptica* under *Inteligencia artificial*; *Caníbal post-apocalíptico*
+        under *Caníbal*); *Saqueador* in Cap. 21 with *Caudillo*, *Jinete despiadado* and
+        *Merodeador*. The R&R *Blighted* template (*Plagado*) moves to WP7 with *Modifying
+        Creatures*.
+- [x] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
       Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
       ("In addition to descriptors for human survivors…").
+- [x] Linking pass: 37 of the 45 pending links applied. OG links the translation had dropped
+      were restored: item links in the equipment tables and *Cosas útiles (ampliado)*,
+      Vigor/Reserva/Armadura links in the exposure and radiation rules, and the Morlock
+      descriptor's links. Inbound links from older sections were added (Chatarrero,
+      Conocimiento de ruinas, Daño ambiental, Otros efectos), with OG's editor's note in
+      *Especie como descriptor*. Per-section link counts now match OG, apart from the WP7
+      links below.
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
 - [ ] Back matter: FAQ, Índice.
@@ -597,6 +633,14 @@ terminology, so translating a book in one pass keeps them consistent.
         (Cap. 19-A).
       - *Celebrity* creature template and *Modifying Creatures* (Ch25): "famosos", "Famoso"
         and "Modificar criaturas" in *Famosos* (Cap. 19-A).
+      - *Blighted* creature template (R&R, in OG's *Modifying Creatures*): translate it as
+        *Plagado*, then link the *Plagado* mentions in Cap. 18 (*Criaturas, plantas y PNJs
+        mutados*, *Criaturas y PNJs post-apocalípticos*) and "plantillas de criatura" there.
+      - Links left from WP6 (WP6 `pending-links.json`): OG's *Mundane Foci*, *Fantasy Foci*
+        and *Science Fiction Foci* lists ("rasgos mundanos", "rasgos de fantasía", "rasgos de
+        ciencia ficción" in *Rasgos post-apocalípticos*, Cap. 18); *Optional Rule:
+        Transferring Subtle Cyphers* ("transferir Cyphers sutiles" in *Cyphers sutiles de
+        carroñero*); *Plagado* in *Apocalipsis nuclear*.
 - [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
@@ -604,6 +648,12 @@ terminology, so translating a book in one pass keeps them consistent.
       to keep OG page numbers or map to Spanish/CSRD pages).
 - [ ] Errata ability category (old 2015-Rulebook versions, 16 entries without a
       Spanish match).
+- [ ] Book abilities in the Cap. 7 category lists: OG's *Abilities by Category* lists
+      include It's Only Magic, Neon Rain, High Noon at Midnight and Rust and Redemption
+      abilities (about 613 of 1,494 unique entries); the Spanish lists still have only the
+      core abilities. Found in the WP6 verification (2026-11-23).
+- [ ] Typo in Cap. 15 Cuentos de hadas (on main before WP6): "nivel 7 para Defensa de debido a su
+      intangibilidad" is missing the stat.
 - [x] Expanded fantasy role suggestions (Cap. 11), done early in WP3 (2026-11-22):
       OG's added foci, flavors and specialisations, the Artífice o erudito and Psiónico
       roles, and their editor's notes. When WP5 and WP6 translate High Noon at Midnight
