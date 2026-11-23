@@ -39,6 +39,7 @@ choice looks wrong, raise it before using an alternative.
 | character arc | arco de personaje | |
 | power shift | mejora de poder | |
 | follower | seguidor | |
+| sidekick | camarada | Settled 2026-11-23 (WP7). Companion stays *compañero*. |
 
 ### Reglas
 
@@ -279,6 +280,62 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | pre-apocalyptic artifacts | artefactos preapocalípticos | Apocalypse kinds in the artifact table: *retrofuturista, alienígena, fabricado por IA, Fin de los Tiempos* (End Times). End of Days is *Fin de los Días*. |
 | Horseman of the Apocalypse | Jinete del Apocalipsis | |
 
+### Contenido editorial de OG (WP7)
+
+| English | Español | Notes |
+|---|---|---|
+| Modifying Creatures / creature template | Modificar criaturas / plantilla de criatura | Templates: *Reforzado* (Beefed Up), *Más grande y resistente* (Bigger and Tougher, the existing name), *Plagado* (Blighted), *Famoso* (Celebrity). Stagger is *tambaleo*. |
+| Effort for NPCs / Creatures with Multiple Parts | Esfuerzo para PNJs / Criaturas con varias partes | Effort from Health / from Level: *Esfuerzo a partir de la salud / del nivel*. |
+| Creating Creatures and NPCs / Creating Challenging Encounters | Crear criaturas y PNJs / Crear encuentros desafiantes | Gritty realism: *realismo crudo*; ongoing / lasting / permanent damage: *daño continuo / duradero / permanente*. |
+| Choosing a Combat Effect Ahead of Time | Elegir un efecto de combate de antemano | |
+| Switching Character Options | Cambiar las opciones de personaje | |
+| Transferring Subtle Cyphers | Transferir Cyphers sutiles | |
+| Mundane / Fantasy / Science Fiction / Psionic Foci | Rasgos mundanos / de fantasía / de ciencia ficción / psiónicos | |
+| Effort Costs and Edge Reductions / Pool Costs for Effort and Edge | Costes de Esfuerzo y reducciones por Ventaja / Coste en Reserva del Esfuerzo y la Ventaja | Weakness: *debilidad*; task success rate: *probabilidad de éxito*. |
+| practiced (skill level) | práctica (*tener práctica en/con*) | Never *estar/ser practicado*: "you are practiced with light weapons" → *tienes práctica con armas ligeras*; "become practiced" → *pasar a tener práctica*; as a level name, *Práctica* (like the armor table). Inability, practiced, trained, specialized: *incapacidad, práctica, competente, especialista* (I P C E on the sheets). Decided 2026-11-23. |
+| Skills from Backgrounds / Skill Training | Habilidades de trasfondo / Competencia en habilidades | |
+| Character Sentence Generator / Character Creation Checklist | Generador de frases de personaje / Lista de comprobación para crear un personaje | |
+| Simplified / Personalized Flavor | Aspecto simplificado / personalizado | Foolish's Carefree trait is *Despreocupado* (existing). |
+| sidekick sheet: nature / niche / associated PC / boon / command task | hoja de camarada: naturaleza / nicho / PJ asociado / don / tarea de mando | Settled with the Camaradas section (Cap. 9-A, WP7 Ch11-A). |
+| Sidekick natures: Adorable / Aggressive / Alert / Contented / Energetic / Hapless / Meddling / Precocious / Preening / Shy | Adorable / Agresivo / Alerta / Plácido / Enérgico / Torpe / Entrometido / Precoz / Presumido / Tímido | Boons: *Don adorable*, etc. |
+| Sidekick niches: Aquatic / Armored / Cunning / Diminutive / Flying / Hardy / Large / Nimble / Strong / Swift | Acuático / Acorazado / Astuto / Diminuto / Volador / Resistente / Grande / Ágil / Fuerte / Veloz | |
+| Fantastic niches: Alien / Construct / Divine / Dragon / Mon / Shapeshifter / Spellbound / Spirit / Symbiote / Trickster | Alienígena / Constructo / Divino / Dragón / Mon / Cambiaformas / Hechizado / Espíritu / Simbionte / Burlón | *Burlón*, not *Embaucador* (the Shyster vice). |
+| Templates: Golem, Mechanic Droid, Personality Core, Pugilist Titan, Replicant; Alicorn, Hippocentaur, Phoenix, Sphinx; Kodama, Imaginary Friend, Shade, Surtling, Undine, Zephyr; Bogey, Brownie, Mystic Fox, Nixie | Gólem, Droide mecánico, Núcleo de personalidad, Titán púgil, Replicante; Alicornio, Hipocentauro, Fénix, Esfinge; Kodama, Amigo imaginario, Sombra, Surtling, Ondina, Céfiro; Coco, Duende doméstico, Zorro místico, Nixe | *Nixe*, since *Ondina* is Undine. |
+| Sidekick abilities: Increased X / Signature Ability / Signature Attack / Nine Lives / Razzle Dazzle / Rampage / Trusty Steed / Aquatic, Winged, Emotional Support Sidekick | X aumentado/a (Increased Training = *Competencia aumentada*) / Capacidad distintiva / Ataque distintivo / Siete vidas / Distracción deslumbrante / Embestida / Montura fiel / Camarada acuático, alado, de apoyo emocional | Catalog in Cap. 9-A; ids end in *-de-camarada*. |
+| Errata abilities (2015 Rulebook) / OG-CSRD variant abilities | capacidades de errata / variantes del OG-CSRD | Errata entries end with *(Errata)*; the six OG variants are listed as *(variante del OG-CSRD)* in the Errata category and, as in OG, sit as an ability entry inside the editor's note of the current ability ("esta variante"). Chop *Tajo*, Crush *Aplastar*, Daring Escape *Huida audaz*, Extra Edge *Ventaja extra*, Font of Inspiration *Fuente de inspiración*, Mighty Blow *Golpe poderoso*, Opening Gambit *Gambito de apertura*, Practiced With Light (and Medium) Weapons *Práctica en armas ligeras (y medias)*, Riposte *Contraataque*, Seize Opportunity *Aprovechar la oportunidad*, Shooting Gallery *Galería de tiro*, Skills *Habilidades*, Slayer *Matador*, Specialization *Especialización*, Surprise Strike *Golpe sorpresa* (not *Ataque sorpresa*, which is Surprise Attack). The 2015 Fleet of Foot, Shipspeak and Throw and the six OG variants keep the current ability's name. |
+| Extra Action / Stats / Cyphers and Artifacts / Errata / Recovery / Roll (ability categories) | Acción extra / Atributos / Cyphers y artefactos / Errata / Recuperación / Tirada | OG's extra categories in Cap. 7. Stat is *atributo*, so Stats is *Atributos*. |
+| Weapon Properties / Alternative Armor Encumbrance / Object Level, Health, and Armor (optional rules) | propiedades de las armas / carga de armadura alternativa / nivel, salud y Armadura de los objetos | The first two are in Cap. 8 (WP7 Ch10), the third in Cap. 9 (Ch11). |
+| Currency and Resource Depletion / purchasing power / Lower Speed Effort Costs for Wearing Armor / Lethal Weapons (optional rules) | Dinero y agotamiento de recursos / poder adquisitivo / Menor coste de Esfuerzo de Velocidad por llevar armadura / Armas letales | Cap. 8. Hourly Might cost / Speed Pool penalty: *coste de Vigor por hora / penalización a la Reserva de Velocidad*. |
+| Not Experienced / Practiced / Experienced / Mastery (armor table columns) | Sin experiencia / Práctica / Especializado / Maestría | Follow the ability names. Special Armor: *Armadura especial*. |
+| Slashing / Stabbing / Crushing / Reaching / Firearm (weapon properties) | Cortante / Perforante / Contundente / De alcance / Arma de fuego | Same words as the attack types in *Maestría ofensiva*. |
+| The Difficulty Dial / This is how you play the Cypher System | El dial de dificultad / Así se juega al Sistema Cypher | Cap. 9. The dial reuses `quickref/assets/dial.svg`. |
+| Task and Fate Dice Resolution / task die / fate die | Resolución con dados de tarea y de destino / dado de tarea / dado de destino | "kh" (keep highest) is *mx* (*mantener el más alto*): 3d6mx1. |
+| Trading Damage for Effect / Modifying Abilities Using Initial Costs / Damage Dice | Cambiar daño por efectos / Modificar capacidades con costes iniciales / Dados de daño | Cap. 9 optional rules. |
+| Consciousness Requires Intellect Points / Damage to Pool Maximums / Making Recovery Rolls in Any Order | La consciencia requiere puntos de Intelecto / Daño a los máximos de las Reservas / Tiradas de recuperación en cualquier orden | Cap. 9 optional rules. |
+| Acting While Under Attack / Drowning and Suffocation / Healing Limitations / Gaining Insight | Actuar mientras te atacan / Ahogamiento y asfixia / Límites de la curación / Obtener una revelación | Insight is *revelación* (a useful clue). |
+| Additional Cooperative Actions: Cover Fire / Double Strike / Triple Team | Acciones cooperativas adicionales: Fuego de cobertura / Ataque combinado / Ataque en grupo | *Ataque combinado* avoids clashing with the ability *Ataque doble* [Double Strike]. |
+| Area Attacks, Effort, and Damage / Basic Hazards / Quick Reference: Hazards, Crafting | Ataques de área, Esfuerzo y daño / Peligros básicos / Referencia rápida: Peligros, Fabricación | |
+| Followers vs. Temporary Companions / Follower Level Progression / Balancing Followers | Seguidores frente a compañeros temporales / Progresión de nivel de los seguidores / Equilibrar a los seguidores | Cap. 9-A. |
+| deluxe editions (of the Cypher System Rulebook) | ediciones de lujo | |
+| XP Advance / Starting at Tier 0 / Advancing to Tier 1 / Slower Advancement / Advancing Beyond Tier 6 (optional rules) | Adelanto de PX / Empezar en rango 0 / Avanzar a rango 1 / Avance más lento / Avanzar más allá del rango 6 | Cap. 10 (WP7 Ch12), in the box with *Dividir los PX*. An XP advance is a loan, so *adelanto*, not *avance*. |
+| Optional Character Advancements: Enhanced Spellcasting / Enhanced Psionics / Mutation / Posthuman Upgrades / Posthuman Power Shifts / Specialized Knowledge | Avances de personaje opcionales: Lanzamiento de hechizos mejorado / Psiónica mejorada / Mutación / Mejoras posthumanas / Mejoras de poder posthumano / Conocimiento especializado | Posthuman Upgrades and Posthuman Power Shifts keep the names Cap. 13 already used (*Regla opcional: mejoras posthumanas*, *Mejoras de poder posthumano*). |
+| XP Advance complications: Burden / Condition / Fugitive / Inability / Maintenance / Oppression | Carga / Condición / Fugitivo / Incapacidad / Mantenimiento / Opresión | |
+| Slower Advancement options: Expenditure Requirements / Two Kinds of XP / Milestone Advancement / Tier Advancement Purchase / Require More Advancements Each Tier / Increased Advancement Costs by Tier | Requisitos de gasto / Dos tipos de PX / Avance por hitos / Compra del avance de rango / Exigir más mejoras por rango / Coste de avance creciente por rango | Broad / narrow skill: *habilidad amplia / específica*; lair: *guarida*. |
+| Lucky Shot / Extended Vehicular Combat / redline maneuver (XP quick reference) | Tiro de suerte / Combate vehicular extendido / maniobra redline | "Spend N XP" headings: *Gastar N PX*. The last two follow Cap. 13. |
+| Assigning Different Limits for Supernatural Abilities | Asignar límites distintos a las capacidades sobrenaturales | Cap. 11 (WP7 Ch13), after *Los magos y la regla opcional de lanzamiento de hechizos*. |
+| Tier-Based Limits / Daily Limits / Universal, Individual Depletion / Backlash and Corruption / Supernatural Stat Pool / Enablers and Durations | Límites según el rango / Límites diarios / Agotamiento universal, individual / Contragolpe y corrupción / Reserva de atributo sobrenatural / Capacitadores y duraciones | Preparation Counts / Duration Assignment / Minimum Concentration: *Cuenta la preparación / Duración asignada / Concentración mínima*. GM intrusion rate: *rango de intromisión del DJ*. |
+| Fighter (fantasy character option) | Luchador | Was a bold paragraph inside *Druida*; now its own heading. |
+| cp / sp / gp / pp (coins) | pc / pp / po / ppt | Copper, silver, gold, platinum pieces. |
+| Priceless Items / Modern Equipment by Type | Artículos invaluables / Equipo moderno por tipo | Cap. 12 (WP7 Ch14). The price tables are OG's, rebuilt from the contemporary item entries. |
+| Science Fiction Character Options / Science and Engineering / Science and Engineering GM Intrusions / Sample Starships / Calm Command | Opciones de personaje de ciencia ficción / Ciencia e ingeniería / Intromisiones del DJ de ciencia e ingeniería / Ejemplos de naves estelares / Mando sereno | Cap. 13 (WP7 Ch15). Piloting / Targeting / Science and Engineering Task: *Tarea de pilotaje / de puntería / de ciencia e ingeniería*. |
+| Stress / Stress points / Stress Levels / Stress relief / accumulate, relieve Stress | Estrés / puntos de Estrés / niveles de Estrés / Liberar el Estrés / acumular, liberar Estrés | Cap. 16 (WP7 Ch16). *Liberar*, not *aliviar*, which is the game term for easing a task. Stress as Damage: *Estrés como daño*; Stress and the Supernatural: *Estrés y lo sobrenatural*; Ability Category: Stress: *Categoría de capacidades: Estrés*. |
+| Stress abilities: Backup Plan / Body Block / Clear Mind / Devil's Gambit / Frantic Effort / Glutton for Punishment / Grievous Words / Impart Tranquility / Indolent Body / Indolent Mind / Nerves of Steel / Resolute / Seen It All / Small Talk / Stratagem / Strained Effort / Supernatural Conductor / Supernatural Conduit / True Sight | Plan B / Escudo humano / Mente despejada / Apuesta del diablo / Esfuerzo frenético / Masoquista / Palabras hirientes / Transmitir tranquilidad / Cuerpo impasible / Mente impasible / Nervios de acero / Resuelto / Lo he visto todo / Charla trivial / Estratagema / Esfuerzo forzado / Conductor sobrenatural / Canal sobrenatural / Visión verdadera | Glutton for Punishment's extra damage-track step (hurt): *magullado*, between *ileso* and *lesionado*. |
+| Serious Injuries and Conditions / Removing Conditions / Injury and Disability | Heridas graves y condiciones / Eliminar condiciones / Lesión y discapacidad | Conditions: Atrophied *Atrofiado*, Disabled *Discapacitado*, Disrupted *Alterado*, Hindered *Obstaculizado*, Imperiled *En peligro*, Reduced *Reducido*, Restricted *Restringido*, Vulnerable *Vulnerable*, Weakened *Mermado*, Withered *Marchito*. Removal: Natural / Interventionist / Supernatural / Lengthy: *Natural / Con intervención / Sobrenatural / Prolongada*. |
+| Horror Character Options / Horror Foci / Horror Creatures | Opciones de personaje de horror / Rasgos de horror / Criaturas de horror | Cap. 16. |
+| Superhero Characters / Superhero Foci / Superhero Archetypes / Supervillains | Personajes superhéroes / Rasgos de superhéroes / Arquetipos de superhéroe / Supervillanos | Cap. 14 (WP7 Ch18). |
+| Power Shifts in Other Genres / Gaining Superpowers After Character Creation / Fantastic Transformations (Mundane Form, Fantastic Form) | Mejoras de poder en otros géneros / Obtener superpoderes tras crear el personaje / Transformaciones fantásticas (Forma mundana, Forma fantástica) | Arrangements: Teen Supers *Supers adolescentes*, Potent Bloodlines *Linajes poderosos*, Mastery *Maestría*, XP Purchase *Compra con PX*; Super-Focus *Superrasgo*. |
+| Fire Mastery / Ice Mastery / Hellfire / Icy Paths | Dominio del fuego / Dominio del hielo / Fuego infernal / Senderos helados | OG's character-specific power shifts and abilities (Cap. 14), also in the Errata category list. Claim the Sky archetypes follow the names in *Héroes populares*. |
+
 ### Decisiones tomadas
 
 Settled 2026-11-22, before WP3:
@@ -288,6 +345,15 @@ Settled 2026-11-22, before WP3:
 - **Form (cypher/artifact field):** keep *Aspecto:*. It shares the word with "flavor"; context
   tells them apart.
 
+Settled 2026-11-23, before WP7:
+- **Sidekick:** *camarada*, distinct from *seguidor* (follower) and *compañero* (companion). Translated in WP7 Ch11-A (Cap. 9-A).
+- **Errata and OG-variant abilities (Ch9):** the Errata abilities are added to the A–Z list like OG, each ending
+  with *(Errata)* and following the current ability of the same name. The six OG variants are only
+  clarifications, so (2026-11-23, user's request) they follow OG's layout: the editor's note box sits
+  between list entries, and the variant is an ability entry inside it, introduced as "esta variante".
+  The Errata category list keeps both entries, the variant tagged *(variante del OG-CSRD)*.
+  OG's † marks are kept in the category lists, with their legend in the quick reference. The ‡ marks were removed (2026-11-23, user's request).
+
 <!-- BEGIN GENERATED: tools/parity/glossary.py -->
 
 ## Nombres de elementos de juego (generado)
@@ -296,17 +362,17 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 
 | Kind | Entries |
 |---|---:|
-| [Capacidades](#capacidades) | 1480 |
+| [Capacidades](#capacidades) | 1496 |
 | [Rasgos](#rasgos) | 142 |
 | [Descriptores](#descriptores) | 103 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
-| [Cyphers](#cyphers) | 465 |
-| [Artefactos](#artefactos) | 174 |
+| [Cyphers](#cyphers) | 430 |
+| [Artefactos](#artefactos) | 209 |
 | [Criaturas](#criaturas) | 161 |
-| [PNJs](#pnjs) | 83 |
+| [PNJs](#pnjs) | 84 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
-| [Otros](#otros) | 16 |
-| **Total** | **2658** |
+| [Otros](#otros) | 17 |
+| **Total** | **2676** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -500,6 +566,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Check Status | Comprobar estado |
 | Chill Cantrip | Truco de frío |
 | Chlorophyll | Clorofila |
+| Chop | Tajo |
 | Clean Cantrip | Truco de limpieza |
 | Cloak of Opportunity | Manto de oportunidad |
 | Closed Mind | Mente cerrada |
@@ -562,6 +629,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Critter Companion | Compañero bicho |
 | Critter Telekinesis | Telequinesis de animalitos |
 | Crowd Control | Control de multitudes |
+| Crush | Aplastar |
 | Crushing Blow | Golpe demoledor |
 | Crystal Lens | Lente de cristal |
 | Crystalline Body | Cuerpo cristalino |
@@ -578,6 +646,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Danger Instinct | Instinto del peligro |
 | Danger Sense | Sentido del peligro |
 | Dangerous When Mounted | Peligroso a caballo |
+| Daring Escape | Huida audaz |
 | Dark Explorer | Explorador de las sombras |
 | Dark Matter Shell | Cubierta de materia oscura |
 | Dark Matter Shroud | Mortaja de materia oscura |
@@ -770,6 +839,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Exterminate Cantrip | Truco de exterminio |
 | Extra Arms | Brazos adicionales |
 | Extra Chair Cantrip | Truco de silla extra |
+| Extra Edge | Ventaja extra |
 | Extra Eye | Ojo adicional |
 | Extra Eyes on Hands/Fingers | Ojos adicionales en las manos o los dedos |
 | Extra Fries Cantrip | Truco de patatas extra |
@@ -843,6 +913,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Flying Companion | Compañero volador |
 | Foil Danger | Detener el peligro |
 | Font of Healing | Fuente curativa |
+| Font of Inspiration | Fuente de inspiración |
 | Forbidden Topic Cantrip | Truco de tema prohibido |
 | Force and Accuracy | Fuerza y precisión |
 | Force at Distance | Fuerza a distancia |
@@ -980,7 +1051,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Illusory Disguise | Disfraz ilusorio |
 | Illusory Duplicate | Duplicado ilusorio |
 | Illusory Evasion | Evasión ilusoria |
-| Illusory Selves | Yos Ilusorios |
+| Illusory Selves | Yos ilusorios |
 | Immovable | Inamovible |
 | Impart Ideal | Impartir ideal |
 | Impart Understanding | Impartir comprensión |
@@ -1020,7 +1091,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Incredible Recovery | Recuperación increíble |
 | Incredible Running Speed | Velocidad de carrera increíble |
 | Infer Thoughts | Inferir pensamientos |
-| Inferno Trail | Sendero Infernal |
+| Inferno Trail | Sendero infernal |
 | Infiltrator | Infiltrado |
 | Influence Swarm | Influir enjambre |
 | Information Gathering | Recabar información |
@@ -1168,6 +1239,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Meticulous Planner | Planificador meticuloso |
 | Microgravity Adept | Diestro en microgravedad |
 | Microgravity Avoidance | Evasión microgravitatoria |
+| Mighty Blow | Golpe poderoso |
 | Mind Control | Control mental |
 | Mind for Might | Mente por vigor |
 | Mind Games | Juegos mentales |
@@ -1240,6 +1312,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Onslaught | Arremetida |
 | Open and Close Cantrip | Truco de abrir y cerrar |
 | Open Mind | Mente abierta |
+| Opening Gambit | Gambito de apertura |
 | Opening Statement | Declaración inicial |
 | Opportunist | Oportunista |
 | Optical Hack | Hackeo óptico |
@@ -1301,6 +1374,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Practiced in Light Armor | Práctica en armadura ligera |
 | Practiced With All Weapons | Práctica en todas las armas |
 | Practiced With Guns | Práctica en armas de fuego |
+| Practiced With Light and Medium Weapons | Práctica en armas ligeras y medias |
+| Practiced With Light Weapons | Práctica en armas ligeras |
 | Practiced With Medium Weapons | Práctica en armas medias |
 | Practiced With Swords | Práctica en espadas |
 | Precise Cut | Corte preciso |
@@ -1413,6 +1488,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Ride Across the Miles | Cabalgar mil leguas |
 | Rider | Jinete |
 | Rider (Rides Like the Wind) | Jinete (Cabalga como el viento) |
+| Riposte | Contraataque |
 | Ritual Guidance | Guía ritual |
 | Roaming Third Eye | Tercer ojo errante |
 | Robot Assistant | Asistente robot |
@@ -1450,6 +1526,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | See Through Time | Ver a través del tiempo |
 | Seeds of Fury | Semillas de furia |
 | Seek and Hide | Buscar y esconderse |
+| Seize Opportunity | Aprovechar la oportunidad |
 | Seize the Initiative | Aprovechar la iniciativa |
 | Seize the Moment | Aprovechar el momento |
 | Sense Ambush | Sentir emboscadas |
@@ -1488,6 +1565,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | SHITS Hack | Hackeo de CAGADA |
 | Shock | Shock |
 | Shooter Chrome | Cromo de tirador |
+| Shooting Gallery | Galería de tiro |
 | Short Teleportation | Teletransporte corto |
 | Show Them the Way | Muéstrales el camino |
 | Shred Existence | Destrozar existencia |
@@ -1501,6 +1579,8 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Skill With Attacks | Habilidad ofensiva |
 | Skill With Attacks (Hits the Saloon) | Habilidad ofensiva (Frecuenta el saloon) |
 | Skill With Defense | Habilidad defensiva |
+| Skills | Habilidades |
+| Slayer | Matador |
 | Sleuth | Detective |
 | Slice | Rebanar |
 | Slicing Resistance | Resistencia a los cortes |
@@ -1531,6 +1611,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Space Fighting | Pelea espacial |
 | Speaker for the Dead | Portavoz de los muertos |
 | Special Shot | Tiro especial |
+| Specialization | Especialización |
 | Specialized Basher | Golpeador especializado |
 | Specialized Throwing | Lanzamiento especializado |
 | Spectral Servant | Sirviente espectral |
@@ -1601,6 +1682,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Supernatural Jump | Salto sobrenatural |
 | Surging Confidence | Confianza creciente |
 | Surprise Attack | Ataque sorpresa |
+| Surprise Strike | Golpe sorpresa |
 | Surveillance Overwatch | Vigilancia protectora |
 | Surviving the Wasteland | Sobrevivir en el yermo |
 | Swift Slither | Reptar veloz |
@@ -1944,7 +2026,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Weaponizes Chrome | Convierte el cromo en arma |
 | Wears a Sheen of Ice | Viste una capa de hielo |
 | Wears Power Armor | Viste una armadura de poder |
-| Weilds an Enchanted Weapon | Blande un arma encantada |
+| Wields an Enchanted Weapon | Blande un arma encantada |
 | Wields Invisible Force | Esgrime fuerzas invisibles |
 | Wields Two Weapons at Once | Blande dos armas a la vez |
 | Works for a Living | Trabaja para vivir |
@@ -2074,7 +2156,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
-| A Tisket a Tasket | A Tisket a Tasket |
 | Absolute power | Energía absoluta |
 | Acid Resistance | Resistencia al ácido |
 | Adderstone | Adderstone |
@@ -2120,16 +2201,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Bone Key | Llave de hueso |
 | Bones of the Beloved | Huesos del querido |
 | Borrowed Familiar | Familiar prestado |
-| Bounding boots | Botas de saltar |
-| Boundless bag | Bolsa ilimitada |
 | Bowl of Porridge | Tazón de papilla de avena |
-| Boy Blue’s horn | Cuerno de azul de chico |
 | Brain Overclock | Overclock cerebral |
 | Burn Your Bridges | Quema tus puentes |
 | Burner Phone | Teléfono desechable |
 | Burst Boost | Reforzador de ráfaga |
 | Burst of Speed | Ráfaga de velocidad |
-| Carving knife of sharpness | Cuchillo tallador de gran filo |
 | Cat Sidhe Medallion | Medallón de Gato Sidhe |
 | Catholicon | Elixir |
 | Chemical Factory | Planta química |
@@ -2177,7 +2254,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Detonation (Sonic) | Detonación (sónica) |
 | Detonation (Spawn) | Detonación (proliferante) |
 | Detonation (web) | Detonación (red) |
-| Devils and tailors | Diablos y sastres |
 | Diadem of Death | Diadema de muerte |
 | Disarm | Desarmar |
 | Disassembler | Desensamblador |
@@ -2222,7 +2298,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Farsight | Vistalejos |
 | Father’s Betrayal | Traición del padre |
 | Fey Collar | Collar feérico |
-| Fiddle of the fossegrim | Violín del Fossegrim |
 | Fire Resistance | Resistencia al fuego |
 | Firearm | Arma de fuego |
 | Fireproofing | Ignifugación |
@@ -2236,13 +2311,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Force Screen Projector | Proyector de barrera de fuerza |
 | Force Shield Projector | Proyector de escudo de fuerza |
 | Forget-Me-Knot | Anuda recuerdo |
-| Fortunate’s purse | Bolso del afortunado |
 | Friction Reducer | Reductor de fricción |
 | Frigid Wall | Muro gélido |
-| Galoshes of fortune | Galochas de la fortuna |
 | Gas Bomb | Bomba de gas |
 | Genie’s Handkerchief | Pañuelo de Genio |
-| Genie’s lamp | Lámpara de genio |
 | Ghost Detector | Detector de fantasmas |
 | Ghost Round | Bala fantasma |
 | Ghost Tag | Firma fantasma |
@@ -2254,7 +2326,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Glacier Round | Bala glaciar |
 | Godfather’s Picture Book | Libro de Imágenes del Padrino |
 | Golden Beetle | Escarabajo dorado |
-| Golden bridle | Brida dorada |
 | Golden Vanity | Vanidad dorada |
 | Got Your Back | Te cubro las espaldas |
 | Gravity Denied | Gravedad negada |
@@ -2267,7 +2338,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Hand Wave | Gesto de la mano |
 | Hart’s Heart | Corazón de ciervo |
 | Hashtag | Hashtag |
-| Hatchet of the Woodsman | Hacha del leñador |
 | Haunted Slug | Proyectil encantado |
 | Heart of a Star | Corazón de una estrella |
 | Heart’s Tart | Tarta del corazón |
@@ -2277,8 +2347,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Here All Along | Siempre estuvo aquí |
 | Hexing Round | Bala de maleficio |
 | Homunculus Flask | Frasco de homúnculo |
-| Hook’s hook | Garfio de Garfio |
-| Horn of destruction | Cuerno de destrucción |
 | Horrific Arm | Brazo horrible |
 | Horrific Eye | Ojo horrible |
 | Horrific Face | Rostro horrible |
@@ -2308,11 +2376,9 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Invisibility Revealer | Revelador de invisibilidad |
 | Invisibility Serum | Suero de invisibilidad |
 | Iron Bands of Three | Bandas de hierro de tres |
-| Iron stove | Estufa de hierro |
 | Itsy Bitsy Spider | Itsy Bitsy Araña |
 | Jack’s Candlestick | Candelabro de Jack |
 | Jiminy Cricket | Pepito Grillo |
-| Knapsack of sevens | Mochila de sietes |
 | Knave of Hearts | Sota de corazones |
 | Knowledge Enhancement | Mejora de conocimientos |
 | Lie To Me | Miénteme |
@@ -2344,7 +2410,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Mind-Restricting Wall | Muro de restricción mental |
 | Mind Stabilizer | Estabilizador mental |
 | Mind Swapper | Intercambiador de mentes |
-| Mirror mirror | Espejo espejo |
 | Monoblade | Monofilo |
 | Monohorn | Monocuerno |
 | Motion Sensor | Sensor de movimiento |
@@ -2358,7 +2423,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Nutrition and Hydration | Nutrición e hidratación |
 | Omniscient Bean | Haba omnisciente |
 | Otherwhere Slug | Proyectil de otraparte |
-| Pandora’s box | Caja de Pandora |
 | Penultimate Key | Penúltima llave |
 | Perfect Memory | Memoria perfecta |
 | Perfection | Perfección |
@@ -2367,7 +2431,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Phase Disruptor | Disruptor de fase |
 | Pickpocket | Carterista |
 | Pictureless Book | Libro sin imágenes |
-| Pixie dust | Polvo de pixie |
 | Pocket Protector | Protector de bolsillo |
 | Poison (Emotion) | Veneno (emoción) |
 | Poison (Explosive) | Veneno (explosivo) |
@@ -2407,8 +2470,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Real Fake | Falso auténtico |
 | Reality Spike | Anclaje de realidad |
 | Reanimator | Reanimador |
-| Red cap | Gorro rojo |
-| Red riding hood | Caperuza roja |
 | Reflex Enhancer | Potenciador de reflejos |
 | Rejuvenator | Rejuvenecedor |
 | Remembering | Recordar |
@@ -2424,16 +2485,11 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Safe Space | Espacio seguro |
 | Screen Control | Control de pantalla |
 | Secret | Secreto |
-| Self-swinging sword | Espada autogolpeante |
-| Seven-league boots | Botas de siete leguas |
 | Shadow Soap | Jabón de sombra |
-| Shapeshifter wand | Varita de cambiaformas |
 | Shard of the Moon | Fragmento de la Luna |
-| She-bear | Osa |
 | Sheen | Lustre |
 | Shift Boost | Reforzador de mejora |
 | Shining Knife | Cuchillo reluciente |
-| Shirt of nettles | Camisa de ortigas |
 | Shock Attack | Ataque eléctrico |
 | Shocker | Sacudidor |
 | Silgarho Infusion | Infusión de plajobe |
@@ -2448,14 +2504,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Sniper Module | Módulo francotirador |
 | Sobering Round | Bala despejadora |
 | Social Battery | Batería social |
-| Soldier’s Cloak of Invisibility | Capa de Invisibilidad de soldado |
 | Solvent | Solvente |
 | Song of the Dead | Canción de los muertos |
 | Sonic Hole | Agujero sónico |
 | Sorcerer’s Skeleton Key | Llave esqueleto del Hechicero |
 | Soul Killing Round | Bala mataalmas |
 | Soul Saver | Salvaalmas |
-| Soulful Fiddle | Violín conmovedor |
 | Sound Dampener | Amortiguador sónico |
 | Spatial Warp | Deformación espacial |
 | Speed Boost | Reforzador de velocidad |
@@ -2463,16 +2517,12 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Spy | Espía |
 | Stasis Keeper | Contenedor de estasis |
 | Stay Down | No te levantes |
-| Steadfast Tin Soldier | Soldadito de plomo tenaz |
 | Stim | Estimulante |
-| Stone Canoe | Canoa de piedra |
-| Story Knife | Cuchillo de cuentos |
 | Strength Boost | Reforzador de fuerza |
 | Strength Enhancer | Potenciador de fuerza |
 | Stunt Boost | Reforzador de proeza |
 | Subdual Field | Campo de sumisión |
 | Sympathy Slug | Proyectil de simpatía |
-| Table-Be-Set | Mesa servida |
 | Take Me There | Llévame allí |
 | Talk to Me | Háblame |
 | Target Boost | Reforzador de objetivo |
@@ -2493,7 +2543,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Time Dilation (Offensive) | Dilatación temporal (ofensiva) |
 | Time Ticket | Billete puntual |
 | Tin Man’s Tears | Lágrimas del Hombre de Hojalata |
-| Tinderbox | Yesquero |
 | Tiny Size | Tamaño diminuto |
 | Tissue Regeneration | Regeneración de tejido |
 | To Peter With Love | Para Pedro con amor |
@@ -2501,7 +2550,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Transport | Transporte |
 | Trick Embedder | Integrador de trucos |
 | Tunnel Traverser | Atraviesatúneles |
-| Tweedledee’s Umbrella | Paraguas de Tweedledee |
 | Undead Ward | Protección contra no muertos |
 | Uninterruptible Power Source | Fuente de energía ininterrumpida |
 | Unphantomed Limb | Miembro afantasmizado |
@@ -2512,7 +2560,6 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Valorous Whetstone | Piedra de afilar valerosa |
 | Vanisher | Desvanecedor |
 | Vase of Tears | Jarrón de lágrimas |
-| Vicious Tankard | Jarra sañosa |
 | Visage Changer | Alterador de aspecto |
 | Visage Scrutinizer | Escrutador de semblantes |
 | Visual Displacement Device | Dispositivo de desplazamiento visual |
@@ -2544,6 +2591,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 
 | English | Español |
 |---|---|
+| A Tisket a Tasket | A Tisket a Tasket |
 | Accessories Sold Separately | Accesorios que se venden por separado |
 | Adamantine Rope | Cuerda adamantina |
 | Alchemist Bag | Bolsa alquimista |
@@ -2563,9 +2611,13 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Book of Inversion | Libro de inversión |
 | Book of the Baker | Libro del panadero |
 | Bounding Boots | Botas de saltar |
+| Bounding boots | Botas de saltar |
+| Boundless bag | Bolsa ilimitada |
+| Boy Blue’s horn | Cuerno de azul de chico |
 | Breakaway Bag | Bolsa de parches |
 | Busy Box | Caja de actividades |
 | Carbonizer | Carbonizador |
+| Carving knife of sharpness | Cuchillo tallador de gran filo |
 | Cat’s Eye Spectacles | Gafas de ojo de gato |
 | Cats Hide Their Paws | Los gatos esconden las uñas |
 | Cloak of Balakar | Capa de Balakar |
@@ -2590,6 +2642,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Demon Pistol | Pistola demoníaca |
 | Demonflesh | Pieldemonio |
 | Demonic Rune Blade | Hoja rúnica demoníaca |
+| Devils and tailors | Diablos y sastres |
 | Dimensional Modulator | Modulador dimensional |
 | Disintegration Beamer | Proyector desintegrador |
 | Doctor Dread’s Time Portal | Portal del tiempo del Doctor Dread |
@@ -2608,25 +2661,35 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Explorer’s Gloves | Guantes de explorador |
 | Falcon Cloak | Capa de halcón |
 | Faraday Cage | Jaula de Faraday |
+| Fiddle of the fossegrim | Violín del Fossegrim |
 | Flying Carpet | Alfombra voladora |
+| Fortunate’s purse | Bolso del afortunado |
 | Fractal Traveler | Viajero fractal |
+| Galoshes of fortune | Galochas de la fortuna |
 | Gate Ring | Anillo portal |
+| Genie’s lamp | Lámpara de genio |
 | Ghostly Armor | Armadura fantasmal |
 | Gift from the Fairy Queen | Regalo de la Reina de las Hadas |
 | Gloves of Agility | Guantes de agilidad |
+| Golden bridle | Brida dorada |
 | Goodest Gargoyle | La gárgola más buena |
 | Gruelmaker | Hacepotaje |
-| Guardian Idol | ídolo guardián |
+| Guardian Idol | Ídolo guardián |
 | Hand of Glory | Mano de gloria |
 | Hand of the Eclipse | Mano del Eclipse |
 | Harrowing Blade | Hoja angustiosa |
+| Hatchet of the Woodsman | Hacha del leñador |
 | Helm of Water Breathing | Yelmo de respiración acuática |
 | History's Fickle Hands | Las manos caprichosas de la historia |
+| Hook’s hook | Garfio de Garfio |
+| Horn of destruction | Cuerno de destrucción |
 | Horn of Thunder | Cuerno de trueno |
 | Illuck Stone | Piedra malasuerte |
 | Ilu Idol | Ídolo ilu |
 | Instant Ladder | Escalera instantánea |
+| Iron stove | Estufa de hierro |
 | Keys of Close to You | Llaves de Cerca de ti |
+| Knapsack of sevens | Mochila de sietes |
 | Lightning Eye | Ojo del rayo |
 | Lightning Hammer | Martillo de relámpagos |
 | Living Copycat | Imitador viviente |
@@ -2642,6 +2705,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Military Exoskeleton | Exoesqueleto militar |
 | Mind Imager | Visualizador mental |
 | Mindshield Helmet | Casco de escudo mental |
+| Mirror mirror | Espejo espejo |
 | Mutation Inducer | Inductor de mutaciones |
 | My Friend Lockness | Mi amigo Lockness |
 | Nanorifle | Nanorrifle |
@@ -2649,37 +2713,48 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Nihilal Tendril Horn | Cuerno de zarcillos nihilal |
 | Omni Orb | Orbe Omni |
 | Pack of Storage | Mochila de almacenaje |
+| Pandora’s box | Caja de Pandora |
 | Pearls of Your Grandmother, the Witch | Las perlas de tu abuela, la bruja |
 | Persuader | Persuasora |
 | Philosopher's Gun | Pistola filosofal |
+| Pixie dust | Polvo de pixie |
 | Poisoner’s Touch | Toque del envenenador |
 | Poor Magician's Lunchbox | Fiambrera del mago pobre |
 | Probability Regulator | Regulador de probabilidad |
 | Protection Amulet | Amuleto de protección |
 | Psychic Crystal | Cristal Psíquico |
 | Rainbow Suspenders | Tirantes arcoíris |
+| Red cap | Gorro rojo |
+| Red riding hood | Caperuza roja |
 | Repair Sphere | Esfera reparadora |
 | Ring of Dragon’s Flight | Anillo del vuelo del dragón |
 | Ring of Fall Flourishing | Anillo de caída venturosa |
 | Ring of Invisibility | Anillo de invisibilidad |
 | Ring of Reflected Bullets | Anillo de balas reflejadas |
 | Ring of Seeping Travel | Anillo de viaje filtrante |
-| Ring OF Wishes | Anillo de deseos |
+| Ring of Wishes | Anillo de deseos |
 | Rocket Fist | Puño cohete |
 | Rocket-Propelled Grenade | Granada propulsada por cohete |
 | Salubrious Snuffbox | Tabaquera salutífera |
 | Salvaged Car | Coche recuperado |
 | Scarf of Love and Death | Bufanda de amor y muerte |
 | Seal of Solomon | Sello de Salomón |
+| Self-swinging sword | Espada autogolpeante |
 | Serum X | Suero X |
+| Seven-league boots | Botas de siete leguas |
 | Shadow Box | Caja de sombras |
 | Shadow Duster | Guardapolvo de sombra |
+| Shapeshifter wand | Varita de cambiaformas |
+| She-bear | Osa |
 | Shield of Two Skies | Escudo de dos cielos |
+| Shirt of nettles | Camisa de ortigas |
 | Skill Ring | Anillo de habilidad |
 | Smooth-Stepping Boots | Botas de pisar suave |
+| Soldier’s Cloak of Invisibility | Capa de Invisibilidad de soldado |
 | Song of the Siren | Canto de la sirena |
 | Soul-Stealing Knife | Cuchillo roba almas |
 | Soulflaying Weapon | Arma desgarradora de almas |
+| Soulful Fiddle | Violín conmovedor |
 | Sovereign Key | Llave soberana |
 | Space Ring | Anillo Espacial |
 | Spear of Destiny | Lanza del Destino |
@@ -2691,22 +2766,29 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Staff of Black Iron | Báculo de hierro negro |
 | Staff of Healing | Báculo de curación |
 | Staff of the Prophet | Báculo del profeta |
+| Steadfast Tin Soldier | Soldadito de plomo tenaz |
 | Stellarex Crystal | Cristal Stellarex |
 | Steorraform | Steorraform |
+| Stone Canoe | Canoa de piedra |
 | Storm Shack | Choza de tormenta |
+| Story Knife | Cuchillo de cuentos |
 | Swarm Ring | Anillo del enjambre |
+| Table-Be-Set | Mesa servida |
 | Tanglefoot Lariat | Lazo enredapiés |
 | Tattoo of the Tiger | Tatuaje del tigre |
 | Tattoo of Tomorrow's Edge | Tatuaje del filo del mañana |
 | Tattoo of True Shot | Tatuaje del tiro certero |
 | Terahertz Scanner | Escáner de terahercios |
 | Time is a Circle | El tiempo es un círculo |
+| Tinderbox | Yesquero |
 | Tracker's Map | Mapa del rastreador |
 | Transfer Discs | Discos de transferencia |
 | Trap Runestone | Trampa de piedra rúnica |
 | Tunneling Gauntlets | Guanteletes tuneladores |
+| Tweedledee’s Umbrella | Paraguas de Tweedledee |
 | Umbrella of No-Touch | Paraguas de no tocar |
 | Vanity of the Vanities | Tocador de las vanidades |
+| Vicious Tankard | Jarra sañosa |
 | Vorpal Six-Gun | Revólver vorpalino |
 | Vorpal Sword | Espada vorpal |
 | Wand of Firebolts | Varita de rayos flamígeros |
@@ -2948,13 +3030,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Queen Grimhilde | Reina Grimilda |
 | Raider | Saqueador |
 | Replicant | Replicante |
-| Robber/Thief | Atracador/Ladrón |
+| Robber | Atracador |
 | Satyr | Sátiro |
 | Satyr (Fairy Tale) | Sátiro (Cuentos de hadas) |
 | Scholar | Erudito |
 | Secret Agent | Agente secreto |
 | Shadow Elf | Elfo de la sombra |
 | Storm Marine | Marine de asalto |
+| Supervillain | Supervillano |
 | Synthetic Person | Persona sintética |
 | The Blind Witch | La Bruja Ciega |
 | The Red Queen | La Reina Roja |
@@ -3016,6 +3099,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Broker | Intermediario |
 | Catspaw | Catspaw |
 | Communicator Implant | Implante comunicador |
+| Crabby Hermit | Ermitaño cascarrabias |
 | Finding Prying Eyes | Encontrar miradas indiscretas |
 | Frozen Timepiece | Reloj congelado |
 | Hotshot | As |

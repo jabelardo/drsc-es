@@ -10,6 +10,29 @@ html { scroll-padding-top: 5rem; }
 .drsc-es-navbar.theme-dark { 
 	background-color: #1c1f21 !important;
 }
+/* collapsed navbar (below md): the sticky navbar does not scroll with the page,
+   so the open menu scrolls on its own when it is taller than the viewport */
+@media (max-width: 767.98px) {
+	.drsc-es-navbar .navbar-collapse {
+		max-height: calc(100vh - 4rem);
+		max-height: calc(100dvh - 4rem);
+		overflow-y: auto;
+		overscroll-behavior: contain;
+	}
+}
+/* difficulty dial (Cap. 9): a light card in both themes, since the SVG uses dark labels */
+.drsc-es-dial {
+	background-color: #f7fbff;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	max-width: 22rem;
+	margin: 0 auto 1rem;
+}
+.drsc-es-dial img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 /* navbar link click color override */
 nav ul.navbar-nav li.nav-item ul li a.dropdown-item:active {
   	background-color: #238d94 !important;
@@ -414,8 +437,49 @@ ul.drsc-es-list-disc li {
 	color: #17a0a9;
 	background-color: #1f2733;
 }
-.drsc-es-sidebar { 
+.drsc-es-sidebar {
 	font-style: italic;
+}
+/* example of play (Cap. 23): dialogue rows with the speaker in a right-aligned column */
+ul.drsc-es-play {
+	display: table;
+}
+ul.drsc-es-play > li {
+	display: table-row;
+}
+ul.drsc-es-play > li > strong,
+ul.drsc-es-play > li > span {
+	display: table-cell;
+	padding: 0.25rem 0;
+}
+ul.drsc-es-play > li > strong {
+	padding-right: 1rem;
+	text-align: right;
+	white-space: nowrap;
+}
+/* example of play: one color per speaker, as in OG */
+.theme-dark .drsc-es-play-dj { color: #63e6be; }
+.theme-dark .drsc-es-play-ori { color: #74c0fc; }
+.theme-dark .drsc-es-play-chert { color: #c3a6ff; }
+.theme-dark .drsc-es-play-rena { color: #ffa06b; }
+.theme-light .drsc-es-play-dj { color: #0b7a5c; }
+.theme-light .drsc-es-play-ori { color: #1864ab; }
+.theme-light .drsc-es-play-chert { color: #6741d9; }
+.theme-light .drsc-es-play-rena { color: #c2410c; }
+/* FAQ (back matter): each question is a tab that opens its answer (Bootstrap collapse), as in OG */
+h5.drsc-es-faq-q {
+	font-size: 1.35rem;
+}
+h5.drsc-es-faq-q a {
+	display: block;
+	color: inherit !important;
+	text-decoration: none;
+}
+h5.drsc-es-faq-q a::before {
+	content: "\25BE\00A0";
+}
+h5.drsc-es-faq-q a.collapsed::before {
+	content: "\25B8\00A0";
 }
 /* lists quick reference column controls */
 ul.drsc-es-quick-reference {

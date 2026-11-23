@@ -67,6 +67,8 @@ NAME_ALIASES = {
 
 # DRSC-ES chapter heading id -> OG chapter heading id
 ES_TO_OG = {
+    'notas-de-la-traduccion': 'chapter-1-foreword',
+    'licencia': 'chapter-2-cypher-system-open-license',
     'como-jugar-al-sistema-cypher': 'chapter-3-how-to-play-the-cypher-system',
     'creacion-de-personajes': 'chapter-4-creating-your-character',
     'seleccionar-tipo': 'chapter-5-type',
@@ -81,6 +83,8 @@ ES_TO_OG = {
     'seleccionar-puntos-de-experiencia': 'chapter-12-experience-points',
     'seleccionar-fantasia': 'chapter-13-fantasy',
     'seleccionar-moderno': 'chapter-14-modern',
+    'seleccionar-magia-moderna': 'chapter-14-a-modern-magic',
+    'seleccionar-ciberpunk': 'chapter-14-b-cyberpunk',
     'seleccionar-ciencia-ficcion': 'chapter-15-science-fiction',
     'seleccionar-horror': 'chapter-16-horror',
     'seleccionar-romance': 'chapter-17-romance',
@@ -88,12 +92,15 @@ ES_TO_OG = {
     'seleccionar-post-apocaliptico': 'chapter-19-post-apocalyptic',
     'seleccionar-cuentos-de-hadas': 'chapter-20-fairy-tale',
     'seleccionar-historico': 'chapter-21-historical',
+    'seleccionar-oeste-extra~o': 'chapter-21-a-weird-west',
     'seleccionar-criaturas': 'chapter-22-creatures',
     'seleccionar-pnjs': 'chapter-23-npcs',
     'seleccionar-cyphers': 'chapter-24-cyphers',
     'seleccionar-dirigir-el-sistema-cypher': 'chapter-25-running-the-cypher-system',
     'cypher-cortos': 'cypher-shorts',
     'atrapado-en-llamas': 'trapped-in-flames',
+    'preguntas-frecuentes': 'faq',
+    'indice': 'index',
 }
 # Named OG entries checked in report 4: an entry heading class plus an id of a kind that
 # DRSC-ES labels with its English name (equipment items are named only in Spanish)

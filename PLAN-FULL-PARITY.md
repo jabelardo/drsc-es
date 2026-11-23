@@ -251,11 +251,8 @@ Gaps inside books DRSC-ES already covers:
   Godforsaken version keeps the plain name; the We Are All Mad Here version is labelled
   *(Cuentos de hadas)*. The two versions sit next to each other in Criaturas/PNJs.
 - Still open:
-  - `#control-mental` is the id of both the Control mental ability and the Horror
-    section, so links meant for the section (e.g. in Posesión) open the ability.
-    Resolve with the duplicate-id clean-up in WP8.
-  - `#botas-de-saltar` is used by three different items; the fairy-tale table link
-    opens the fantasy artifact. Resolve in WP8.
+  - Resolved in WP8 (2026-11-23): `#control-mental` (the Horror links now open the Horror
+    section) and `#botas-de-saltar` (the fairy-tale table opens the fairy-tale boots).
 
 ---
 
@@ -511,8 +508,8 @@ terminology, so translating a book in one pass keeps them consistent.
       - 9 foci done (Cap. 6, with the ⚡ cyberware marker and GM intrusions as sidebars).
         New Capítulo 12-B *Ciberpunk* (nav, TOC, genres intro) with the 5 descriptors and
         *Rasgos de ciberpunk* (table, *Cambiar de rasgo*, additional foci, *Adaptar rasgos al
-        ciberpunk*). OG's sidebar pointing to *Switching Character Options* is left out until
-        that OG editorial section is translated (WP7).
+        ciberpunk*). OG's sidebar pointing to *Switching Character Options* was later added
+        inline, at the end of *Cambiar de rasgo* (WP7).
       - Cap. 12-B *Ciberimplantes* (chrome, the three sample implants, ⚡ cyberware-derived
         abilities, armor, stat minimums, targeting and damaging cybernetics, salvaging) and
         *Tipos de ciberpunk* (Solo, As, Intermediario, Técnico, with the standard cyberpunk
@@ -617,10 +614,302 @@ terminology, so translating a book in one pass keeps them consistent.
       links below.
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
-- [ ] Back matter: FAQ, Índice.
-- [ ] Character tools: Character Sentence Generator, creation checklist, PDFs links.
-- [ ] Sidekicks (Ch11-A, ~10k).
-- [ ] Links left from WP4 and WP5, to add when these OG editorial sections exist:
+- Decisions (2026-11-23): start with the OG sections that WP4–WP6 links wait for, then go
+  chapter by chapter; leave out *What's in the Book*; Sidekick is *camarada*; keep omitting
+  OG's source and page citations.
+- [x] Back matter: FAQ, Índice. Done (2026-11-23, see the back matter entry below).
+- [x] Ch1, Ch3, Ch4, Ch5 (2026-11-23). Decisions: Ch1 becomes *Acerca de esta edición* plus
+      factual updates to the translator's notes; the generator, the checklist and the PDFs
+      section are ported, with OG's character and sidekick sheets rebuilt in Spanish
+      (`sheets/`, KUR-CSCS and KUR-CSSK) next to the existing KUR-CSQR; OG's online sheets list,
+      its other PDFs and the product catalogues (*Additional Types*, and the Ch7/Ch8 ones) are
+      left out; *¿Eres un jugador nuevo?* embeds a Spanish video chosen by the user.
+      - Left for later: links in the new editor's notes to *An Example of Play* (Ch25), *XP
+        Advance* (Ch12), OG's optional-rules index, *sixth-tier combat abilities* (ability
+        categories) and three Errata abilities (*Shooting Gallery*, *Skills*, *Font of
+        Inspiration*); the *campaign design checklist* link in the creation checklist.
+- [x] Ch6 and Ch7 (2026-11-23): the two flavor optional rules (*Aspecto simplificado*,
+      *Aspecto personalizado*) and OG's editor's notes in Cap. 4 and Cap. 5 (the *Especie como
+      descriptor* and Descriptores-intro notes were added earlier). The flavor and descriptor
+      catalogues from other products are left out.
+      - Left for later: *optional character advancements* (Ch12), OG's optional-rules index
+        (two more mentions) and the 2015 *Shipspeak* (Errata).
+- [x] Ch8 (2026-11-23): the Cap. 6 quick reference gains all foci and suggested foci by genre;
+      the focus-category quick reference gains *Personalización de los rasgos*, and the
+      category intro list was repaired (two entries pointed at the wrong category); five
+      editor's notes; *Rasgos psiónicos* (Cap. 13), missed in the first chunk. The foci
+      catalogue from other products is left out.
+      - *Horror Foci* (Ch16) and *Superhero Foci* (Ch18) added to the "Rasgos sugeridos por género"
+        list in the Cap. 6 quick reference.
+- [x] Ch9 (2026-11-23). Decisions: the Errata and OG-variant abilities are added to the A–Z list,
+      tagged *(Errata)* or *(variante del OG-CSRD)*; OG's † marks are kept, with their legend; the ‡ marks (abilities categorised by OG's editor) were removed on 2026-11-23 at the user's request.
+      - 25 entries: 19 old 2015-Rulebook abilities (16 with new names, plus the 2015 *Ligero de pies*,
+        *Naveparlar* and *Lanzar*) and six OG variants (armor, shield, *Burlar*, *Lanzamiento
+        rápido*). OG's Errata *Force Field* is the CSRD's current text, which *Campo de fuerza*
+        already had; the 2019 wording is quoted in its editor's note.
+      - Category lists rebuilt from OG's (1,137 → 1,702 items); Spanish-only items kept; plain
+        text throughout (most lists were italic before, a few were not); a few cut-short labels
+        fixed. Six new categories: *Acción extra*, *Atributos*, *Cyphers y artefactos*, *Errata*,
+        *Recuperación*, *Tirada*.
+      - The quick reference gains *Capacidades especiales*, *Activar una capacidad especial*, the
+        legend, all categories with the three paranormal vices, the A–Z letters and the related
+        sections DRSC-ES has.
+      - 72 editor's notes and 9 sidebars added to the A–Z list. The other OG sidebars were already
+        there, inline in parentheses as the CSRD prints them; the High Noon and Neon Rain notes
+        were already on the book-version entries. Left out: OG's note on an English misprint in
+        *Detect Life* and the immediate/close note on *Choque de energía* (the Spanish already
+        says *alcance inmediato*).
+      - Earlier WP7 notes now link *Galería de tiro*, *Habilidades*, *Fuente de inspiración*, the
+        2015 *Naveparlar* and the combat aspect's sixth-tier list.
+      - Later change (2026-11-23, user's request): the six OG variants follow OG's layout. The
+        editor's note box sits between list entries, and the variant is an ability entry inside it,
+        introduced as "esta variante"; the Errata category list keeps both entries.
+      - *Calm Command* (Ch15), *Hellfire* and *Icy Paths* (Ch18) later joined the Errata list as
+        *Mando sereno*, *Fuego infernal* and *Senderos helados*, tagged (OG-CSRD).
+      - Left for later: links to OG's optional rule
+        *Object Level, Health, and Armor* (*Weapon Properties* and *Alternative Armor
+        Encumbrance* were linked in Ch10); the *Estrés* category and section, *Creating Cyphers, Artifacts, and Abilities*
+        and *Sidekick Abilities* in the quick reference; *Skill Categories* and usage limits
+        (Ch25) in two notes.
+- [x] Ch10 (2026-11-23). Decision: the armor section keeps the CSRD paragraph and table; OG's
+      clarified table (by experience, with prices), sidebar and worked example replace the
+      translator's Twitter note, under an editor's note citing the 2024 Starter Set.
+      - OG's five optional rules (*Dinero y agotamiento de recursos*, *Menor coste de Esfuerzo de
+        Velocidad por llevar armadura*, *Carga de armadura alternativa*, *Armas letales*,
+        *Propiedades de las armas*); *Armadura especial*; the priceless category (*invaluable*);
+        OG's shield wording; three editor's notes and two sidebars; chapter quick reference
+        expanded and a new *Artefactos* quick reference. The Daft Drafts note is left out.
+      - The Ch9 links to *Carga de armadura alternativa* and *Propiedades de las armas* now resolve.
+      - Five slips in the existing text fixed and recorded in `CORRECCIONES.json` (pending for the
+        ODT).
+- [x] Ch11 (2026-11-23): 13 of OG's optional rules plus *Ataques de área, Esfuerzo y daño*;
+      *Así se juega al Sistema Cypher* as a heading and *El dial de dificultad*, which reuses the
+      quick-reference dial SVG; 25 editor's notes; the driving sidebar in *Combate de vehículos*;
+      hazards and crafting quick references; the chapter quick reference rebuilt with OG's groups.
+      The CSRD text was already complete. The Ch9 links to *Nivel, salud y Armadura de los objetos*
+      now resolve. Fixed "maniobrabi-lidad" (`CORRECCIONES.json`).
+      - Left for later: links to Stress, Serious Injuries and Conditions, *An Example of Play*, the
+        FAQ, OG's optional-rules index, *Making Meaning* and *Passive Difficulty*.
+- [x] Ch11-A (2026-11-23): OG's *Seguidores frente a compañeros temporales* (with *Progresión de
+      nivel de los seguidores* and *Equilibrar a los seguidores*), and Sidekicks as *Camaradas*
+      (about 10k words): core rules with the sheet link (KUR-CSSK), the optional rules, 10 natures,
+      10 niches, 10 fantastic niches with 19 templates and the mon-battle cyphers, and a catalog
+      of 32 sidekick abilities. The CSRD followers, familiars and covens were already complete;
+      OG's Daft Drafts note on covens is left out.
+      - The sidekick sheet's provisional terms (*naturaleza*, *nicho*, *PJ asociado*) stay as they
+        are. The Cap. 7 and *Modificar criaturas* quick references now link *Capacidades de los
+        camaradas*.
+      - Left for later: OG's *Power Shifts in Other Genres* (two links).
+- [x] Sidekicks (Ch11-A, ~10k). Done in Ch11-A (2026-11-23) as *Camaradas*.
+- [x] Ch12 (2026-11-23): OG's four optional rules (*Adelanto de PX* with its benefits and
+      complications tables, *Empezar en rango 0* with *Avanzar a rango 1*, *Avance más lento*,
+      *Avanzar más allá del rango 6*), placed with *Dividir los PX* in one box as OG does, and
+      *Avances de personaje opcionales*; four editor's notes (*Otras opciones*, rerolls and GM
+      intrusions, covens, romance); the CSRD's second paragraph in the sample-arcs sidebar; the
+      chapter quick reference gains OG's optional rules, related sections and the *Gastar 1/2/3/4/10
+      PX* lists. The GM intrusion sidebar now names and links Cap. 23. The CSRD's "about half their
+      XP from arcs" sidebar is already inline in parentheses, so it is not repeated.
+      - The links to *XP Advance* (Cap. 2, Cap. 3) and *Optional Character Advancements* (Cap. 4)
+        now resolve; the existing text said *avance de PX*, now *adelanto de PX*.
+      - Left for later: OG's *Separate Reroll and GM Intrusion Refusal Costs* (Ch25), Psionics and
+        Posthuman Upgrades (OG-only, from the Science Fiction book), *Extended Vehicular Combat*,
+        Stress, Serious Injuries and Conditions, *Skill Categories* and OG's optional-rules index.
+- [x] Ch13 (2026-11-23): OG's *Asignar límites distintos a las capacidades sobrenaturales* (about
+      900 words, two tables) after the spellcasting rule; the chapter quick reference rebuilt with OG's
+      groups, the spellcasting one expanded, and new ritual magic, fantasy equipment and traps quick
+      references; seven editor's notes (new foci, cyphers as spells, tier categories, cultivation
+      fantasy, *Operación peligrosa*, coinage, the Frozen Timepiece); OG's armor fix (full plate 2,
+      scale 3) with its note.
+      - Structure: *Luchador* gets its own heading (it was a paragraph inside *Druida*); the
+        character options and their quick reference are in alphabetical order; *Tecnología mágica*,
+        *Nombres secretos y verdaderos* and *Deseos* move under *Módulo de reglas de fantasía* as in
+        OG; the five example artifacts join the A–Z artifact list, and the artifact and cypher lists
+        are re-sorted. Two capitalisation slips fixed (`CORRECCIONES.json`).
+      - The CSRD sidebars (trap intrusions, ritual notes, *Dianxue*, etc.) were already inline. The
+        minor artifacts table keeps *Escudo deflector*, which DRSC-ES has, so OG's notes on replacing
+        it are left out, as are the 14 Daft Drafts notes and the *Wizards and the Optional
+        Spellcasting Rule* title note (DRSC-ES already has that heading).
+      - Left as is: the short *Criaturas y PNJs básicos* list followed by the full *Otras criaturas y
+        PNJs* list (OG has only the full one); a WP8 candidate.
+      - Left for later: *Power Shifts in Other Genres*, Psionics, *Creating Cyphers, Artifacts, and
+        Abilities*, Stress (three links) and Serious Injuries and Conditions.
+- [x] Ch14 (2026-11-23). Decision: OG's price tables replace the CSRD ones. The CSRD tables
+      disagree with the CSRD's own contemporary item entries (hand grenade 4 vs 6 damage, sports car
+      exorbitant vs very expensive, cell phone and handcuffs vs Smartphone and Restraint); OG rebuilt
+      them from the entries and added *Artículos invaluables*. Only the concealed microphone and the
+      luxury car rows are gone.
+      - An editor's note explains the rebuild and carries OG's notes on "contemporary" equipment,
+        tech levels and variable prices; OG's hand grenade note; the chapter and equipment quick
+        references rebuilt with OG's groups; basic creatures sorted.
+      - Already there: the mundane foci list and its adjustments table, the three CSRD sidebars.
+        The contemporary items stay in level order, as in the CSRD.
+- [x] Ch14-A (2026-11-23): Cap. 12-A was translated from OG in WP3 and matches it (126 entries,
+      67 cyphers, 47 artifacts, the six descriptor errata notes, the cypher-limit note, the
+      sidebars). Only the quick reference changed: OG's descriptor group and *Oeste extraño* among
+      the related sections. OG's Daft Drafts note stays out.
+- [x] Ch14-B (2026-11-23): Cap. 12-B was translated from OG in WP4 and matches it: OG's four
+      editor's notes, the full quick reference, and the sidebars (the *Switching Character Options*
+      pointer is a sentence at the end of *Cambiar de rasgo*). Only change: *Rasgos de ciberpunk
+      adicionales* in alphabetical order.
+- [x] Ch15 (2026-11-23). Decision: Cap. 13 reordered to OG's structure (its own commit).
+      - Order and levels follow OG: setting, character options (new heading, with the species
+        descriptors), psionics, posthuman upgrades, void rules, space hazards (moved from Cap. 9,
+        with FTL instability and spatial anomaly), equipment by category, armaments, vehicles, the
+        spacecraft list, spacecraft rules (*Naves espaciales*), extended vehicular combat, artifacts,
+        creatures. Text not rewritten, ids kept.
+      - Older-CSRD duplicates merged as OG has them: the hard-SF paragraphs open *Efectos de la
+        gravedad*; one *Efectos del vacío*; one solar-system travel table, with OG's fusion-drive
+        column (the user later removed the editor's note describing it).
+      - CSRD misprint: the science-and-engineering intrusion table was printed under the piloting
+        title. It now sits in a new *Ciencia e ingeniería* section (CSRD intro translated), and the
+        real piloting table is translated. Swapped task-table headers and two capitalisation slips
+        fixed (`CORRECCIONES.json`).
+      - Seven editor's notes, including Captain's Calm with OG's *Mando sereno* ability (also in the
+        Errata category list); quick reference rebuilt with OG's groups.
+      - The pending links to Psionics, Posthuman Upgrades and redline maneuvers (Ch12, Ch13) now
+        resolve; that wording now uses Cap. 13's terms (*mejoras posthumanas*, *maniobra redline*).
+      - Left out: OG's three Daft Drafts notes and its "round beings" typo note (nothing to fix in
+        Spanish). The CSRD sidebars were already inline.
+- [x] Ch16 (2026-11-23). Cap. 16 reordered like OG: character options (new, with *Rasgos de
+      horror*), consent, horror rules, cyphers (category lists as h6), artifacts, creatures (new
+      *Criaturas de horror*); *Uso de las intromisiones del DJ en modo horror*, stranded at the end
+      of the chapter, goes under *Modo horror*.
+      - New translations of OG's modules: *Heridas graves y condiciones* (about 1,050 words) and
+        *Estrés* (about 2,700 words, with 19 Stress abilities). "Relieve Stress" is *liberar*, since
+        *aliviar* means easing a task.
+      - OG's 31 horror foci; notes on *Operación peligrosa* and *Stay Alive!* artifacts; quick
+        reference with OG's groups. All the pending links to Stress and Serious Injuries resolve
+        (Cap. 7, 9, 10, 11 and three quick references).
+      - *Shock* uses OG's fuller text from the Rulebook instead of the CSRD's one-paragraph summary
+        (user's request). OG's Daft Drafts mentions and its notes on titles and *Consent in Gaming*
+        are left out.
+- [x] Ch17 (2026-11-23): Cap. 17 (WP4) already had all of OG's text. Structure as OG: *El check-in*
+      under *Consentimiento y límites*, basic creatures at the end of the chapter (alphabetical; its
+      heading was never closed, fixed). OG's coven note on platonic relationships; quick reference
+      with OG's groups. OG's consent note is left out (the text already points to *Consent in
+      Gaming*).
+- [x] Ch18 (2026-11-23). The CSRD's superhero chapter prints older and newer versions of several
+      sections, and Cap. 14 had both. Merged in OG's order (own commit): one *Regla opcional:
+      Mejoras de poder* (narrative intro plus the newer category list with the mp-* ids; the outdated
+      list and repeated rule paragraphs dropped), one *Tareas realmente imposibles* with OG's quick
+      reference, one artifacts section with all six; *Personajes superhéroes* gathers the character
+      sentences, types, descriptors and power origin.
+      - OG additions: *Rasgos de superhéroes* (44 foci), the archetypes note with *Fuego infernal* and
+        *Senderos helados*, *Mejoras de poder en otros géneros*,
+        *Obtener superpoderes tras crear el personaje*, *Transformaciones fantásticas*, four notes
+        and a *Supervillanos* section; quick reference with OG's groups.
+      - Pending links resolved: Power Shifts in Other Genres (four), Hellfire and Icy Paths.
+      - Left as is: *Power Stunt Difficulty* stays as bold paragraphs (OG uses a table). OG's
+        Daft Drafts mentions are left out. The CSRD sidebars were already inline.
+- [x] Claim the Sky archetype list removed from Cap. 14 (2026-11-23, user's rule): no lists or
+      citations of content that lives only in other products (archetypes, descriptors, foci…).
+      Mentioning the products, store links and "if you like this module…" lines are fine.
+- [x] Ch19 (2026-11-23): checked, no changes. Cap. 18 was rebuilt in OG's order in WP6 and already
+      has OG's eight editor's notes, its 15 sidebars and the full quick reference (descriptors,
+      species, optional rules, related sections).
+- [x] Ch20 (2026-11-23). Cap. 15 mixed older and newer CSRD blocks. It is now reordered to OG's
+      structure (own commit): nature of Faerie, character options (new heading), equipment, rules,
+      GM intrusions, cyphers, artifacts (d10 and d20 quirk tables together), creatures (new heading),
+      Beasts and Beings by archetype (each archetype a heading with its intro, creatures and list).
+      Types and adjusted foci are tables and basic equipment, clothing, weapons and travel are price
+      tables, as in OG. Text not reworded; ids kept.
+      - OG additions: the 28 CSRD sidebars boxed; Dr. Pipt's Powder of Life note; the note on
+        unlinked creatures, with the WAAMH page references dropped (also gone from the current
+        CSRD); the magical-abilities table; quick references with OG's groups.
+      - Fixes (`CORRECCIONES.json`): close range is *alcance inmediato* in Death's Messengers and
+        Forget-Me-Knot (so OG's immediate/close note is not needed); missing clauses in Mirror
+        Mirror and the Heartwood arcs paragraph; two field labels; Devil's dandy dogs (the Spanish
+        repeated Perro negro); typos.
+      - Links: the Death rule is *muerte-1*, so #muerte reaches the Death NPC (also from Cap. 16
+        Stress); the Wind Children link no longer goes to the Child.
+      - Left out: OG's two Daft Drafts notes. The Heartwood note now carries OG's store link.
+- [x] Ch21 (2026-11-23): Cap. 19 had all of OG's text. Structure as OG: intro, creating and running
+      a historical game, character options (new heading with the types table), artifacts, basic
+      creatures at the end (alphabetical). OG's note pointing to *Rasgos mundanos*; quick reference
+      with OG's related sections; types table linked. Fixes: "usted" forms changed to "tú", the
+      orrery's gender slip, the Herrero row, a capitalisation slip, the types heading's permalink.
+- [x] Ch21-A (2026-11-23): Cap. 19-A was translated from OG in WP5 and matches it (same headings;
+      OG's Alien Manifest Cyphers box is commented out in its source; 17 editor's notes; the
+      stat-block sidebars). Changes: the Resucitado and Implacable sidebars boxed; the Paranormal
+      Vices quick reference grouped by vice, as in OG.
+- [x] Ch22 (2026-11-23). Cap. 20 had all of OG's creatures (150 headings both sides).
+      - Quick reference: OG's Creatures and NPCs index (lists, related sections, basic creatures by
+        genre, 214 creatures and NPCs alphabetically, by level 1–10, special damage). Targets come
+        from the Spanish headings' [English] names: several idmap entries point to descriptors with
+        the same name (Chimera, Dragon, Ghost, Risen, Dwarf, Elf, Halfling, Morlock, Troll).
+      - Decision: the CSRD's *Criaturas y PNJs de fantasía por nivel* table moves to the end of
+        Cap. 11 (OG drops it for the index); six of its links were fixed (descriptors, abilities and
+        the Cap. 15 Troll card answered them). Artesano, Encantador and Elfo NPCs get `-pnj` anchors.
+      - OG's boxes: GM intrusions (singular label), template definitions with the level table (and
+        OG's success-rate column), normal animals, six CSRD sidebars; three notes plus the chapter
+        note. Close range is *inmediato* in Fusion Hound and Snark, so the immediate/close note is
+        not needed.
+      - Cap. 15 and Cap. 16 creature lists that linked #fantasma, #artesano and #encantador (an
+        ability or a descriptor answers first) now link the creature and NPC entries.
+- [x] Ch23 (2026-11-23). Cap. 21 had all of OG's NPCs. Changes:
+      - *Supervillanos* (an h4 closing the chapter since WP1) becomes OG's *Supervillano
+        [Supervillain]* entry in alphabetical place, with the five villains as sub-entries, a
+        by-level box and OG's power-shift note. By-level boxes also for Encantadores, Reinas and
+        Brujas. Robber is *Atracador [Robber]*, as in OG, with OG's note.
+      - OG's boxes: GM intrusions (singular label), the opening reminders, Otros PNJs
+        (alphabetical), ten CSRD sidebars. Notes: chapter note, Elf/Shadow Elf, Robber/Thief, Hex
+        Gunner. Close range is *alcance inmediato* in Corrupt Mage and Ogre (the immediate/close note
+        is not needed); OG's Witch note is left out (we keep both Witches).
+      - Fixes: "las atributos" (5 places in the document), "otras atributos", "Mejoras de poder",
+        a repeated phrase, two agreement slips.
+- [x] Ch24 (2026-11-23). Cap. 22 restructured as OG: quick reference with all genre cypher
+      tables; boxes for the definitions, Why Cyphers? and the subtle concepts; a new *Solicitar Cyphers
+      sutiles* heading boxed with the transfer rule; *Forma física de los Cyphers manifiestos* under
+      Manifest Cyphers; levels/effects and normal/fantastic effects under Using Cyphers, with OG's
+      *Resolver los niveles y efectos de los Cyphers* box translated; one listing (tables,
+      *Cyphers por orden alfabético*, power boost cyphers; entries are h6). The older CSRD's lead-in
+      to the tables is dropped.
+      - OG's sidebars boxed (the minimum-damage box repeated in each damaging detonation, as in OG)
+        and five notes. Close distance is *inmediata* in Image Projector; the Daft Drafts note and
+        OG's Cypher Decks link are left out; *Creating Cyphers, Artifacts, and Abilities* (Ch25) is
+        not linked yet.
+      - Fixes: ability is *capacidad* (14 places), the Bears a Halo of Fire focus name, the Stim
+        name, *intromisiones de jugador*, the ray emitter list, gender slips.
+- [x] Ch25 (2026-11-23), in five parts. Cap. 23 grows from 11.4k to 25.6k words.
+      - Rules sections in OG's order: *Vincular las acciones a los atributos* first (the three stats in
+        a box); the chapter quick reference with OG's groups; the GM Intrusion quick reference as an h5
+        (general intrusions and all genre tables); a Player Intrusions quick reference. Cap. 9's Task
+        Difficulty table is repeated under its own h5, as in OG.
+      - New translations of OG sections: *Dificultad aproximada*, *graduada* and *pasiva*;
+        *Exteriorizar la intromisión del DJ en las tiradas de los jugadores*; two optional rules
+        (separate reroll and intrusion-refusal costs, trading success for an intrusion); *Categorías
+        de habilidades*; *Lista de comprobación para diseñar una campaña*; *Preparar la sesión*;
+        *Enseñar las reglas*; *Usar las reglas: dar sentido*; *Crear Cyphers, artefactos y
+        capacidades*; *Crear nuevas opciones de personaje*; *Un ejemplo de juego*. The example's
+        Crabby Hermit is *Ermitaño cascarrabias*, and its dialogue uses a new `drsc-es-play` list
+        style (speaker column, one colour per speaker in each theme).
+      - 12 new editor's notes and OG's sidebars boxed. Left out: the "based on" lines, the sidebar
+        quoting the Rulebook, OG's own Player's Guide, quick-reference PDFs, cypher deck and cypher
+        video, and the Daft Drafts pointers. Monte Cook Games products and the actual-play
+        compilation keep their mentions and links.
+      - Pending links resolved: skill categories, passive difficulty, separate costs, campaign
+        checklist, making meaning, creating cyphers (one as a new entry in the Cap. 7 quick
+        reference), usage limits, the example of play (also added to Cap. 8's related sections).
+        12 links are left, all for later sections: OG's Optional Rules index (11) and the FAQ (1).
+      - Fixes in `CORRECCIONES.json`: *habilidad* for ability, gender, *usted*.
+- [x] Back matter (2026-11-23), in three parts.
+      - *Cypher cortos* and *Atrapado en llamas* matched to OG: heading levels (descriptors, types
+        and focus under character creation, types as h6), boxes for the descriptors, foci, GM
+        intrusions and *Otros hechos*, the NPC dialogue d6 table, OG's sidebars, five editor's notes
+        on the types and OG's links. 32 fixes in `CORRECCIONES.json` (focus names in the third
+        person, Tough is *Duro*, Middle Manager is *Mando intermedio*, *tú* forms, agreement).
+        The chapter label (*Capítulo 24*; OG says Quick Start) is left for WP8.
+      - *Preguntas frecuentes* (new translation, ~4.1k words): 20 questions in four groups; each
+        question is a tab that opens its answer (Bootstrap collapse), as in OG, styled by
+        `drsc-es-faq-q`. Pointers to OG's own products and to *What's in the Book?* are left out.
+      - *Índice*: OG's quick references list (plus Ciberpunk and Oeste extraño, missing from
+        OG's), optional rules index (four groups) and editorial additions, with DRSC-ES names,
+        sorted. Added because the Index points to them: the summoned giant spider and demon stat
+        boxes in Cap. 7, and the boxed random GM intrusions variant in Cap. 23.
+      - Navigation: TOC entries for both chapters; the navbar's *Reglas* menu gains *Reglas
+        opcionales*, *Preguntas frecuentes* and *Índice*; Cap. 8 and Cap. 23 list them under
+        *Secciones relacionadas*. All pending links are resolved (`pending-links.json` is empty).
+- [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
         inactividad forzoso* and in *Intromisiones de salud* (Cap. 12-B).
@@ -628,7 +917,7 @@ terminology, so translating a book in one pass keeps them consistent.
         de combate de antemano" in *Atacar los ciberimplantes* and "elegir un efecto de
         combate de antemano" in *Dañar los ciberimplantes* (Cap. 12-B).
       - *Switching Character Options*: OG's sidebar in *Rasgos de ciberpunk* that points
-        to it was left out; add it with the section.
+        to it is now a sentence at the end of *Cambiar de rasgo*.
       - *Creating Challenging Encounters* (WP5): "daño duradero" in the *Forjado* descriptor
         (Cap. 19-A).
       - *Celebrity* creature template and *Modifying Creatures* (Ch25): "famosos", "Famoso"
@@ -641,19 +930,33 @@ terminology, so translating a book in one pass keeps them consistent.
         ciencia ficción" in *Rasgos post-apocalípticos*, Cap. 18); *Optional Rule:
         Transferring Subtle Cyphers* ("transferir Cyphers sutiles" in *Cyphers sutiles de
         carroñero*); *Plagado* in *Apocalipsis nuclear*.
-- [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
-      preparation, teaching the rules, making meaning, example of play.
-- [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
-      categories, editor notes, "Related Sections", page citations (decide whether
-      to keep OG page numbers or map to Spanish/CSRD pages).
-- [ ] Errata ability category (old 2015-Rulebook versions, 16 entries without a
-      Spanish match).
-- [ ] Book abilities in the Cap. 7 category lists: OG's *Abilities by Category* lists
+      - Done (2026-11-23): Cap. 23 *Modificar criaturas* (templates *Reforzado*, *Más grande y
+        resistente* moved from Cap. 20, *Plagado*, *Famoso*), *Esfuerzo para PNJs*, *Criaturas con
+        varias partes*, *Crear criaturas y PNJs*, *Crear encuentros desafiantes*; Cap. 9 *Elegir
+        un efecto de combate de antemano*; Cap. 22 *Transferir Cyphers sutiles*; Cap. 2 *Cambiar
+        las opciones de personaje* (plus OG's links to it and its Descriptores editor's note);
+        *Rasgos de fantasía*, *Rasgos mundanos*, *Rasgos de ciencia ficción*. OG's "This section
+        is based on…" source lines are omitted like the page citations.
+      - Left for later WP7 items: "Estrés" and "heridas graves y condiciones" in *Crear
+        encuentros desafiantes* (Stress and Serious Injuries); the "Sidekick Abilities" entry in
+        the *Modificar criaturas* quick reference (Sidekicks).
+- [x] Running the game additions (Ch25, ~14k): campaign design checklist, session
+      preparation, teaching the rules, making meaning, example of play. Done in Ch25 (2026-11-23).
+- [x] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, editor notes,
+      "Related Sections", page citations (decide whether to keep OG page numbers or map to
+      Spanish/CSRD pages).
+      Done (2026-11-23): Stress in Ch16; every rule in OG's optional rules index exists in
+      DRSC-ES and is linked from the *Índice*; notes and related sections went chapter by
+      chapter; page citations are omitted (decision of 2026-11-23).
+- [x] Errata ability category (old 2015-Rulebook versions, 16 entries without a
+      Spanish match). Done in Ch9 (2026-11-23).
+- [x] Book abilities in the Cap. 7 category lists: OG's *Abilities by Category* lists
       include It's Only Magic, Neon Rain, High Noon at Midnight and Rust and Redemption
       abilities (about 613 of 1,494 unique entries); the Spanish lists still have only the
-      core abilities. Found in the WP6 verification (2026-11-23).
-- [ ] Typo in Cap. 15 Cuentos de hadas (on main before WP6): "nivel 7 para Defensa de debido a su
-      intangibilidad" is missing the stat.
+      core abilities. Found in the WP6 verification (2026-11-23). Done in Ch9 (2026-11-23).
+- [x] Typo in Cap. 15 Cuentos de hadas (on main before WP6): "nivel 7 para Defensa de debido a su
+      intangibilidad" is missing the stat. Fixed in Ch20 (2026-11-23): "nivel 7 para defensa debido a
+      su intangibilidad", as in the CSRD.
 - [x] Expanded fantasy role suggestions (Cap. 11), done early in WP3 (2026-11-22):
       OG's added foci, flavors and specialisations, the Artífice o erudito and Psiónico
       roles, and their editor's notes. When WP5 and WP6 translate High Noon at Midnight
@@ -666,18 +969,47 @@ terminology, so translating a book in one pass keeps them consistent.
 - OG additions are not labelled in the text (§2); editor's notes keep *Nota del editor:*.
 
 ### WP8 — Structural integration (incremental, alongside WP1–WP7)
-- [ ] Renumber/reorder to the target structure in §4.
-- [ ] Update TOC and both navbar dropdowns.
-- [ ] Extend part-colour theming and quick-reference styling to new content.
-- [ ] Fix the 134 pre-existing duplicate ids and normalise new ids.
-- [ ] Preserve the ES-only appendix.
+- [x] Renumber/reorder to the target structure in §4 (2026-11-23).
+      - Part 3 in OG's order: Superhéroes after Romance, Cuentos de hadas after Post-apocalíptico.
+      - Decision (user, 2026-11-23): OG's chapter numbers. Notas de la traducción (with *Acerca de
+        esta edición*) is Cap. 1; Licencia leaves the cover block and is Cap. 2; Cypher cortos is
+        labelled *Inicio rápido* (OG: Quick Start); Parte 5 gets its label.
+      - 82 "Capítulo N:" references in the text and TOC remapped; "Capítulo 5: Conflictos del
+        futuro" (The Stars Are Fire) and the CSRD's "capítulo 8" (a source book) stay.
+      - **Old → new numbers** (the WP1–WP7 records above use the old ones; `CORRECCIONES.json`
+        also keeps them, since the ODT keeps its structure): 1→3, 2→4, 3→5, 4→6, 5→7, 6→8, 7→9,
+        8→10, 9→11, 9-A→11-A, 10→12, 11→13, 12→14, 12-A→14-A, 12-B→14-B, 13→15, 14→18, 15→20,
+        16→16, 17→17, 18→19, 19→21, 19-A→21-A, 20→22, 21→23, 22→24, 23→25, 24→*Inicio rápido*.
+- [x] Update TOC and both navbar dropdowns (2026-11-23): the TOC follows the new order and
+      numbers and lists the FAQ and the Índice; the *Reglas* menu gained *Reglas opcionales*,
+      *Preguntas frecuentes* and *Índice* in the back matter chunk; the *Géneros* menu is
+      alphabetical and carries no numbers.
+- [x] Extend part-colour theming and quick-reference styling to new content (2026-11-23): every
+      chapter sits in its part container (#part0–#part5), so the part colours apply; new quick
+      references use the standard classes.
+- [x] Fix the 134 pre-existing duplicate ids and normalise new ids (2026-11-23): 118 → 0. First
+      occurrences keep their id (no link changes destination); 169 later alias spans removed, 11
+      headings renamed; 13 links meant for a later copy retargeted (Nadar, Resultados especiales,
+      Purificación, Resistencia al veneno, Comunicación, Control mental ×3, Botas de saltar, four
+      cyphers). Five skipped heading levels remain, as before (informational).
+      - Cap. 13: the older CSRD's short basic creature list is merged into the full one, as OG
+        has it (one list, sorted; Were* creatures named *Hombre oso/rata/tiburón/tigre*).
+- [x] Preserve the ES-only appendix (Extras, #part6).
 - Acceptance: navigation complete; no orphan sections; anchors coherent.
 
 ### WP9 — QA and release
-- [ ] Run anchor/duplicate/structure checks (expect 0 missing anchors, no new dupes).
-- [ ] Headless render in light and dark; confirm no console errors.
-- [ ] Link sweep and cross-reference audit; re-run the §3 source audit.
-- [ ] Proofread pass against the glossary.
+- [x] Run anchor/duplicate/structure checks (2026-11-23): 16,210 internal links, 0 broken; 0
+      duplicate ids; 0 structure errors (5 skipped heading levels, informational).
+- [x] Headless render in light and dark; confirm no console errors (2026-11-23): full page, both
+      themes, no console messages (`render.py` now ignores headless Chrome's GPU probing).
+- [x] Link sweep and cross-reference audit; re-run the §3 source audit (2026-11-23): every
+      "Capítulo N: Nombre" names chapter N and every chapter link opens it; `audit.py` (its chapter
+      map completed) finds 0 named OG entries from covered books without a Spanish match, and only
+      the inline fairy-tale *Enano* and *Trol* outside their OG chapter (accepted, see §3).
+- [x] Proofread pass against the glossary (2026-11-23), as automated lints: no *vosotros*, no *usted*
+      (four passages fixed), no *estar/ser practicado*, no imperial-first units, no English labels,
+      balanced «» and ¿?/¡!; 12 repeated-word or garbled phrases fixed; 5 empty links and 23 links
+      ending in a space before punctuation cleaned up. A full human read is not part of this pass.
 - [ ] ODT and PDF: the ODT keeps its current structure (the WP1 reorganisation is not
       ported to it) and only gets the text corrections registered in `CORRECCIONES.json`.
       - Apply them with `tools/fixes/apply_fixes.py --target odt --record`; it matches
@@ -695,7 +1027,8 @@ terminology, so translating a book in one pass keeps them consistent.
         space element, when a correction crossed markup. The applier now aligns
         changes word by word and checks the result. The one link affected in the HTML
         (*Arremetida* in Cap. 1 › *Alcance y velocidad*) was restored.
-- [ ] Bump the version line and the `?v=` cache-bust params for CSS/JS.
+- [x] Bump the version line and the `?v=` cache-bust params for CSS/JS (2026-11-23): *Versión del
+      2026-11-23*; `drsc-es.css` and `generador-personajes.js` at `?v=20261123e`.
 - Acceptance: all QA checks green; parity checklist signed off.
 
 ---
@@ -712,6 +1045,9 @@ terminology, so translating a book in one pass keeps them consistent.
 - New sections get a "Referencia rápida" box listing their immediate subheadings.
 - Use relative internal links (`#id`) inside the page; external links only for
   genuine external resources.
+- Do not add lists or citations of content that lives only in other products (for example
+  OG's list of the archetypes in *Claim the Sky*). Mentions of the products and store links
+  are fine.
 - Do not introduce inline styles; extend `css/drsc-es.css`.
 - When moving a section, move its HTML block intact (heading, id, anchor, body) and
   fix only the heading level and surrounding quick references.
@@ -735,8 +1071,7 @@ Automated checks to run after each work package (see `tools/README.md`):
 1. Internal anchors: every `href="#x"` resolves to an `id="x"`
    (`tools/qa/check_html.py`).
 2. Duplicate ids: no new duplicates, and no duplicated id may switch to a different
-   target element (`check_html.py --baseline <branch point>`); drive the remaining 127 to
-   zero in WP8.
+   target element (`check_html.py --baseline <branch point>`); zero since WP8 (2026-11-23).
 3. HTML structure: balanced tags, no unclosed containers (`check_html.py`).
 4. Render: load in headless Chrome in light and dark, assert no console errors, spot
    check tables, sidebars, quick refs, tabbed items and dropdowns
