@@ -369,10 +369,10 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Cyphers](#cyphers) | 430 |
 | [Artefactos](#artefactos) | 209 |
 | [Criaturas](#criaturas) | 161 |
-| [PNJs](#pnjs) | 83 |
+| [PNJs](#pnjs) | 84 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2674** |
+| **Total** | **2675** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -3030,13 +3030,14 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Queen Grimhilde | Reina Grimilda |
 | Raider | Saqueador |
 | Replicant | Replicante |
-| Robber/Thief | Atracador/Ladrón |
+| Robber | Atracador |
 | Satyr | Sátiro |
 | Satyr (Fairy Tale) | Sátiro (Cuentos de hadas) |
 | Scholar | Erudito |
 | Secret Agent | Agente secreto |
 | Shadow Elf | Elfo de la sombra |
 | Storm Marine | Marine de asalto |
+| Supervillain | Supervillano |
 | Synthetic Person | Persona sintética |
 | The Blind Witch | La Bruja Ciega |
 | The Red Queen | La Reina Roja |

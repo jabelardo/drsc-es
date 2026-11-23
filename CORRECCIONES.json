@@ -5545,6 +5545,114 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-pnj-otros-pnjs",
+      "date": "2026-11-23",
+      "entry": "Otros PNJs",
+      "reason": "Gender agreement.",
+      "old": "algunas otras atributos",
+      "new": "algunos otros atributos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-pnj-mago-corrupto",
+      "date": "2026-11-23",
+      "entry": "Mago corrupto [Corrupt Mage] (PNJ)",
+      "reason": "CSRD: 'within close range'; OG-CSRD notes that 'close' means immediate.",
+      "old": "Remodela la carne de una criatura a corto alcance",
+      "new": "Remodela la carne de una criatura a alcance inmediato",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-pnj-ogro",
+      "date": "2026-11-23",
+      "entry": "Ogro [Ogre] (PNJ)",
+      "reason": "CSRD: 'all foes within close range'; OG-CSRD notes that 'close' means immediate. Also 'obstaculizada'.",
+      "old": "atacando a todos los enemigos que se encuentren a corto alcance. La defensa contra este ataque se ve obstaculiza",
+      "new": "atacando a todos los enemigos que se encuentren a alcance inmediato. La defensa contra este ataque se ve obstaculizada",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-pnj-supervillanos",
+      "date": "2026-11-23",
+      "entry": "Supervillanos (Anathema, Doctor Dread, Magnetar, Wrath)",
+      "reason": "Gender agreement.",
+      "old": "otras atributos",
+      "new": "otros atributos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-pnj-supervillanos-2",
+      "date": "2026-11-23",
+      "entry": "Supervillanos",
+      "reason": "Glossary term in lower case, linked as in OG.",
+      "old": "Mejoras de poder",
+      "new": "mejoras de poder",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-pnj-intromision-del-dj",
+      "date": "2026-11-23",
+      "entry": "Intromisión del DJ (Capítulo 21: PNJs)",
+      "reason": "CSRD: 'GM Intrusion' (singular). 56 labels in Cap. 21 said 'Intromisiones del DJ', 'Intromisión de DJ' or had the colon inside a trailing space.",
+      "old": "Intromisiones del DJ:",
+      "new": "Intromisión del DJ:",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-atributos-genero",
+      "date": "2026-11-23",
+      "entry": "\"atributos\" (Cap. 9, 16, 21, 23)",
+      "reason": "Gender agreement (5 places).",
+      "old": "las atributos",
+      "new": "los atributos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-pnj-nino",
+      "date": "2026-11-23",
+      "entry": "Niño [Child] (PNJ)",
+      "reason": "Repeated words.",
+      "old": "A veces a veces",
+      "new": "A veces",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-pnj-nigromante",
+      "date": "2026-11-23",
+      "entry": "Nigromante [Necromancer] (PNJ)",
+      "reason": "Number agreement.",
+      "old": "es retenidos",
+      "new": "es retenido",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
