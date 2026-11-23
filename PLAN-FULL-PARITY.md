@@ -835,6 +835,20 @@ terminology, so translating a book in one pass keeps them consistent.
       OG's Alien Manifest Cyphers box is commented out in its source; 17 editor's notes; the
       stat-block sidebars). Changes: the Resucitado and Implacable sidebars boxed; the Paranormal
       Vices quick reference grouped by vice, as in OG.
+- [x] Ch22 (2026-11-23). Cap. 20 had all of OG's creatures (150 headings both sides).
+      - Quick reference: OG's Creatures and NPCs index (lists, related sections, basic creatures by
+        genre, 214 creatures and NPCs alphabetically, by level 1–10, special damage). Targets come
+        from the Spanish headings' [English] names: several idmap entries point to descriptors with
+        the same name (Chimera, Dragon, Ghost, Risen, Dwarf, Elf, Halfling, Morlock, Troll).
+      - Decision: the CSRD's *Criaturas y PNJs de fantasía por nivel* table moves to the end of
+        Cap. 11 (OG drops it for the index); six of its links were fixed (descriptors, abilities and
+        the Cap. 15 Troll card answered them). Artesano, Encantador and Elfo NPCs get `-pnj` anchors.
+      - OG's boxes: GM intrusions (singular label), template definitions with the level table (and
+        OG's success-rate column), normal animals, six CSRD sidebars; three notes plus the chapter
+        note. Close range is *inmediato* in Fusion Hound and Snark, so the immediate/close note is
+        not needed.
+      - Cap. 15 and Cap. 16 creature lists that linked #fantasma, #artesano and #encantador (an
+        ability or a descriptor answers first) now link the creature and NPC entries.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
