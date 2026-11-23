@@ -420,8 +420,6 @@ class Converter:
                 if plain and sum(len(x) for x in body) < 1200:
                     res.append('#capitulo-breve' + b[len('#capitulo'):-1] + ', cuerpo: [\n' + '\n'.join(body) + '\n])')
                     k = nxt
-                    if k < len(bl) and bl[k].startswith('#capitulo('):
-                        bl[k] = bl[k][:-1] + ', salto: false)'   # the next chapter starts on the same page
                     continue
             res.append(b)
             k += 1
