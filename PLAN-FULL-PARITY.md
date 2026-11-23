@@ -804,13 +804,9 @@ terminology, so translating a book in one pass keeps them consistent.
       - Pending links resolved: Power Shifts in Other Genres (four), Hellfire and Icy Paths.
       - Left as is: *Power Stunt Difficulty* stays as bold paragraphs (OG uses a table). OG's
         Daft Drafts mentions are left out. The CSRD sidebars were already inline.
-- [x] Product pointers removed (2026-11-23, user's rule): nothing that points to other
-      products or sites, apart from acknowledgment or attribution. Removed from earlier WP7
-      chunks: the Claim the Sky archetype list (Ch18), the "Si te gusta este módulo de reglas,
-      plantéate comprar…" lines (*Claim the Sky*, *Gods of the Fall*, *Stay Alive!*, *Unmasked*,
-      *The Origin*, *The Magnus Archives*, *Predation*), the store links in the romance note
-      (Ch12) and the official character-sheets link (Ch1–5). Links in the CSRD text itself
-      (myMCG.info/consent) stay.
+- [x] Claim the Sky archetype list removed from Cap. 14 (2026-11-23, user's rule): no lists or
+      citations of content that lives only in other products (archetypes, descriptors, foci…).
+      Mentioning the products, store links and "if you like this module…" lines are fine.
 - [x] Ch19 (2026-11-23): checked, no changes. Cap. 18 was rebuilt in OG's order in WP6 and already
       has OG's eight editor's notes, its 15 sidebars and the full quick reference (descriptors,
       species, optional rules, related sections).
@@ -829,7 +825,7 @@ terminology, so translating a book in one pass keeps them consistent.
         repeated Perro negro); typos.
       - Links: the Death rule is *muerte-1*, so #muerte reaches the Death NPC (also from Cap. 16
         Stress); the Wind Children link no longer goes to the Child.
-      - Left out: OG's two Daft Drafts notes and the store link in the Heartwood note.
+      - Left out: OG's two Daft Drafts notes. The Heartwood note now carries OG's store link.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
@@ -933,9 +929,9 @@ terminology, so translating a book in one pass keeps them consistent.
 - New sections get a "Referencia rápida" box listing their immediate subheadings.
 - Use relative internal links (`#id`) inside the page; external links only for
   genuine external resources.
-- Do not add pointers to other products or sites (store links, "if you like this module,
-  consider buying…", lists of what another book contains) except for acknowledgment or
-  attribution. Leave OG's product promotions out.
+- Do not add lists or citations of content that lives only in other products (for example
+  OG's list of the archetypes in *Claim the Sky*). Mentions of the products and store links
+  are fine.
 - Do not introduce inline styles; extend `css/drsc-es.css`.
 - When moving a section, move its HTML block intact (heading, id, anchor, body) and
   fix only the heading level and surrounding quick references.
