@@ -6193,6 +6193,198 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-encantador-tu",
+      "date": "2026-11-23",
+      "entry": "Encantador [Charming] (Capítulo 5)",
+      "reason": "The reader is 'tú'; the paragraph switched to 'usted' mid-way.",
+      "old": "o simplemente por su facilidad de palabra, puede convencer a los demás para que hagan lo que usted desea. Lo más probable es que sea físicamente atractivo o, al menos, muy carismático, y que a los demás les guste escuchar su voz.",
+      "new": "o simplemente por tu facilidad de palabra, puedes convencer a los demás para que hagan lo que deseas. Lo más probable es que seas físicamente atractivo o, al menos, muy carismático, y que a los demás les guste escuchar tu voz.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-realiza-ciencia-extrana-tu",
+      "date": "2026-11-23",
+      "entry": "Realiza ciencia extraña › Historia detrás del rasgo (Capítulo 6)",
+      "reason": "The reader is 'tú'; 'indulgent of curiosity' was calqued.",
+      "old": "La verdad es que usted tiene un don especial para escudriñar los límites de lo posible.",
+      "new": "La verdad es que tienes un don especial para escudriñar los límites de lo posible.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-realiza-ciencia-extrana-tu-2",
+      "date": "2026-11-23",
+      "entry": "Realiza ciencia extraña › Historia detrás del rasgo (Capítulo 6)",
+      "reason": "The reader is 'tú'.",
+      "old": "Donde otros ven una cornucopia de chifladuras, usted tamiza las teorías conspirativas en busca de revelaciones. Tanto si realiza sus investigaciones como contratista del gobierno, como investigador universitario, como científico de empresa o como un indulgente de la curiosidad en su propio laboratorio de garaje siguiendo a su musa, empuja los límites de lo posible.",
+      "new": "Donde otros ven una cornucopia de chifladuras, tú tamizas las teorías conspirativas en busca de revelaciones. Tanto si realizas tus investigaciones como contratista del gobierno, investigador universitario o científico de empresa como si te entregas a la curiosidad en tu propio laboratorio de garaje siguiendo a tu musa, empujas los límites de lo posible.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-lanza-precision-mortal-tu",
+      "date": "2026-11-23",
+      "entry": "Lanza con una precisión mortal [Throws With Deadly Accuracy] (Capítulo 6)",
+      "reason": "The reader is 'tú'.",
+      "old": "Todo lo que sale de su mano va exactamente a donde usted quiere que vaya y a la distancia y velocidad para hacer el impacto perfecto.",
+      "new": "Todo lo que sale de tu mano va exactamente a donde quieres que vaya, con la distancia y la velocidad justas para el impacto perfecto.",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-1",
+      "date": "2026-11-23",
+      "entry": "Rasgos de personaje › Mezclar rasgos (Capítulo 6)",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "que se Se encoge a tamaños diminutos",
+      "new": "que Se encoge a tamaños diminutos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-2",
+      "date": "2026-11-23",
+      "entry": "Creación de tipos / capacidades (Capítulo 7)",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "mayor potencia en en un rango",
+      "new": "mayor potencia en un rango",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-3",
+      "date": "2026-11-23",
+      "entry": "Listado de capacidades (Capítulo 7)",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "nunca se aleja de de ti mas que largo alcance",
+      "new": "nunca se aleja de ti más allá de largo alcance",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-4",
+      "date": "2026-11-23",
+      "entry": "Destellar a través de la distancia [Flash Across the Miles] (Capítulo 7)",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "siempre que exista una ruta desde el aire libre hasta la zona a la que quieres llegar a la que que la electricidad pueda seguir fácilmente",
+      "new": "siempre que exista, desde el aire libre hasta la zona a la que quieres llegar, una ruta que la electricidad pueda seguir fácilmente",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-5",
+      "date": "2026-11-23",
+      "entry": "Listado de capacidades (Capítulo 7)",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "obstaculizada en en grado adicional",
+      "new": "obstaculizada en un grado adicional",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-6",
+      "date": "2026-11-23",
+      "entry": "Situación especial: Atacar objetos (Capítulo 9)",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "El Atacar objetos puede puede hacerlos",
+      "new": "Atacar objetos puede hacerlos",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-7",
+      "date": "2026-11-23",
+      "entry": "Herramientas especializadas",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "para la que son son adecuadas",
+      "new": "para la que son adecuadas",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-8",
+      "date": "2026-11-23",
+      "entry": "Intromisiones del DJ",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "a punto de de eclosionar",
+      "new": "a punto de eclosionar",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-9",
+      "date": "2026-11-23",
+      "entry": "Compulsión (Capítulo 15)",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "La tarea tarea puede ser sencilla (elegir la rosa más bonita de de un jardín)",
+      "new": "La tarea puede ser sencilla (elegir la rosa más bonita de un jardín)",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-10",
+      "date": "2026-11-23",
+      "entry": "Perro negro (Capítulo 20)",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "interviene para para ayudarles",
+      "new": "interviene para ayudarles",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-11",
+      "date": "2026-11-23",
+      "entry": "Capítulo 21 PNJs",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "que sea un un desafío",
+      "new": "que sea un desafío",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-repeticiones-12",
+      "date": "2026-11-23",
+      "entry": "Capítulo 21 PNJs",
+      "reason": "Repeated word or garbled sentence (proofread lint).",
+      "old": "contra aquellos que que le hacen daño",
+      "new": "contra aquellos que le hacen daño",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
