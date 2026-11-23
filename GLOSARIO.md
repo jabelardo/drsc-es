@@ -317,6 +317,11 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Area Attacks, Effort, and Damage / Basic Hazards / Quick Reference: Hazards, Crafting | Ataques de área, Esfuerzo y daño / Peligros básicos / Referencia rápida: Peligros, Fabricación | |
 | Followers vs. Temporary Companions / Follower Level Progression / Balancing Followers | Seguidores frente a compañeros temporales / Progresión de nivel de los seguidores / Equilibrar a los seguidores | Cap. 9-A. |
 | deluxe editions (of the Cypher System Rulebook) | ediciones de lujo | |
+| XP Advance / Starting at Tier 0 / Advancing to Tier 1 / Slower Advancement / Advancing Beyond Tier 6 (optional rules) | Adelanto de PX / Empezar en rango 0 / Avanzar a rango 1 / Avance más lento / Avanzar más allá del rango 6 | Cap. 10 (WP7 Ch12), in the box with *Dividir los PX*. An XP advance is a loan, so *adelanto*, not *avance*. |
+| Optional Character Advancements: Enhanced Spellcasting / Enhanced Psionics / Mutation / Posthuman Upgrades / Posthuman Power Shifts / Specialized Knowledge | Avances de personaje opcionales: Lanzamiento de hechizos mejorado / Psiónica mejorada / Mutación / Aumentos posthumanos / Mejoras de poder posthumanas / Conocimiento especializado | Upgrade is *aumento*, since *mejora* is taken by power shift and by the four advancement steps. |
+| XP Advance complications: Burden / Condition / Fugitive / Inability / Maintenance / Oppression | Carga / Condición / Fugitivo / Incapacidad / Mantenimiento / Opresión | |
+| Slower Advancement options: Expenditure Requirements / Two Kinds of XP / Milestone Advancement / Tier Advancement Purchase / Require More Advancements Each Tier / Increased Advancement Costs by Tier | Requisitos de gasto / Dos tipos de PX / Avance por hitos / Compra del avance de rango / Exigir más mejoras por rango / Coste de avance creciente por rango | Broad / narrow skill: *habilidad amplia / específica*; lair: *guarida*. |
+| Lucky Shot / Extended Vehicular Combat / redline maneuver (XP quick reference) | Tiro de suerte / Combate de vehículos prolongado / maniobra al límite | "Spend N XP" headings: *Gastar N PX*. |
 
 ### Decisiones tomadas
 
