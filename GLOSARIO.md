@@ -296,7 +296,12 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Skills from Backgrounds / Skill Training | Habilidades de trasfondo / Competencia en habilidades | |
 | Character Sentence Generator / Character Creation Checklist | Generador de frases de personaje / Lista de comprobación para crear un personaje | |
 | Simplified / Personalized Flavor | Aspecto simplificado / personalizado | Foolish's Carefree trait is *Despreocupado* (existing). |
-| sidekick sheet: nature / niche / associated PC | hoja de camarada: naturaleza / nicho / PJ asociado | Provisional until the Camaradas chapter (Sidekicks) is translated. |
+| sidekick sheet: nature / niche / associated PC / boon / command task | hoja de camarada: naturaleza / nicho / PJ asociado / don / tarea de mando | Settled with the Camaradas section (Cap. 9-A, WP7 Ch11-A). |
+| Sidekick natures: Adorable / Aggressive / Alert / Contented / Energetic / Hapless / Meddling / Precocious / Preening / Shy | Adorable / Agresivo / Alerta / Plácido / Enérgico / Torpe / Entrometido / Precoz / Presumido / Tímido | Boons: *Don adorable*, etc. |
+| Sidekick niches: Aquatic / Armored / Cunning / Diminutive / Flying / Hardy / Large / Nimble / Strong / Swift | Acuático / Acorazado / Astuto / Diminuto / Volador / Resistente / Grande / Ágil / Fuerte / Veloz | |
+| Fantastic niches: Alien / Construct / Divine / Dragon / Mon / Shapeshifter / Spellbound / Spirit / Symbiote / Trickster | Alienígena / Constructo / Divino / Dragón / Mon / Cambiaformas / Hechizado / Espíritu / Simbionte / Burlón | *Burlón*, not *Embaucador* (the Shyster vice). |
+| Templates: Golem, Mechanic Droid, Personality Core, Pugilist Titan, Replicant; Alicorn, Hippocentaur, Phoenix, Sphinx; Kodama, Imaginary Friend, Shade, Surtling, Undine, Zephyr; Bogey, Brownie, Mystic Fox, Nixie | Gólem, Droide mecánico, Núcleo de personalidad, Titán púgil, Replicante; Alicornio, Hipocentauro, Fénix, Esfinge; Kodama, Amigo imaginario, Sombra, Surtling, Ondina, Céfiro; Coco, Duende doméstico, Zorro místico, Nixe | *Nixe*, since *Ondina* is Undine. |
+| Sidekick abilities: Increased X / Signature Ability / Signature Attack / Nine Lives / Razzle Dazzle / Rampage / Trusty Steed / Aquatic, Winged, Emotional Support Sidekick | X aumentado/a (Increased Training = *Competencia aumentada*) / Capacidad distintiva / Ataque distintivo / Siete vidas / Distracción deslumbrante / Embestida / Montura fiel / Camarada acuático, alado, de apoyo emocional | Catalog in Cap. 9-A; ids end in *-de-camarada*. |
 | Errata abilities (2015 Rulebook) / OG-CSRD variant abilities | capacidades de errata / variantes del OG-CSRD | Entries end with *(Errata)* or *(variante del OG-CSRD)*. Chop *Tajo*, Crush *Aplastar*, Daring Escape *Huida audaz*, Extra Edge *Ventaja extra*, Font of Inspiration *Fuente de inspiración*, Mighty Blow *Golpe poderoso*, Opening Gambit *Gambito de apertura*, Practiced With Light (and Medium) Weapons *Práctica en armas ligeras (y medias)*, Riposte *Contraataque*, Seize Opportunity *Aprovechar la oportunidad*, Shooting Gallery *Galería de tiro*, Skills *Habilidades*, Slayer *Matador*, Specialization *Especialización*, Surprise Strike *Golpe sorpresa* (not *Ataque sorpresa*, which is Surprise Attack). The 2015 Fleet of Foot, Shipspeak and Throw and the six OG variants keep the current ability's name. |
 | Extra Action / Stats / Cyphers and Artifacts / Errata / Recovery / Roll (ability categories) | Acción extra / Atributos / Cyphers y artefactos / Errata / Recuperación / Tirada | OG's extra categories in Cap. 7. Stat is *atributo*, so Stats is *Atributos*. |
 | Weapon Properties / Alternative Armor Encumbrance / Object Level, Health, and Armor (optional rules) | propiedades de las armas / carga de armadura alternativa / nivel, salud y Armadura de los objetos | The first two are in Cap. 8 (WP7 Ch10), the third in Cap. 9 (Ch11). |
@@ -323,7 +328,7 @@ Settled 2026-11-22, before WP3:
   tells them apart.
 
 Settled 2026-11-23, before WP7:
-- **Sidekick:** *camarada*, distinct from *seguidor* (follower) and *compañero* (companion).
+- **Sidekick:** *camarada*, distinct from *seguidor* (follower) and *compañero* (companion). Translated in WP7 Ch11-A (Cap. 9-A).
 - **Errata and OG-variant abilities (Ch9):** added to the A–Z list like OG, each ending with *(Errata)* or
   *(variante del OG-CSRD)*; a 2015 version or OG variant follows the current ability of the same name.
   OG's † and ‡ marks are kept in the category lists, with their legend in the quick reference.
