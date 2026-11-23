@@ -23,7 +23,7 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | WP2 | Gaps inside covered books, CSRD 2025 errata | done (2026-11-22, `wp2-gaps`, not merged yet): range/distance terminology, Heartwood, Moonbeam and Question Past Self; the CSRD 2025 has no errata to existing text; *Escudo deflector* kept |
 | WP3 | It's Only Magic (~48k) | done (2026-11-22, `wp3-iom`, not merged yet): abilities, cantrips, flavors and foci; fantasy roles; Magia moderna chapter (Cap. 12-A); 13 creatures and 4 NPCs; Familiars and Covens; Reviving Artifacts; crafting additions |
 | WP4 | Neon Rain (~42k) | done (2026-11-23, `wp4-nr`, not merged yet): 52 abilities, 9 foci, 5 descriptors, Cap. 12-B Ciberpunk, Ch11 optional rules, Splitting XP, Romance addition, linking pass; 5 links wait for WP7 sections |
-| WP5 | High Noon at Midnight (~38k) | to do |
+| WP5 | High Noon at Midnight (~38k) | done (2026-11-23, `wp5-hnam`, not merged yet): 76 abilities, 7 foci, 9 descriptors, Cap. 19-A Oeste extraño, 11 creatures, 2 NPCs, linking pass; 5 links wait for WP6/WP7 sections |
 | WP6 | Rust and Redemption (~36k) | to do |
 | WP7 | OG editorial content (~68k) | to do |
 | WP8 | Structural integration (renumbering, duplicate ids) | to do |
@@ -57,9 +57,9 @@ Per-chapter status of DRSC-ES against OG-CSRD v2.11a (2026-08-14). The work pack
 | Ch19 Post-Apocalyptic | Cap. 18 Post-apocalíptico | complete (the 0.68 ratio is R&R text OG merged into Scavenging) | RR 17.3k, including the revised Scavenging and the Mutant descriptor (WP6) | to do |
 | Ch20 Fairy Tale | Cap. 15 Cuentos de hadas | complete | — | done |
 | Ch21 Historical | Cap. 19 Histórico | complete | — | done |
-| Ch21-A Weird West | — (new chapter) | — | HNAM 25.2k (WP5) | to do |
-| Ch22 Creatures | Cap. 20 Criaturas | complete (13 IOM creatures added in WP3) | 26 creatures: HNAM 4.7k, RR 5.0k (WP5, 6) | to do |
-| Ch23 NPCs | Cap. 21 PNJs | complete (4 IOM NPCs added in WP3) | 7 NPCs: HNAM 0.9k, RR 1.3k (WP5, 6) | to do |
+| Ch21-A Weird West | Cap. 19-A Oeste extraño (WP5) | complete | — | done |
+| Ch22 Creatures | Cap. 20 Criaturas | complete (13 IOM creatures added in WP3, 11 HNAM in WP5) | 15 creatures: RR 5.0k (WP6) | to do |
+| Ch23 NPCs | Cap. 21 PNJs | complete (4 IOM NPCs added in WP3, 2 HNAM in WP5) | 5 NPCs: RR 1.3k (WP6) | to do |
 | Ch24 Cyphers | Cap. 22 Cyphers | complete | RR 0.1k (WP6); OG editorial 0.9k (WP7) | to do |
 | Ch25 Running the Cypher System | Cap. 23 Dirigir el Sistema Cypher | complete | HNAM 0.1k, RR 0.3k (WP5, 6); OG editorial 14.4k (WP7) | to do |
 | Cypher Shorts | Cap. 24 Cypher cortos | complete | — | done |

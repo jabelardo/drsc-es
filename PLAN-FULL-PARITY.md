@@ -540,14 +540,40 @@ terminology, so translating a book in one pass keeps them consistent.
         *Comprar Cyphers de app*. Five links wait for WP7 sections (see WP7).
 
 ### WP5 — High Noon at Midnight (~38k EN words)
-- [ ] Ch21-A Oeste extraño (character options, currency, equipment, poker/hands of
+- [x] Ch21-A Oeste extraño (character options, currency, equipment, poker/hands of
       fate/deck as d20, showdown, curses, survival, tall tales, paranormal vices,
       threats/hazards, cyphers, artifacts).
-- [ ] 7 foci, 10 descriptors, 73 abilities, 11 creatures, 2 NPCs.
+- [x] 7 foci, 10 descriptors, 73 abilities, 11 creatures, 2 NPCs.
+      - 76 abilities done (OG counts 67 new ones plus 9 High Noon versions of core abilities).
+        The versions are named after their focus or vice, e.g. *Daño letal (Cobra recompensas)*
+        and *Ojo certero (Ebrio)*. Cap. 7 gets a *Capacidades Q* section (*Que lo intenten*,
+        *Quedar en tablas*).
+      - 7 foci done (Cap. 6). OG's High Noon foci have no GM intrusions. New *Capítulo 19-A
+        Oeste extraño* (nav, TOC, genres intro) with *Opciones de personaje* (OG's Dave Kehr
+        quote, translated, with a link to the video instead of the embed), *Tipos sugeridos*
+        (the types note drops its Daft Drafts part), *Rasgos del Oeste extraño* and the 9
+        descriptors (OG has 9, not 10), including the *Forjado* and *Resucitado* species
+        descriptors and *Avance de especie*. The Cap. 11 fantasy role suggestions now link
+        the seven foci.
+      - Cap. 19-A sections done: *Monedas*, *Equipo* (with *Recargar armas*), *Jugar al
+        póquer*, *Manos del destino*, *La baraja como d20*, *Duelo*, *Maldiciones*,
+        *Supervivencia*, *Historias increíbles*, *Vicios paranormales*, *Amenazas y peligros*,
+        *Cyphers* (29 alchemical rounds and slugs) and *Artefactos* (22). Equipment rows,
+        cyphers and artifacts are sorted by Spanish name; random tables keep OG's ranges.
+      - 11 creatures (Cap. 20) and 2 NPCs (Cap. 21) done, inserted alphabetically. Cap. 19-A
+        gets *Criaturas del Oeste extraño* (basic animals and NPCs, famosos, bestias malditas,
+        forjados, pistoleros, necróvoros, with OG's stat lines) and the by-level table.
+      - Linking pass done (2026-11-23): the 70 links recorded while Cap. 19-A was being
+        written now point at their Spanish sections. OG ids that differ from their targets
+        (`weird-west-necrovore`, `weird-west-gunslingers`, `creature-wraith`, the Ch25 heading)
+        map through aliases. Five links wait: four for WP7 sections (see WP7) and one for
+        WP6 (*Exposure*, see WP6).
 
 ### WP6 — Rust and Redemption (~36k EN words)
 - [ ] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
       mutations, cyphers, artifacts).
+- [ ] Link from WP5: "un frío excesivo" in *Amenazas y peligros del Oeste extraño*
+      (Cap. 19-A, Uncanny Blizzard) should point to R&R's *Exposure* (Too Cold).
 - [ ] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
       15 creatures, 5 NPCs.
 - [ ] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
@@ -555,10 +581,10 @@ terminology, so translating a book in one pass keeps them consistent.
       ("In addition to descriptors for human survivors…").
 
 ### WP7 — OG editorial content (~68k EN words, prioritise per item)
-- [ ] Back matter: FAQ, Índice, Qué hay en el libro, Prólogo.
+- [ ] Back matter: FAQ, Índice.
 - [ ] Character tools: Character Sentence Generator, creation checklist, PDFs links.
 - [ ] Sidekicks (Ch11-A, ~10k).
-- [ ] Links left from WP4, to add when these OG editorial sections exist:
+- [ ] Links left from WP4 and WP5, to add when these OG editorial sections exist:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
         inactividad forzoso* and in *Intromisiones de salud* (Cap. 12-B).
@@ -567,6 +593,10 @@ terminology, so translating a book in one pass keeps them consistent.
         combate de antemano" in *Dañar los ciberimplantes* (Cap. 12-B).
       - *Switching Character Options*: OG's sidebar in *Rasgos de ciberpunk* that points
         to it was left out; add it with the section.
+      - *Creating Challenging Encounters* (WP5): "daño duradero" in the *Forjado* descriptor
+        (Cap. 19-A).
+      - *Celebrity* creature template and *Modifying Creatures* (Ch25): "famosos", "Famoso"
+        and "Modificar criaturas" in *Famosos* (Cap. 19-A).
 - [ ] Running the game additions (Ch25, ~14k): campaign design checklist, session
       preparation, teaching the rules, making meaning, example of play.
 - [ ] Stress and Serious Injuries (Ch16, ~4k), ~46 OG optional rules, extra ability
