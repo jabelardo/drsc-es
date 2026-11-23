@@ -10,6 +10,7 @@
 #let oscuros = (rgb("#330033"), rgb("#003366"), rgb("#663300"), rgb("#554411"), rgb("#114422"), rgb("#222244"), rgb("#660000"))
 #let tinta = rgb("#222222")
 #let parte-n = state("parte-n", 0)
+#let titulo-breve = state("titulo-breve", false)
 #let col() = colores.at(parte-n.get())
 #let col-osc() = oscuros.at(parte-n.get())
 
@@ -78,7 +79,7 @@
     (0.32em, 0em), (0.62em, 0em), (0.45em, 0.3em), (0.66em, 0.3em), (0.18em, 0.75em), (0.33em, 0.4em), (0.12em, 0.4em)))
   show "℞": [R#sub[x]]
   show heading.where(level: 1): it => text(font: fuente-titulos, weight: 600, size: 60pt, hyphenate: false, upper(it.body))
-  show heading.where(level: 2): it => context block(text(font: fuente-titulos, weight: 600, size: 38pt, fill: col(), hyphenate: false, upper(it.body)))
+  show heading.where(level: 2): it => context block(text(font: fuente-titulos, weight: 600, size: if titulo-breve.get() { 22pt } else { 38pt }, fill: col(), hyphenate: false, upper(it.body)))
   show heading.where(level: 3): it => it.body
   show heading.where(level: 4): it => it.body
   show heading.where(level: 5): it => it.body
@@ -121,21 +122,19 @@
   })
 }
 
-// a chapter of a few paragraphs: a full-width block at the top of a new page; the next chapter
-// (called with salto: false) opens below it on the same page
-#let capitulo-breve(etiqueta, titulo, ids: (), cuerpo: []) = {
-  pagebreak(weak: true)
-  place(top, float: true, scope: "parent", clearance: 16pt, context {
-    anclas(ids)
-    let c = col()
-    align(center)[
-      #if etiqueta != none { text(font: fuente-rotulos, size: 11pt, tracking: 0.22em, fill: c, upper(etiqueta)) }
-      #heading(level: 2, supplement: if etiqueta != none [#etiqueta] else [])[#titulo]
-    ]
-    columns(2, gutter: 15pt, cuerpo)
-    v(2pt)
-    line(length: 100%, stroke: 2pt + c)
-  })
+// a chapter of a few paragraphs (Licencia): set inline, in the column, right after the previous chapter
+#let capitulo-breve(etiqueta, titulo, ids: (), cuerpo: []) = context {
+  let c = col()
+  block(above: 1.6em, below: 0.6em, sticky: true, width: 100%)[
+    #anclas(ids)
+    #line(length: 100%, stroke: 2pt + c)
+    #v(2pt)
+    #if etiqueta != none { text(font: fuente-rotulos, size: 9pt, tracking: 0.22em, fill: c, upper(etiqueta)) }
+    #titulo-breve.update(true)
+    #heading(level: 2, supplement: if etiqueta != none [#etiqueta] else [])[#titulo]
+    #titulo-breve.update(false)
+  ]
+  cuerpo
 }
 
 // a wide table (with its heading or caption) across both columns, at the top or foot of the page
