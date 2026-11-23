@@ -289,7 +289,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 
 | Kind | Entries |
 |---|---:|
-| [Capacidades](#capacidades) | 1361 |
+| [Capacidades](#capacidades) | 1380 |
 | [Rasgos](#rasgos) | 137 |
 | [Descriptores](#descriptores) | 95 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
@@ -299,7 +299,7 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [PNJs](#pnjs) | 78 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2473** |
+| **Total** | **2492** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -357,6 +357,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Answering Attack | Ataque de respuesta |
 | Anticipate Attack | Anticipar el ataque |
 | Anticipation | Anticipación |
+| Apocalyptic Stare | Mirada apocalíptica |
 | App Tinkerer | Manitas de apps |
 | Applying Your Knowledge | Aplicar tus conocimientos |
 | Apportation | Aportación |
@@ -372,6 +373,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Assassin Skills | Habilidades de asesino |
 | Assassin Strike | Golpe asesino |
 | Asserting Your Privilege | Hacer valer tu privilegio |
+| Assisted Sight | Visión asistida |
 | Assume Control | Asumir el control |
 | Athlete | Atleta |
 | Attack and Attack Again | Atacar y atacar de nuevo |
@@ -467,6 +469,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Cardsharp's Luck | Suerte del Tahúr |
 | Careful Aim | Puntería meticulosa |
 | Careful Shot | Disparo meticuloso |
+| Careful Tracker | Rastreador cuidadoso |
 | Cast Illusion | Lanzar ilusión |
 | Castigate | Castigar |
 | Cat's Paw | Pata de gato |
@@ -710,6 +713,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Erased | Borrado |
 | Escape | Escape |
 | Escape Plan | Plan de escape |
+| Escape the Ruins | Escapar de las ruinas |
 | Evade All Consequence | Eludir toda consecuencia |
 | Evanesce | Evanescer |
 | Evasion | Evasión |
@@ -777,6 +781,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Fire Tendrils | Zarcillos de fuego |
 | Firework Cantrip | Truco de fuego artificial |
 | Fists of Fury | Puños de furia |
+| Fixer | Apañador |
 | Flamboyant Boast | Alarde extravagante |
 | Flameblade | Hoja flamígera |
 | Flash | Destello |
@@ -818,6 +823,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Friendly Help | Ayuda amistosa |
 | From the Shadows | Desde las sombras |
 | Frost Touch | Toque de escarcha |
+| Fruitfully Pass the Time | Pasar el rato con provecho |
 | Further Mathematics | Matemáticas avanzadas |
 | Fury | Furia |
 | Fusion | Fusión |
@@ -890,6 +896,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Hard to Kill | Duro de matar |
 | Hard to See | Difícil de ver |
 | Hard-Won Resilience | Resiliencia ganada a pulso |
+| Hardened by the End | Endurecido por el fin |
 | Harder Light | Luz más dura |
 | Hardiness | Robustez |
 | Hasty Guncasting | Disparo arcano apresurado |
@@ -1008,6 +1015,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Jury-Rig | Jury-Rig |
 | Just a Bit Mad | Sólo un poco loco |
 | Knock Out | Noquear |
+| Know the Way | Conocer el camino |
 | Know Their Faults | Conoce sus defectos |
 | Know Where It Hurts | Saber dónde duele |
 | Know Where to Look | Saber dónde buscar |
@@ -1230,6 +1238,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Powered Armor | Armadura de poder |
 | Powerful Rhetoric | Retórica poderosa |
 | Practiced in Armor | Práctica en armaduras |
+| Practiced in Light Armor | Práctica en armadura ligera |
 | Practiced With All Weapons | Práctica en todas las armas |
 | Practiced With Guns | Práctica en armas de fuego |
 | Practiced With Medium Weapons | Práctica en armas medias |
@@ -1241,6 +1250,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Predictive Model | Modelo predictivo |
 | Premium Drone | Dron prémium |
 | Premonition | Premonición |
+| Prepared Caches | Alijos preparados |
 | Present Cantrip | Truco de presentación |
 | Preternatural Senses | Sentidos preternaturales |
 | Privileged Nobility | Nobleza privilegiada |
@@ -1278,6 +1288,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Quickdraw | Desenfundado rápido |
 | Quicker Than Most | Más rápido que la mayoría |
 | Quiet Cantrip | Truco de silencio |
+| Raider Follower | Seguidor saqueador |
 | Rainbow Cantrip | Truco de arcoíris |
 | Rally to Me | Reúnanse conmigo |
 | Range Increase | Aumento de alcance |
@@ -1320,6 +1331,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Resonance Field | Campo de resonancia |
 | Resonant Frequency | Frecuencia resonante |
 | Resonant Quake | Terremoto resonante |
+| Resource Seeker | Buscador de recursos |
 | Restful Presence | Presencia relajante |
 | Restorative Bloom | Floración restauradora |
 | Restore Life | Restaurar la vida |
@@ -1460,6 +1472,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Stalker | Acechador |
 | Stand Watch | Vigilia |
 | Stare Them Down | Mirar fijamente |
+| Stashed Vehicle | Vehículo escondido |
 | Stasis | Estasis |
 | Statue Stasis | Estasis de estatua |
 | Stay the Course | Mantener el rumbo |
@@ -1496,6 +1509,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Surging Confidence | Confianza creciente |
 | Surprise Attack | Ataque sorpresa |
 | Surveillance Overwatch | Vigilancia protectora |
+| Surviving the Wasteland | Sobrevivir en el yermo |
 | Swift Slither | Reptar veloz |
 | Swim | Nadar |
 | Swipe | Barrido |
@@ -1544,6 +1558,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Tinker | Cacharrear |
 | Tiny | Diminuto |
 | Tiny Illusion Cantrip | Truco de ilusión diminuta |
+| Tolerance | Tolerancia |
 | Tool Mastery | Maestría en herramientas |
 | Tornado Rider | Jinete del tornado |
 | Total Awareness | Consciencia total |
@@ -1558,6 +1573,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Trail Sensor | Sensor de camino |
 | Trained Basher | Golpeador entrenado |
 | Trained Excavator | Excavador entrenado |
+| Trained for Toughing It | Preparado para aguantar |
 | Trained Guncasting | Disparo arcano competente |
 | Trained Gunner | Artillero entrenado |
 | Trained Interlocutor | Interlocutor entrenado |
@@ -1602,6 +1618,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Untouchable While Moving | Intocable en movimiento |
 | Up to Speed | A toda velocidad |
 | Use Senses of Others | Usar sentidos ajenos |
+| Use the Network | Usar la red |
 | Using the Environment | Usar el entorno |
 | Using What’s Available | Usar lo que está disponible |
 | Usurp Cypher | Usurpar Cypher |
@@ -1625,8 +1642,10 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Warm Cantrip | Truco de calor |
 | Warmed by the Sun | Calentado por el sol |
 | Wash Car Cantrip | Truco de lavado de automóvil |
+| Wasteland Camouflage | Camuflaje del yermo |
 | Water Adaptation | Adaptación al agua |
 | Weapon and Body | Arma y cuerpo |
+| Weapon at Hand | Arma a mano |
 | Weapon Crafter | Armero |
 | Weapon Defense | Defensa con armas |
 | Weapon Master | Maestro de armas |

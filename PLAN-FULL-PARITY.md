@@ -576,6 +576,10 @@ terminology, so translating a book in one pass keeps them consistent.
       (Cap. 19-A, Uncanny Blizzard) should point to R&R's *Exposure* (Too Cold).
 - [ ] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
       15 creatures, 5 NPCs.
+      - 19 regular abilities done (Cap. 7 lists). OG's *Know Where to Look* and R&R
+        *Ruin Lore* entries are the core abilities word for word (*Saber dónde buscar*,
+        *Conocimiento de ruinas*), so they get no new entry. The 100 mutations go in their
+        own *Mutaciones* section at the end of Cap. 7, as in OG's Ch9.
 - [ ] Revise Cap. 18 *Carroñeo* to R&R's Scavenging (Food, Water, and Shelter; Useful
       Stuff (Expanded); junk loads; Junk table), and the species-descriptor intro
       ("In addition to descriptors for human survivors…").
