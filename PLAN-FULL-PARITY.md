@@ -972,8 +972,21 @@ terminology, so translating a book in one pass keeps them consistent.
 - OG additions are not labelled in the text (§2); editor's notes keep *Nota del editor:*.
 
 ### WP8 — Structural integration (incremental, alongside WP1–WP7)
-- [ ] Renumber/reorder to the target structure in §4.
-- [ ] Update TOC and both navbar dropdowns.
+- [x] Renumber/reorder to the target structure in §4 (2026-11-23).
+      - Part 3 in OG's order: Superhéroes after Romance, Cuentos de hadas after Post-apocalíptico.
+      - Decision (user, 2026-11-23): OG's chapter numbers. Notas de la traducción (with *Acerca de
+        esta edición*) is Cap. 1; Licencia leaves the cover block and is Cap. 2; Cypher cortos is
+        labelled *Inicio rápido* (OG: Quick Start); Parte 5 gets its label.
+      - 82 "Capítulo N:" references in the text and TOC remapped; "Capítulo 5: Conflictos del
+        futuro" (The Stars Are Fire) and the CSRD's "capítulo 8" (a source book) stay.
+      - **Old → new numbers** (the WP1–WP7 records above use the old ones; `CORRECCIONES.json`
+        also keeps them, since the ODT keeps its structure): 1→3, 2→4, 3→5, 4→6, 5→7, 6→8, 7→9,
+        8→10, 9→11, 9-A→11-A, 10→12, 11→13, 12→14, 12-A→14-A, 12-B→14-B, 13→15, 14→18, 15→20,
+        16→16, 17→17, 18→19, 19→21, 19-A→21-A, 20→22, 21→23, 22→24, 23→25, 24→*Inicio rápido*.
+- [x] Update TOC and both navbar dropdowns (2026-11-23): the TOC follows the new order and
+      numbers and lists the FAQ and the Índice; the *Reglas* menu gained *Reglas opcionales*,
+      *Preguntas frecuentes* and *Índice* in the back matter chunk; the *Géneros* menu is
+      alphabetical and carries no numbers.
 - [ ] Extend part-colour theming and quick-reference styling to new content.
 - [ ] Fix the 134 pre-existing duplicate ids and normalise new ids.
 - [ ] Preserve the ES-only appendix.
