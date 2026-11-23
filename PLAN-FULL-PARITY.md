@@ -998,10 +998,18 @@ terminology, so translating a book in one pass keeps them consistent.
 - Acceptance: navigation complete; no orphan sections; anchors coherent.
 
 ### WP9 — QA and release
-- [ ] Run anchor/duplicate/structure checks (expect 0 missing anchors, no new dupes).
-- [ ] Headless render in light and dark; confirm no console errors.
-- [ ] Link sweep and cross-reference audit; re-run the §3 source audit.
-- [ ] Proofread pass against the glossary.
+- [x] Run anchor/duplicate/structure checks (2026-11-23): 16,210 internal links, 0 broken; 0
+      duplicate ids; 0 structure errors (5 skipped heading levels, informational).
+- [x] Headless render in light and dark; confirm no console errors (2026-11-23): full page, both
+      themes, no console messages (`render.py` now ignores headless Chrome's GPU probing).
+- [x] Link sweep and cross-reference audit; re-run the §3 source audit (2026-11-23): every
+      "Capítulo N: Nombre" names chapter N and every chapter link opens it; `audit.py` (its chapter
+      map completed) finds 0 named OG entries from covered books without a Spanish match, and only
+      the inline fairy-tale *Enano* and *Trol* outside their OG chapter (accepted, see §3).
+- [x] Proofread pass against the glossary (2026-11-23), as automated lints: no *vosotros*, no *usted*
+      (four passages fixed), no *estar/ser practicado*, no imperial-first units, no English labels,
+      balanced «» and ¿?/¡!; 12 repeated-word or garbled phrases fixed; 5 empty links and 23 links
+      ending in a space before punctuation cleaned up. A full human read is not part of this pass.
 - [ ] ODT and PDF: the ODT keeps its current structure (the WP1 reorganisation is not
       ported to it) and only gets the text corrections registered in `CORRECCIONES.json`.
       - Apply them with `tools/fixes/apply_fixes.py --target odt --record`; it matches
@@ -1019,7 +1027,8 @@ terminology, so translating a book in one pass keeps them consistent.
         space element, when a correction crossed markup. The applier now aligns
         changes word by word and checks the result. The one link affected in the HTML
         (*Arremetida* in Cap. 1 › *Alcance y velocidad*) was restored.
-- [ ] Bump the version line and the `?v=` cache-bust params for CSS/JS.
+- [x] Bump the version line and the `?v=` cache-bust params for CSS/JS (2026-11-23): *Versión del
+      2026-11-23*; `drsc-es.css` and `generador-personajes.js` at `?v=20261123e`.
 - Acceptance: all QA checks green; parity checklist signed off.
 
 ---
@@ -1062,8 +1071,7 @@ Automated checks to run after each work package (see `tools/README.md`):
 1. Internal anchors: every `href="#x"` resolves to an `id="x"`
    (`tools/qa/check_html.py`).
 2. Duplicate ids: no new duplicates, and no duplicated id may switch to a different
-   target element (`check_html.py --baseline <branch point>`); drive the remaining 127 to
-   zero in WP8.
+   target element (`check_html.py --baseline <branch point>`); zero since WP8 (2026-11-23).
 3. HTML structure: balanced tags, no unclosed containers (`check_html.py`).
 4. Render: load in headless Chrome in light and dark, assert no console errors, spot
    check tables, sidebars, quick refs, tabbed items and dropdowns
