@@ -572,8 +572,8 @@ terminology, so translating a book in one pass keeps them consistent.
 ### WP6 — Rust and Redemption (~36k EN words)
 - [ ] Ch19 Post-apocalíptico expansion (character options, equipment, optional rules,
       mutations, cyphers, artifacts).
-- [ ] Link from WP5: "un frío excesivo" in *Amenazas y peligros del Oeste extraño*
-      (Cap. 19-A, Uncanny Blizzard) should point to R&R's *Exposure* (Too Cold).
+- [x] Link from WP5: "un frío excesivo" in *Amenazas y peligros del Oeste extraño*
+      (Cap. 19-A, Uncanny Blizzard) now points to *Exposición*.
 - [ ] 5 foci, 8 descriptors (including Mutant), 120 abilities + mutations list,
       15 creatures, 5 NPCs.
       - 19 regular abilities done (Cap. 7 lists). OG's *Know Where to Look* and R&R
