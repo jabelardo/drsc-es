@@ -785,6 +785,11 @@ terminology, so translating a book in one pass keeps them consistent.
       - *Shock* uses OG's fuller text from the Rulebook instead of the CSRD's one-paragraph summary
         (user's request). OG's Daft Drafts mentions and its notes on titles and *Consent in Gaming*
         are left out.
+- [x] Ch17 (2026-11-23): Cap. 17 (WP4) already had all of OG's text. Structure as OG: *El check-in*
+      under *Consentimiento y límites*, basic creatures at the end of the chapter (alphabetical; its
+      heading was never closed, fixed). OG's coven note on platonic relationships; quick reference
+      with OG's groups. OG's consent note is left out (the text already points to *Consent in
+      Gaming*).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
