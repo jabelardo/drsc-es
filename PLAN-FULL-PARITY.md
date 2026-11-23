@@ -713,6 +713,25 @@ terminology, so translating a book in one pass keeps them consistent.
       - Left for later: OG's *Separate Reroll and GM Intrusion Refusal Costs* (Ch25), Psionics and
         Posthuman Upgrades (OG-only, from the Science Fiction book), *Extended Vehicular Combat*,
         Stress, Serious Injuries and Conditions, *Skill Categories* and OG's optional-rules index.
+- [x] Ch13 (2026-11-23): OG's *Asignar límites distintos a las capacidades sobrenaturales* (about
+      900 words, two tables) after the spellcasting rule; the chapter quick reference rebuilt with OG's
+      groups, the spellcasting one expanded, and new ritual magic, fantasy equipment and traps quick
+      references; seven editor's notes (new foci, cyphers as spells, tier categories, cultivation
+      fantasy, *Operación peligrosa*, coinage, the Frozen Timepiece); OG's armor fix (full plate 2,
+      scale 3) with its note.
+      - Structure: *Luchador* gets its own heading (it was a paragraph inside *Druida*); the
+        character options and their quick reference are in alphabetical order; *Tecnología mágica*,
+        *Nombres secretos y verdaderos* and *Deseos* move under *Módulo de reglas de fantasía* as in
+        OG; the five example artifacts join the A–Z artifact list, and the artifact and cypher lists
+        are re-sorted. Two capitalisation slips fixed (`CORRECCIONES.json`).
+      - The CSRD sidebars (trap intrusions, ritual notes, *Dianxue*, etc.) were already inline. The
+        minor artifacts table keeps *Escudo deflector*, which DRSC-ES has, so OG's notes on replacing
+        it are left out, as are the 14 Daft Drafts notes and the *Wizards and the Optional
+        Spellcasting Rule* title note (DRSC-ES already has that heading).
+      - Left as is: the short *Criaturas y PNJs básicos* list followed by the full *Otras criaturas y
+        PNJs* list (OG has only the full one); a WP8 candidate.
+      - Left for later: *Power Shifts in Other Genres*, Psionics, *Creating Cyphers, Artifacts, and
+        Abilities*, Stress (three links) and Serious Injuries and Conditions.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
