@@ -1,8 +1,8 @@
 # Herramientas
 
-Read-only helpers for the parity work in `PLAN-FULL-PARITY.md`. They need Python 3.8+
-and only the standard library; `render.py` also needs Chrome or Chromium. Run them from
-the repository root.
+Read-only helpers for the parity work in `PLAN-FULL-PARITY.md`, and the builds for the PDFs.
+They need Python 3.8+ and only the standard library; `render.py` also needs Chrome or
+Chromium, and the Typst builds need Typst. Run them from the repository root.
 
 ## `qa/check_html.py` — structure, links and ids
 
@@ -121,3 +121,28 @@ PYTHON=/path/to/venv/bin/python sheets/build.sh  # if pymupdf lives in a virtual
   marker the sources leave. Output goes to `pdfs/`.
 - **Fonts:** reuses `quickref/assets/fonts` (Teko, Orbitron, Open Sans) and the QR code in
   `quickref/assets/qr.png`.
+
+## `../book/build.sh` — the book PDF
+
+```sh
+book/build.sh                          # writes "DOCUMENTO DE REFERENCIA DEL SISTEMA CYPHER.pdf"
+book/build.sh /tmp/prueba.pdf          # or any other path
+TYPST=/path/to/typst book/build.sh
+```
+
+- **What:** `book/html2typ.py` converts `DRSC-ES.html` into `book/build/contenido.typ` (ignored by
+  git), and Typst lays it out with `book/libro.typ` (cover and table of contents) and
+  `book/plantilla.typ` (every component: part pages, chapter openers, headings, boxes, sidebars,
+  quick references, creature bars, tables, the example-of-play dialogue). The PDF replaces the
+  one made from the old ODT, which is no longer kept or distributed.
+- **Look:** inspired by the layout of the *Cypher System Rulebook* (page size, two columns,
+  running heads, page-number circles, chapter openers, coloured boxes and creature bars); no
+  images or text are taken from it. Part colours are the ones in `css/drsc-es.css`.
+- **Fonts:** only `book/fonts`, all under the SIL Open Font License (texts included): Teko for
+  titles, Alegreya Sans for text, Aldrich for labels and running heads. The build passes
+  `--ignore-system-fonts`, so the result does not depend on the machine. The two characters these
+  fonts lack are handled in the template (the ⚡ cyberware mark is drawn, ℞ becomes "Rx").
+- **Checks:** every HTML id becomes a PDF destination, and links to ids missing from the output
+  fall back to plain text. The PDF is untagged, as before (tagging nearly triples its size).
+- **Requires:** Python 3 (standard library) and Typst 0.15 or later; a full build takes about
+  15 seconds.
