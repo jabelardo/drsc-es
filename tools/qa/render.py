@@ -27,8 +27,11 @@ from pathlib import Path
 
 IGNORED_CONSOLE = [
     re.compile(r"Access to manifest at 'file://.*' from origin 'null' has been blocked by CORS policy"),
+    # headless Chrome probing the GPU on a full-page render; the page uses no WebGL or WebGPU
+    re.compile(r"Automatic fallback to software WebGL has been deprecated"),
+    re.compile(r"^No available adapters\.$"),
 ]
-ASSET_DIRS = ('css', 'js', 'icon', 'quickref/assets')  # quickref/assets: the difficulty dial in Cap. 9
+ASSET_DIRS = ('css', 'js', 'icon', 'quickref/assets')  # quickref/assets: the difficulty dial in Cap. 11
 
 
 def find_chrome(explicit):
