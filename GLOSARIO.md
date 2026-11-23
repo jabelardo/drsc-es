@@ -276,7 +276,8 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Blighted (creature template) | Plagado | The blight is *la plaga*. |
 | realistic / fantastic threats and hazards | amenazas y peligros realistas / fantásticos | Grizzly bear: *oso pardo*; war pig: *cerdo de guerra*; *wardroid* stays as in the core text. Ashy / glowing / hungry tide: *marea cenicienta / brillante / hambrienta*. |
 | scavenger subtle cyphers / AI-fashioned manifest cyphers | Cyphers sutiles de carroñero / Cyphers manifiestos fabricados por IA | |
-| pre-apocalyptic artifacts | artefactos preapocalípticos | |
+| pre-apocalyptic artifacts | artefactos preapocalípticos | Apocalypse kinds in the artifact table: *retrofuturista, alienígena, fabricado por IA, Fin de los Tiempos* (End Times). End of Days is *Fin de los Días*. |
+| Horseman of the Apocalypse | Jinete del Apocalipsis | |
 
 ### Decisiones tomadas
 
@@ -300,12 +301,12 @@ Extracted from `DRSC-ES.html` ("Nombre [English Name]" in headings and ability n
 | [Descriptores](#descriptores) | 103 |
 | [Tipos y opciones](#tipos-y-opciones) | 4 |
 | [Cyphers](#cyphers) | 465 |
-| [Artefactos](#artefactos) | 164 |
+| [Artefactos](#artefactos) | 174 |
 | [Criaturas](#criaturas) | 146 |
 | [PNJs](#pnjs) | 78 |
 | [Rituales y trampas](#rituales-y-trampas) | 30 |
 | [Otros](#otros) | 16 |
-| **Total** | **2628** |
+| **Total** | **2638** |
 
 ### Nombres en inglés con más de una traducción
 
@@ -2557,6 +2558,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Battery of the Vanquished | Batería de los vencidos |
 | Belt of Strength | Cinturón de fuerza |
 | Blade of the Roses | Hoja de las rosas |
+| Book | Libro |
 | Book of All Spells | Libro de todos los hechizos |
 | Book of Inversion | Libro de inversión |
 | Book of the Baker | Libro del panadero |
@@ -2605,6 +2607,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Exploding Arrow | Flecha explosiva |
 | Explorer’s Gloves | Guantes de explorador |
 | Falcon Cloak | Capa de halcón |
+| Faraday Cage | Jaula de Faraday |
 | Flying Carpet | Alfombra voladora |
 | Fractal Traveler | Viajero fractal |
 | Gate Ring | Anillo portal |
@@ -2633,12 +2636,15 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Mastercraft Armor | Armadura de fabricación maestra |
 | Mastercraft Weapon | Arma de fabricación maestra |
 | Meatboy | Chico de carne |
+| Memory Eraser | Borrador de memoria |
 | Metabolic Prod | Producto Metabólico |
 | Metabolism Bud | Brote metabólico |
 | Military Exoskeleton | Exoesqueleto militar |
 | Mind Imager | Visualizador mental |
 | Mindshield Helmet | Casco de escudo mental |
+| Mutation Inducer | Inductor de mutaciones |
 | My Friend Lockness | Mi amigo Lockness |
+| Nanorifle | Nanorrifle |
 | Necromantic Wand | Varita nigromántica |
 | Nihilal Tendril Horn | Cuerno de zarcillos nihilal |
 | Omni Orb | Orbe Omni |
@@ -2662,7 +2668,9 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Rocket Fist | Puño cohete |
 | Rocket-Propelled Grenade | Granada propulsada por cohete |
 | Salubrious Snuffbox | Tabaquera salutífera |
+| Salvaged Car | Coche recuperado |
 | Scarf of Love and Death | Bufanda de amor y muerte |
+| Seal of Solomon | Sello de Salomón |
 | Serum X | Suero X |
 | Shadow Box | Caja de sombras |
 | Shadow Duster | Guardapolvo de sombra |
@@ -2674,6 +2682,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Soulflaying Weapon | Arma desgarradora de almas |
 | Sovereign Key | Llave soberana |
 | Space Ring | Anillo Espacial |
+| Spear of Destiny | Lanza del Destino |
 | Speed Readers | Gafas de lectura rápida |
 | Spehre 23 | Esfera 23 |
 | Spellbook of Elemental Summoning | Libro de hechizos de invocación elemental |
@@ -2693,6 +2702,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Terahertz Scanner | Escáner de terahercios |
 | Time is a Circle | El tiempo es un círculo |
 | Tracker's Map | Mapa del rastreador |
+| Transfer Discs | Discos de transferencia |
 | Trap Runestone | Trampa de piedra rúnica |
 | Tunneling Gauntlets | Guanteletes tuneladores |
 | Umbrella of No-Touch | Paraguas de no tocar |
@@ -2701,6 +2711,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Vorpal Sword | Espada vorpal |
 | Wand of Firebolts | Varita de rayos flamígeros |
 | Wand of Spider’s Webbing | Varita de telaraña |
+| Water Filter | Filtro de agua |
 | Wheel of Consumption | Rueda de consunción |
 | Whisperer in the Ether | Susurrador en el éter |
 | Witch’s Broom | Escoba de bruja |
