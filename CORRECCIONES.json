@@ -6181,6 +6181,18 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-fantasia-licantropos",
+      "date": "2026-11-23",
+      "entry": "Otras criaturas y PNJs para un juego de fantasía (Capítulo 11)",
+      "reason": "Untranslated names; Werewolf is 'Hombre lobo' in the glossary.",
+      "old": "Werebear / Wererat / Wereshark / Weretiger",
+      "new": "Hombre oso / Hombre rata / Hombre tiburón / Hombre tigre",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
