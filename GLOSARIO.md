@@ -295,6 +295,7 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | practiced (skill level) | practicado | Inability, practiced, trained, specialized: *incapacidad, practicado, competente, especialista* (I P C E on the sheets). |
 | Skills from Backgrounds / Skill Training | Habilidades de trasfondo / Competencia en habilidades | |
 | Character Sentence Generator / Character Creation Checklist | Generador de frases de personaje / Lista de comprobación para crear un personaje | |
+| Simplified / Personalized Flavor | Aspecto simplificado / personalizado | Foolish's Carefree trait is *Despreocupado* (existing). |
 | sidekick sheet: nature / niche / associated PC | hoja de camarada: naturaleza / nicho / PJ asociado | Provisional until the Camaradas chapter (Sidekicks) is translated. |
 
 ### Decisiones tomadas
