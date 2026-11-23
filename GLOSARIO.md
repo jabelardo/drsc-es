@@ -165,7 +165,7 @@ them when WP5 and WP6 translate these foci (the High Noon at Midnight ones are f
 | Rides Like the Wind | Cabalga como el viento | High Noon at Midnight |
 | Spits Fire and Lead | Escupe fuego y plomo | High Noon at Midnight |
 | Strikes Like a Rattler | Ataca como una serpiente de cascabel | High Noon at Midnight |
-| Raids | Saquea | Rust and Redemption |
+| Raids | Saquea | Rust and Redemption (final, see *Post-apocalíptico* below) |
 
 ### Ciberpunk (Neon Rain)
 
@@ -255,6 +255,22 @@ rustic phrasing in flavor text (descriptor intros, quotes); no invented dialect 
 | ghost rider / wraith lord / zombie sorcerer | jinete fantasma / señor espectral / hechicero zombi | Necrovores (stat lines only). |
 | wild one | salvaje | From *Inconvenientes de las historias increíbles*. |
 | hoodoo / dust devil | chimenea (de hadas) / remolino de polvo | |
+
+### Post-apocalíptico (Rust and Redemption)
+
+Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 18 Post-apocalíptico*.
+
+| English | Español | Notes |
+|---|---|---|
+| Canien / Felis / Flutter / Mutant (species descriptors) | Cánido / Félido / Volitar / Mutante | Morlock and Roach already exist. |
+| Bitter / Hopeful / Rusted / Shiny (descriptors) | Amargado / Esperanzado / Oxidado / Reluciente | |
+| Merges Mind With Machine / Prepped for the End / Raids / Remembers the Past / Walks the Wasteland (foci) | Une mente y máquina / Preparado para el fin / Saquea / Recuerda el pasado / Recorre el yermo | *Fusiona mente y máquina* is the core Fuses Mind and Machine. *Saquea* was provisional since WP3. |
+| wasteland | yermo | As in the existing text (*Amenazas del yermo*). Badlands stay *tierras baldías*. |
+| mutation / incredible mutations | mutación / mutaciones increíbles | Mutation abilities that share a name with an existing ability get *(mutación)*. |
+| scavenging / useful stuff / junk | carroñeo / cosas útiles / chatarra | As in the existing Cap. 18. |
+| exposure | exposición | Too cold / too hot: *demasiado frío / demasiado calor*. |
+| scavenger subtle cyphers / AI-fashioned manifest cyphers | Cyphers sutiles de carroñero / Cyphers manifiestos fabricados por IA | |
+| pre-apocalyptic artifacts | artefactos preapocalípticos | |
 
 ### Decisiones tomadas
 
