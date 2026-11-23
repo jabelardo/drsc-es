@@ -5113,6 +5113,30 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "artefacto-idolo",
+      "date": "2026-11-23",
+      "entry": "Ídolo guardián (Cap. 11)",
+      "reason": "Missing initial capital.",
+      "old": "ídolo guardián [Guardian Idol]",
+      "new": "Ídolo guardián [Guardian Idol]",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "artefacto-anillo-deseos",
+      "date": "2026-11-23",
+      "entry": "Anillo de deseos (Cap. 11)",
+      "reason": "Wrong capitalisation in the English name.",
+      "old": "Anillo de deseos [Ring OF Wishes]",
+      "new": "Anillo de deseos [Ring of Wishes]",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }

@@ -322,6 +322,10 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | XP Advance complications: Burden / Condition / Fugitive / Inability / Maintenance / Oppression | Carga / Condición / Fugitivo / Incapacidad / Mantenimiento / Opresión | |
 | Slower Advancement options: Expenditure Requirements / Two Kinds of XP / Milestone Advancement / Tier Advancement Purchase / Require More Advancements Each Tier / Increased Advancement Costs by Tier | Requisitos de gasto / Dos tipos de PX / Avance por hitos / Compra del avance de rango / Exigir más mejoras por rango / Coste de avance creciente por rango | Broad / narrow skill: *habilidad amplia / específica*; lair: *guarida*. |
 | Lucky Shot / Extended Vehicular Combat / redline maneuver (XP quick reference) | Tiro de suerte / Combate de vehículos prolongado / maniobra al límite | "Spend N XP" headings: *Gastar N PX*. |
+| Assigning Different Limits for Supernatural Abilities | Asignar límites distintos a las capacidades sobrenaturales | Cap. 11 (WP7 Ch13), after *Los magos y la regla opcional de lanzamiento de hechizos*. |
+| Tier-Based Limits / Daily Limits / Universal, Individual Depletion / Backlash and Corruption / Supernatural Stat Pool / Enablers and Durations | Límites según el rango / Límites diarios / Agotamiento universal, individual / Contragolpe y corrupción / Reserva de atributo sobrenatural / Capacitadores y duraciones | Preparation Counts / Duration Assignment / Minimum Concentration: *Cuenta la preparación / Duración asignada / Concentración mínima*. GM intrusion rate: *rango de intromisión del DJ*. |
+| Fighter (fantasy character option) | Luchador | Was a bold paragraph inside *Druida*; now its own heading. |
+| cp / sp / gp / pp (coins) | pc / pp / po / ppt | Copper, silver, gold, platinum pieces. |
 
 ### Decisiones tomadas
 
@@ -2682,7 +2686,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Gloves of Agility | Guantes de agilidad |
 | Goodest Gargoyle | La gárgola más buena |
 | Gruelmaker | Hacepotaje |
-| Guardian Idol | ídolo guardián |
+| Guardian Idol | Ídolo guardián |
 | Hand of Glory | Mano de gloria |
 | Hand of the Eclipse | Mano del Eclipse |
 | Harrowing Blade | Hoja angustiosa |
@@ -2730,7 +2734,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Ring of Invisibility | Anillo de invisibilidad |
 | Ring of Reflected Bullets | Anillo de balas reflejadas |
 | Ring of Seeping Travel | Anillo de viaje filtrante |
-| Ring OF Wishes | Anillo de deseos |
+| Ring of Wishes | Anillo de deseos |
 | Rocket Fist | Puño cohete |
 | Rocket-Propelled Grenade | Granada propulsada por cohete |
 | Salubrious Snuffbox | Tabaquera salutífera |
