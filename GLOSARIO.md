@@ -280,6 +280,18 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | pre-apocalyptic artifacts | artefactos preapocalípticos | Apocalypse kinds in the artifact table: *retrofuturista, alienígena, fabricado por IA, Fin de los Tiempos* (End Times). End of Days is *Fin de los Días*. |
 | Horseman of the Apocalypse | Jinete del Apocalipsis | |
 
+### Contenido editorial de OG (WP7)
+
+| English | Español | Notes |
+|---|---|---|
+| Modifying Creatures / creature template | Modificar criaturas / plantilla de criatura | Templates: *Reforzado* (Beefed Up), *Más grande y resistente* (Bigger and Tougher, the existing name), *Plagado* (Blighted), *Famoso* (Celebrity). Stagger is *tambaleo*. |
+| Effort for NPCs / Creatures with Multiple Parts | Esfuerzo para PNJs / Criaturas con varias partes | Effort from Health / from Level: *Esfuerzo a partir de la salud / del nivel*. |
+| Creating Creatures and NPCs / Creating Challenging Encounters | Crear criaturas y PNJs / Crear encuentros desafiantes | Gritty realism: *realismo crudo*; ongoing / lasting / permanent damage: *daño continuo / duradero / permanente*. |
+| Choosing a Combat Effect Ahead of Time | Elegir un efecto de combate de antemano | |
+| Switching Character Options | Cambiar las opciones de personaje | |
+| Transferring Subtle Cyphers | Transferir Cyphers sutiles | |
+| Mundane / Fantasy / Science Fiction Foci | Rasgos mundanos / de fantasía / de ciencia ficción | |
+
 ### Decisiones tomadas
 
 Settled 2026-11-22, before WP3:
@@ -1948,7 +1960,7 @@ Review these against §7 of the plan (one canonical Spanish term per English ter
 | Weaponizes Chrome | Convierte el cromo en arma |
 | Wears a Sheen of Ice | Viste una capa de hielo |
 | Wears Power Armor | Viste una armadura de poder |
-| Weilds an Enchanted Weapon | Blande un arma encantada |
+| Wields an Enchanted Weapon | Blande un arma encantada |
 | Wields Invisible Force | Esgrime fuerzas invisibles |
 | Wields Two Weapons at Once | Blande dos armas a la vez |
 | Works for a Living | Trabaja para vivir |
