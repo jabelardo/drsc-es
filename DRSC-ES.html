@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/drsc-es.css?v=20261123">
+  <link rel="stylesheet" href="css/drsc-es.css?v=20261123b">
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
@@ -23054,7 +23054,7 @@
                 <strong>Arrojar [Fling] (4 puntos de Intelecto):</strong> Lanzas violentamente una criatura u objeto de tu tamaño o más pequeño que se encuentre a corto alcance y lo envías volando una corta distancia en cualquier dirección. Este es un ataque de Intelecto que inflige 4 puntos de daño al objeto lanzado cuando cae o golpea una barrera. Si apuntas el objetivo principal a otra criatura u objeto (y tienes éxito en un segundo ataque), el objetivo secundario también recibe 4 puntos de daño. Acción.
               </p>
               <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-                <p><strong>Nota del editor:</strong> La capacidad <a href="#arrojar">Arrojar</a> apareció por primera vez en <em>In Translation: The Strange Character Options</em>. Esa ambientación usa la regla opcional de nivel, salud y Armadura de los objetos en lugar de las reglas habituales para <a href="#situacion-especial-atacar-objetos">atacar objetos</a>.</p>
+                <p><strong>Nota del editor:</strong> La capacidad <a href="#arrojar">Arrojar</a> apareció por primera vez en <em>In Translation: The Strange Character Options</em>. Esa ambientación usa la regla opcional de <a href="#regla-opcional-nivel-salud-y-armadura-de-los-objetos">nivel, salud y Armadura de los objetos</a> en lugar de las reglas habituales para <a href="#situacion-especial-atacar-objetos">atacar objetos</a>.</p>
               </div>
             </li>
             <li>
@@ -23756,7 +23756,7 @@
                 <strong>Campo de fuerza [Force Field] (3 puntos de Intelecto):</strong> Creas una barrera de energía invisible alrededor de una criatura u objeto que elijas a corto alcance. El campo de fuerza se mueve con la criatura u objeto y dura diez minutos. Si el objetivo es una criatura, ella gana +1 a la Armadura; si el objetivo es un objeto, los ataques en contra del él son obstaculizados. Acción.
               </p>
               <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
-                <p><strong>Nota del editor:</strong> El CSRD aclara cómo interactúa <a href="#campo-de-fuerza">Campo de fuerza</a> con las reglas para <a href="#situacion-especial-atacar-objetos">atacar objetos</a>. Este cambio también aparece en las ediciones de lujo del reglamento del Sistema Cypher. La redacción anterior de la capacidad, que daba por hecho el uso de la regla opcional de nivel, salud y Armadura de los objetos en lugar de las reglas habituales para atacar objetos, era la siguiente:</p>
+                <p><strong>Nota del editor:</strong> El CSRD aclara cómo interactúa <a href="#campo-de-fuerza">Campo de fuerza</a> con las reglas para <a href="#situacion-especial-atacar-objetos">atacar objetos</a>. Este cambio también aparece en las ediciones de lujo del reglamento del Sistema Cypher. La redacción anterior de la capacidad, que daba por hecho el uso de la regla opcional de <a href="#regla-opcional-nivel-salud-y-armadura-de-los-objetos">nivel, salud y Armadura de los objetos</a> en lugar de las reglas habituales para atacar objetos, era la siguiente:</p>
                 <ul>
                   <li><strong>Campo de fuerza [Force Field] (3 puntos de Intelecto):</strong> Creas una barrera de energía invisible alrededor de una criatura u objeto que elijas a corto alcance. El campo de fuerza se mueve con la criatura u objeto y dura diez minutos. El objetivo tiene +1 a la Armadura hasta que termina el efecto. Acción.</li>
                 </ul>
@@ -32162,6 +32162,7 @@
 <div class="alert bg-dark ps-4">
   <h4 class="drsc-es-header-small drsc-es-border-line" id="referencia-rapida-seleccionar-reglas">Referencia rápida: Reglas del juego<a class="drsc-es-header-anchor" href="#referencia-rapida-seleccionar-reglas" title="Permalink" aria-hidden="true"></a></h4>
   <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#asi-se-juega-al-sistema-cypher">Así se juega al Sistema Cypher</a></li>
     <li><a href="#conceptos-clave">Conceptos clave</a></li>
     <li><a href="#llevar-a-cabo-una-accion">Llevar a cabo una acción</a></li>
     <li><a href="#seleccionar-tirar-el-dado">Tirar el dado</a></li>
@@ -32172,22 +32173,89 @@
     <li><a href="#encuentros-rondas-e-iniciativa">Encuentros, rondas e iniciativa</a></li>
     <li><a href="#adjudicar-situaciones-que-no-involucran-a-los-pjs">Adjudicar situaciones que no involucran a los PJs</a></li>
     <li><a href="#seleccionar-acciones">Acciones</a></li>
-    <li><a href="#accion-atacar">Acción: atacar</a></li>
-    <li><a href="#accion-activar-capacidad-especial">Acción: Activar una capacidad especial</a></li>
-    <li><a href="#accion-moverse">Acción: Moverse</a></li>
-    <li><a href="#accion-esperar">Acción: Esperar</a></li>
-    <li><a href="#accion-defender">Acción: Defender</a></li>
-    <li><a href="#accion-hacer-algo-mas">Acción: Hacer algo más</a></li>
+  </ul>
+  <h5 class="drsc-es-header-small">Acciones</h5>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#acciones-cooperativas">Acciones cooperativas</a></li>
+    <li><a href="#accion-activar-capacidad-especial">Activar una capacidad especial</a></li>
+    <li><a href="#accion-atacar">Atacar</a></li>
+    <li><a href="#combate-de-vehiculos">Combate de vehículos</a></li>
+    <li><a href="#comprender-identificar-o-recordar">Comprender, identificar o recordar</a></li>
+    <li><a href="#accion-defender">Defender</a></li>
+    <li><a href="#escabullirse">Escabullirse</a></li>
+    <li><a href="#escalar">Escalar</a></li>
+    <li><a href="#accion-esperar">Esperar</a></li>
+    <li><a href="#fabricar-construir-y-reparar">Fabricar, construir y reparar</a></li>
+    <li><a href="#accion-hacer-algo-mas">Hacer algo más</a></li>
+    <li><a href="#interactuar-con-criaturas">Interactuar con criaturas</a></li>
+    <li><a href="#montar-o-pilotar">Montar o pilotar</a></li>
+    <li><a href="#mover-un-objeto-pesado">Mover un objeto pesado</a></li>
+    <li><a href="#accion-moverse">Moverse</a></li>
+    <li><a href="#movimiento-de-vehiculos">Movimiento de vehículos</a></li>
+    <li><a href="#nadar">Nadar</a></li>
+    <li><a href="#observar-o-escuchar">Observar o escuchar</a></li>
+    <li><a href="#operar-o-desactivar-un-dispositivo-o-forzar-una-cerradura">Operar o desactivar un dispositivo, o forzar una cerradura</a></li>
+    <li><a href="#ponerse-en-guardia">Ponerse en guardia</a></li>
+    <li><a href="#saltar">Saltar</a></li>
+    <li><a href="#sanar">Sanar</a></li>
+    <li><a href="#usar-cyphers">Usar Cyphers</a></li>
+  </ul>
+  <h5 class="drsc-es-header-small">Modificadores al ataque y situaciones especiales</h5>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#agua">Agua</a></li>
+    <li><a href="#alcance">Alcance</a></li>
+    <li><a href="#situacion-especial-atacar-objetos">Atacar objetos</a></li>
+    <li><a href="#situacion-especial-ataques-de-area">Ataques de área</a></li>
+    <li><a href="#cobertura">Cobertura</a></li>
+    <li><a href="#situacion-especial-combate-entre-pjs">Combate entre PJs</a></li>
+    <li><a href="#situacion-especial-combate-entre-pnjs">Combate entre PNJs</a></li>
+    <li><a href="#efectos-de-la-gravedad">Efectos de la gravedad</a></li>
+    <li><a href="#iluminacion">Iluminación</a></li>
+    <li><a href="#objetivos-en-movimiento">Objetivos en movimiento</a></li>
+    <li><a href="#posicion">Posición</a></li>
+    <li><a href="#sorpresa">Sorpresa</a></li>
+    <li><a href="#visibilidad">Visibilidad</a></li>
+  </ul>
+  <h5 class="drsc-es-header-small">Daño</h5>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#seleccionar-da~o">Daño</a></li>
+    <li><a href="#armadura-1">Armadura</a></li>
+    <li><a href="#da~o-ambiental">Daño ambiental</a></li>
+    <li><a href="#seleccionar-otros-peligros">Daños por otros peligros</a></li>
+    <li><a href="#los-efectos-de-recibir-da~o">Los efectos de recibir daño</a></li>
+    <li><a href="#registro-de-da~o">Registro de Daño</a></li>
+    <li><a href="#recuperar-puntos-de-una-reserva">Recuperar puntos de una Reserva</a></li>
+    <li><a href="#restaurar-el-registro-de-da~o">Restaurar el Registro de Daño</a></li>
+    <li><a href="#da~o-especial">Daño especial</a></li>
   </ul>
   <h5 class="drsc-es-header-small">Reglas opcionales</h5>
   <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#regla-opcional-acciones-cooperativas-adicionales">Acciones cooperativas adicionales</a></li>
+    <li><a href="#regla-opcional-actuar-mientras-te-atacan">Actuar mientras te atacan</a></li>
+    <li><a href="#regla-opcional-ahogamiento-y-asfixia">Ahogamiento y asfixia</a></li>
+    <li><a href="#regla-opcional-cambiar-da~o-por-efectos">Cambiar daño por efectos</a></li>
+    <li><a href="#regla-opcional-dados-de-da~o">Dados de daño</a></li>
+    <li><a href="#regla-opcional-da~o-a-los-maximos-de-las-reservas">Daño a los máximos de las Reservas</a></li>
     <li><a href="#regla-opcional-da~o-definitivo">Daño definitivo</a></li>
+    <li><a href="#regla-opcional-elegir-un-efecto-de-combate-de-antemano">Elegir un efecto de combate de antemano</a></li>
+    <li><a href="#regla-opcional-la-consciencia-requiere-puntos-de-intelecto">La consciencia requiere puntos de Intelecto</a></li>
+    <li><a href="#regla-opcional-limites-de-la-curacion">Límites de la curación</a></li>
+    <li><a href="#regla-opcional-modificar-capacidades-con-costes-iniciales">Modificar capacidades con costes iniciales</a></li>
+    <li><a href="#regla-opcional-nivel-salud-y-armadura-de-los-objetos">Nivel, salud y Armadura de los objetos</a></li>
+    <li><a href="#regla-opcional-obtener-una-revelacion">Obtener una revelación</a></li>
     <li><a href="#regla-opcional-persecuciones-a-alta-velocidad">Persecuciones a alta velocidad</a></li>
+    <li><a href="#regla-opcional-resolucion-con-dados-de-tarea-y-de-destino">Resolución con dados de tarea y de destino</a></li>
+    <li><a href="#regla-opcional-tiradas-de-recuperacion-en-cualquier-orden">Tiradas de recuperación en cualquier orden</a></li>
+  </ul>
+  <h5 class="drsc-es-header-small">Secciones relacionadas</h5>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#seleccionar-dirigir-el-sistema-cypher">Dirigir el Sistema Cypher</a></li>
+    <li><a href="#seleccionar-seguidores-y-facciones">Seguidores y facciones</a></li>
   </ul>
 </div>
 
         <p>Las partidas del Sistema Cypher se desarrollan en la imaginación conjunta de todos los jugadores, incluido el DJ. El DJ establece el escenario, los jugadores dicen lo que sus personajes intentan hacer, y el DJ determina lo que sucede a continuación. Las reglas y los dados ayudan a que la partida se desarrolle sin problemas, pero son las personas, y no las reglas o los dados, las que dirigen la acción y determinan la historia, y la diversión. Si una regla estorba o desvirtúa el juego, los jugadores y el director general deben trabajar juntos para cambiarla.</p>
-        <p>Así es como se juega con el Sistema Cypher:</p>
+        <h4 id="asi-se-juega-al-sistema-cypher">Así se juega al Sistema Cypher<a class="drsc-es-header-anchor" href="#asi-se-juega-al-sistema-cypher" title="Permalink" aria-hidden="true"></a></h4>
         <p>1. El jugador le dice al DJ lo que quiere hacer. Esta es una acción del personaje.</p>
         <p>2. El DJ determina si esa acción es rutinaria (y por lo tanto funciona sin necesidad de una tirada) o si existe la posibilidad de fallar.</p>
         <p>3. Si existe la posibilidad de fracasar, el DJ determina qué atributo utiliza la tarea (Vigor, Velocidad o Intelecto) y la dificultad de la tarea, es decir, lo difícil que será en una escala de 1 (realmente fácil) a 10 (básicamente imposible).</p>
@@ -32195,6 +32263,16 @@
         <p>5. Si la acción todavía no es rutinaria, el DJ utiliza su dificultad para determinar el número objetivo - cuán alto debe tirar el jugador para tener éxito en la acción (ver la tabla de <a href="#seleccionar-dificultad-de-tareas">Dificultades de las tareas</a>). El DJ no tiene que decirle al jugador cuál es el número objetivo, pero puede darle una pista, especialmente si el personaje sabe razonablemente si la acción es fácil, media, difícil o imposible.</p>
         <p>6. El jugador tira un d20. Si la tirada es igual o superior al número objetivo, el personaje tiene éxito.</p>
         <p>Eso es todo. Así es como se hace cualquier cosa, ya sea identificar un dispositivo desconocido, calmar a un borracho furioso, escalar un acantilado traicionero o luchar contra un semidiós. Incluso si ignoras todas las demás reglas, podrías jugar al Sistema Cypher sólo con esta información. Las características clave aquí son: las acciones del personaje, la determinación de la dificultad de la tarea y la determinación de las modificaciones. </p>
+        <div class="alert bg-dark ps-4">
+          <h5 class="drsc-es-header-small" id="el-dial-de-dificultad">El dial de dificultad<a class="drsc-es-header-anchor" href="#el-dial-de-dificultad" title="Permalink" aria-hidden="true"></a></h5>
+          <div class="drsc-es-dial"><img src="quickref/assets/dial.svg" alt="El dial de dificultad: las dificultades de 0 a 10 con su número objetivo y su probabilidad de éxito; a partir de 7, el número objetivo supera 20" loading="lazy"></div>
+          <p>Piensa en aliviar una tarea como girar este "dial de dificultad" en sentido contrario a las agujas del reloj, o "bajar" la dificultad. Del mismo modo, piensa en obstaculizar como girarlo en el sentido de las agujas del reloj, o "subir" la dificultad.</p>
+          <p><strong>Más allá de 20:</strong> Las tareas de dificultad 7 o superior son imposibles si no se alivia la dificultad. Para lograrlas, <a href="#modificar-la-dificultad">modifica la dificultad</a> con <a href="#habilidades-1">habilidades</a>, <a href="#recursos">recursos</a> y <a href="#esfuerzo-1">Esfuerzo</a>.</p>
+          <p><strong>Tareas realmente imposibles:</strong> En las partidas en que los PJs tienen <a href="#regla-opcional-mejoras-de-poder">mejoras de poder</a>, el DJ podría fijar <a href="#tareas-realmente-imposibles">dificultades de hasta 15</a>.</p>
+        </div>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> El dial de dificultad también aparece en la <a href="#referencia-rapida-pdf">referencia rápida en PDF</a>. Para ver las reglas del juego en la práctica, consulta Un ejemplo de juego.</p>
+        </div>
         <div class="alert bg-dark ps-4">
           <h4 class="drsc-es-header-small" id="conceptos-clave">Conceptos clave<a class="drsc-es-header-anchor" href="#conceptos-clave" title="Permalink" aria-hidden="true"></a></h4>
           <dl>
@@ -32239,9 +32317,15 @@
         <p>Cada acción realiza una tarea, y cada tarea tiene una dificultad que determina qué número debe alcanzar o superar el personaje con una tirada para tener éxito.</p>
         <p>La mayoría de las tareas tienen una dificultad de 0, lo que significa que el personaje tiene éxito automáticamente. Por ejemplo, atravesar una habitación, abrir una puerta y lanzar una piedra a un cubo cercano son todas acciones, pero ninguna de ellas requiere una tirada. Las acciones que suelen ser difíciles o que se vuelven difíciles debido a la situación (como disparar a un objetivo en una ventisca) tienen una dificultad mayor. Estas acciones suelen requerir una tirada.</p>
         <p>Algunas acciones requieren un gasto mínimo de puntos de Vigor, Velocidad o Intelecto. Si un personaje no puede gastar el número mínimo de puntos necesarios para completar la acción, fracasa automáticamente en la tarea.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Más adelante en este capítulo hay una lista de <a href="#seleccionar-acciones">acciones</a> comunes.</p>
+        </div>
         <h5 id="determinar-el-atributo-de-una-tarea">Determinar el atributo de una tarea <a class="drsc-es-header-anchor" href="#determinar-el-atributo-de-una-tarea" title="Permalink" aria-hidden="true"></a></h5>
         <p>Cada tarea está relacionada con una de las tres atributos del personaje: Vigor, Velocidad o Intelecto. Las actividades físicas que requieren fuerza, potencia o resistencia se relacionan con el Vigor. Las actividades físicas que requieren agilidad, flexibilidad o reflejos rápidos se relacionan con la Velocidad. Las actividades mentales que requieren fuerza de voluntad, memoria o poder mental se relacionan con el Intelecto. Esto significa que se pueden generalizar las tareas en tres categorías: Tareas de Vigor, Tareas de Velocidad y Tareas de Intelecto. También puedes generalizar las tiradas en tres categorías: Tiradas de Vigor, Tiradas de Velocidad y Tiradas de Intelecto.</p>
         <p>La categoría de la tarea o tirada determina el tipo de Esfuerzo que se puede aplicar a la tirada y puede determinar cómo afectan a la tirada las demás habilidades del personaje. Por ejemplo, un Adepto puede tener una habilidad que le haga mejorar las tiradas de Intelecto, y un Guerrero puede tener una habilidad que le haga mejorar las tiradas de Velocidad.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre cómo determinar el atributo de una tarea, consulta <a href="#vincular-las-acciones-a-los-atributos">Vincular las acciones a los atributos</a>.</p>
+        </div>
         <h5 id="determinar-la-dificultad-de-una-tarea">
           <span id="determinar-la-dificultad-de-una-tarea"></span>Determinar la dificultad de una tarea
         <a class="drsc-es-header-anchor" href="#determinar-la-dificultad-de-una-tarea" title="Permalink" aria-hidden="true"></a></h5>
@@ -32264,6 +32348,10 @@
         <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
           <p>Utilizando habilidades, recursos y Esfuerzo, un personaje puede aliviar una tarea un máximo de diez grados: uno o dos grados por habilidades, uno o dos grados por recursos y de uno a seis grados por Esfuerzo.</p>
         </div>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Algunas cosas simplemente alivian una tarea, y eso no cuenta para el límite de diez grados que suman las <a href="#habilidades-1">habilidades</a>, los <a href="#recursos">recursos</a> y el <a href="#esfuerzo-1">Esfuerzo</a>. Aliviar solo reduce la dificultad de una tarea uno o más grados; por ejemplo, hacer un <a href="#accion-atacar">ataque</a> con un <a href="#armas">arma ligera</a> alivia la tarea. Algunas <a href="#capacidades-especiales">capacidades especiales</a>, <a href="#seleccionar-cyphers">Cyphers</a> y <a href="#regla-opcional-mejoras-de-poder">mejoras de poder</a> permiten a los PJs aliviar tareas.</p>
+          <p>El DJ también modifica la dificultad de las tareas mediante las <a href="#entender-los-listados-de-criaturas">modificaciones de PNJs y criaturas</a>, los <a href="#seleccionar-modificadores-al-ataque-y-situaciones-especiales">modificadores al ataque y situaciones especiales</a> o las consecuencias de las acciones de los jugadores, como las <a href="#pilotaje">maniobras de pilotaje</a>. Si el jugador aún no conoce el efecto, probablemente lo mejor es que el DJ lo tenga en cuenta al <a href="#determinar-la-dificultad-de-una-tarea">determinar la dificultad de la tarea</a> y describa el efecto a los jugadores al asignar las tareas.</p>
+        </div>
         <h6 id="habilidades-1">
           <span id="habilidades"></span>Habilidades
         <a class="drsc-es-header-anchor" href="#habilidades-1" title="Permalink" aria-hidden="true"></a></h6>
@@ -32282,6 +32370,10 @@
         <p id="nivel-de-esfuerzo-gratuito">
           <strong>Nivel de Esfuerzo gratuito:</strong> Unas pocas habilidades te dan un nivel de Esfuerzo gratuito (normalmente requieren que apliques al menos un nivel de Esfuerzo a una tarea). En efecto, obtienes un nivel más de Esfuerzo que el que has pagado. Este nivel de Esfuerzo gratuito puede superar el límite de Esfuerzo de tu personaje, pero no el límite de seis grados para aliviar una tarea.
         </p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> En una conversación en línea, el diseñador Sean K. Reynolds indicó que, aunque los niveles de Esfuerzo gratuitos permiten a un PJ superar su puntuación de Esfuerzo, a una tarea solo se le pueden aplicar seis niveles de Esfuerzo, se usen para aliviarla o para otra cosa.</p>
+          <p>El editor del OG-CSRD lo resuelve de otra manera: permite que los niveles de Esfuerzo gratuitos superen la puntuación de <a href="#esfuerzo">Esfuerzo</a> de cualquier PJ, de modo que los PJs de rango alto pueden usar más de seis niveles de Esfuerzo en una tarea. Solo seis niveles de Esfuerzo pueden usarse para aliviar la tarea, pero el resto puede usarse de otras formas; por ejemplo, para aumentar el daño de un <a href="#accion-atacar">ataque</a>. Algunas <a href="#capacidades-especiales">capacidades</a> tienen usos además de las opciones normales del Esfuerzo; por ejemplo, <a href="#ataque-giratorio">Ataque giratorio</a> te permite aumentar el número de enemigos, y <a href="#palabra-de-muerte">Palabra de muerte</a> te permite aumentar el nivel máximo del objetivo.</p>
+        </div>
         <h4 id="seleccionar-tirar-el-dado">
           <span id="tirar-el-dado"></span>Tirar el dado<a class="drsc-es-header-anchor" href="#seleccionar-tirar-el-dado" title="Permalink" aria-hidden="true"></a>
         </h4>
@@ -32318,6 +32410,27 @@
             <strong>20:</strong> Efecto mayor. Si la tirada era un ataque de daño, causa 4 puntos adicionales de daño o el PJ obtiene un efecto mayor o menor además de los resultados normales de la tarea. Si la tirada fue algo distinto a un ataque, el PJ obtiene un efecto mayor además de los resultados normales de la tarea. Si el PJ gastó puntos de una Reserva de atributo en la acción, el coste en puntos de la acción disminuye a 0, lo que significa que el personaje recupera esos puntos como si no los hubiera gastado.
           </li>
         </ul>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para que un resultado especial inflija daño adicional u obtenga un efecto menor o mayor, la tirada de ataque debe tener éxito (como se explica en <a href="#resultados-especiales">Resultados especiales</a> del <a href="#como-jugar-al-sistema-cypher">Capítulo 1: Cómo jugar al Sistema Cypher</a>). Las reglas opcionales como el <a href="#modo-horror">modo horror</a> u otros efectos pueden aumentar la frecuencia de las intromisiones del DJ.</p>
+        </div>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-resolucion-con-dados-de-tarea-y-de-destino">Regla opcional: Resolución con dados de tarea y de destino<a class="drsc-es-header-anchor" href="#regla-opcional-resolucion-con-dados-de-tarea-y-de-destino" title="Permalink" aria-hidden="true"></a></h6>
+          <p>Con esta regla cambia el proceso que siguen los PJs para tirar en las tareas. En lugar de un d20, los jugadores tiran 2d6: uno se designa como "dado de tarea" y el otro como "dado de destino".</p>
+          <p><strong>Dado de tarea:</strong> Toma el resultado y suma 1 por cada <a href="#habilidades-1">habilidad</a> y cada <a href="#recursos">recurso</a> aplicables, y 1 por cada nivel de <a href="#esfuerzo-1">Esfuerzo</a> usado para aliviar la tarea. Si el total iguala o supera la dificultad, el PJ tiene éxito en la tarea.</p>
+          <p><strong>Dado de destino:</strong> Los efectos del dado de destino son independientes de los del dado de tarea: se producen tanto si el PJ tiene éxito como si no.</p>
+          <ul>
+            <li>Si el resultado es 1, el DJ puede hacer una <a href="#intromision-del-dj-1">intromisión del DJ</a> gratuita. Los efectos que aumentan la <a href="#intromision-a-traves-de-las-tiradas-de-los-jugadores">frecuencia de las intromisiones del DJ</a> se aplican a los resultados del dado de destino.</li>
+            <li>Si el resultado es 6, el PJ obtiene un <a href="#efecto-mayor">efecto mayor</a>.</li>
+          </ul>
+          <p><strong>Efectos en el juego:</strong> Con esta regla, algunos elementos del juego se sentirán distintos:</p>
+          <ul>
+            <li><strong>Éxito en las tareas:</strong> Los PJs tendrán éxito en las tareas con una frecuencia parecida, pero la mayoría de las tareas de dificultad 1 se vuelven <a href="#acciones-rutinarias">rutinarias</a>, salvo que el PJ esté obstaculizado; por ejemplo, por una <a href="#conceptos-clave">incapacidad</a> u otra circunstancia.</li>
+            <li><strong>Resultados especiales:</strong> Los <a href="#resultados-especiales-1">resultados especiales</a> distintos del efecto mayor casi desaparecen, pero los efectos mayores se producen con más frecuencia.</li>
+            <li><strong>Intromisiones del DJ:</strong> La frecuencia de las <a href="#intromision-del-dj-1">intromisiones del DJ</a> empieza siendo mayor, y los efectos que la aumentan (por ejemplo, el <a href="#modo-horror">modo horror</a>) tienen consecuencias bastante más drásticas.</li>
+            <li><strong>Capacidades y efectos:</strong> El DJ puede tener que hacer algunos otros ajustes en ciertos efectos que siguen dando por hecho que las tareas se resuelven tirando un d20; por ejemplo, los de la capacidad <a href="#efectos-mejorados">Efectos mejorados</a> (que podría permitir un efecto menor con un 5 en el dado de destino).</li>
+            <li><strong>Otros tamaños de dado de destino:</strong> Como alternativa, el DJ puede usar otro dado como dado de destino; por ejemplo, un d10, con una intromisión del DJ con un 1, un efecto menor con un 9 y un efecto mayor con un 10. El dado de destino podría ser incluso un d20, con los <a href="#resultados-especiales-1">resultados especiales</a> normales.</li>
+          </ul>
+        </div>
         <h5 id="intromision-del-dj">Intromisión del DJ<a class="drsc-es-header-anchor" href="#intromision-del-dj" title="Permalink" aria-hidden="true"></a></h5>
         <p>La intromisión del DJ se explica con más detalle en el capítulo sobre el funcionamiento del Sistema Cypher, pero esencialmente significa que ocurre algo que complica la vida del personaje. El personaje no necesariamente ha cometido un error o ha hecho algo malo (aunque quizás lo haya hecho). Puede ser simplemente que la tarea presente una dificultad inesperada o que algo no relacionado afecte a la situación actual.</p>
         <p>Para una intromisión del DJ en una tirada de defensa, un resultado de 1 podría significar que el PJ recibe 2 puntos adicionales de daño del ataque, indicando que el oponente recibió un golpe de suerte.</p>
@@ -32372,6 +32485,56 @@
         <p><strong>Tiradas de ataque:</strong> Al hacer un <a href="#accion-atacar">ataque</a>, el PJ puede elegir un efecto que quiera aplicar a su objetivo, y el DJ obstaculiza la tirada de ataque uno o más grados. Si tiene éxito, el efecto se aplica.</p>
         <p><strong>Tiradas de Defensa:</strong> Al hacer una <a href="#accion-defender">tirada de Defensa</a>, un PJ puede describir un efecto que quiera aplicar a su atacante, y el DJ obstaculiza la tirada de Defensa del PJ un número apropiado de grados. Si tiene éxito, el efecto se aplica. El DJ podría exigir que aplicar ciertos efectos también requiera usar la siguiente acción del PJ.</p>
         </div>
+        <div class="alert bg-dark ps-4">
+          <h5 class="drsc-es-header-small" id="regla-opcional-cambiar-da~o-por-efectos">Regla opcional: Cambiar daño por efectos<a class="drsc-es-header-anchor" href="#regla-opcional-cambiar-da~o-por-efectos" title="Permalink" aria-hidden="true"></a></h5>
+          <p>Un PJ puede cambiar el daño que inflige un solo ataque por un efecto. Al hacerlo, consulta la tabla siguiente y suma el nivel del objetivo. Por ejemplo, un "disparo apuntado" (golpear una parte concreta del cuerpo de una <a href="#entender-los-listados-de-criaturas">criatura de nivel 4</a>) requiere cambiar 6 puntos de daño (2 por el efecto más 4 por el nivel de la criatura). El ataque debe infligir al menos 1 punto de daño tras el cambio, o el efecto no se aplica.</p>
+          <table class="table table-dark table-striped table-sm">
+            <thead>
+              <tr>
+                <th scope="col">Daño cambiado</th>
+                <th scope="col">Efecto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row" class="fw-normal">1</td>
+                <td><strong>Distraer:</strong> Durante una ronda, todas las tareas del enemigo se ven obstaculizadas.</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">2</td>
+                <td><strong>Golpear una parte específica del cuerpo:</strong> El atacante golpea un punto específico del cuerpo del defensor. El DJ decide qué efecto especial, si lo hay, se produce. Por ejemplo, golpear el tentáculo de una criatura que está enrollado alrededor de un aliado podría facilitarle la huida. Golpear a un enemigo en el ojo puede cegarlo durante una ronda. Golpear a una criatura en su único punto vulnerable podría ignorar su <a href="#armadura-1">Armadura</a>.</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">3</td>
+                <td><strong>Empujar:</strong> El enemigo es golpeado o forzado a retroceder unos metros. La mayoría de las veces, esto no importa mucho, pero si el combate tiene lugar en un saliente o junto a un pozo de lava, el efecto puede ser significativo.</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">3</td>
+                <td><strong>Pasar de largo:</strong> El personaje puede moverse una corta distancia al final del ataque. Este efecto es útil para pasar por delante de un enemigo que esté protegiendo una puerta, por ejemplo.</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">3</td>
+                <td><strong>Dañar objeto:</strong> En lugar de golpear al enemigo, el ataque golpea lo que el enemigo sostiene. Si el ataque impacta, el personaje hace una tirada de Vigor con una dificultad igual al nivel del objeto. Si tiene éxito, el objeto desciende uno o más grados en el <a href="#situacion-especial-atacar-objetos">Registro de Daño de Objeto</a>.</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">4</td>
+                <td><strong>Derribar:</strong> El enemigo es derribado. Puede levantarse en su turno.</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">7</td>
+                <td><strong>Desarmar:</strong> El enemigo deja caer un objeto que está sosteniendo.</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">7</td>
+                <td><strong>Lesionar:</strong> Durante el resto del combate, todas las tareas que el enemigo intente se ven obstaculizadas.</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">8</td>
+                <td><strong>Aturdir:</strong> El enemigo pierde su siguiente acción.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <h4 id="reintentar-una-tarea-tras-un-fallo">Reintentar una tarea tras un fallo <a class="drsc-es-header-anchor" href="#reintentar-una-tarea-tras-un-fallo" title="Permalink" aria-hidden="true"></a></h4>
         <p>Si un personaje fracasa en una tarea (ya sea escalar una pared, forzar una cerradura, intentar descifrar un dispositivo misterioso o cualquier otra cosa) puede volver a intentarlo, pero debe aplicar al menos un nivel de Esfuerzo al reintentar esa tarea. Un reintento es una nueva acción, no parte de la misma acción que falló, y lleva la misma cantidad de tiempo que el primer intento.</p>
         <p>A veces el DJ puede decidir que los reintentos son imposibles. Tal vez un personaje tenga una sola oportunidad de convencer al líder de un grupo de matones de que no ataquen, y después de eso, ninguna conversación los detendrá. </p>
@@ -32380,6 +32543,31 @@
         <p>El DJ puede asignar un coste de puntos a una tarea sólo por intentarla. Llamado coste inicial, es simplemente una indicación de que la tarea es muy exigente. Por ejemplo, digamos que un PJ quiere intentar una acción de Vigor para abrir una pesada puerta del sótano que está algo oxidada. El DJ dice que forzar la puerta para abrirla es una tarea de dificultad 5, y hay un coste inicial de 3 puntos de Vigor para intentarlo. Este coste inicial se suma a cualquier número de puntos que el PJ gaste en la tirada (como cuando aplica Esfuerzo), y los puntos de coste inicial no afectan a la dificultad de la tarea. Es decir, el PJ debe gastar 3 puntos de Vigor sólo para intentar la tarea, y eso no le ayuda a abrir la puerta. Si quiere aplicar Esfuerzo para aliviar la tarea, tiene que gastar más puntos de su Reserva de Vigor.</p>
         <p>La Ventaja ayuda con el coste inicial de una tarea, al igual que lo hace con cualquier gasto de una Reserva de un PJ. En el ejemplo anterior, si el PJ tiene una Ventaja de Vigor de 2, tendría que gastar sólo 1 punto (3 puntos menos 2 de su Ventaja de Vigor) para el coste inicial de intentar la tarea. Si también aplica un nivel de Esfuerzo para abrir la puerta no podrá usar su Ventaja de nuevo ya que ésta se aplica una sola vez por acción, por lo que aplicar Esfuerzo le costaría los 3 puntos completos. Por lo tanto, gastaría un total de 4 puntos (1 por el coste inicial más 3 por el Esfuerzo) de su Reserva de Vigor.</p>
         <p>La razón de la regla de coste inicial es que aún en el Sistema Cypher, donde el aplicar Esfuerzo puede ayudar a un PJ a tener éxito en una acción, la lógica sugiere que algunas acciones son muy difíciles y agotadoras, en especial para algunos PJs más que para otros.</p>
+        <div class="alert bg-dark ps-4">
+          <h5 class="drsc-es-header-small" id="regla-opcional-modificar-capacidades-con-costes-iniciales">Regla opcional: Modificar capacidades con costes iniciales<a class="drsc-es-header-anchor" href="#regla-opcional-modificar-capacidades-con-costes-iniciales" title="Permalink" aria-hidden="true"></a></h5>
+          <p>Fijar un <a href="#coste-inicial">coste inicial</a> es una buena forma de dejar que los jugadores usen con creatividad las capacidades basadas en el Intelecto, de forma parecida a una <a href="#proezas-de-poder">proeza de poder</a>:</p>
+          <table class="table table-dark table-striped table-sm">
+            <thead>
+              <tr>
+                <th scope="col">Proeza</th>
+                <th scope="col">Detalles</th>
+                <th scope="col">Coste</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row" class="fw-normal">Aumentar el alcance</td>
+                <td>De corto a largo, o de largo a muy largo</td>
+                <td>+1 punto de Intelecto (por grado)</td>
+              </tr>
+              <tr>
+                <td scope="row" class="fw-normal">Aumentar la duración</td>
+                <td>De un minuto a diez minutos, o de diez minutos a una hora</td>
+                <td>+1 punto de Intelecto (un grado como máximo)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <h4 id="distancia">Distancia<a class="drsc-es-header-anchor" href="#distancia" title="Permalink" aria-hidden="true"></a></h4>
         <p>La distancia se simplifica en cuatro categorías básicas: inmediata, corta, larga y muy larga.</p>
         <ul class="list-unstyled drsc-es-indent">
@@ -32516,6 +32704,9 @@
         </table>
         <p>Por lo general, el tiempo se cuenta de la misma manera que se hace normalmente, utilizando minutos, horas, días y semanas. Así, si los personajes hacen un viaje prolongado durante 24 km [15 millas], pasan unas ocho horas, aunque el viaje pueda describirse en sólo unos segundos en la mesa de juego. La precisión en la medición del tiempo rara vez es importante. La mayoría de las veces, decir cosas como "Eso lleva una hora" funciona bien.</p>
         <p>Esto es cierto incluso cuando una capacidad especial tiene una duración específica. En un encuentro, una duración de "un minuto" es casi lo mismo que decir "el resto del encuentro". No tienes que contar cada ronda que pasa si no quieres. Del mismo modo, una habilidad que dura diez minutos puede considerarse con seguridad la duración de una conversación en profundidad, el tiempo que se tarda en explorar rápidamente una zona pequeña o el tiempo que se tarda en descansar después de una actividad extenuante.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre el control del tiempo, consulta <a href="#movimiento-prolongado">Movimiento prolongado</a>.</p>
+        </div>
         <h4 id="encuentros-rondas-e-iniciativa">Encuentros, rondas e iniciativa<a class="drsc-es-header-anchor" href="#encuentros-rondas-e-iniciativa" title="Permalink" aria-hidden="true"></a></h4>
         <p>A veces, en el transcurso del juego, el DJ o los jugadores se referirán a un "encuentro". Los encuentros no son tanto medidas de tiempo como eventos o instancias en las que ocurre algo, como una escena de una película o un capítulo de un libro. Un encuentro puede ser una pelea con un enemigo, un cruce dramático de un río embravecido o una negociación estresante con un funcionario importante. Es útil usar la palabra cuando se refiere a una escena específica, como en "Mi Reserva de Vigor está baja después de ese encuentro con el hechicero de almas de ayer". </p>
         <p>Una ronda dura entre cinco y diez segundos. La duración es variable porque a veces una ronda puede ser un poco más larga que otra. No es necesario medir el tiempo con más precisión que eso. Puedes calcular que, por término medio, hay unas diez rondas en un minuto. En una ronda, todos -cada personaje y cada PNJ- pueden realizar una acción.</p>
@@ -32584,7 +32775,57 @@
         <p>El daño es siempre una cantidad específica determinada por el ataque. Por ejemplo, un corte con una espada ancha o una explosión con un lanzador de púas infligen 4 puntos de daño. Una <a href="#arremetida">
             <em>Arremetida</em>
           </a> de Adepto causa 4 puntos de daño. A menudo, hay formas de que el atacante aumente el daño. Por ejemplo, un PJ puede aplicar Esfuerzo para infligir 3 puntos de daño adicional, y sacar un 17 natural en la tirada de ataque inflige 1 punto de daño adicional.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para un método alternativo de gestionar el daño a los PJs, consulta Estrés y Regla opcional: Estrés como daño.</p>
+        </div>
         <div class="alert bg-dark ps-4">
+        <h6 id="regla-opcional-dados-de-da~o">Regla opcional: Dados de daño<a class="drsc-es-header-anchor" href="#regla-opcional-dados-de-da~o" title="Permalink" aria-hidden="true"></a></h6>
+        <p>Estas son algunas ideas más para que el daño sea un poco menos predecible. La mayoría de estas reglas favorecen a los PJs, sobre todo contra <a href="#seleccionar-criaturas">criaturas</a> de nivel bajo. Tirar dados y calcular totales puede ralentizar la partida, así que el DJ solo debería usar estas reglas si a los jugadores les gusta tirar más dados y hacer algunas cuentas más.</p>
+        <ul>
+          <li><strong>Dado de arma:</strong> Se pueden usar dados poliédricos en lugar del daño fijo de las <a href="#armas">armas</a>.</li>
+          <li><strong>Reservas de dados de arma:</strong> Algunas de las fórmulas siguientes usan "mx" para "mantener el más alto". Por ejemplo, "3d6mx1" significa tirar tres d6 y quedarse con un resultado, el más alto de los tres.</li>
+        </ul>
+        <table class="table table-dark table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Arma</th>
+              <th scope="col">Dado</th>
+              <th scope="col">Reserva de dados</th>
+              <th scope="col">Notas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row" class="fw-normal">Ligera</td>
+              <td>1d4</td>
+              <td>1d6</td>
+              <td>ataque aliviado</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-normal">Media</td>
+              <td>1d8</td>
+              <td>2d6mx1 + 1</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-normal">Pesada</td>
+              <td>2d6</td>
+              <td>3d6mx1 + 2</td>
+              <td>requiere las dos manos</td>
+            </tr>
+            <tr>
+              <td scope="row" class="fw-normal">Pesada (alternativa)</td>
+              <td>1d12</td>
+              <td>—</td>
+              <td>requiere las dos manos</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul>
+          <li><strong>Tiradas de ataque:</strong> Por cada 3 puntos en que el resultado de una <a href="#accion-atacar">tirada de ataque</a> supere el número objetivo, el ataque inflige 1 punto de daño adicional. Por ejemplo, si un PJ ataca a un enemigo de nivel 2 con número objetivo 6 y saca un 16, inflige 3 puntos de daño adicional al objetivo. El daño adicional de los <a href="#resultados-especiales-1">resultados especiales</a> se sigue aplicando de forma normal.</li>
+          <li><strong>Tiradas de defensa:</strong> Por cada 3 puntos en que el resultado de una <a href="#accion-defender">tirada de defensa</a> quede por debajo del número objetivo, el ataque inflige 1 punto de daño adicional. Por ejemplo, si un PJ hace una tirada de Defensa por Velocidad contra un enemigo de nivel 5 con número objetivo 15 y saca un 9, recibe 2 puntos de daño adicional del ataque.</li>
+          <li><strong>Dados de Esfuerzo:</strong> Aplicar un nivel de <a href="#esfuerzo-1">Esfuerzo</a> al daño aumenta en 1d6 el daño que inflige el ataque (en lugar de los 3 habituales).</li>
+        </ul>
         <h6 id="regla-opcional-da~o-definitivo">Regla opcional: Daño definitivo<a class="drsc-es-header-anchor" href="#regla-opcional-da~o-definitivo" title="Permalink" aria-hidden="true"></a></h6>
         <p>Normalmente, la puntuación de <a href="#esfuerzo">Esfuerzo</a> de un personaje es el límite de niveles de Esfuerzo que puede aplicar a una tarea. Sin embargo, en algunos escenarios las armas de fuego están por todas partes, las heridas mortales son habituales y la violencia desmedida es la norma (por ejemplo, en una partida <a href="#seleccionar-ciberpunk">ciberpunk</a>). Para representar este paradigma, trata la puntuación de Esfuerzo de un personaje como 6 a efectos de aplicar niveles de Esfuerzo al daño. Dicho de otro modo, cuando se trata de usar Esfuerzo para infligir daño adicional, un personaje puede superar su límite normal de Esfuerzo (pero no el máximo normal de 6 niveles de Esfuerzo).</p>
         <p>Aplicar Esfuerzo sigue costando lo normal: 3 por el primer nivel y 2 por cada nivel del segundo al sexto. (Una opción bastante cara para un personaje de rango bajo con poca <a href="#ventaja">Ventaja</a>.)</p>
@@ -32612,7 +32853,39 @@
         <h5 id="seleccionar-otros-peligros">
           <span id="da~os-por-otros-peligros"></span>Daños por otros peligros<a class="drsc-es-header-anchor" href="#seleccionar-otros-peligros" title="Permalink" aria-hidden="true"></a>
         </h5>
+<div class="alert bg-dark ps-4">
+  <h6 class="drsc-es-header-small drsc-es-border-line" id="referencia-rapida-peligros">Referencia rápida: Peligros<a class="drsc-es-header-anchor" href="#referencia-rapida-peligros" title="Permalink" aria-hidden="true"></a></h6>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#peligros-basicos">Básicos</a></li>
+    <li><a href="#amenazas-y-peligros-del-oeste-extra~o">Oeste extraño</a></li>
+    <li><a href="#peligros-espaciales">Espaciales</a></li>
+    <li><a href="#amenazas-y-peligros-fantasticos">Post-apocalípticos fantásticos</a></li>
+    <li><a href="#amenazas-y-peligros-realistas">Post-apocalípticos realistas</a></li>
+  </ul>
+  <h5 class="drsc-es-header-small">Peligros espaciales</h5>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#agujero-negro">Agujero negro</a></li>
+    <li><a href="#anomalia-espacial">Anomalía espacial</a></li>
+    <li><a href="#campo-de-asteroidesescombros">Campo de asteroides/escombros</a></li>
+    <li><a href="#cinturon-de-radiacionllamarada-solar">Cinturón de radiación/llamarada solar</a></li>
+    <li><a href="#inestabilidad-superluminica">Inestabilidad superlumínica</a></li>
+    <li><a href="#pozo-gravitatorio">Pozo gravitatorio</a></li>
+  </ul>
+  <h5 class="drsc-es-header-small">Reglas opcionales</h5>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#regla-opcional-ahogamiento-y-asfixia">Ahogamiento y asfixia</a></li>
+    <li><a href="#deshidratacion">Deshidratación</a></li>
+    <li><a href="#exposicion">Exposición</a></li>
+    <li><a href="#inanicion">Inanición</a></li>
+    <li><a href="#la-radiacion-en-el-mundo-real">La radiación en el mundo real</a></li>
+    <li><a href="#tareas-realmente-imposibles">Tareas realmente imposibles</a></li>
+  </ul>
+</div>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más peligros, desastres y situaciones ambientales intensas, consulta <em>First Responders</em>.</p>
+        </div>
         <p>Los ataques no son la única forma de infligir daño a un personaje. Experiencias como caer desde una gran altura, quemarse en un incendio y pasar un tiempo en un clima severo también causan daño. Aunque ninguna lista de peligros potenciales podría ser exhaustiva, la tabla de Daños por otros peligros incluye ejemplos comunes. </p>
+        <h6 class="drsc-es-header-small" id="peligros-basicos">Peligros básicos<a class="drsc-es-header-anchor" href="#peligros-basicos" title="Permalink" aria-hidden="true"></a></h6>
         <table class="table table-dark table-striped table-sm">
           <thead>
             <tr>
@@ -32744,6 +33017,9 @@
         <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
           <p>Cuando los PNJs (que sólo tienen salud) sufren daño de Velocidad o Intelecto, normalmente se trata igual que el daño de Vigor. Sin embargo, el DJ o el jugador tienen la opción de sugerir un efecto alternativo apropiado: el PNJ sufre una penalización, se mueve más lentamente, queda aturdido, etc.</p>
         </div>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> La regla opcional de <a href="#regla-opcional-usar-otras-reservas-para-pagar-el-resto-del-coste">usar otras Reservas para pagar el resto de un coste</a> permite a los PJs pagar costes como si recibieran daño.</p>
+        </div>
         <h5 id="registro-de-da~o">Registro de Daño<a class="drsc-es-header-anchor" href="#registro-de-da~o" title="Permalink" aria-hidden="true"></a></h5>
         <p>Como se ha señalado anteriormente, el Registro de Daños tiene cuatro estados: ileso, lesionado, incapacitado y muerto.</p>
         <p>
@@ -32761,6 +33037,26 @@
         </p>
         <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
           <p>La Registro de Daño te permite saber lo lejos que estás de la muerte. Si estás ileso, estás a tres grados de la muerte. Si estás lesionado, estás a dos grados de la muerte. Si estás incapacitado, estás a un solo grado de la puerta de la muerte.</p>
+        </div>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre el Registro de Daño, consulta <a href="#da~o-especial">Daño especial</a> y las reglas opcionales de heridas graves y condiciones.</p>
+        </div>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-la-consciencia-requiere-puntos-de-intelecto">Regla opcional: La consciencia requiere puntos de Intelecto<a class="drsc-es-header-anchor" href="#regla-opcional-la-consciencia-requiere-puntos-de-intelecto" title="Permalink" aria-hidden="true"></a></h6>
+          <p>Con esta regla, un PJ que haya descendido uno o más grados en el <a href="#registro-de-da~o">Registro de Daño</a> necesita al menos 1 punto en su Reserva de Intelecto para seguir consciente. La mayoría de los PJs inconscientes no pueden realizar ninguna acción salvo hacer una <a href="#recuperar-puntos-de-una-reserva">tirada de recuperación</a>.</p>
+          <p>El DJ también puede plantearse combinar esta regla con el módulo de <a href="#fragilidad">fragilidad</a>. Estas son dos opciones posibles:</p>
+          <ul>
+            <li><strong>Incapacitado:</strong> Si la Reserva de Intelecto de un PJ incapacitado está a 0, cae inconsciente hasta que recupere al menos 1 punto de Intelecto.</li>
+            <li><strong>Lesionado:</strong> Si la Reserva de Intelecto de un PJ lesionado está a 0, debe tener éxito en una <a href="#accion-defender">tirada de Defensa</a> por <a href="#vigor">Vigor</a> con una dificultad igual al daño sufrido, y de nuevo cada vez que reciba daño. Si falla, cae inconsciente hasta que recupere al menos 1 punto de Intelecto.</li>
+          </ul>
+          <h6 class="drsc-es-header-small" id="regla-opcional-da~o-a-los-maximos-de-las-reservas">Regla opcional: Daño a los máximos de las Reservas<a class="drsc-es-header-anchor" href="#regla-opcional-da~o-a-los-maximos-de-las-reservas" title="Permalink" aria-hidden="true"></a></h6>
+          <p>Esta regla opcional añade riesgo para los PJs que reciben daño o que usan <a href="#capacidades-especiales">capacidades especiales</a> poderosas con mucho <a href="#esfuerzo">Esfuerzo</a>. Ambas situaciones provocan lesiones duraderas que tardan más en curarse.</p>
+          <ul>
+            <li><strong>Daño:</strong> Cuando el daño reduce a 0 la Reserva de un atributo de un PJ, el resto se resta temporalmente del máximo de la Reserva de ese atributo. El resto (y cualquier daño posterior) también se aplica a otra Reserva, como se describe en <a href="#los-efectos-de-recibir-da~o">Los efectos de recibir daño</a>. Esto se suma a descender un grado en el <a href="#registro-de-da~o">Registro de Daño</a> de forma normal.</li>
+            <li><strong>Usar capacidades:</strong> Cuando un PJ usa una <a href="#capacidades-especiales">capacidad especial</a> con un coste en puntos de Reserva que no puede pagar, el resto se resta temporalmente de su máximo de puntos de la Reserva de ese atributo.</li>
+            <li><strong>Recuperar los máximos de las Reservas:</strong> Un PJ puede recuperar las reducciones temporales de los máximos de sus Reservas llenando la Reserva hasta su máximo temporal. Mientras está en el máximo temporal, la <a href="#sanar">curación</a>, las <a href="#capacidades-especiales">capacidades especiales</a>, los <a href="#seleccionar-cyphers">Cyphers</a> y los <a href="#artefactos">artefactos</a> (pero no las <a href="#recuperar-puntos-de-una-reserva">tiradas de recuperación</a>) devuelven al máximo de la Reserva los puntos perdidos.</li>
+            <li><strong>Máximos de las Reservas a cero:</strong> Si el máximo de la Reserva de algún atributo se reduce a 0, el DJ decide cómo proceder. Por ejemplo, el PJ podría obtener una incapacidad permanente, reducir permanentemente en 3 el máximo de la Reserva de un atributo, o morir.</li>
+          </ul>
         </div>
         <h5 id="recuperar-puntos-de-una-reserva">Recuperar puntos de una Reserva<a class="drsc-es-header-anchor" href="#recuperar-puntos-de-una-reserva" title="Permalink" aria-hidden="true"></a></h5>
         <p>Después de perder o gastar puntos de una Reserva, se recuperan esos puntos descansando. No se puede aumentar una Reserva más allá de su nivel máximo descansando, sólo volver a su nivel normal. Cualquier punto extra ganado queda sin efecto. La cantidad de puntos que recuperas en un descanso, y el tiempo que dura cada descanso, depende de cuántas veces hayas descansado ese día.</p>
@@ -32799,6 +33095,11 @@
             </tr>
           </tbody>
         </table>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-tiradas-de-recuperacion-en-cualquier-orden">Regla opcional: Tiradas de recuperación en cualquier orden<a class="drsc-es-header-anchor" href="#regla-opcional-tiradas-de-recuperacion-en-cualquier-orden" title="Permalink" aria-hidden="true"></a></h6>
+          <p>Los PJs pueden hacer sus <a href="#recuperar-puntos-de-una-reserva">tiradas de recuperación</a> de una acción, de diez minutos y de una hora en el orden que quieran.</p>
+          <p>Además, al hacer una tirada de recuperación, los PJs pueden hacer a la vez las tiradas de recuperación de menor duración que no hayan gastado. Por ejemplo, al hacer una tirada de recuperación de una hora, un PJ también puede hacer su tirada de recuperación de una acción, la de diez minutos o ambas.</p>
+        </div>
         <h5 id="restaurar-el-registro-de-da~o">Restaurar el Registro de Daño<a class="drsc-es-header-anchor" href="#restaurar-el-registro-de-da~o" title="Permalink" aria-hidden="true"></a></h5>
         <p>El uso de puntos de una Tirada de Recuperación para aumentar una Reserva de atributo de 0 a 1 o más también hace que el personaje suba automáticamente un grado en el Registro de Daño.</p>
         <p>Si todos las Reservas de atributo de un PJ están por encima de 0 y el personaje ha recibido un daño especial que le ha hecho descender en el Registro de Daño, puede utilizar una Tirada de Recuperación para subir un grado en el Registro de Daño en lugar de recuperar Puntos de Reserva. Por ejemplo, un personaje que está incapacitado por un impacto de un dispositivo biotecnológico de disrupción celular puede descansar y subir a lesionado en lugar de recuperar puntos en una Reserva.</p>
@@ -32817,6 +33118,9 @@
         <p>
           <strong>Otros efectos:</strong> Otros efectos especiales pueden dejar al personaje ciego o sordo, incapaz de mantenerse en pie sin caerse o incapaz de respirar. Otros efectos más extraños pueden anular la gravedad del personaje (o multiplicarla por cien), transportarlo a otro lugar, desfasarlo, <a href="#mutaciones">mutar su forma física</a>, implantarle recuerdos o sentidos falsos, alterar la forma en que su cerebro procesa la información o inflamar sus nervios para que sufra un dolor constante e insoportable. Cada efecto especial debe ser tratado caso por caso. El DJ decide cómo afecta al personaje y cómo se puede aliviar la condición (si es posible).
         </p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre el daño especial, consulta <a href="#modificar-criaturas">Modificar criaturas</a>, <a href="#venenos-comunes-de-las-trampas">Venenos comunes de las trampas</a>, las reglas opcionales de heridas graves y condiciones, <a href="#enfermedad-por-radiacion-post-apocaliptica">Enfermedad por radiación</a> y <a href="#crear-encuentros-desafiantes">Crear encuentros desafiantes</a>. Además, <em>We Are All Mad Here</em> incluye una sección sobre la salud mental en el juego.</p>
+        </div>
         <h5 id="pnjs-y-da~o-especial">PNJs y daño especial<a class="drsc-es-header-anchor" href="#pnjs-y-da~o-especial" title="Permalink" aria-hidden="true"></a></h5>
         <p>El DJ siempre tiene la última palabra sobre el daño especial que afectará a un PNJ. Los PNJs humanos suelen reaccionar como los personajes, pero las criaturas no humanas pueden reaccionar de forma muy diferente. Por ejemplo, es poco probable que un poco de veneno dañe a un dragón gigantesco, y no afectará en absoluto a un androide o a un demonio.</p>
         <p>Si un PNJ es susceptible a un ataque que haría descender a un personaje en el Registro de Daño, usar ese ataque sobre el PNJ normalmente lo deja inconsciente o muerto. Alternativamente, el DJ podría aplicar la condición de incapacitado al PNJ, con el mismo efecto que tendría en un PJ.</p>
@@ -32827,6 +33131,9 @@
         <p>En caso de duda, si parece que debería ser más difícil atacar en una situación, obstaculiza las tiradas de ataque. Si parece que los ataques deberían obtener un recurso o ser más fáciles de alguna manera, obstaculiza las tiradas de defensa.</p>
         <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
           <p>Los alcances precisos no son importantes en el Sistema Cypher. Los alcances ampliamente definidos como "inmediato", "corto", "largo" y "muy largo" permiten al DJ tomar rápidamente una decisión y mantener las cosas en movimiento. Básicamente, la idea es<strong>:</strong> tu objetivo está justo ahí, tu objetivo está cerca, tu objetivo está bastante lejos, o tu objetivo está extremadamente lejos.</p>
+        </div>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Las situaciones especiales son justamente eso: <em>especiales</em>. Aplicar reglas "porque son las reglas" no es buena idea. Disparar a un ogro torpe a <a href="#alcance">quemarropa</a> es algo totalmente distinto de disparar a un ninja psiónico o a una araña demoníaca que corretea. Las <a href="#seleccionar-criaturas">criaturas</a> requerirán modificaciones no escritas para comportarse de forma creíble. Para más información, consulta <a href="#falsa-precision">Falsa precisión</a> y Usar las reglas: dar sentido.</p>
         </div>
         <h6 id="cobertura">Cobertura<a class="drsc-es-header-anchor" href="#cobertura" title="Permalink" aria-hidden="true"></a></h6>
         <p>Si un personaje se encuentra <em>
@@ -32862,6 +33169,10 @@
         <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
           <p>En ciertas situaciones, como un PJ en lo alto de un edificio mirando a través de un campo abierto, el DJ debería permitir que los ataques a distancia superen su alcance máximo. Por ejemplo, en condiciones perfectas, un buen arquero puede acertar a un objetivo grande con un arco y una flecha a 150 m [500 pies], mucho más lejos que el largo alcance típico de un arco.</p>
         </div>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-actuar-mientras-te-atacan">Regla opcional: Actuar mientras te atacan<a class="drsc-es-header-anchor" href="#regla-opcional-actuar-mientras-te-atacan" title="Permalink" aria-hidden="true"></a></h6>
+          <p>En el combate cuerpo a cuerpo, si un PJ o un PNJ realiza una acción que no sea <a href="#accion-moverse">moverse</a> o <a href="#accion-atacar">atacar</a>, cada enemigo a su alcance puede hacer un ataque inmediato contra él. También es una buena regla si te gusta la sensación de los "ataques de oportunidad" de otros juegos.</p>
+        </div>
         <h6 id="iluminacion">Iluminación<a class="drsc-es-header-anchor" href="#iluminacion" title="Permalink" aria-hidden="true"></a></h6>
         <p>Lo que los personajes pueden ver (y lo bien que pueden ver) es un factor muy importante en el combate.</p>
         <p>
@@ -32895,6 +33206,13 @@
         <p>
           <strong>Combate a distancia bajo el agua:</strong> Al igual que con el combate melé, las criaturas no acuáticas tienen problemas para luchar bajo el agua. Algunos ataques a distancia son imposibles bajo el agua: no puedes lanzar objetos, disparar un arco o una ballesta o utilizar una cerbatana. Muchas armas de fuego tampoco funcionan bajo el agua. Los ataques con armas que sí funcionan bajo el agua se ven obstaculizados. El alcance bajo el agua se reduce en una categoría; las armas de muy largo alcance sólo funcionan a largo alcance, las de largo alcance sólo a corto alcance y las de corto alcance sólo a alcance inmediato.
         </p>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-ahogamiento-y-asfixia">Regla opcional: Ahogamiento y asfixia<a class="drsc-es-header-anchor" href="#regla-opcional-ahogamiento-y-asfixia" title="Permalink" aria-hidden="true"></a></h6>
+          <ul>
+            <li><strong>Luchar por respirar:</strong> Luchar por conseguir aire (por ejemplo, al ahogarse cerca de la superficie) es una tirada de Vigor de dificultad 4.</li>
+            <li><strong>Quedarse sin oxígeno:</strong> Tras un número de rondas sin aire igual a 3 más el rango del PJ más su <a href="#ventaja">Ventaja</a> de <a href="#vigor">Vigor</a>, el PJ debe tener éxito en una tarea de Vigor con una dificultad igual a 4 más 1 por cada 10 m [30 pies] de profundidad, o desciende un grado en el <a href="#registro-de-da~o">Registro de Daño</a>.</li>
+          </ul>
+        </div>
         <h6 id="objetivos-en-movimiento">Objetivos en movimiento<a class="drsc-es-header-anchor" href="#objetivos-en-movimiento" title="Permalink" aria-hidden="true"></a></h6>
         <p>Los objetivos en movimiento son más difíciles de atinar, y los atacantes en movimiento también lo tienen difícil. </p>
         <p>
@@ -32906,14 +33224,23 @@
         <p>
           <strong>El atacante está fuera de equilibrio:</strong> Estar fuera de equilibrio, como cuando se está en un barco en movimiento o una plataforma que vibra, dificulta el ataque. Tales ataques se ven obstaculizados. Los personajes competentes en equilibrio o navegación ignoran las penalizaciones por estar en un barco.
         </p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> La sección sobre la <em>gravedad</em> del reglamento del Sistema Cypher no se incluye en el CSRD. En su lugar, consulta <a href="#efectos-de-la-gravedad">Efectos de la gravedad</a> en el <a href="#seleccionar-ciencia-ficcion">Capítulo 13: Ciencia ficción</a>.</p>
+        </div>
         <h5 id="situacion-especial-combate-entre-pnjs">
           <span id="situacion-especial-combate-entre-pnjs"></span>Situación especial: Combate entre PNJs
         <a class="drsc-es-header-anchor" href="#situacion-especial-combate-entre-pnjs" title="Permalink" aria-hidden="true"></a></h5>
         <p>Cuando un PNJ aliado de los PJs ataca a otro PNJ, el DJ puede designar a un jugador para que haga la tirada y la maneje como si fuera un PJ atacando. A menudo, la elección es obvia. Por ejemplo, un personaje que tiene un animal de ataque entrenado debería tirar cuando su mascota ataca a los enemigos. Si un PNJ aliado que acompaña al grupo salta a la refriega, el PJ favorito de ese aliado tira por él. Los PNJs no pueden aplicar Esfuerzo. Por supuesto, es perfectamente adecuado (y más fácil) hacer que el PNJ aliado utilice las reglas de <a href="#acciones-cooperativas">Acciones cooperativas</a> para ayudar a un PJ en lugar de hacer ataques directos, o comparar los niveles de los dos PNJs (el más alto gana).</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> No te obsesiones con los números: lo más importante al resolver interacciones entre PNJs es que resulten lógicas y coherentes con la ambientación y la historia, así que decide lo que ocurre con una visión de conjunto. Las reglas opcionales de <a href="#regla-opcional-esfuerzo-para-pnjs">Esfuerzo para PNJs</a> también pueden influir en el resultado de un combate entre PNJs.</p>
+        </div>
         <h5 id="situacion-especial-combate-entre-pjs">
           <span id="situacion-especial-combate-entre-pjs"></span>Situación especial: Combate entre PJs
         <a class="drsc-es-header-anchor" href="#situacion-especial-combate-entre-pjs" title="Permalink" aria-hidden="true"></a></h5>
         <p>Cuando un PJ ataca a otro PJ, el personaje atacante hace una tirada de ataque, y el otro personaje hace una tirada de defensa, añadiendo los modificadores apropiados. Si el PJ atacante tiene una habilidad, capacidad, recurso u otro efecto que aliviaría el ataque si se hiciera contra un PNJ, el personaje añade 3 a la tirada por cada grado de reducción (+3 por un grado, +6 por dos grados, y así sucesivamente). Si el resultado final del atacante es mayor, el ataque impacta. Si el resultado del defensor es mayor, el ataque falla. El daño se resuelve normalmente. El DJ media todos los efectos especiales.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Los jugadores pueden reaccionar de formas muy distintas al "JcJ" (jugador contra jugador) en una sesión. Asegúrate de que las tiradas enfrentadas entre PJs hagan que todos los implicados lo pasen bien y vivan una buena historia.</p>
+        </div>
         <h5 id="situacion-especial-ataques-de-area">
           <span id="situacion-especial-ataques-de-area"></span>Situación especial: Ataques de área
         <a class="drsc-es-header-anchor" href="#situacion-especial-ataques-de-area" title="Permalink" aria-hidden="true"></a></h5>
@@ -32925,6 +33252,15 @@
           </a> para atacar a seis cultistas (nivel 2; número objetivo 6) y a su líder (nivel 4; número objetivo 12). El PJ aplica Esfuerzo para aumentar el daño y saca un 11 en la tirada de ataque. Esto golpea a los seis cultistas, pero no al líder, por lo que la habilidad hace 3 puntos de daño a cada uno de los cultistas. La descripción de <a href="#destrozar">
             <em>Destrozar</em>
           </a> dice que aplicar Esfuerzo para aumentar el daño también significa que los objetivos reciben 1 punto de daño si el PJ falla la tirada de ataque, así que el líder recibe 1 punto de daño. En cuanto a lo que ocurre en la historia, los cultistas son sorprendidos por la repentina detonación de uno de sus cuchillos, pero el líder se agacha y queda protegido de la explosión. A pesar de los rápidos movimientos del líder, la explosión es tan intensa que algunos trozos de metal los cortan.</p>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="ataques-de-area-esfuerzo-y-da~o">Ataques de área, Esfuerzo y daño<a class="drsc-es-header-anchor" href="#ataques-de-area-esfuerzo-y-da~o" title="Permalink" aria-hidden="true"></a></h6>
+          <p>¿Cómo funciona exactamente usar <a href="#esfuerzo-1">Esfuerzo</a> para aumentar el daño de un <a href="#situacion-especial-ataques-de-area">ataque de área</a>? El ejemplo no lo deja del todo claro, porque solo se usa un nivel de Esfuerzo. La descripción de <a href="#destrozar">Destrozar</a> dice: "Si aplicas Esfuerzo para aumentar el daño, infliges 2 puntos de daño adicional por nivel de Esfuerzo (en lugar de 3 puntos); los objetivos en el área reciben 1 punto de daño incluso si fallas la tirada de ataque". Parece claro que, si el PJ hubiera usado dos niveles de Esfuerzo para aumentar el daño, los cultistas alcanzados recibirían 5 puntos de daño (1 más 2 por cada nivel de Esfuerzo), pero ¿y el líder, al que no alcanzó? El DJ debería considerar estas dos interpretaciones y quedarse con la que mejor funcione para el género y la ambientación de la partida:</p>
+          <ul>
+            <li><strong>El Esfuerzo aumenta el daño mínimo:</strong> El daño mínimo que inflige un ataque de área aumenta por cada nivel de Esfuerzo usado para aumentar el daño. Con esta interpretación, si el PJ del ejemplo hubiera usado dos niveles de Esfuerzo, el líder recibiría 2 puntos de daño (un mínimo de 1 por cada nivel de Esfuerzo).</li>
+            <li><strong>El daño mínimo es fijo:</strong> El daño mínimo indicado es siempre el mismo. Con esta interpretación, el líder al que no alcanzó el ataque solo recibiría 1 punto de daño, independientemente del Esfuerzo usado para aumentar el daño del ataque.</li>
+          </ul>
+          <p>Además, el DJ debería tener en cuenta las reglas de <a href="#seleccionar-modificadores-al-ataque-y-situaciones-especiales">modificadores al ataque y situaciones especiales</a> y de <a href="#situacion-especial-combate-entre-pjs">combate entre PJs</a>: los detalles pueden determinar que un uso de una capacidad no provoque "fuego amigo", pero otro sí. Esto también podría ser una fuente de <a href="#intromision-del-dj-1">intromisiones del DJ</a>.</p>
+        </div>
         <h5 id="situacion-especial-atacar-objetos">
           <span id="situacion-especial-atacar-objetos"></span>Situación especial: Atacar objetos
         <a class="drsc-es-header-anchor" href="#situacion-especial-atacar-objetos" title="Permalink" aria-hidden="true"></a></h5>
@@ -32944,6 +33280,14 @@
         <p>Si la acción de Vigor para dañar un objeto es un éxito, el objeto desciende un grado en el Registro de Daño de Objeto. Si la tirada de Vigor supera la dificultad en 2 niveles, el objeto desciende dos grados en el Registro de Daño de Objeto. Si la tirada de Vigor supera la dificultad en 4 niveles, el objeto desciende tres grados en el Registro de Daño de Objeto. Los objetos con daños menores o mayores pueden ser reparados, elevándolos uno o más grados en el Registro de Daño de Objeto.</p>
         <p>Los objetos frágiles o quebradizos, como el papel o el cristal, disminuyen el nivel efectivo del objeto a efectos de determinar si está dañado. Los objetos duros, como los de madera o piedra, suman 1 al nivel efectivo. Los objetos muy duros, como los de metal, añaden 2. (El DJ puede dictaminar que algunos materiales exóticos añadan 3). </p>
         <p> La herramienta o arma utilizada para atacar el objeto debe ser al menos tan dura como el propio objeto. Además, si la cantidad de daño que el ataque podría infligir -no modificada por una tirada especial- no es igual o superior al nivel efectivo del objeto, el ataque no puede dañar el objeto sea cual sea la tirada.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Las pautas adicionales para dañar estructuras se detallan en <a href="#paredes">Paredes</a>, <a href="#puertas">Puertas</a> y <a href="#haza~as-de-fuerza">Hazañas de fuerza</a>. El DJ también resuelve cualquier otra interacción interesante, lógica o basada en la historia según la naturaleza del objeto; por ejemplo, el <a href="#da~o-ambiental">daño ambiental</a> de un fuego que daña un objeto inflamable.</p>
+        </div>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-nivel-salud-y-armadura-de-los-objetos">Regla opcional: Nivel, salud y Armadura de los objetos<a class="drsc-es-header-anchor" href="#regla-opcional-nivel-salud-y-armadura-de-los-objetos" title="Permalink" aria-hidden="true"></a></h6>
+          <p>Con esta regla opcional, <a href="#situacion-especial-atacar-objetos">atacar un objeto</a> es una acción de <a href="#vigor">Vigor</a> con una dificultad igual al nivel del objeto, igual que las <a href="#entender-los-listados-de-criaturas">criaturas tienen niveles y números objetivo</a>. Los objetos tienen una salud igual a su número objetivo y, según su construcción, hasta 3 de <a href="#armadura-1">Armadura</a>. Un objeto queda destruido si su salud se reduce a 0.</p>
+          <p>Puede ser más fácil resolver con este sistema <a href="#arrojar">Arrojar</a>, <a href="#campo-de-fuerza">Campo de fuerza</a> (tal como aparece impreso en el reglamento del Sistema Cypher) y <a href="#barrera-de-fuerza">Barrera de fuerza</a>. Sin embargo, otras capacidades como <a href="#rompedor">Rompedor</a>, <a href="#destructor">Destructor</a> y <a href="#campo-de-destruccion">Campo de destrucción</a> dan por hecho el uso del <a href="#situacion-especial-atacar-objetos">Registro de Daño de Objeto</a>.</p>
+        </div>
         <h4 id="accion-activar-capacidad-especial">
           <span id="-activar-capacidad-especial"></span>Acción: Activar una capacidad especial
         <a class="drsc-es-header-anchor" href="#accion-activar-capacidad-especial" title="Permalink" aria-hidden="true"></a></h4>
@@ -32952,6 +33296,9 @@
             <em>Flotar</em>
           </a> sobre sí mismo para flotar en el aire. Un personaje con un dispositivo de reorganización de la materia puede convertir una pared de piedra en cristal. Un personaje que active un Cypher de cambio de fase podría atravesar una pared. Ninguno de ellos requiere una tirada de ataque (aunque cuando se convierte una pared de piedra en cristal, el personaje debe hacer una tirada para afectar con éxito a la pared).</p>
         <p>Si el PJ gasta puntos en aplicar Esfuerzo en el intento, podría querer tirar de todas formas para ver si consigue un efecto mayor, lo que reduciría el coste de su acción.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre las capacidades especiales, consulta el <a href="#seleccionar-capacidad">Capítulo 7: Capacidades de personaje</a>.</p>
+        </div>
         <h4 id="accion-moverse">Acción: Moverse<a class="drsc-es-header-anchor" href="#accion-moverse" title="Permalink" aria-hidden="true"></a></h4>
         <p>Como parte de otra acción, un personaje puede ajustar su posición: retroceder unos metros mientras usa una habilidad, deslizarse en combate para enfrentarse a un oponente diferente y ayudar a un amigo, cruzar una puerta que acaba de abrir, etc. Esto se considera una distancia inmediata, y un personaje puede moverse una distancia inmediata como parte de otra acción.</p>
         <p>En una situación de combate, si un personaje está en una gran melé, normalmente se considera que está al lado de la mayoría de los demás combatientes, a menos que el DJ dictamine que está más lejos porque la melé es especialmente grande o la situación así lo dicta.</p>
@@ -32961,6 +33308,9 @@
         <p>Un personaje también puede intentar hacer un movimiento corto y realizar otra acción física (relativamente sencilla), como hacer un ataque. Al igual que el intento de realizar un movimiento largo, se trata de una tarea de Velocidad con una dificultad de 4, y el fracaso significa que el personaje se detiene en algún momento, resbalando o tropezando o quedando retenido de alguna otra manera.</p>
         <h5 id="movimiento-prolongado">Movimiento prolongado<a class="drsc-es-header-anchor" href="#movimiento-prolongado" title="Permalink" aria-hidden="true"></a></h5>
         <p>Cuando se habla de movimiento en términos de viaje y no de acciones ronda a ronda, los personajes típicos pueden viajar por carretera unos 32 km [20 millas] al día, a una media de 5 km [3 millas] por hora, incluyendo algunas paradas. Cuando viajan a campo traviesa, pueden desplazarse unos 19 km [12 millas] al día, a una media de 3 km [2 millas] por hora, de nuevo con algunas paradas. Los personajes montados, como los que van a caballo, pueden recorrer el doble de distancia. Otros medios de transporte (automóviles, aviones, aerodeslizadores, veleros, etc.) tienen sus propias velocidades de movimiento prolongado.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> La mayoría de los <a href="#vehiculos-y-naves-espaciales">vehículos</a> indican su velocidad en distintas condiciones del entorno. Para los viajes en nave espacial, consulta <a href="#viajar-por-el-sistema-solar-y-mecanica-orbital">Viajar por el sistema solar y mecánica orbital</a>.</p>
+        </div>
         <h5 id="seleccionar-modificadores-de-movimiento">
           <span id="modificadores-de-movimiento"></span>Modificadores de movimiento<a class="drsc-es-header-anchor" href="#seleccionar-modificadores-de-movimiento" title="Permalink" aria-hidden="true"></a>
         </h5>
@@ -32987,6 +33337,9 @@
           <p>
             <strong>Nota:</strong> Las fórmulas no son equivalentes exactos entre ambos sistemas de unidades si no aproximaciones, Cypher no es simulacionista.
           </p>
+        </div>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre la gravedad, consulta <a href="#efectos-de-la-gravedad">Efectos de la gravedad</a>.</p>
         </div>
         <h5 id="situacion-especial-persecucion">
           <span id="persecucion"></span>Situación especial: Persecución
@@ -33100,7 +33453,31 @@
           <span id="tomar-el-ataque"></span>
           <strong>Tomar el ataque:</strong> Un personaje puede usar su acción para lanzarse frente a un ataque exitoso de un enemigo para salvar a un camarada cercano. El ataque tiene éxito automáticamente contra el personaje que se sacrifica, e inflige 1 punto de daño adicional. Un personaje no puede tomar voluntariamente más de un ataque cada ronda de esta manera.
         </p>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-acciones-cooperativas-adicionales">Regla opcional: Acciones cooperativas adicionales<a class="drsc-es-header-anchor" href="#regla-opcional-acciones-cooperativas-adicionales" title="Permalink" aria-hidden="true"></a></h6>
+          <p>Estas acciones cooperativas quizá no sean buenas reglas generales para cualquier circunstancia, pero siguen siendo útiles para pensar en cómo podrían coordinar sus acciones los jugadores y cómo podría modificar el juego el DJ según las circunstancias:</p>
+          <ul>
+            <li><strong>Fuego de cobertura:</strong> Un personaje puede dirigir un ataque a distancia cerca de un enemigo, pero fallar por poco a propósito. Si tiene éxito, el ataque no inflige daño, y el siguiente ataque del enemigo se obstaculiza.</li>
+            <li><strong>Ataque combinado:</strong> Si un personaje hace un ataque cuerpo a cuerpo y otro hace un ataque a distancia, y ambos ataques impactan al mismo enemigo, la siguiente tarea de este se obstaculiza.</li>
+            <li><strong>Ataque en grupo:</strong> Si al menos tres personajes atacan al mismo enemigo, cada uno obtiene un bonificador de +1 a su tirada de ataque.</li>
+          </ul>
+        </div>
         <h5 id="fabricar-construir-y-reparar">Fabricar, construir y reparar <a class="drsc-es-header-anchor" href="#fabricar-construir-y-reparar" title="Permalink" aria-hidden="true"></a></h5>
+<div class="alert bg-dark ps-4">
+  <h6 class="drsc-es-header-small drsc-es-border-line" id="referencia-rapida-fabricacion">Referencia rápida: Fabricación<a class="drsc-es-header-anchor" href="#referencia-rapida-fabricacion" title="Permalink" aria-hidden="true"></a></h6>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#dificultad-y-tiempo-de-fabricacion">Dificultad y tiempo de fabricación</a></li>
+  </ul>
+  <h5 class="drsc-es-header-small">Secciones relacionadas</h5>
+  <ul class="list-unstyled drsc-es-quick-reference">
+    <li><a href="#regla-opcional-dinero-y-agotamiento-de-recursos">Dinero y agotamiento de recursos</a></li>
+    <li><a href="#fabricacion-de-artefactos">Fabricación de artefactos</a></li>
+    <li><a href="#fabricacion-de-objetos-magicos">Fabricación de objetos mágicos</a></li>
+    <li><a href="#mantenimiento-del-equipo">Mantenimiento del equipo</a></li>
+    <li><a href="#operacion-peligrosa">Operación peligrosa</a></li>
+    <li><a href="#reparar-y-construir">Reparar y construir</a></li>
+  </ul>
+</div>
         <p>Fabricar cosas es un tema complicado en el Sistema Cypher, ya que las mismas reglas que rigen la construcción de una lanza también cubren la reparación de una máquina que puede llevarte al hiperespacio. Normalmente, el nivel del objeto determina la dificultad para crearlo o repararlo, así como el tiempo requerido. En el caso de Cyphers, artefactos, otros objetos que requieran conocimientos especializados o artículos exclusivos de un mundo o especie distinta a la tuya (como un caminante marciano con trípode), añade 5 al nivel del objeto para determinar la dificultad de construirlo o repararlo. </p>
         <p>A veces, si el objeto es de naturaleza artística, el DJ aumentará la dificultad y el tiempo necesario. Por ejemplo, un taburete de madera tosco puede ser elaborado a martillazos en una hora. Una pieza hermosa y acabada puede llevar una semana o más y requerir más habilidad por parte del fabricante.</p>
         <p>El DJ es libre de negar algunos intentos de creación, construcción o reparación, exigiendo que el personaje tenga un determinado nivel de habilidad, herramientas y materiales adecuados, etc.</p>
@@ -33213,6 +33590,13 @@
         <p>Si un PNJ está en guardia, usa el mismo procedimiento, pero para pasar la guardia, el PJ intenta una acción de Velocidad obstaculizada contra el PNJ. Por ejemplo, Diana es un PNJ humano con un guardaespaldas de nivel 3. El guardaespaldas utiliza su acción para proteger a Diana. El guardaespaldas utiliza su acción para proteger a Diana. Si un PJ quiere atacar a Diana, el PJ debe primero tener éxito en una tarea de Velocidad de dificultad 4 para pasar el guardia. Si el PJ tiene éxito, puede hacer su ataque normalmente.</p>
         <h5 id="sanar">Sanar<a class="drsc-es-header-anchor" href="#sanar" title="Permalink" aria-hidden="true"></a></h5>
         <p>Puedes dar ayuda usando vendas y otros cuidados, intentando sanar a cada paciente una vez al día. Este tratamiento restaura puntos de una Reserva de atributo de tu elección. Decide cuántos puntos quieres curar, y luego realiza una acción de Intelecto con una dificultad igual a ese número. Por ejemplo, si quieres curar a alguien por 3 puntos, es una tarea de dificultad 3 con número objetivo 9. </p>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-limites-de-la-curacion">Regla opcional: Límites de la curación<a class="drsc-es-header-anchor" href="#regla-opcional-limites-de-la-curacion" title="Permalink" aria-hidden="true"></a></h6>
+          <p>Cada vez que alguien intenta sanar a la misma criatura, la tarea se obstaculiza un grado más. La dificultad vuelve a su valor normal cuando esa criatura descansa diez horas.</p>
+        </div>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre la curación, consulta <a href="#da~o-especial">Daño especial</a> y las reglas opcionales de heridas graves y condiciones.</p>
+        </div>
         <h5 id="interactuar-con-criaturas">Interactuar con criaturas<a class="drsc-es-header-anchor" href="#interactuar-con-criaturas" title="Permalink" aria-hidden="true"></a></h5>
         <p>El nivel de la criatura determina el número del objetivo, al igual que en el combate. Por lo tanto, sobornar a un guardia funciona igual que golpearlo o afectarlo con una habilidad. Esto es válido para persuadir a alguien, intimidar a alguien, calmar a una bestia salvaje o cualquier cosa por el estilo. La interacción es una tarea de Intelecto. La interacción suele requerir un lenguaje común o alguna otra forma de comunicarse. Aprender nuevos idiomas es lo mismo que aprender una nueva habilidad.</p>
         <h5 id="saltar">Saltar<a class="drsc-es-header-anchor" href="#saltar" title="Permalink" aria-hidden="true"></a></h5>
@@ -33230,6 +33614,9 @@
         </div>
         <h5 id="observar-o-escuchar">Observar o escuchar<a class="drsc-es-header-anchor" href="#observar-o-escuchar" title="Permalink" aria-hidden="true"></a></h5>
         <p>Generalmente, el DJ describirá el aspecto y sonido de cualquier cosa que no sea intencionalmente difícil de detectar. Pero si quieres buscar a un enemigo oculto, buscar un panel secreto o escuchar a alguien que se acerca sigilosamente, haz una tirada de Intelecto. Si es una criatura, su nivel determina la dificultad de tu tirada. Si es otra cosa, el DJ determina la dificultad de tu tirada.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre la "percepción pasiva", consulta Dificultad pasiva.</p>
+        </div>
         <h5 id="mover-un-objeto-pesado">Mover un objeto pesado<a class="drsc-es-header-anchor" href="#mover-un-objeto-pesado" title="Permalink" aria-hidden="true"></a></h5>
         <p>Puedes empujar o tirar de algo muy pesado y moverlo una distancia inmediata como tu acción.</p>
         <p>El peso del objeto determina la dificultad de la tirada de Vigor para moverlo; cada 23 kg [50 libras] obstaculiza la tarea en un grado. Por lo tanto, mover algo que pesa 68 kg [150 libras] es una dificultad 3, y mover algo que pesa 180 kg [400 libras] es una dificultad 8. Si puedes aliviar la tarea a 0, puedes mover un objeto pesado hasta una corta distancia como tu acción.</p>
@@ -33238,6 +33625,9 @@
         <p>Por otra parte desactivar un dispositivo o forzar una cerradura suelen requerir tiradas. Estas acciones suelen implican herramientas especiales y suponen que el personaje no está intentando destruir el dispositivo o la cerradura. (Un PJ que esté intentando destruirlo probablemente debería hacer una tirada de Vigor para destrozarlo en lugar de una tirada de Velocidad o Intelecto que requiera paciencia y conocimientos).</p>
         <h5 id="montar-o-pilotar">Montar o pilotar<a class="drsc-es-header-anchor" href="#montar-o-pilotar" title="Permalink" aria-hidden="true"></a></h5>
         <p>Si estás montando un animal entrenado para ser una montura, o conduciendo o pilotando un vehículo, no necesitas hacer una tirada para hacer algo rutinario como ir del punto A al punto B (igual que no necesitarías hacer una tirada para ir andando). Sin embargo, permanecer montado durante un combate o hacer algo complicado con un vehículo requiere una tirada de Velocidad para tener éxito. Una silla de montar u otro equipo apropiado es un recurso y alivia la tarea.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre los vehículos, consulta <a href="#combate-de-vehiculos">Combate de vehículos</a>.</p>
+        </div>
         <table class="table table-dark table-striped table-sm">
           <thead>
             <tr>
@@ -33535,11 +33925,19 @@
             </tr>
           </tbody>
         </table>
+        <div class="alert bg-dark ps-4">
+          <h6 class="drsc-es-header-small" id="regla-opcional-obtener-una-revelacion">Regla opcional: Obtener una revelación<a class="drsc-es-header-anchor" href="#regla-opcional-obtener-una-revelacion" title="Permalink" aria-hidden="true"></a></h6>
+          <p>Si un PJ está planeando algo complejo, o dedica tiempo a obtener más información sobre una situación, puede gastar 3 puntos de Intelecto y una <a href="#seleccionar-acciones">acción</a> para obtener información adicional y fiable, que el DJ le da en forma de una pista útil. La pista podría anticipar sucesos y permitir al PJ reconocer algo, a alguien o un patrón de comportamiento de uno o más PNJs. El DJ decide qué revelación se obtiene y se asegura de que la información sea útil y fiable. Obtener una revelación nunca debería usarse para "tender una trampa" a un PJ.</p>
+          <p>Además, el DJ puede avisar a los jugadores de que hay revelaciones disponibles sin decir cuáles son, y permitir que los PJs las compren por 1 <a href="#seleccionar-puntos-de-experiencia">PX</a> como <a href="#intromisiones-de-jugador">intromisión de jugador</a>, o por 2 PX como <a href="#beneficios-a-corto-y-mediano-plazo">beneficio a corto plazo</a>.</p>
+        </div>
         <h5 id="movimiento-de-vehiculos">Movimiento de vehículos<a class="drsc-es-header-anchor" href="#movimiento-de-vehiculos" title="Permalink" aria-hidden="true"></a></h5>
         <p>Los vehículos se mueven igual que las criaturas. Cada uno tiene una tasa de movimiento, que indica la distancia que puede recorrer en una ronda. La mayoría de los vehículos requieren un conductor, y cuando se mueven, normalmente requieren que el conductor gaste cada acción en controlar el movimiento. Esta es una tarea rutinaria que rara vez requiere una tirada. Cualquier ronda que no se pase conduciendo el vehículo obstaculiza la tarea en la siguiente ronda e impide cualquier cambio de velocidad o dirección. En otras palabras, conducir por la carretera normalmente es de dificultad 0. Gastar una acción para recuperar una mochila del asiento trasero significa que en la siguiente ronda, el conductor debe intentar una tarea de dificultad 1. Si en lugar de eso, utilizan su acción para sacar una pistola de la mochila, en la siguiente ronda la dificultad para conducir será 2, y así sucesivamente. Los resultados de los fracasos se basan en la situación, pero pueden implicar una colisión o algo similar.</p>
         <p>En una persecución vehicular, los conductores intentan acciones de Velocidad igual que en una persecución normal, pero la tarea puede basarse en el nivel del conductor (modificado por el nivel y la velocidad de movimiento del vehículo) o en el nivel del vehículo (modificado por el nivel del conductor). Así, si un PJ que conduce un automóvil típico está persiguiendo a un PNJ de nivel 3 que conduce un automóvil deportivo de nivel 5, el PJ haría tres tiradas de persecución con una dificultad de 5. Si el automóvil del PJ es un vehículo customizado, puede conceder al PJ un recurso en la persecución. Si el PJ no está en un automóvil, sino en una bicicleta, podría obstaculizar las tiradas de persecución en dos o tres grados, o el DJ podría simplemente dictaminar que es imposible.</p>
         <h5 id="combate-de-vehiculos">Combate de vehículos<a class="drsc-es-header-anchor" href="#combate-de-vehiculos" title="Permalink" aria-hidden="true"></a></h5>
         <p>La mayoría de las veces, una lucha entre enemigos en automóviles, barcos u otros vehículos es como cualquier otra situación de combate. Los combatientes probablemente tienen cobertura y se mueven rápidamente. Los ataques para inutilizar un vehículo o una parte del mismo se basan en el nivel del vehículo. Si el vehículo es un automóvil blindado o un tanque, todos los ataques se dirigen probablemente al vehículo, que tiene un nivel y probablemente un índice de Armadura apropiado, no muy distinto del de una criatura.</p>
+        <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p>La competencia en conducción hace que el personaje sea practicado en usar un vehículo como <a href="#armas">arma</a>. Si el vehículo se usa para atropellar a una víctima o embestir a un vehículo enemigo, trata una motocicleta como un arma media y un coche o un camión como un arma pesada.</p>
+        </div>
         <p>La única vez que esto no es cierto es con batallas en las que sólo hay vehículos y no personajes involucrados. Por lo tanto, si los PJs están en un tiroteo con ladrones de bancos y ambos grupos están en automóviles, utiliza las reglas estándar. Sin embargo, las batallas entre naves estelares de varios tipos -desde gigantescas naves capitales hasta cazas de un solo piloto- son un hecho frecuente en escenarios de ciencia ficción de futuro lejano. Una batalla submarina entre dos naves en alta mar podría ser muy emocionante. Los personajes de una partida moderna pueden verse envueltos en un combate de tanques. Si los PJs se ven envueltos en un combate en el que están completamente encerrados en vehículos (de modo que no son realmente los personajes los que luchan, sino los vehículos), utiliza las siguientes pautas rápidas y sencillas.</p>
         <p>En esta escala, el combate entre vehículos no es como el combate tradicional. No te preocupes por la salud, la Armadura ni nada parecido. En su lugar, sólo compara los niveles de los vehículos involucrados. Si el vehículo de los PJs tiene el nivel más alto, la diferencia de niveles es cuántos grados se alivian las tiradas de ataque y defensa de los PJs. Si el vehículo de los PJs tiene el nivel más bajo, sus tiradas se ven obstaculizadas. Si los niveles son iguales, no hay ninguna modificación.</p>
         <p>Estas tiradas de ataque y defensa se modifican por la habilidad y el Esfuerzo, como es habitual. Algunos vehículos también tienen armas superiores, que alivian el ataque (ya que no hay una cantidad de "daño" del que preocuparse), pero esta circunstancia es probablemente poco común en este sistema abstracto y no debería afectar a la dificultad en más de uno o quizás dos grados. Además, si dos vehículos coordinan su ataque contra un vehículo, la dificultad del ataque se alivia. Si tres o más vehículos se coordinan, la dificultad del ataque se alivia en dos grados.</p>
@@ -33578,7 +33976,7 @@
               <td>El vehículo no puede moverse, o el movimiento se ve obstaculizado</td>
             </tr>
             <tr>
-              <td scope="row" class="fw-normal">Desactivar la maniobrabi-lidad</td>
+              <td scope="row" class="fw-normal">Desactivar la maniobrabilidad</td>
               <td class="text-center">Dos grados</td>
               <td>El vehículo no puede alterar su curso actual</td>
             </tr>
@@ -33589,7 +33987,10 @@
             </tr>
           </tbody>
         </table>
-        <h3 id="seleccionar-seguidores-y-facciones">
+                <div class="drsc-es-sidebar bg-dark pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+          <p><strong>Nota del editor:</strong> Para más información sobre el combate de vehículos, consulta <a href="#vehiculos-y-naves-espaciales">Vehículos y naves espaciales</a>.</p>
+        </div>
+<h3 id="seleccionar-seguidores-y-facciones">
           <span id="seguidores-y-facciones"></span>
           <span class="drsc-es-chapter">Capítulo 9-A</span>Seguidores y facciones<a class="drsc-es-header-anchor" href="#seleccionar-seguidores-y-facciones" title="Permalink" aria-hidden="true"></a>
         </h3>

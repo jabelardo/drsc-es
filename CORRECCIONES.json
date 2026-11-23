@@ -5101,6 +5101,18 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "reglas-maniobrabilidad",
+      "date": "2026-11-23",
+      "entry": "Combate de vehículos, tabla de objetivos (Cap. 9)",
+      "reason": "A stray hyphen split the word.",
+      "old": "Desactivar la maniobrabi-lidad",
+      "new": "Desactivar la maniobrabilidad",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }

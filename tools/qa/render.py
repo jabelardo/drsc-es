@@ -28,7 +28,7 @@ from pathlib import Path
 IGNORED_CONSOLE = [
     re.compile(r"Access to manifest at 'file://.*' from origin 'null' has been blocked by CORS policy"),
 ]
-ASSET_DIRS = ('css', 'js', 'icon')
+ASSET_DIRS = ('css', 'js', 'icon', 'quickref/assets')  # quickref/assets: the difficulty dial in Cap. 9
 
 
 def find_chrome(explicit):

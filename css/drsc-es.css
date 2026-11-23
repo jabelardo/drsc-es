@@ -20,6 +20,19 @@ html { scroll-padding-top: 5rem; }
 		overscroll-behavior: contain;
 	}
 }
+/* difficulty dial (Cap. 9): a light card in both themes, since the SVG uses dark labels */
+.drsc-es-dial {
+	background-color: #f7fbff;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	max-width: 22rem;
+	margin: 0 auto 1rem;
+}
+.drsc-es-dial img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 /* navbar link click color override */
 nav ul.navbar-nav li.nav-item ul li a.dropdown-item:active {
   	background-color: #238d94 !important;
