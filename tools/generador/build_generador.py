@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build js/generador-personajes.js (the Cap. 2 character sentence generator) from DRSC-ES.html.
+"""Build js/generador-personajes.js (the Cap. 4 character sentence generator) from DRSC-ES.html.
 
-The script collects the core descriptors (Cap. 4), the four core types (Cap. 3), the flavors
-(Cap. 5), every focus (Cap. 6) and the sample character arcs (Cap. 10), with the id each one
+The script collects the core descriptors (Cap. 7), the four core types (Cap. 5), the flavors
+(Cap. 6), every focus (Cap. 8) and the sample character arcs (Cap. 12), with the id each one
 links to, and writes them into the generator script. Re-run it after adding descriptors,
 flavors, foci or arcs. Each arc also needs a first-person phrase in FRASES_ARCOS (after OG-CSRD's
 generator); the build fails if an arc has none.
@@ -124,7 +124,7 @@ def build(t):
     return {'descriptores': desc, 'tipos': tipos, 'aspectos': aspectos, 'rasgos': rasgos, 'arcos': arcos}
 
 
-JS = """// Generador de frases de personaje (Cap. 2). Generado por tools/generador/build_generador.py; no editar a mano.
+JS = """// Generador de frases de personaje (Cap. 4). Generado por tools/generador/build_generador.py; no editar a mano.
 (function () {
   const D = __DATA__;
   const pick = (a) => a[Math.floor(Math.random() * a.length)];

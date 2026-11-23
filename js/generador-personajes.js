@@ -1,4 +1,4 @@
-// Generador de frases de personaje (Cap. 2). Generado por tools/generador/build_generador.py; no editar a mano.
+// Generador de frases de personaje (Cap. 4). Generado por tools/generador/build_generador.py; no editar a mano.
 (function () {
   const D = {
   "descriptores": [
