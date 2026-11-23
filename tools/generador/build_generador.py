@@ -154,8 +154,10 @@ JS = """// Generador de frases de personaje (Cap. 2). Generado por tools/generad
       const b = document.getElementById('gen-' + key);
       if (b) b.addEventListener('click', fn);
     }
-    const all = document.getElementById('gen-todo');
-    if (all) all.addEventListener('click', () => Object.values(parts).forEach((fn) => fn()));
+    const all = () => Object.values(parts).forEach((fn) => fn());
+    const todo = document.getElementById('gen-todo');
+    if (todo) todo.addEventListener('click', all);
+    all(); // pre-load a sentence, as OG-CSRD does
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
