@@ -814,6 +814,22 @@ terminology, so translating a book in one pass keeps them consistent.
 - [x] Ch19 (2026-11-23): checked, no changes. Cap. 18 was rebuilt in OG's order in WP6 and already
       has OG's eight editor's notes, its 15 sidebars and the full quick reference (descriptors,
       species, optional rules, related sections).
+- [x] Ch20 (2026-11-23). Cap. 15 mixed older and newer CSRD blocks. It is now reordered to OG's
+      structure (own commit): nature of Faerie, character options (new heading), equipment, rules,
+      GM intrusions, cyphers, artifacts (d10 and d20 quirk tables together), creatures (new heading),
+      Beasts and Beings by archetype (each archetype a heading with its intro, creatures and list).
+      Types and adjusted foci are tables and basic equipment, clothing, weapons and travel are price
+      tables, as in OG. Text not reworded; ids kept.
+      - OG additions: the 28 CSRD sidebars boxed; Dr. Pipt's Powder of Life note; the note on
+        unlinked creatures, with the WAAMH page references dropped (also gone from the current
+        CSRD); the magical-abilities table; quick references with OG's groups.
+      - Fixes (`CORRECCIONES.json`): close range is *alcance inmediato* in Death's Messengers and
+        Forget-Me-Knot (so OG's immediate/close note is not needed); missing clauses in Mirror
+        Mirror and the Heartwood arcs paragraph; two field labels; Devil's dandy dogs (the Spanish
+        repeated Perro negro); typos.
+      - Links: the Death rule is *muerte-1*, so #muerte reaches the Death NPC (also from Cap. 16
+        Stress); the Wind Children link no longer goes to the Child.
+      - Left out: OG's two Daft Drafts notes and the store link in the Heartwood note.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
@@ -856,8 +872,9 @@ terminology, so translating a book in one pass keeps them consistent.
       include It's Only Magic, Neon Rain, High Noon at Midnight and Rust and Redemption
       abilities (about 613 of 1,494 unique entries); the Spanish lists still have only the
       core abilities. Found in the WP6 verification (2026-11-23). Done in Ch9 (2026-11-23).
-- [ ] Typo in Cap. 15 Cuentos de hadas (on main before WP6): "nivel 7 para Defensa de debido a su
-      intangibilidad" is missing the stat.
+- [x] Typo in Cap. 15 Cuentos de hadas (on main before WP6): "nivel 7 para Defensa de debido a su
+      intangibilidad" is missing the stat. Fixed in Ch20 (2026-11-23): "nivel 7 para defensa debido a
+      su intangibilidad", as in the CSRD.
 - [x] Expanded fantasy role suggestions (Cap. 11), done early in WP3 (2026-11-22):
       OG's added foci, flavors and specialisations, the Artífice o erudito and Psiónico
       roles, and their editor's notes. When WP5 and WP6 translate High Noon at Midnight
