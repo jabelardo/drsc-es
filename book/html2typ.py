@@ -183,7 +183,14 @@ class Converter:
             flush()
             r = self.block(c)
             if r:
-                out.append(r)
+                if r.lstrip().startswith(('#tabla(', '#metadata(none)')) and 'ancha: true' in r[-20:]:
+                    prev = out[-1] if out else ''
+                    if prev.startswith('#encabezado(') or re.fullmatch(r'#strong\[[^\n]*\]\s*', prev):
+                        out[-1] = f'#flotante[\n{prev.strip()}\n{r}\n]'
+                    else:
+                        out.append(f'#flotante[\n{r}\n]')
+                else:
+                    out.append(r)
         flush()
         return out
 
@@ -334,19 +341,25 @@ class Converter:
                 for c in cells:
                     s = self.clean(self.join(self.blocks(c)).replace('\n', ' #linebreak() '))
                     span = int(c.attrs.get('colspan', 1) or 1)
-                    conv.append(f'table.cell(colspan: {span})[{s}]' if span > 1 else f'[{s}]')
+                    opts = ([f'colspan: {span}'] if span > 1 else []) + (['align: center'] if 'text-center' in c.cls() else [])
+                    conv.append(f'table.cell({", ".join(opts)})[{s}]' if opts else f'[{s}]')
                 if sec.tag == 'thead' and head is None:
                     head = conv
                 else:
                     if 'text-danger' in tr.cls():
                         rojo.append(len(rows))
                     rows.append(conv)
-        ncols = max([sum(int(re.search(r'colspan: (\d+)', c).group(1)) if c.startswith('table.cell') else 1 for c in r) for r in ([head] if head else []) + rows] or [1])
+        width = lambda c: int(re.search(r'colspan: (\d+)', c).group(1)) if c.startswith('table.cell(colspan') else 1
+        ncols = max([sum(width(c) for c in r) for r in ([head] if head else []) + rows] or [1])
         i = n.attrs.get('id')
         pre = self.anchor(i) + '\n' if i else ''
         h = '(' + ''.join(c + ',' for c in head) + ')' if head else 'none'
         body = '(' + ''.join('(' + ''.join(c + ',' for c in r) + '),' for r in rows) + ')'
-        return pre + f'#tabla({ncols}, {h}, {body}, rojo: ({"".join(f"{x}," for x in rojo)}))'
+        plain = lambda c: len(re.sub(r'#\w+(\.\w+)?\(|[\[\]#()]|\\', '', c))
+        cols = list(zip(*[r for r in rows if len(r) == ncols])) if rows else []
+        longest = max([sum(plain(c) for c in col) / max(len(col), 1) for col in cols] or [0])
+        ancha = (ncols >= 4 or (ncols >= 3 and longest > 35)) and len(rows) <= 32
+        return pre + f'#tabla({ncols}, {h}, {body}, rojo: ({"".join(f"{x}," for x in rojo)}), ancha: {"true" if ancha else "false"})'
 
     # ---------- document ----------
     def document(self, root):
@@ -367,10 +380,34 @@ class Converter:
             if self.part == 0:
                 # the web cover (title, versions) and the HTML TOC are replaced by the book's own
                 start = next(k for k, c in enumerate(kids) if isinstance(c, Node) and c.tag == 'h2' and c.attrs.get('id') == 'el-sistema-cypher')
-                kids = kids[start + 1:]
+                kids = [c for c in kids[start + 1:] if not (isinstance(c, Node) and c.tag == 'div' and find(c, lambda x: x.attrs.get('id') == 'creditos'))]
             wrap = Node('div'); wrap.children = kids
-            out.extend(self.blocks(wrap))
+            out.extend(self.regroup(self.blocks(wrap)))
         return '\n'.join(out) + '\n'
+
+    def regroup(self, bl):
+        """Part intros onto the part page; chapters of a few plain paragraphs as a block at the foot of a page."""
+        res, k = [], 0
+        while k < len(bl):
+            b = bl[k]
+            nxt = next((j for j in range(k + 1, len(bl)) if bl[j].startswith(('#capitulo(', '#parte('))), len(bl))
+            if b.startswith('#parte(') and nxt > k + 1:
+                intro = '\n'.join(bl[k + 1:nxt])
+                res.append(b[:-1] + f', intro: [\n{intro}\n])')
+                k = nxt
+                continue
+            if b.startswith('#capitulo(') and nxt > k + 1:
+                body = bl[k + 1:nxt]
+                plain = all(not x.startswith('#') for x in body)
+                if plain and sum(len(x) for x in body) < 1200:
+                    res.append('#capitulo-breve' + b[len('#capitulo'):-1] + ', cuerpo: [\n' + '\n'.join(body) + '\n])')
+                    k = nxt
+                    if k < len(bl) and bl[k].startswith('#capitulo('):
+                        bl[k] = bl[k][:-1] + ', salto: false)'   # the next chapter starts on the same page
+                    continue
+            res.append(b)
+            k += 1
+        return res
 
 
 BLOCK = {'p', 'div', 'ul', 'ol', 'table', 'h2', 'h3', 'h4', 'h5', 'h6', 'dl', 'blockquote', 'hr'}
