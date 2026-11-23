@@ -5761,6 +5761,42 @@
         "html": "2026-11-23",
         "odt": null
       }
+    },
+    {
+      "id": "cf-dj-vincular-las-acciones-a-los-atributos",
+      "date": "2026-11-23",
+      "entry": "Vincular las acciones a los atributos",
+      "reason": "Gender agreement (atributo … ligado).",
+      "old": "qué atributo está ligada",
+      "new": "qué atributo está ligado",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-dj-vincular-las-acciones-a-los-atributos-2",
+      "date": "2026-11-23",
+      "entry": "Vincular las acciones a los atributos",
+      "reason": "The reader is 'tú' ('It's well within your purview').",
+      "old": "Está dentro de su ámbito decidir",
+      "new": "Está dentro de tus atribuciones decidir",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
+    },
+    {
+      "id": "cf-dj-cyphers-artefactos",
+      "date": "2026-11-23",
+      "entry": "Cyphers / Artefactos (Capítulo 23)",
+      "reason": "'ability' is 'capacidad'; five places said 'habilidad'.",
+      "old": "habilidad(es)",
+      "new": "capacidad(es)",
+      "applied": {
+        "html": "2026-11-23",
+        "odt": null
+      }
     }
   ]
 }
