@@ -6,6 +6,7 @@ ignore*
 *.py
 !tools/**/*.py
 !sheets/*.py
-.cache/
+!book/*.py
+!book/fonts/*.txt
 __pycache__/
-Cypher-System-Reference-Document-*.docx
+!book/arte/*.py

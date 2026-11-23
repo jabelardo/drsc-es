@@ -1,0 +1,315 @@
+// Plantilla del libro DRSC-ES: maquetación inspirada en el Cypher System Rulebook (solo estilo y
+// composición; sin imágenes). Fuentes libres (OFL): Teko (títulos), Alegreya Sans (texto),
+// Aldrich (rótulos). Los colores de cada parte son los de DRSC-ES.html.
+
+#let fuente-texto = "Alegreya Sans"
+#let fuente-titulos = "Teko"
+#let fuente-rotulos = "Aldrich"
+
+#let colores = (rgb("#662255"), rgb("#224499"), rgb("#994422"), rgb("#776622"), rgb("#338844"), rgb("#444499"), rgb("#990000"))
+#let oscuros = (rgb("#330033"), rgb("#003366"), rgb("#663300"), rgb("#554411"), rgb("#114422"), rgb("#222244"), rgb("#660000"))
+#let tinta = rgb("#222222")
+#let parte-n = state("parte-n", 0)
+#let titulo-breve = state("titulo-breve", false)
+#let col() = colores.at(parte-n.get())
+#let col-osc() = oscuros.at(parte-n.get())
+
+#let anclas(ids) = for i in ids { [#metadata(none)#label(i)] }
+#let fijar-parte(n) = parte-n.update(n)
+// the end of a chapter: the page background fills the free space below it with art or an ornament
+// start and end of a page-wide float, so chapter-end art (colocacion) keeps clear of it
+#let marca-flotante(k) = context [#metadata((k: k, pagina: here().page(), y: here().position().y.pt()))<flot>]
+#let fin-capitulo(id) = context [#metadata((id: id, parte: parte-n.get(), pagina: here().page(), x: here().position().x.pt(), y: here().position().y.pt()))<fin-cap>]
+
+// ---------- rótulos y títulos ----------
+#let rotulo-versalitas(t, size: 10pt, fill: none) = context text(font: fuente-rotulos, size: size, tracking: 0.14em,
+  fill: if fill == none { col() } else { fill }, upper(t))
+
+#let rotulo(t) = context block(above: 0.9em, below: 0.4em, text(font: fuente-titulos, weight: 600, size: 11.5pt, fill: col(), upper(t)))
+
+// ---------- página ----------
+#let cabecera() = context {
+  let p = here().page()
+  let par = calc.even(p)
+  let c = col()
+  let caps = query(selector(heading.where(level: 2)).before(here()))
+  // chapter opener pages carry no running title (the new title floats in after the header is laid out)
+  let abre = query(heading.where(level: 2)).any(h => h.location().page() == p)
+  let titulo = if abre { [] } else if caps.len() > 0 { caps.last().body } else { [] }
+  set text(font: fuente-rotulos, size: 7.5pt, tracking: 0.16em, fill: c)
+  block(width: 100%, inset: (bottom: 4pt), stroke: (bottom: 0.5pt + tinta.lighten(40%)))[
+    #if par [
+      #text(size: 11pt, tracking: 0.32em)[DRSC-ES] #h(1fr)
+    ] else [
+      #h(1fr) #upper(titulo)
+    ]
+  ]
+}
+
+#let pie() = context {
+  let p = here().page()
+  let c = col()
+  let num = box(width: 22pt, height: 22pt, radius: 11pt, stroke: 1.6pt + c, fill: white,
+    align(center + horizon, text(font: fuente-rotulos, size: 8.5pt, fill: c, str(counter(page).get().first()))))
+  if calc.even(p) { align(left, num) } else { align(right, num) }
+}
+
+// ---------- arte y ornamentos al final de los capítulos ----------
+#let arte-lista = json("/book/arte/fuentes.json")
+#let arte-de(id) = {
+  let r = arte-lista.filter(e => e.capitulo == id and "imagen" in e)
+  if r.len() > 0 { r.first() } else { none }
+}
+
+// an original ornament (not MCG's): a diamond between two dots, with lines fading out
+#let ornamento(c, ancho: 130pt) = box(width: ancho, height: 12pt, {
+  let brazo = ancho / 2 - 14pt
+  place(left + horizon, line(length: brazo, stroke: (paint: gradient.linear(c.transparentize(100%), c), thickness: 0.9pt)))
+  place(right + horizon, line(length: brazo, stroke: (paint: gradient.linear(c, c.transparentize(100%)), thickness: 0.9pt)))
+  place(center + horizon, rotate(45deg, square(size: 5.5pt, fill: c)))
+  place(center + horizon, dx: -9.5pt, circle(radius: 1.7pt, fill: c))
+  place(center + horizon, dx: 9.5pt, circle(radius: 1.7pt, fill: c))
+})
+
+// art toned in the part's colour (book/arte/preparar.py), contained in its area, bottom-aligned, edges fading into the page
+#let lamina(e, rx, ry, rw, rh) = {
+  let a = e.ancho / e.alto
+  let h = rh
+  let w = h * a
+  if w > rw { w = rw; h = w / a }
+  let f = calc.min(w, h) * 0.14
+  let blanco = white
+  // at the foot of the free space, as the rulebook's chapter-end art; a little above the middle of a tall one
+  let dy = if rh - h > 200pt { ry + (rh - h) * 0.45 } else { ry + rh - h }
+  place(top + left, dx: rx + (rw - w) / 2, dy: dy, box(width: w, height: h, {
+    image(e.imagen, width: w, height: h, fit: "cover")
+    place(top, rect(width: 100%, height: f, fill: gradient.linear(blanco, blanco.transparentize(100%), angle: 90deg)))
+    place(bottom, rect(width: 100%, height: f, fill: gradient.linear(blanco.transparentize(100%), blanco, angle: 90deg)))
+    place(left, rect(width: f, height: 100%, fill: gradient.linear(blanco, blanco.transparentize(100%))))
+    place(right, rect(width: f, height: 100%, fill: gradient.linear(blanco.transparentize(100%), blanco)))
+  }))
+}
+
+// page geometry (same numbers as in libro()): text area and columns
+#let geo(p) = {
+  let x0 = if calc.even(p) { 44pt } else { 52pt }
+  (x0: x0, arriba: 62pt, abajo: 783pt - 56pt, ancho: 507pt, col: 246pt, x2: x0 + 261pt)
+}
+
+// what fills the free space after a chapter's end (a <fin-cap> marker): art from book/arte/ when there is
+// room for it, else a small ornament; the credits page uses the same decision to list only the art shown
+#let colocacion(v) = {
+  let g = geo(v.pagina)
+  let y = v.y * 1pt + 16pt
+  let e = arte-de(v.id)
+  let en-col1 = v.x * 1pt < g.x0 + g.col + 7pt
+  // page-wide floats on this page, as (top, bottom) pairs: those above the chapter's end push the empty right
+  // column down, those below it (bottom floats) cut the free space short
+  let ms = query(<flot>).filter(m => m.value.pagina == v.pagina).map(m => m.value)
+  let fl = range(calc.max(ms.len() - 1, 0)).filter(i => ms.at(i).k == "ini" and ms.at(i + 1).k == "fin")
+    .map(i => (ms.at(i).y * 1pt, ms.at(i + 1).y * 1pt))
+  let abajo = fl.filter(f => f.at(0) > v.y * 1pt).fold(g.abajo, (a, f) => calc.min(a, f.at(0) - 14pt))
+  let arriba = fl.filter(f => f.at(0) < v.y * 1pt).fold(g.arriba + 10pt, (a, f) => calc.max(a, f.at(1) + 14pt))
+  let libre = abajo - y
+  // the image's size when fitted into a w × h space
+  let area(w, h) = if e == none { 0 } else { let a = e.ancho / e.alto; calc.min(w / 1pt, h / 1pt * a) * calc.min(h / 1pt, w / 1pt / a) }
+  let ancha = libre >= 190pt                    // across both columns, under the text of the left one
+  let derecha = abajo - arriba >= 190pt         // the empty right column
+  if e != none and en-col1 and ancha and (not derecha or area(g.ancho, libre) * 1.3 >= area(g.col, abajo - arriba)) {
+    (tipo: "lamina", e: e, x: g.x0, y: y, w: g.ancho, h: libre)
+  } else if e != none and en-col1 and derecha {
+    (tipo: "lamina", e: e, x: g.x2, y: arriba, w: g.col, h: abajo - arriba)
+  } else if e != none and not en-col1 and libre >= 250pt {
+    (tipo: "lamina", e: e, x: g.x2, y: y, w: g.col, h: libre)            // under the text in the right column
+  } else if libre >= 40pt {
+    (tipo: "ornamento", x: (if en-col1 { g.x0 } else { g.x2 }) + (g.col - 130pt) / 2, y: y + 4pt)
+  } else {
+    (tipo: none)
+  }
+}
+
+#let relleno(p, c) = {
+  for m in query(<fin-cap>).filter(m => m.location().page() == p) {
+    let r = colocacion(m.value)
+    if r.tipo == "lamina" {
+      lamina(r.e, r.x, r.y, r.w, r.h)
+    } else if r.tipo == "ornamento" {
+      place(top + left, dx: r.x, dy: r.y, ornamento(c))
+    }
+  }
+}
+
+#let fondo() = context {
+  let p = here().page()
+  let c = col()
+  relleno(p, c)
+  // a coloured swoosh in the outer top corner, as in the rulebook's running header
+  if calc.even(p) {
+    place(top + left, polygon(fill: c, (0pt, 0pt), (120pt, 0pt), (70pt, 22pt), (0pt, 40pt)))
+  } else {
+    place(top + right, polygon(fill: c, (0pt, 0pt), (120pt, 0pt), (120pt, 40pt), (50pt, 22pt)))
+  }
+}
+
+#let libro(cuerpo) = {
+  set document(title: "Documento de Referencia del Sistema Cypher en Español", author: "José Abelardo Gutiérrez Saturno")
+  set page(width: 603pt, height: 783pt, columns: 2,
+    margin: (inside: 52pt, outside: 44pt, top: 62pt, bottom: 56pt),
+    header: cabecera(), footer: pie(), background: fondo())
+  set columns(gutter: 15pt)
+  set text(font: fuente-texto, size: 9.8pt, fill: tinta, lang: "es", number-type: "old-style", hyphenate: true,
+    costs: (widow: 100%, orphan: 100%))
+  set par(justify: true, leading: 0.5em, spacing: 0.75em)
+  set list(indent: 2pt, body-indent: 5pt, spacing: 0.5em)
+  set enum(indent: 2pt, body-indent: 5pt, spacing: 0.5em)
+  show link: it => context { if type(it.dest) == str { text(fill: col-osc(), it) } else { text(fill: col(), it) } }
+  show strong: set text(weight: "bold")
+  // the two characters the project fonts lack: the cyberware bolt (drawn) and the prescription sign
+  show "⚡": context box(height: 0.75em, baseline: 0.05em, polygon(fill: col(),
+    (0.32em, 0em), (0.62em, 0em), (0.45em, 0.3em), (0.66em, 0.3em), (0.18em, 0.75em), (0.33em, 0.4em), (0.12em, 0.4em)))
+  show "℞": [R#sub[x]]
+  show heading.where(level: 1): it => text(font: fuente-titulos, weight: 600, size: 60pt, hyphenate: false, upper(it.body))
+  show heading.where(level: 2): it => context block(text(font: fuente-titulos, weight: 600, size: if titulo-breve.get() { 22pt } else { 38pt }, fill: col(), hyphenate: false, upper(it.body)))
+  show heading.where(level: 3): it => it.body
+  show heading.where(level: 4): it => it.body
+  show heading.where(level: 5): it => it.body
+  cuerpo
+}
+
+// ---------- partes y capítulos ----------
+#let parte(n, etiqueta, titulo, ids: (), intro: none) = {
+  parte-n.update(n)
+  pagebreak(weak: true)
+  page(columns: 1, header: none, footer: none, background: none, fill: colores.at(n))[
+    #anclas(ids)
+    #set text(fill: white)
+    #v(1fr)
+    #align(center)[
+      #if etiqueta != "" { text(font: fuente-rotulos, size: 16pt, tracking: 0.3em, upper(etiqueta)) }
+      #v(10pt)
+      #heading(level: 1, bookmarked: true, outlined: true, supplement: [#etiqueta])[#titulo]
+    ]
+    #if intro != none {
+      v(18pt)
+      align(center, block(width: 72%, { set par(justify: true); set text(size: 10.5pt); intro }))
+    }
+    #v(1.2fr)
+  ]
+}
+
+#let capitulo(etiqueta, titulo, ids: (), salto: true) = {
+  if salto { pagebreak(weak: true) }
+  place(top, float: true, scope: "parent", clearance: 18pt, context {
+    marca-flotante("ini")
+    anclas(ids)
+    let c = col()
+    align(center)[
+      #if etiqueta != none { text(font: fuente-rotulos, size: 13pt, tracking: 0.22em, fill: c, upper(etiqueta)) }
+      #v(2pt)
+      #heading(level: 2, supplement: if etiqueta != none [#etiqueta] else [])[#titulo]
+      #v(4pt)
+      #line(length: 100%, stroke: 2pt + c)
+    ]
+    marca-flotante("fin")
+  })
+}
+
+// a chapter of a few paragraphs (Licencia): set inline, in the column, right after the previous chapter
+#let capitulo-breve(etiqueta, titulo, ids: (), cuerpo: []) = context {
+  let c = col()
+  block(above: 1.6em, below: 0.6em, sticky: true, width: 100%)[
+    #anclas(ids)
+    #line(length: 100%, stroke: 2pt + c)
+    #v(2pt)
+    #if etiqueta != none { text(font: fuente-rotulos, size: 9pt, tracking: 0.22em, fill: c, upper(etiqueta)) }
+    #titulo-breve.update(true)
+    #heading(level: 2, supplement: if etiqueta != none [#etiqueta] else [])[#titulo]
+    #titulo-breve.update(false)
+  ]
+  cuerpo
+}
+
+// a wide table (with its heading or caption) across both columns, at the top or foot of the page
+#let flotante(cuerpo) = place(auto, float: true, scope: "parent", clearance: 14pt,
+  block(width: 100%, align(left, { marca-flotante("ini"); cuerpo; marca-flotante("fin") })))
+
+#let encabezado(nivel, titulo, estilo: "normal", ids: ()) = context {
+  let c = col()
+  let (size, above) = if nivel == 4 { (16pt, 1.3em) } else if nivel == 5 { (13pt, 1.15em) } else { (11.5pt, 1em) }
+  if estilo == "pequeno" { size = size - 1.5pt }
+  let h = heading(level: calc.min(nivel - 1, 5), bookmarked: nivel <= 4, outlined: false)[#titulo]
+  block(above: above, below: 0.45em, sticky: true, width: 100%,
+    stroke: if estilo == "linea" { (bottom: 1.2pt + c) } else { none },
+    inset: if estilo == "linea" { (bottom: 2pt) } else { 0pt })[
+    #anclas(ids)
+    #set par(justify: false)
+    #text(font: fuente-titulos, weight: 600, size: size, fill: c, hyphenate: false, upper(h))
+  ]
+}
+
+#let ficha(nivel, titulo, valor, sub: false, ids: ()) = context {
+  let c = if sub { col-osc() } else { col() }
+  block(above: 1.1em, below: 0.5em, sticky: true, width: 100%, fill: c, radius: 3pt,
+    inset: (x: 6pt, top: 4pt, bottom: 2pt))[
+    #anclas(ids)
+    #set par(justify: false)
+    #set text(font: fuente-titulos, weight: 600, size: if sub { 11.5pt } else { 13.5pt }, fill: white, hyphenate: false)
+    #heading(level: calc.min(nivel - 1, 5), bookmarked: false, outlined: false)[#upper(titulo)]
+    #if valor != none { h(1fr); upper(valor) }
+  ]
+}
+
+#let pregunta(t) = context block(above: 1.1em, below: 0.5em, sticky: true, width: 100%, fill: col(), radius: 3pt,
+  inset: (x: 6pt, top: 4pt, bottom: 3pt), par(justify: false, text(font: fuente-titulos, weight: 600, size: 12pt, fill: white, hyphenate: false, upper(t))))
+
+// ---------- bloques ----------
+#let recuadro(cuerpo) = context block(width: 100%, breakable: true, above: 1em, below: 1em,
+  fill: col().lighten(90%), stroke: 1.2pt + col(), radius: 5pt, inset: (x: 8pt, y: 7pt), cuerpo)
+
+#let lateral(cuerpo) = context block(width: 100%, breakable: true, above: 0.9em, below: 0.9em,
+  stroke: (left: 2pt + col()), inset: (left: 7pt, y: 2pt),
+  { set text(style: "italic", size: 9pt, fill: col-osc()); cuerpo })
+
+#let refrapida(items) = block(width: 100%, above: 0.4em, below: 0.6em, {
+  set text(size: 8.8pt, hyphenate: false)
+  set par(justify: false, spacing: 0.35em)
+  // two balanced columns (Typst columns would fill the first one before the second)
+  let mitad = calc.ceil(items.len() / 2)
+  let pila(xs) = stack(spacing: 0.4em, ..xs)
+  grid(columns: (1fr, 1fr), column-gutter: 8pt, pila(items.slice(0, mitad)), pila(items.slice(mitad)))
+})
+
+#let capacidades(items, compacta: false) = context block(width: 100%, above: 0.5em, below: 0.7em, {
+  set par(justify: false)
+  let c = col()
+  list(marker: box(baseline: -0.12em, circle(radius: 0.22em, fill: c)), spacing: 0.4em, ..items)
+})
+
+#let catalogo(items) = { for it in items { block(above: 0.55em, below: 0.55em, it) } }
+#let simple(items) = { for it in items { block(above: 0.45em, below: 0.45em, it) } }
+#let vinetas(items) = context list(marker: text(fill: col())[•], ..items)
+#let numerada(items) = enum(..items)
+#let en-linea(items) = items.join([ · ])
+#let terminos(pares) = for (a, b) in pares { block(above: 0.6em, below: 0.3em)[#text(font: fuente-titulos, weight: 600, size: 11pt, upper(a))]; b }
+
+#let tabla(n, cabeza, filas, rojo: (), ancha: false) = context {
+  let c = col()
+  block(above: 0.8em, below: 0.9em, width: 100%, {
+    set text(size: if n >= 7 { 7.8pt } else { 8.8pt }, hyphenate: false)
+    set par(justify: false)
+    table(columns: n, stroke: none, inset: (x: 4pt, y: 3pt),
+      fill: (x, y) => if cabeza != none and y == 0 { c } else if calc.odd(y) { c.lighten(88%) } else { none },
+      ..if cabeza != none { cabeza.map(h => text(fill: white, weight: "bold", h)) },
+      ..filas.enumerate().map(((k, f)) => f.map(x => if k in rojo { text(fill: rgb("#b00000"), x) } else { x })).flatten())
+  })
+}
+
+#let dialogo(filas) = {
+  let colores-pj = (dj: rgb("#0b7a5c"), ori: rgb("#1864ab"), chert: rgb("#6741d9"), rena: rgb("#c2410c"))
+  grid(columns: (auto, 1fr), column-gutter: 6pt, row-gutter: 0.55em,
+    ..filas.map(((quien, nombre, texto)) => (align(right, text(weight: "bold", fill: colores-pj.at(quien, default: tinta), nombre)), texto)).flatten())
+}
+
+#let dial() = align(center, image("/quickref/assets/dial.svg", width: 80%))
+#let video(titulo, url) = [Vídeo: #link(url)[#titulo]]
+#let generador-web() = align(center, text(style: "italic")[El generador interactivo está en la #link("https://jabelardo.github.io/drsc-es/DRSC-ES.html#generador-de-frases-de-personaje")[versión web] de este documento.])
