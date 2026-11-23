@@ -154,7 +154,15 @@ JS = """// Generador de frases de personaje (Cap. 2). Generado por tools/generad
       const b = document.getElementById('gen-' + key);
       if (b) b.addEventListener('click', fn);
     }
-    const all = () => Object.values(parts).forEach((fn) => fn());
+    // As in OG-CSRD, a random sentence has an aspect 2 times in 5; the button always adds one.
+    const all = () => {
+      parts.descriptor();
+      parts.tipo();
+      if (Math.random() * 5 < 2) parts.aspecto();
+      else put('gen-out-aspecto');
+      parts.rasgo();
+      parts.arco();
+    };
     const todo = document.getElementById('gen-todo');
     if (todo) todo.addEventListener('click', all);
     all(); // pre-load a sentence, as OG-CSRD does
