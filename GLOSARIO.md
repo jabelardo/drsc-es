@@ -292,7 +292,7 @@ Decided 2026-11-23 for WP6. Rust and Redemption expands the existing *Capítulo 
 | Transferring Subtle Cyphers | Transferir Cyphers sutiles | |
 | Mundane / Fantasy / Science Fiction / Psionic Foci | Rasgos mundanos / de fantasía / de ciencia ficción / psiónicos | |
 | Effort Costs and Edge Reductions / Pool Costs for Effort and Edge | Costes de Esfuerzo y reducciones por Ventaja / Coste en Reserva del Esfuerzo y la Ventaja | Weakness: *debilidad*; task success rate: *probabilidad de éxito*. |
-| practiced (skill level) | practicado | Inability, practiced, trained, specialized: *incapacidad, practicado, competente, especialista* (I P C E on the sheets). |
+| practiced (skill level) | práctica (*tener práctica en/con*) | Never *estar/ser practicado*: "you are practiced with light weapons" → *tienes práctica con armas ligeras*; "become practiced" → *pasar a tener práctica*; as a level name, *Práctica* (like the armor table). Inability, practiced, trained, specialized: *incapacidad, práctica, competente, especialista* (I P C E on the sheets). Decided 2026-11-23. |
 | Skills from Backgrounds / Skill Training | Habilidades de trasfondo / Competencia en habilidades | |
 | Character Sentence Generator / Character Creation Checklist | Generador de frases de personaje / Lista de comprobación para crear un personaje | |
 | Simplified / Personalized Flavor | Aspecto simplificado / personalizado | Foolish's Carefree trait is *Despreocupado* (existing). |
