@@ -642,8 +642,8 @@ terminology, so translating a book in one pass keeps them consistent.
       category intro list was repaired (two entries pointed at the wrong category); five
       editor's notes; *Rasgos psiónicos* (Cap. 13), missed in the first chunk. The foci
       catalogue from other products is left out.
-      - *Horror Foci* added to the "Rasgos sugeridos por género" list in the Cap. 6 quick reference
-        (Ch16). When Ch18 Superheroes is done, add its *Superhero Foci* list there too.
+      - *Horror Foci* (Ch16) and *Superhero Foci* (Ch18) added to the "Rasgos sugeridos por género"
+        list in the Cap. 6 quick reference.
 - [x] Ch9 (2026-11-23). Decisions: the Errata and OG-variant abilities are added to the A–Z list,
       tagged *(Errata)* or *(variante del OG-CSRD)*; OG's † marks are kept, with their legend; the ‡ marks (abilities categorised by OG's editor) were removed on 2026-11-23 at the user's request.
       - 25 entries: 19 old 2015-Rulebook abilities (16 with new names, plus the 2015 *Ligero de pies*,
@@ -667,8 +667,9 @@ terminology, so translating a book in one pass keeps them consistent.
       - Later change (2026-11-23, user's request): the six OG variants follow OG's layout. The
         editor's note box sits between list entries, and the variant is an ability entry inside it,
         introduced as "esta variante"; the Errata category list keeps both entries.
-      - Left for later: *Calm Command*, *Hellfire* and *Icy Paths* in the Errata list (OG's own
-        abilities in its Spacecraft and Power Shifts sections); links to OG's optional rule
+      - *Calm Command* (Ch15), *Hellfire* and *Icy Paths* (Ch18) later joined the Errata list as
+        *Mando sereno*, *Fuego infernal* and *Senderos helados*, tagged (OG-CSRD).
+      - Left for later: links to OG's optional rule
         *Object Level, Health, and Armor* (*Weapon Properties* and *Alternative Armor
         Encumbrance* were linked in Ch10); the *Estrés* category and section, *Creating Cyphers, Artifacts, and Abilities*
         and *Sidekick Abilities* in the quick reference; *Skill Categories* and usage limits
@@ -790,6 +791,19 @@ terminology, so translating a book in one pass keeps them consistent.
       heading was never closed, fixed). OG's coven note on platonic relationships; quick reference
       with OG's groups. OG's consent note is left out (the text already points to *Consent in
       Gaming*).
+- [x] Ch18 (2026-11-23). The CSRD's superhero chapter prints older and newer versions of several
+      sections, and Cap. 14 had both. Merged in OG's order (own commit): one *Regla opcional:
+      Mejoras de poder* (narrative intro plus the newer category list with the mp-* ids; the outdated
+      list and repeated rule paragraphs dropped), one *Tareas realmente imposibles* with OG's quick
+      reference, one artifacts section with all six; *Personajes superhéroes* gathers the character
+      sentences, types, descriptors and power origin.
+      - OG additions: *Rasgos de superhéroes* (44 foci), the archetypes note with *Fuego infernal* and
+        *Senderos helados*, the Claim the Sky archetypes, *Mejoras de poder en otros géneros*,
+        *Obtener superpoderes tras crear el personaje*, *Transformaciones fantásticas*, four notes
+        and a *Supervillanos* section; quick reference with OG's groups.
+      - Pending links resolved: Power Shifts in Other Genres (four), Hellfire and Icy Paths.
+      - Left as is: *Power Stunt Difficulty* stays as bold paragraphs (OG uses a table). OG's
+        Daft Drafts mentions are left out. The CSRD sidebars were already inline.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
