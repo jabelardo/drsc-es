@@ -782,8 +782,9 @@ terminology, so translating a book in one pass keeps them consistent.
       - OG's 31 horror foci; notes on *Operación peligrosa* and *Stay Alive!* artifacts; quick
         reference with OG's groups. All the pending links to Stress and Serious Injuries resolve
         (Cap. 7, 9, 10, 11 and three quick references).
-      - Left as is: *Shock* keeps the CSRD's short summary; OG pastes in the Rulebook's fuller text.
-        OG's Daft Drafts mentions and its notes on titles and *Consent in Gaming* are left out.
+      - *Shock* uses OG's fuller text from the Rulebook instead of the CSRD's one-paragraph summary
+        (user's request). OG's Daft Drafts mentions and its notes on titles and *Consent in Gaming*
+        are left out.
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
         *Daño duradero y permanente*, "daño duradero" in *Regla opcional: Tiempo de
