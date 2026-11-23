@@ -637,6 +637,13 @@ terminology, so translating a book in one pass keeps them consistent.
       catalogues from other products are left out.
       - Left for later: *optional character advancements* (Ch12), OG's optional-rules index
         (two more mentions) and the 2015 *Shipspeak* (Errata).
+- [x] Ch8 (2026-11-23): the Cap. 6 quick reference gains all foci and suggested foci by genre;
+      the focus-category quick reference gains *Personalización de los rasgos*, and the
+      category intro list was repaired (two entries pointed at the wrong category); five
+      editor's notes; *Rasgos psiónicos* (Cap. 13), missed in the first chunk. The foci
+      catalogue from other products is left out.
+      - When Ch16 Horror and Ch18 Superheroes are done, add their *Horror Foci* and *Superhero
+        Foci* lists to the "Rasgos sugeridos por género" list in the Cap. 6 quick reference.
 - [ ] Sidekicks (Ch11-A, ~10k).
 - [x] Links left from WP4, WP5 and WP6, now resolved (2026-11-23, see below); the sections they waited for:
       - *Creating Challenging Encounters* (Ch25): "daño duradero y daño permanente" in
